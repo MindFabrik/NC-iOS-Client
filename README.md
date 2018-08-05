@@ -5,5 +5,8 @@ This branch of Nextcloud offers some improvments in the customization:
 2. Add Ream 3.3.2 to support Swift 4.1
 3. Remove Share Options
 
+We highlighted our modifications with the remark "Change-MindFabrik" in the code
+
+
 ## License
 [GPLv3](https://github.com/nextcloud/ios/blob/master/LICENSE) with [Apple app store exception](https://github.com/nextcloud/ios/blob/master/COPYING.iOS).

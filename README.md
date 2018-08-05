@@ -10,3 +10,8 @@ We highlighted our modifications with the remark "Change-MindFabrik" in the code
 
 ## License
 [GPLv3](https://github.com/nextcloud/ios/blob/master/LICENSE) with [Apple app store exception](https://github.com/nextcloud/ios/blob/master/COPYING.iOS).
+
+## Remarks
+Images and Icons: The used images only paceholders. Please use different one.
+	AppIcon: by Hopnguyen Mr., Avatar, from IconFinder.com (Lic: Free for commercial use)
+	Background: by Markus Spiske, Source Code Webdesign, from freeforcommercialuse.net (Lic: Creative Commons Zero (CC0))

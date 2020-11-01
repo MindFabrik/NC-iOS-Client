@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.2.0",
+  "iOS" : [
+    {
+      "hash" : "ce4a83e0f5bdc3e90b4c41f8f248a138d27d5f2fd0cdbbd7d1026937e3730e9d",
+      "name" : "WeScan",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

@@ -1,0 +1,1593 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.21)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk
+iPhoneOS14.1.sdk
+/Users/oliveroeh/Library/Caches/org.carthage.CarthageKit/DerivedData/12.1_12A7403/KTVHTTPCache/2.0.2/Build/Intermediates.noindex/ArchiveIntermediates/KTVCocoaHTTPServer/IntermediateBuildFilesPath/KTVCocoaHTTPServer.build/Release-iphoneos/KTVCocoaHTTPServer.build/DerivedSources/KTVCocoaHTTPServer_vers.c
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer
++[NSValue(NSValueDDRangeExtensions) valueWithDDRange:]
+-[NSValue(NSValueDDRangeExtensions) ddrangeValue]
+-[NSValue(NSValueDDRangeExtensions) ddrangeCompare:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSValue_$_NSValueDDRangeExtensions
+__OBJC_$_CATEGORY_CLASS_METHODS_NSValue_$_NSValueDDRangeExtensions
+__OBJC_$_CATEGORY_NSValue_$_NSValueDDRangeExtensions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Categories/DDRange.m
+KTVCocoaHTTPServer/Classes/Categories/DDRange.m
+DDRangeCompare
+DDRangeFromString
+DDStringFromRange
+DDIntersectionRange
+DDMaxRange
+KTVCocoaHTTPServer/Classes/Categories/DDRange.h
+DDUnionRange
++[HTTPLogging log:format:]
+__OBJC_$_CLASS_METHODS_HTTPLogging
+__OBJC_METACLASS_RO_$_HTTPLogging
+__OBJC_CLASS_RO_$_HTTPLogging
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/HTTPLogging.m
+KTVCocoaHTTPServer/Classes/HTTPLogging.m
++[NSNumber(DDNumber) parseString:intoSInt64:]
++[NSNumber(DDNumber) parseString:intoUInt64:]
++[NSNumber(DDNumber) parseString:intoNSInteger:]
++[NSNumber(DDNumber) parseString:intoNSUInteger:]
+__OBJC_$_CATEGORY_CLASS_METHODS_NSNumber_$_DDNumber
+__OBJC_$_CATEGORY_NSNumber_$_DDNumber
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Categories/DDNumber.m
+KTVCocoaHTTPServer/Classes/Categories/DDNumber.m
+-[NSData(DDData) md5Digest]
+-[NSData(DDData) sha1Digest]
+-[NSData(DDData) hexStringValue]
+-[NSData(DDData) base64Encoded]
+-[NSData(DDData) base64Decoded]
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_encodingTable
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.27
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSData_$_DDData
+__OBJC_$_CATEGORY_NSData_$_DDData
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Categories/DDData.m
+KTVCocoaHTTPServer/Classes/Categories/DDData.m
+-[HTTPAuthenticationRequest initWithRequest:]
+-[HTTPAuthenticationRequest isBasic]
+-[HTTPAuthenticationRequest isDigest]
+-[HTTPAuthenticationRequest base64Credentials]
+-[HTTPAuthenticationRequest username]
+-[HTTPAuthenticationRequest realm]
+-[HTTPAuthenticationRequest nonce]
+-[HTTPAuthenticationRequest uri]
+-[HTTPAuthenticationRequest qop]
+-[HTTPAuthenticationRequest nc]
+-[HTTPAuthenticationRequest cnonce]
+-[HTTPAuthenticationRequest response]
+-[HTTPAuthenticationRequest quotedSubHeaderFieldValue:fromHeaderFieldValue:]
+-[HTTPAuthenticationRequest nonquotedSubHeaderFieldValue:fromHeaderFieldValue:]
+-[HTTPAuthenticationRequest .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+__OBJC_METACLASS_RO_$_HTTPAuthenticationRequest
+__OBJC_$_INSTANCE_METHODS_HTTPAuthenticationRequest
+__OBJC_$_INSTANCE_VARIABLES_HTTPAuthenticationRequest
+__OBJC_CLASS_RO_$_HTTPAuthenticationRequest
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/HTTPAuthenticationRequest.m
+KTVCocoaHTTPServer/Classes/HTTPAuthenticationRequest.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[HTTPRedirectResponse initWithPath:]
+-[HTTPRedirectResponse contentLength]
+-[HTTPRedirectResponse offset]
+-[HTTPRedirectResponse setOffset:]
+-[HTTPRedirectResponse readDataOfLength:]
+-[HTTPRedirectResponse isDone]
+-[HTTPRedirectResponse httpHeaders]
+-[HTTPRedirectResponse status]
+-[HTTPRedirectResponse dealloc]
+-[HTTPRedirectResponse .cxx_destruct]
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_HTTPResponse
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HTTPResponse
+__OBJC_$_PROTOCOL_METHOD_TYPES_HTTPResponse
+__OBJC_PROTOCOL_$_HTTPResponse
+__OBJC_LABEL_PROTOCOL_$_HTTPResponse
+__OBJC_CLASS_PROTOCOLS_$_HTTPRedirectResponse
+__OBJC_METACLASS_RO_$_HTTPRedirectResponse
+__OBJC_$_INSTANCE_METHODS_HTTPRedirectResponse
+__OBJC_$_INSTANCE_VARIABLES_HTTPRedirectResponse
+__OBJC_CLASS_RO_$_HTTPRedirectResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Responses/HTTPRedirectResponse.m
+KTVCocoaHTTPServer/Classes/Responses/HTTPRedirectResponse.m
+-[MultipartMessageHeaderField initWithData:contentEncoding:]
+-[MultipartMessageHeaderField parseHeaderValueBytes:length:encoding:]
+-[MultipartMessageHeaderField description]
+-[MultipartMessageHeaderField name]
+-[MultipartMessageHeaderField value]
+-[MultipartMessageHeaderField params]
+-[MultipartMessageHeaderField .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.36
+__OBJC_METACLASS_RO_$_MultipartMessageHeaderField
+__OBJC_$_INSTANCE_METHODS_MultipartMessageHeaderField
+__OBJC_$_INSTANCE_VARIABLES_MultipartMessageHeaderField
+__OBJC_$_PROP_LIST_MultipartMessageHeaderField
+__OBJC_CLASS_RO_$_MultipartMessageHeaderField
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeaderField.m
+KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeaderField.m
+extractParamValue
+findChar
+-[MultipartMessageHeader initWithData:formEncoding:]
+-[MultipartMessageHeader description]
+-[MultipartMessageHeader fields]
+-[MultipartMessageHeader encoding]
+-[MultipartMessageHeader .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.26
+__OBJC_METACLASS_RO_$_MultipartMessageHeader
+__OBJC_$_INSTANCE_METHODS_MultipartMessageHeader
+__OBJC_$_INSTANCE_VARIABLES_MultipartMessageHeader
+__OBJC_$_PROP_LIST_MultipartMessageHeader
+__OBJC_CLASS_RO_$_MultipartMessageHeader
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeader.m
+KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeader.m
+isspace
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/_ctype.h
+__istype
++[HTTPConnection initialize]
+___28+[HTTPConnection initialize]_block_invoke
++[HTTPConnection generateNonce]
+___31+[HTTPConnection generateNonce]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___31+[HTTPConnection generateNonce]_block_invoke.4
++[HTTPConnection hasRecentNonce:]
+___33+[HTTPConnection hasRecentNonce:]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[HTTPConnection initWithAsyncSocket:configuration:]
+-[HTTPConnection dealloc]
+-[HTTPConnection supportsMethod:atPath:]
+-[HTTPConnection expectsRequestBodyFromMethod:atPath:]
+-[HTTPConnection isSecureServer]
+-[HTTPConnection sslIdentityAndCertificates]
+-[HTTPConnection isPasswordProtected:]
+-[HTTPConnection useDigestAccessAuthentication]
+-[HTTPConnection realm]
+-[HTTPConnection passwordForUser:]
+-[HTTPConnection isAuthenticated]
+-[HTTPConnection addDigestAuthChallenge:]
+-[HTTPConnection addBasicAuthChallenge:]
+-[HTTPConnection start]
+___23-[HTTPConnection start]_block_invoke
+-[HTTPConnection stop]
+___22-[HTTPConnection stop]_block_invoke
+-[HTTPConnection startConnection]
+-[HTTPConnection startReadingRequest]
+-[HTTPConnection parseParams:]
+-[HTTPConnection parseGetParams]
+-[HTTPConnection parseRangeRequest:withContentLength:]
+-[HTTPConnection requestURI]
+-[HTTPConnection replyToHTTPRequest]
+-[HTTPConnection newUniRangeResponse:]
+-[HTTPConnection newMultiRangeResponse:]
+-[HTTPConnection chunkedTransferSizeLineForLength:]
+-[HTTPConnection chunkedTransferFooter]
+-[HTTPConnection sendResponseHeadersAndBody]
+-[HTTPConnection writeQueueSize]
+-[HTTPConnection continueSendingStandardResponseBody]
+-[HTTPConnection continueSendingSingleRangeResponseBody]
+-[HTTPConnection continueSendingMultiRangeResponseBody]
+-[HTTPConnection directoryIndexFileNames]
+-[HTTPConnection filePathForURI:]
+-[HTTPConnection filePathForURI:allowDirectory:]
+-[HTTPConnection httpResponseForMethod:URI:]
+-[HTTPConnection webSocketForURI:]
+-[HTTPConnection prepareForBodyWithSize:]
+-[HTTPConnection processBodyData:]
+-[HTTPConnection finishBody]
+-[HTTPConnection handleVersionNotSupported:]
+-[HTTPConnection handleAuthenticationFailed]
+-[HTTPConnection handleInvalidRequest:]
+-[HTTPConnection handleUnknownMethod:]
+-[HTTPConnection handleResourceNotFound]
+-[HTTPConnection dateAsString:]
+___31-[HTTPConnection dateAsString:]_block_invoke
+-[HTTPConnection preprocessResponse:]
+-[HTTPConnection preprocessErrorResponse:]
+-[HTTPConnection socket:didReadData:withTag:]
+-[HTTPConnection socket:didWriteDataWithTag:]
+-[HTTPConnection socketDidDisconnect:withError:]
+-[HTTPConnection responseHasAvailableData:]
+___43-[HTTPConnection responseHasAvailableData:]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[HTTPConnection responseDidAbort:]
+___35-[HTTPConnection responseDidAbort:]_block_invoke
+-[HTTPConnection finishResponse]
+-[HTTPConnection shouldDie]
+-[HTTPConnection die]
+-[HTTPConnection .cxx_destruct]
+-[HTTPConfig initWithServer:documentRoot:]
+-[HTTPConfig initWithServer:documentRoot:queue:]
+-[HTTPConfig dealloc]
+-[HTTPConfig server]
+-[HTTPConfig documentRoot]
+-[HTTPConfig queue]
+-[HTTPConfig .cxx_destruct]
+_initialize.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_recentNonceQueue
+_recentNonces
+_OBJC_SELECTOR_REFERENCES_.3
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_48_e8_32s40r_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_CLASSLIST_REFERENCES_$_.72
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_CLASSLIST_REFERENCES_$_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_CLASSLIST_REFERENCES_$_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_CLASSLIST_REFERENCES_$_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_CLASSLIST_REFERENCES_$_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_CLASSLIST_REFERENCES_$_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_CLASSLIST_REFERENCES_$_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.278
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+_OBJC_SELECTOR_REFERENCES_.292
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_CLASSLIST_REFERENCES_$_.299
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_CLASSLIST_REFERENCES_$_.312
+_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_SELECTOR_REFERENCES_.320
+_OBJC_SELECTOR_REFERENCES_.322
+_OBJC_SELECTOR_REFERENCES_.324
+_OBJC_SELECTOR_REFERENCES_.328
+_OBJC_SELECTOR_REFERENCES_.330
+_OBJC_CLASSLIST_REFERENCES_$_.333
+_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_CLASSLIST_REFERENCES_$_.342
+_OBJC_SELECTOR_REFERENCES_.344
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.354
+_OBJC_SELECTOR_REFERENCES_.356
+_dateAsString:.df
+_dateAsString:.onceToken
+___block_literal_global.367
+_OBJC_CLASSLIST_REFERENCES_$_.368
+_OBJC_SELECTOR_REFERENCES_.370
+_OBJC_CLASSLIST_REFERENCES_$_.371
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_SELECTOR_REFERENCES_.377
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_CLASSLIST_REFERENCES_$_.382
+_OBJC_SELECTOR_REFERENCES_.386
+_OBJC_SELECTOR_REFERENCES_.388
+_OBJC_SELECTOR_REFERENCES_.390
+_OBJC_CLASSLIST_REFERENCES_$_.391
+_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_SELECTOR_REFERENCES_.395
+_OBJC_SELECTOR_REFERENCES_.401
+_OBJC_SELECTOR_REFERENCES_.403
+_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.409
+_OBJC_SELECTOR_REFERENCES_.411
+_OBJC_SELECTOR_REFERENCES_.415
+_OBJC_SELECTOR_REFERENCES_.417
+_OBJC_SELECTOR_REFERENCES_.427
+_OBJC_SELECTOR_REFERENCES_.429
+_OBJC_SELECTOR_REFERENCES_.431
+_OBJC_SELECTOR_REFERENCES_.433
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_SELECTOR_REFERENCES_.447
+_OBJC_SELECTOR_REFERENCES_.449
+_OBJC_SELECTOR_REFERENCES_.451
+_OBJC_SELECTOR_REFERENCES_.453
+_OBJC_SELECTOR_REFERENCES_.455
+_OBJC_SELECTOR_REFERENCES_.457
+___block_descriptor_56_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.461
+_OBJC_CLASSLIST_REFERENCES_$_.464
+_OBJC_SELECTOR_REFERENCES_.466
+_OBJC_SELECTOR_REFERENCES_.470
+__OBJC_$_CLASS_METHODS_HTTPConnection
+__OBJC_METACLASS_RO_$_HTTPConnection
+__OBJC_$_INSTANCE_METHODS_HTTPConnection
+__OBJC_$_INSTANCE_VARIABLES_HTTPConnection
+__OBJC_CLASS_RO_$_HTTPConnection
+__OBJC_METACLASS_RO_$_HTTPConfig
+__OBJC_$_INSTANCE_METHODS_HTTPConfig
+__OBJC_$_INSTANCE_VARIABLES_HTTPConfig
+__OBJC_$_PROP_LIST_HTTPConfig
+__OBJC_CLASS_RO_$_HTTPConfig
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/HTTPConnection.m
+KTVCocoaHTTPServer/Classes/HTTPConnection.m
+__35-[HTTPConnection responseDidAbort:]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__43-[HTTPConnection responseHasAvailableData:]_block_invoke
+__31-[HTTPConnection dateAsString:]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/dispatch/once.h
+DDMakeRange
+__22-[HTTPConnection stop]_block_invoke
+__23-[HTTPConnection start]_block_invoke
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__33+[HTTPConnection hasRecentNonce:]_block_invoke
+__31+[HTTPConnection generateNonce]_block_invoke.4
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__31+[HTTPConnection generateNonce]_block_invoke
+__28+[HTTPConnection initialize]_block_invoke
+-[MultipartFormDataParser initWithBoundary:formEncoding:]
+-[MultipartFormDataParser appendData:]
+-[MultipartFormDataParser offsetTillNewlineSinceOffset:inData:]
+-[MultipartFormDataParser processPreamble:]
+-[MultipartFormDataParser findHeaderEnd:fromOffset:]
+-[MultipartFormDataParser findContentEnd:fromOffset:]
+-[MultipartFormDataParser numberOfBytesToLeavePendingWithData:length:encoding:]
++[MultipartFormDataParser decodedDataFromData:encoding:]
++[MultipartFormDataParser decodedDataFromQuotedPrintableData:]
+-[MultipartFormDataParser delegate]
+-[MultipartFormDataParser setDelegate:]
+-[MultipartFormDataParser formEncoding]
+-[MultipartFormDataParser setFormEncoding:]
+-[MultipartFormDataParser .cxx_destruct]
+-[MultipartFormDataParser appendData:].cold.1
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_CLASSLIST_REFERENCES_$_.58
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.74
+__OBJC_$_CLASS_METHODS_MultipartFormDataParser
+__OBJC_METACLASS_RO_$_MultipartFormDataParser
+__OBJC_$_INSTANCE_METHODS_MultipartFormDataParser
+__OBJC_$_INSTANCE_VARIABLES_MultipartFormDataParser
+__OBJC_$_PROP_LIST_MultipartFormDataParser
+__OBJC_CLASS_RO_$_MultipartFormDataParser
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Mime/MultipartFormDataParser.m
+-[MultipartFormDataParser appendData:].cold.1
+KTVCocoaHTTPServer/Classes/Mime/MultipartFormDataParser.m
+-[HTTPServer init]
+-[HTTPServer dealloc]
+-[HTTPServer documentRoot]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___26-[HTTPServer documentRoot]_block_invoke
+-[HTTPServer setDocumentRoot:]
+___30-[HTTPServer setDocumentRoot:]_block_invoke
+-[HTTPServer connectionClass]
+___29-[HTTPServer connectionClass]_block_invoke
+-[HTTPServer setConnectionClass:]
+___33-[HTTPServer setConnectionClass:]_block_invoke
+-[HTTPServer interface]
+___23-[HTTPServer interface]_block_invoke
+-[HTTPServer setInterface:]
+___27-[HTTPServer setInterface:]_block_invoke
+-[HTTPServer port]
+___18-[HTTPServer port]_block_invoke
+-[HTTPServer listeningPort]
+___27-[HTTPServer listeningPort]_block_invoke
+-[HTTPServer setPort:]
+___22-[HTTPServer setPort:]_block_invoke
+-[HTTPServer domain]
+___20-[HTTPServer domain]_block_invoke
+-[HTTPServer setDomain:]
+___24-[HTTPServer setDomain:]_block_invoke
+-[HTTPServer name]
+___18-[HTTPServer name]_block_invoke
+-[HTTPServer publishedName]
+___27-[HTTPServer publishedName]_block_invoke
+___27-[HTTPServer publishedName]_block_invoke_2
+-[HTTPServer setName:]
+___22-[HTTPServer setName:]_block_invoke
+-[HTTPServer type]
+___18-[HTTPServer type]_block_invoke
+-[HTTPServer setType:]
+___22-[HTTPServer setType:]_block_invoke
+-[HTTPServer TXTRecordDictionary]
+___33-[HTTPServer TXTRecordDictionary]_block_invoke
+-[HTTPServer setTXTRecordDictionary:]
+___37-[HTTPServer setTXTRecordDictionary:]_block_invoke
+___37-[HTTPServer setTXTRecordDictionary:]_block_invoke_2
+-[HTTPServer start:]
+___20-[HTTPServer start:]_block_invoke
+___copy_helper_block_e8_32s40r48r
+___destroy_helper_block_e8_32s40r48r
+-[HTTPServer stop]
+-[HTTPServer stop:]
+___19-[HTTPServer stop:]_block_invoke
+-[HTTPServer isRunning]
+___23-[HTTPServer isRunning]_block_invoke
+-[HTTPServer addWebSocket:]
+-[HTTPServer numberOfHTTPConnections]
+-[HTTPServer numberOfWebSocketConnections]
+-[HTTPServer config]
+-[HTTPServer socket:didAcceptNewSocket:]
+-[HTTPServer publishBonjour]
+___28-[HTTPServer publishBonjour]_block_invoke
+-[HTTPServer unpublishBonjour]
+___30-[HTTPServer unpublishBonjour]_block_invoke
+-[HTTPServer republishBonjour]
+___30-[HTTPServer republishBonjour]_block_invoke
+-[HTTPServer netServiceDidPublish:]
+-[HTTPServer netService:didNotPublish:]
+-[HTTPServer connectionDidDie:]
+-[HTTPServer webSocketDidDie:]
++[HTTPServer startBonjourThreadIfNeeded]
+___40+[HTTPServer startBonjourThreadIfNeeded]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
++[HTTPServer bonjourThread]
++[HTTPServer executeBonjourBlock:]
++[HTTPServer performBonjourBlock:]
+-[HTTPServer .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+___block_descriptor_48_e8_32s_e5_v8?0lu40l8
+___block_descriptor_42_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.64
+___block_descriptor_56_e8_32s40r48r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.80
+___block_descriptor_41_e8_32s_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.122
+_startBonjourThreadIfNeeded.predicate
+_OBJC_CLASSLIST_REFERENCES_$_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_bonjourThread
+___block_descriptor_40_e8__e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.133
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+__OBJC_$_CLASS_METHODS_HTTPServer
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_NSNetServiceDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSNetServiceDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSNetServiceDelegate
+__OBJC_PROTOCOL_$_NSNetServiceDelegate
+__OBJC_LABEL_PROTOCOL_$_NSNetServiceDelegate
+__OBJC_CLASS_PROTOCOLS_$_HTTPServer
+__OBJC_METACLASS_RO_$_HTTPServer
+__OBJC_$_INSTANCE_METHODS_HTTPServer
+__OBJC_$_INSTANCE_VARIABLES_HTTPServer
+__OBJC_$_PROP_LIST_HTTPServer
+__OBJC_CLASS_RO_$_HTTPServer
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/HTTPServer.m
+KTVCocoaHTTPServer/Classes/HTTPServer.m
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__40+[HTTPServer startBonjourThreadIfNeeded]_block_invoke
+__30-[HTTPServer republishBonjour]_block_invoke
+__30-[HTTPServer unpublishBonjour]_block_invoke
+__28-[HTTPServer publishBonjour]_block_invoke
+__23-[HTTPServer isRunning]_block_invoke
+__19-[HTTPServer stop:]_block_invoke
+__destroy_helper_block_e8_32s40r48r
+__copy_helper_block_e8_32s40r48r
+__20-[HTTPServer start:]_block_invoke
+__37-[HTTPServer setTXTRecordDictionary:]_block_invoke_2
+__37-[HTTPServer setTXTRecordDictionary:]_block_invoke
+__33-[HTTPServer TXTRecordDictionary]_block_invoke
+__22-[HTTPServer setType:]_block_invoke
+__18-[HTTPServer type]_block_invoke
+__22-[HTTPServer setName:]_block_invoke
+__27-[HTTPServer publishedName]_block_invoke_2
+__27-[HTTPServer publishedName]_block_invoke
+__18-[HTTPServer name]_block_invoke
+__24-[HTTPServer setDomain:]_block_invoke
+__20-[HTTPServer domain]_block_invoke
+__22-[HTTPServer setPort:]_block_invoke
+__27-[HTTPServer listeningPort]_block_invoke
+__18-[HTTPServer port]_block_invoke
+__27-[HTTPServer setInterface:]_block_invoke
+__23-[HTTPServer interface]_block_invoke
+__33-[HTTPServer setConnectionClass:]_block_invoke
+__29-[HTTPServer connectionClass]_block_invoke
+__30-[HTTPServer setDocumentRoot:]_block_invoke
+__26-[HTTPServer documentRoot]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[HTTPErrorResponse initWithErrorCode:]
+-[HTTPErrorResponse contentLength]
+-[HTTPErrorResponse offset]
+-[HTTPErrorResponse setOffset:]
+-[HTTPErrorResponse readDataOfLength:]
+-[HTTPErrorResponse isDone]
+-[HTTPErrorResponse status]
+__OBJC_CLASS_PROTOCOLS_$_HTTPErrorResponse
+__OBJC_METACLASS_RO_$_HTTPErrorResponse
+__OBJC_$_INSTANCE_METHODS_HTTPErrorResponse
+__OBJC_$_INSTANCE_VARIABLES_HTTPErrorResponse
+__OBJC_CLASS_RO_$_HTTPErrorResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Responses/HTTPErrorResponse.m
+KTVCocoaHTTPServer/Classes/Responses/HTTPErrorResponse.m
+-[HTTPDataResponse initWithData:]
+-[HTTPDataResponse dealloc]
+-[HTTPDataResponse contentLength]
+-[HTTPDataResponse offset]
+-[HTTPDataResponse setOffset:]
+-[HTTPDataResponse readDataOfLength:]
+-[HTTPDataResponse isDone]
+-[HTTPDataResponse .cxx_destruct]
+__OBJC_CLASS_PROTOCOLS_$_HTTPDataResponse
+__OBJC_METACLASS_RO_$_HTTPDataResponse
+__OBJC_$_INSTANCE_METHODS_HTTPDataResponse
+__OBJC_$_INSTANCE_VARIABLES_HTTPDataResponse
+__OBJC_CLASS_RO_$_HTTPDataResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Responses/HTTPDataResponse.m
+KTVCocoaHTTPServer/Classes/Responses/HTTPDataResponse.m
+-[HTTPFileResponse initWithFilePath:forConnection:]
+-[HTTPFileResponse abort]
+-[HTTPFileResponse openFile]
+-[HTTPFileResponse openFileIfNeeded]
+-[HTTPFileResponse contentLength]
+-[HTTPFileResponse offset]
+-[HTTPFileResponse setOffset:]
+-[HTTPFileResponse readDataOfLength:]
+-[HTTPFileResponse isDone]
+-[HTTPFileResponse filePath]
+-[HTTPFileResponse dealloc]
+-[HTTPFileResponse .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.50
+__OBJC_CLASS_PROTOCOLS_$_HTTPFileResponse
+__OBJC_METACLASS_RO_$_HTTPFileResponse
+__OBJC_$_INSTANCE_METHODS_HTTPFileResponse
+__OBJC_$_INSTANCE_VARIABLES_HTTPFileResponse
+__OBJC_CLASS_RO_$_HTTPFileResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Responses/HTTPFileResponse.m
+KTVCocoaHTTPServer/Classes/Responses/HTTPFileResponse.m
+-[HTTPMessage initEmptyRequest]
+-[HTTPMessage initRequestWithMethod:URL:version:]
+-[HTTPMessage initResponseWithStatusCode:description:version:]
+-[HTTPMessage dealloc]
+-[HTTPMessage appendData:]
+-[HTTPMessage isHeaderComplete]
+-[HTTPMessage version]
+-[HTTPMessage method]
+-[HTTPMessage url]
+-[HTTPMessage statusCode]
+-[HTTPMessage allHeaderFields]
+-[HTTPMessage headerField:]
+-[HTTPMessage setHeaderField:value:]
+-[HTTPMessage messageData]
+-[HTTPMessage body]
+-[HTTPMessage setBody:]
+__OBJC_METACLASS_RO_$_HTTPMessage
+__OBJC_$_INSTANCE_METHODS_HTTPMessage
+__OBJC_$_INSTANCE_VARIABLES_HTTPMessage
+__OBJC_CLASS_RO_$_HTTPMessage
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/HTTPMessage.m
+KTVCocoaHTTPServer/Classes/HTTPMessage.m
+-[HTTPDynamicFileResponse initWithFilePath:forConnection:separator:replacementDictionary:]
+-[HTTPDynamicFileResponse isChunked]
+-[HTTPDynamicFileResponse contentLength]
+-[HTTPDynamicFileResponse setOffset:]
+-[HTTPDynamicFileResponse isDone]
+-[HTTPDynamicFileResponse processReadBuffer]
+-[HTTPDynamicFileResponse dealloc]
+-[HTTPDynamicFileResponse .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_CLASSLIST_REFERENCES_$_.28
+__OBJC_METACLASS_RO_$_HTTPDynamicFileResponse
+__OBJC_$_INSTANCE_METHODS_HTTPDynamicFileResponse
+__OBJC_$_INSTANCE_VARIABLES_HTTPDynamicFileResponse
+__OBJC_CLASS_RO_$_HTTPDynamicFileResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Responses/HTTPDynamicFileResponse.m
+KTVCocoaHTTPServer/Classes/Responses/HTTPDynamicFileResponse.m
+-[HTTPAsyncFileResponse initWithFilePath:forConnection:]
+-[HTTPAsyncFileResponse abort]
+-[HTTPAsyncFileResponse processReadBuffer]
+-[HTTPAsyncFileResponse pauseReadSource]
+-[HTTPAsyncFileResponse resumeReadSource]
+-[HTTPAsyncFileResponse cancelReadSource]
+-[HTTPAsyncFileResponse openFileAndSetupReadSource]
+___51-[HTTPAsyncFileResponse openFileAndSetupReadSource]_block_invoke
+___51-[HTTPAsyncFileResponse openFileAndSetupReadSource]_block_invoke.57
+-[HTTPAsyncFileResponse openFileIfNeeded]
+-[HTTPAsyncFileResponse contentLength]
+-[HTTPAsyncFileResponse offset]
+-[HTTPAsyncFileResponse setOffset:]
+-[HTTPAsyncFileResponse readDataOfLength:]
+___42-[HTTPAsyncFileResponse readDataOfLength:]_block_invoke
+-[HTTPAsyncFileResponse isDone]
+-[HTTPAsyncFileResponse filePath]
+-[HTTPAsyncFileResponse isAsynchronous]
+-[HTTPAsyncFileResponse connectionDidClose]
+___43-[HTTPAsyncFileResponse connectionDidClose]_block_invoke
+-[HTTPAsyncFileResponse dealloc]
+-[HTTPAsyncFileResponse .cxx_destruct]
+___block_descriptor_44_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.77
+___block_descriptor_48_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.85
+__OBJC_CLASS_PROTOCOLS_$_HTTPAsyncFileResponse
+__OBJC_METACLASS_RO_$_HTTPAsyncFileResponse
+__OBJC_$_INSTANCE_METHODS_HTTPAsyncFileResponse
+__OBJC_$_INSTANCE_VARIABLES_HTTPAsyncFileResponse
+__OBJC_CLASS_RO_$_HTTPAsyncFileResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/Responses/HTTPAsyncFileResponse.m
+KTVCocoaHTTPServer/Classes/Responses/HTTPAsyncFileResponse.m
+__43-[HTTPAsyncFileResponse connectionDidClose]_block_invoke
+__42-[HTTPAsyncFileResponse readDataOfLength:]_block_invoke
+__51-[HTTPAsyncFileResponse openFileAndSetupReadSource]_block_invoke.57
+__51-[HTTPAsyncFileResponse openFileAndSetupReadSource]_block_invoke
+-[GCDAsyncSocketPreBuffer initWithCapacity:]
+-[GCDAsyncSocketPreBuffer dealloc]
+-[GCDAsyncSocketPreBuffer ensureCapacityForWrite:]
+-[GCDAsyncSocketPreBuffer availableBytes]
+-[GCDAsyncSocketPreBuffer readBuffer]
+-[GCDAsyncSocketPreBuffer getReadBuffer:availableBytes:]
+-[GCDAsyncSocketPreBuffer didRead:]
+-[GCDAsyncSocketPreBuffer availableSpace]
+-[GCDAsyncSocketPreBuffer writeBuffer]
+-[GCDAsyncSocketPreBuffer getWriteBuffer:availableSpace:]
+-[GCDAsyncSocketPreBuffer didWrite:]
+-[GCDAsyncSocketPreBuffer reset]
+-[GCDAsyncReadPacket initWithData:startOffset:maxLength:timeout:readLength:terminator:tag:]
+-[GCDAsyncReadPacket ensureCapacityForAdditionalDataOfLength:]
+-[GCDAsyncReadPacket optimalReadLengthWithDefault:shouldPreBuffer:]
+-[GCDAsyncReadPacket readLengthForNonTermWithHint:]
+-[GCDAsyncReadPacket readLengthForTermWithHint:shouldPreBuffer:]
+-[GCDAsyncReadPacket readLengthForTermWithPreBuffer:found:]
+-[GCDAsyncReadPacket searchForTermAfterPreBuffering:]
+-[GCDAsyncReadPacket .cxx_destruct]
+-[GCDAsyncWritePacket initWithData:timeout:tag:]
+-[GCDAsyncWritePacket .cxx_destruct]
+-[GCDAsyncSpecialPacket initWithTLSSettings:]
+-[GCDAsyncSpecialPacket .cxx_destruct]
+-[GCDAsyncSocket init]
+-[GCDAsyncSocket initWithSocketQueue:]
+-[GCDAsyncSocket initWithDelegate:delegateQueue:]
+-[GCDAsyncSocket initWithDelegate:delegateQueue:socketQueue:]
+-[GCDAsyncSocket dealloc]
+___25-[GCDAsyncSocket dealloc]_block_invoke
+-[GCDAsyncSocket delegate]
+___26-[GCDAsyncSocket delegate]_block_invoke
+-[GCDAsyncSocket setDelegate:synchronously:]
+___44-[GCDAsyncSocket setDelegate:synchronously:]_block_invoke
+-[GCDAsyncSocket setDelegate:]
+-[GCDAsyncSocket synchronouslySetDelegate:]
+-[GCDAsyncSocket delegateQueue]
+___31-[GCDAsyncSocket delegateQueue]_block_invoke
+-[GCDAsyncSocket setDelegateQueue:synchronously:]
+___49-[GCDAsyncSocket setDelegateQueue:synchronously:]_block_invoke
+-[GCDAsyncSocket setDelegateQueue:]
+-[GCDAsyncSocket synchronouslySetDelegateQueue:]
+-[GCDAsyncSocket getDelegate:delegateQueue:]
+___44-[GCDAsyncSocket getDelegate:delegateQueue:]_block_invoke
+-[GCDAsyncSocket setDelegate:delegateQueue:synchronously:]
+___58-[GCDAsyncSocket setDelegate:delegateQueue:synchronously:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+-[GCDAsyncSocket setDelegate:delegateQueue:]
+-[GCDAsyncSocket synchronouslySetDelegate:delegateQueue:]
+-[GCDAsyncSocket isIPv4Enabled]
+___31-[GCDAsyncSocket isIPv4Enabled]_block_invoke
+-[GCDAsyncSocket setIPv4Enabled:]
+___33-[GCDAsyncSocket setIPv4Enabled:]_block_invoke
+-[GCDAsyncSocket isIPv6Enabled]
+___31-[GCDAsyncSocket isIPv6Enabled]_block_invoke
+-[GCDAsyncSocket setIPv6Enabled:]
+___33-[GCDAsyncSocket setIPv6Enabled:]_block_invoke
+-[GCDAsyncSocket isIPv4PreferredOverIPv6]
+___41-[GCDAsyncSocket isIPv4PreferredOverIPv6]_block_invoke
+-[GCDAsyncSocket setPreferIPv4OverIPv6:]
+___40-[GCDAsyncSocket setPreferIPv4OverIPv6:]_block_invoke
+-[GCDAsyncSocket userData]
+___26-[GCDAsyncSocket userData]_block_invoke
+-[GCDAsyncSocket setUserData:]
+___30-[GCDAsyncSocket setUserData:]_block_invoke
+-[GCDAsyncSocket acceptOnPort:error:]
+-[GCDAsyncSocket acceptOnInterface:port:error:]
+___47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke
+___47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke.126
+___47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_2
+___47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke.155
+___47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_2.157
+___47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_3
+___copy_helper_block_e8_32s40s48b56r64r
+___destroy_helper_block_e8_32s40s48s56r64r
+-[GCDAsyncSocket doAccept:]
+___27-[GCDAsyncSocket doAccept:]_block_invoke
+___27-[GCDAsyncSocket doAccept:]_block_invoke_2
+-[GCDAsyncSocket preConnectWithInterface:error:]
+-[GCDAsyncSocket connectToHost:onPort:error:]
+-[GCDAsyncSocket connectToHost:onPort:withTimeout:error:]
+-[GCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]
+___70-[GCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]_block_invoke
+___70-[GCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56r64r
+-[GCDAsyncSocket connectToAddress:error:]
+-[GCDAsyncSocket connectToAddress:withTimeout:error:]
+-[GCDAsyncSocket connectToAddress:viaInterface:withTimeout:error:]
+___66-[GCDAsyncSocket connectToAddress:viaInterface:withTimeout:error:]_block_invoke
+-[GCDAsyncSocket lookup:host:port:]
+___35-[GCDAsyncSocket lookup:host:port:]_block_invoke
+___35-[GCDAsyncSocket lookup:host:port:]_block_invoke_2
+-[GCDAsyncSocket lookup:didSucceedWithAddress4:address6:]
+-[GCDAsyncSocket lookup:didFail:]
+-[GCDAsyncSocket connectWithAddress4:address6:error:]
+___53-[GCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke
+___53-[GCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke_2
+___53-[GCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke_3
+-[GCDAsyncSocket didConnect:]
+___29-[GCDAsyncSocket didConnect:]_block_invoke
+___29-[GCDAsyncSocket didConnect:]_block_invoke_2
+___29-[GCDAsyncSocket didConnect:]_block_invoke_3
+___29-[GCDAsyncSocket didConnect:]_block_invoke_4
+___copy_helper_block_e8_32b
+___copy_helper_block_e8_32s40s48s56b
+___destroy_helper_block_e8_32s40s48s56s
+-[GCDAsyncSocket didNotConnect:error:]
+-[GCDAsyncSocket startConnectTimeout:]
+___38-[GCDAsyncSocket startConnectTimeout:]_block_invoke
+-[GCDAsyncSocket endConnectTimeout]
+-[GCDAsyncSocket doConnectTimeout]
+-[GCDAsyncSocket closeWithError:]
+___33-[GCDAsyncSocket closeWithError:]_block_invoke
+-[GCDAsyncSocket disconnect]
+___28-[GCDAsyncSocket disconnect]_block_invoke
+-[GCDAsyncSocket disconnectAfterReading]
+___40-[GCDAsyncSocket disconnectAfterReading]_block_invoke
+-[GCDAsyncSocket disconnectAfterWriting]
+___40-[GCDAsyncSocket disconnectAfterWriting]_block_invoke
+-[GCDAsyncSocket disconnectAfterReadingAndWriting]
+___50-[GCDAsyncSocket disconnectAfterReadingAndWriting]_block_invoke
+-[GCDAsyncSocket maybeClose]
+-[GCDAsyncSocket badConfigError:]
+-[GCDAsyncSocket badParamError:]
+-[GCDAsyncSocket gaiError:]
+-[GCDAsyncSocket errnoErrorWithReason:]
+-[GCDAsyncSocket errnoError]
+-[GCDAsyncSocket sslError:]
+-[GCDAsyncSocket connectTimeoutError]
+-[GCDAsyncSocket readMaxedOutError]
+-[GCDAsyncSocket readTimeoutError]
+-[GCDAsyncSocket writeTimeoutError]
+-[GCDAsyncSocket connectionClosedError]
+-[GCDAsyncSocket otherError:]
+-[GCDAsyncSocket isDisconnected]
+___32-[GCDAsyncSocket isDisconnected]_block_invoke
+-[GCDAsyncSocket isConnected]
+___29-[GCDAsyncSocket isConnected]_block_invoke
+-[GCDAsyncSocket connectedHost]
+___31-[GCDAsyncSocket connectedHost]_block_invoke
+-[GCDAsyncSocket connectedPort]
+___31-[GCDAsyncSocket connectedPort]_block_invoke
+-[GCDAsyncSocket localHost]
+___27-[GCDAsyncSocket localHost]_block_invoke
+-[GCDAsyncSocket localPort]
+___27-[GCDAsyncSocket localPort]_block_invoke
+-[GCDAsyncSocket connectedHost4]
+-[GCDAsyncSocket connectedHost6]
+-[GCDAsyncSocket connectedPort4]
+-[GCDAsyncSocket connectedPort6]
+-[GCDAsyncSocket localHost4]
+-[GCDAsyncSocket localHost6]
+-[GCDAsyncSocket localPort4]
+-[GCDAsyncSocket localPort6]
+-[GCDAsyncSocket connectedHostFromSocket4:]
+-[GCDAsyncSocket connectedHostFromSocket6:]
+-[GCDAsyncSocket connectedPortFromSocket4:]
+-[GCDAsyncSocket connectedPortFromSocket6:]
+-[GCDAsyncSocket localHostFromSocket4:]
+-[GCDAsyncSocket localHostFromSocket6:]
+-[GCDAsyncSocket localPortFromSocket4:]
+-[GCDAsyncSocket localPortFromSocket6:]
+-[GCDAsyncSocket connectedAddress]
+___34-[GCDAsyncSocket connectedAddress]_block_invoke
+-[GCDAsyncSocket localAddress]
+___30-[GCDAsyncSocket localAddress]_block_invoke
+-[GCDAsyncSocket isIPv4]
+___24-[GCDAsyncSocket isIPv4]_block_invoke
+-[GCDAsyncSocket isIPv6]
+___24-[GCDAsyncSocket isIPv6]_block_invoke
+-[GCDAsyncSocket isSecure]
+___26-[GCDAsyncSocket isSecure]_block_invoke
+-[GCDAsyncSocket getInterfaceAddress4:address6:fromDescription:port:]
+-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]
+___66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke
+___66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_2
+___66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_3
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
+___66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke.359
+-[GCDAsyncSocket usingCFStreamForTLS]
+-[GCDAsyncSocket usingSecureTransportForTLS]
+-[GCDAsyncSocket suspendReadSource]
+-[GCDAsyncSocket resumeReadSource]
+-[GCDAsyncSocket suspendWriteSource]
+-[GCDAsyncSocket resumeWriteSource]
+-[GCDAsyncSocket readDataWithTimeout:tag:]
+-[GCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:tag:]
+-[GCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:maxLength:tag:]
+___72-[GCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:maxLength:tag:]_block_invoke
+-[GCDAsyncSocket readDataToLength:withTimeout:tag:]
+-[GCDAsyncSocket readDataToLength:withTimeout:buffer:bufferOffset:tag:]
+___71-[GCDAsyncSocket readDataToLength:withTimeout:buffer:bufferOffset:tag:]_block_invoke
+-[GCDAsyncSocket readDataToData:withTimeout:tag:]
+-[GCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:tag:]
+-[GCDAsyncSocket readDataToData:withTimeout:maxLength:tag:]
+-[GCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:maxLength:tag:]
+___79-[GCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:maxLength:tag:]_block_invoke
+-[GCDAsyncSocket progressOfReadReturningTag:bytesDone:total:]
+___61-[GCDAsyncSocket progressOfReadReturningTag:bytesDone:total:]_block_invoke
+-[GCDAsyncSocket maybeDequeueRead]
+-[GCDAsyncSocket flushSSLBuffers]
+___33-[GCDAsyncSocket flushSSLBuffers]_block_invoke
+-[GCDAsyncSocket doReadData]
+___28-[GCDAsyncSocket doReadData]_block_invoke
+-[GCDAsyncSocket doReadEOF]
+___27-[GCDAsyncSocket doReadEOF]_block_invoke
+-[GCDAsyncSocket completeCurrentRead]
+___37-[GCDAsyncSocket completeCurrentRead]_block_invoke
+___copy_helper_block_e8_32s40s48s56s
+-[GCDAsyncSocket endCurrentRead]
+-[GCDAsyncSocket setupReadTimerWithTimeout:]
+___44-[GCDAsyncSocket setupReadTimerWithTimeout:]_block_invoke
+-[GCDAsyncSocket doReadTimeout]
+___31-[GCDAsyncSocket doReadTimeout]_block_invoke
+___31-[GCDAsyncSocket doReadTimeout]_block_invoke_2
+-[GCDAsyncSocket doReadTimeoutWithExtension:]
+-[GCDAsyncSocket writeData:withTimeout:tag:]
+___44-[GCDAsyncSocket writeData:withTimeout:tag:]_block_invoke
+-[GCDAsyncSocket progressOfWriteReturningTag:bytesDone:total:]
+___62-[GCDAsyncSocket progressOfWriteReturningTag:bytesDone:total:]_block_invoke
+-[GCDAsyncSocket maybeDequeueWrite]
+-[GCDAsyncSocket doWriteData]
+___29-[GCDAsyncSocket doWriteData]_block_invoke
+-[GCDAsyncSocket completeCurrentWrite]
+___38-[GCDAsyncSocket completeCurrentWrite]_block_invoke
+-[GCDAsyncSocket endCurrentWrite]
+-[GCDAsyncSocket setupWriteTimerWithTimeout:]
+___45-[GCDAsyncSocket setupWriteTimerWithTimeout:]_block_invoke
+-[GCDAsyncSocket doWriteTimeout]
+___32-[GCDAsyncSocket doWriteTimeout]_block_invoke
+___32-[GCDAsyncSocket doWriteTimeout]_block_invoke_2
+-[GCDAsyncSocket doWriteTimeoutWithExtension:]
+-[GCDAsyncSocket startTLS:]
+___27-[GCDAsyncSocket startTLS:]_block_invoke
+-[GCDAsyncSocket maybeStartTLS]
+-[GCDAsyncSocket sslReadWithBuffer:length:]
+-[GCDAsyncSocket sslWriteWithBuffer:length:]
+-[GCDAsyncSocket ssl_startTLS]
+_SSLReadFunction
+_SSLWriteFunction
+___30-[GCDAsyncSocket ssl_startTLS]_block_invoke
+-[GCDAsyncSocket ssl_continueSSLHandshake]
+___42-[GCDAsyncSocket ssl_continueSSLHandshake]_block_invoke
+-[GCDAsyncSocket cf_finishSSLHandshake]
+___39-[GCDAsyncSocket cf_finishSSLHandshake]_block_invoke
+-[GCDAsyncSocket cf_abortSSLHandshake:]
+-[GCDAsyncSocket cf_startTLS]
++[GCDAsyncSocket startCFStreamThreadIfNeeded]
+___45+[GCDAsyncSocket startCFStreamThreadIfNeeded]_block_invoke
++[GCDAsyncSocket cfstreamThread]
++[GCDAsyncSocket scheduleCFStreams:]
++[GCDAsyncSocket unscheduleCFStreams:]
+-[GCDAsyncSocket createReadAndWriteStream]
+-[GCDAsyncSocket registerForStreamCallbacksIncludingReadWrite:]
+_CFReadStreamCallback
+_CFWriteStreamCallback
+-[GCDAsyncSocket addStreamsToRunLoop]
+-[GCDAsyncSocket removeStreamsFromRunLoop]
+-[GCDAsyncSocket openStreams]
+-[GCDAsyncSocket autoDisconnectOnClosedReadStream]
+___50-[GCDAsyncSocket autoDisconnectOnClosedReadStream]_block_invoke
+-[GCDAsyncSocket setAutoDisconnectOnClosedReadStream:]
+___54-[GCDAsyncSocket setAutoDisconnectOnClosedReadStream:]_block_invoke
+-[GCDAsyncSocket markSocketQueueTargetQueue:]
+-[GCDAsyncSocket unmarkSocketQueueTargetQueue:]
+-[GCDAsyncSocket performBlock:]
+-[GCDAsyncSocket socketFD]
+-[GCDAsyncSocket socket4FD]
+-[GCDAsyncSocket socket6FD]
+-[GCDAsyncSocket readStream]
+-[GCDAsyncSocket writeStream]
+-[GCDAsyncSocket enableBackgroundingOnSocketWithCaveat:]
+-[GCDAsyncSocket enableBackgroundingOnSocket]
+-[GCDAsyncSocket enableBackgroundingOnSocketWithCaveat]
+-[GCDAsyncSocket sslContext]
++[GCDAsyncSocket hostFromSockaddr4:]
++[GCDAsyncSocket hostFromSockaddr6:]
++[GCDAsyncSocket portFromSockaddr4:]
++[GCDAsyncSocket portFromSockaddr6:]
++[GCDAsyncSocket hostFromAddress:]
++[GCDAsyncSocket portFromAddress:]
++[GCDAsyncSocket getHost:port:fromAddress:]
++[GCDAsyncSocket CRLFData]
++[GCDAsyncSocket CRData]
++[GCDAsyncSocket LFData]
++[GCDAsyncSocket ZeroData]
+-[GCDAsyncSocket .cxx_destruct]
+___CFReadStreamCallback_block_invoke
+___CFReadStreamCallback_block_invoke_2
+___CFWriteStreamCallback_block_invoke
+___CFWriteStreamCallback_block_invoke_2
+__OBJC_METACLASS_RO_$_GCDAsyncSocketPreBuffer
+__OBJC_$_INSTANCE_METHODS_GCDAsyncSocketPreBuffer
+__OBJC_$_INSTANCE_VARIABLES_GCDAsyncSocketPreBuffer
+__OBJC_CLASS_RO_$_GCDAsyncSocketPreBuffer
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.48
+__OBJC_METACLASS_RO_$_GCDAsyncReadPacket
+__OBJC_$_INSTANCE_METHODS_GCDAsyncReadPacket
+__OBJC_$_INSTANCE_VARIABLES_GCDAsyncReadPacket
+__OBJC_CLASS_RO_$_GCDAsyncReadPacket
+__OBJC_METACLASS_RO_$_GCDAsyncWritePacket
+__OBJC_$_INSTANCE_METHODS_GCDAsyncWritePacket
+__OBJC_$_INSTANCE_VARIABLES_GCDAsyncWritePacket
+__OBJC_CLASS_RO_$_GCDAsyncWritePacket
+__OBJC_METACLASS_RO_$_GCDAsyncSpecialPacket
+__OBJC_$_INSTANCE_METHODS_GCDAsyncSpecialPacket
+__OBJC_$_INSTANCE_VARIABLES_GCDAsyncSpecialPacket
+__OBJC_CLASS_RO_$_GCDAsyncSpecialPacket
+_OBJC_CLASSLIST_REFERENCES_$_.99
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_SELECTOR_REFERENCES_.103
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+___block_descriptor_48_e8_32s40r_e19_i20?0i8"NSData"12l
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+___block_descriptor_52_e8_32s40s_e5_v8?0l
+___block_descriptor_36_e5_v8?0l
+___block_descriptor_74_e8_32s40s48bs56r64r_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_CLASSLIST_REFERENCES_$_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+___block_descriptor_61_e8_32s40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+___block_descriptor_54_e8_32s40s_e5_v8?0l
+___block_descriptor_82_e8_32s40s48s56r64r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.197
+___block_descriptor_80_e8_32s40s48s56r64r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_CLASSLIST_REFERENCES_$_.204
+_OBJC_SELECTOR_REFERENCES_.214
+___block_descriptor_60_e8_32s40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+___block_descriptor_40_e8_32bs_e5_v8?0l
+___block_descriptor_66_e8_32s40s48s56bs_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_SELECTOR_REFERENCES_.271
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_CLASSLIST_REFERENCES_$_.278
+_OBJC_CLASSLIST_REFERENCES_$_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_CLASSLIST_REFERENCES_$_.296
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.326
+_OBJC_SELECTOR_REFERENCES_.332
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_SELECTOR_REFERENCES_.338
+_OBJC_SELECTOR_REFERENCES_.340
+_OBJC_SELECTOR_REFERENCES_.342
+_OBJC_SELECTOR_REFERENCES_.346
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.358
+___block_descriptor_44_e8_32r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_CLASSLIST_REFERENCES_$_.364
+_OBJC_SELECTOR_REFERENCES_.365
+_OBJC_SELECTOR_REFERENCES_.367
+_OBJC_SELECTOR_REFERENCES_.369
+_OBJC_SELECTOR_REFERENCES_.371
+_OBJC_SELECTOR_REFERENCES_.373
+___block_descriptor_72_e8_32s40r_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.376
+_OBJC_SELECTOR_REFERENCES_.378
+_OBJC_SELECTOR_REFERENCES_.380
+_OBJC_SELECTOR_REFERENCES_.382
+_OBJC_SELECTOR_REFERENCES_.383
+_OBJC_SELECTOR_REFERENCES_.384
+_OBJC_SELECTOR_REFERENCES_.385
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.391
+_OBJC_SELECTOR_REFERENCES_.392
+_OBJC_SELECTOR_REFERENCES_.394
+_OBJC_SELECTOR_REFERENCES_.397
+_OBJC_SELECTOR_REFERENCES_.398
+_OBJC_SELECTOR_REFERENCES_.399
+_OBJC_SELECTOR_REFERENCES_.404
+_OBJC_SELECTOR_REFERENCES_.406
+_OBJC_SELECTOR_REFERENCES_.408
+___block_descriptor_64_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.410
+_OBJC_SELECTOR_REFERENCES_.412
+_OBJC_SELECTOR_REFERENCES_.414
+_OBJC_SELECTOR_REFERENCES_.416
+_OBJC_SELECTOR_REFERENCES_.418
+___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.420
+_OBJC_SELECTOR_REFERENCES_.422
+_OBJC_SELECTOR_REFERENCES_.424
+_OBJC_SELECTOR_REFERENCES_.426
+_OBJC_CLASSLIST_REFERENCES_$_.427
+_OBJC_SELECTOR_REFERENCES_.428
+_OBJC_SELECTOR_REFERENCES_.430
+_OBJC_SELECTOR_REFERENCES_.432
+_OBJC_SELECTOR_REFERENCES_.436
+_OBJC_SELECTOR_REFERENCES_.438
+_OBJC_SELECTOR_REFERENCES_.440
+_OBJC_SELECTOR_REFERENCES_.442
+_OBJC_SELECTOR_REFERENCES_.444
+_OBJC_SELECTOR_REFERENCES_.446
+_OBJC_SELECTOR_REFERENCES_.448
+_OBJC_SELECTOR_REFERENCES_.450
+_OBJC_SELECTOR_REFERENCES_.459
+___block_descriptor_32_e18_i16?0"NSString"8l
+_OBJC_SELECTOR_REFERENCES_.482
+_OBJC_SELECTOR_REFERENCES_.486
+_startCFStreamThreadIfNeeded.predicate
+_OBJC_CLASSLIST_REFERENCES_$_.495
+_OBJC_SELECTOR_REFERENCES_.497
+_OBJC_SELECTOR_REFERENCES_.499
+_cfstreamThread
+_OBJC_SELECTOR_REFERENCES_.501
+_OBJC_SELECTOR_REFERENCES_.504
+_OBJC_SELECTOR_REFERENCES_.506
+_OBJC_CLASSLIST_REFERENCES_$_.507
+_OBJC_CLASSLIST_REFERENCES_$_.508
+_OBJC_SELECTOR_REFERENCES_.510
+_OBJC_SELECTOR_REFERENCES_.512
+_OBJC_SELECTOR_REFERENCES_.514
+_OBJC_SELECTOR_REFERENCES_.516
+_OBJC_CLASSLIST_REFERENCES_$_.517
+_OBJC_SELECTOR_REFERENCES_.519
+_OBJC_SELECTOR_REFERENCES_.521
+_OBJC_SELECTOR_REFERENCES_.523
+_OBJC_SELECTOR_REFERENCES_.525
+_OBJC_SELECTOR_REFERENCES_.527
+_OBJC_SELECTOR_REFERENCES_.529
+_OBJC_SELECTOR_REFERENCES_.531
+_OBJC_SELECTOR_REFERENCES_.533
+_OBJC_SELECTOR_REFERENCES_.535
+__OBJC_$_CLASS_METHODS_GCDAsyncSocket
+__OBJC_METACLASS_RO_$_GCDAsyncSocket
+__OBJC_$_INSTANCE_METHODS_GCDAsyncSocket
+_OBJC_IVAR_$_GCDAsyncSocket.flags
+_OBJC_IVAR_$_GCDAsyncSocket.config
+_OBJC_IVAR_$_GCDAsyncSocket.delegate
+_OBJC_IVAR_$_GCDAsyncSocket.delegateQueue
+_OBJC_IVAR_$_GCDAsyncSocket.socket4FD
+_OBJC_IVAR_$_GCDAsyncSocket.socket6FD
+_OBJC_IVAR_$_GCDAsyncSocket.connectIndex
+_OBJC_IVAR_$_GCDAsyncSocket.connectInterface4
+_OBJC_IVAR_$_GCDAsyncSocket.connectInterface6
+_OBJC_IVAR_$_GCDAsyncSocket.socketQueue
+_OBJC_IVAR_$_GCDAsyncSocket.accept4Source
+_OBJC_IVAR_$_GCDAsyncSocket.accept6Source
+_OBJC_IVAR_$_GCDAsyncSocket.connectTimer
+_OBJC_IVAR_$_GCDAsyncSocket.readSource
+_OBJC_IVAR_$_GCDAsyncSocket.writeSource
+_OBJC_IVAR_$_GCDAsyncSocket.readTimer
+_OBJC_IVAR_$_GCDAsyncSocket.writeTimer
+_OBJC_IVAR_$_GCDAsyncSocket.readQueue
+_OBJC_IVAR_$_GCDAsyncSocket.writeQueue
+_OBJC_IVAR_$_GCDAsyncSocket.currentRead
+_OBJC_IVAR_$_GCDAsyncSocket.currentWrite
+_OBJC_IVAR_$_GCDAsyncSocket.socketFDBytesAvailable
+_OBJC_IVAR_$_GCDAsyncSocket.preBuffer
+_OBJC_IVAR_$_GCDAsyncSocket.streamContext
+_OBJC_IVAR_$_GCDAsyncSocket.readStream
+_OBJC_IVAR_$_GCDAsyncSocket.writeStream
+_OBJC_IVAR_$_GCDAsyncSocket.sslContext
+_OBJC_IVAR_$_GCDAsyncSocket.sslPreBuffer
+_OBJC_IVAR_$_GCDAsyncSocket.sslWriteCachedLength
+_OBJC_IVAR_$_GCDAsyncSocket.sslErrCode
+_OBJC_IVAR_$_GCDAsyncSocket.IsOnSocketQueueOrTargetQueueKey
+_OBJC_IVAR_$_GCDAsyncSocket.userData
+__OBJC_$_INSTANCE_VARIABLES_GCDAsyncSocket
+__OBJC_CLASS_RO_$_GCDAsyncSocket
+_OBJC_SELECTOR_REFERENCES_.707
+_OBJC_SELECTOR_REFERENCES_.708
+_OBJC_SELECTOR_REFERENCES_.709
+_OBJC_SELECTOR_REFERENCES_.710
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/Vendors/CocoaAsyncSocket/GCDAsyncSocket.m
+__CFWriteStreamCallback_block_invoke_2
+Vendors/CocoaAsyncSocket/GCDAsyncSocket.m
+__CFWriteStreamCallback_block_invoke
+__CFReadStreamCallback_block_invoke_2
+__CFReadStreamCallback_block_invoke
+__54-[GCDAsyncSocket setAutoDisconnectOnClosedReadStream:]_block_invoke
+__50-[GCDAsyncSocket autoDisconnectOnClosedReadStream]_block_invoke
+CFWriteStreamCallback
+CFReadStreamCallback
+__45+[GCDAsyncSocket startCFStreamThreadIfNeeded]_block_invoke
+__39-[GCDAsyncSocket cf_finishSSLHandshake]_block_invoke
+__42-[GCDAsyncSocket ssl_continueSSLHandshake]_block_invoke
+__30-[GCDAsyncSocket ssl_startTLS]_block_invoke
+SSLWriteFunction
+SSLReadFunction
+__27-[GCDAsyncSocket startTLS:]_block_invoke
+__32-[GCDAsyncSocket doWriteTimeout]_block_invoke_2
+__32-[GCDAsyncSocket doWriteTimeout]_block_invoke
+__45-[GCDAsyncSocket setupWriteTimerWithTimeout:]_block_invoke
+__38-[GCDAsyncSocket completeCurrentWrite]_block_invoke
+__29-[GCDAsyncSocket doWriteData]_block_invoke
+__62-[GCDAsyncSocket progressOfWriteReturningTag:bytesDone:total:]_block_invoke
+__44-[GCDAsyncSocket writeData:withTimeout:tag:]_block_invoke
+__31-[GCDAsyncSocket doReadTimeout]_block_invoke_2
+__31-[GCDAsyncSocket doReadTimeout]_block_invoke
+__44-[GCDAsyncSocket setupReadTimerWithTimeout:]_block_invoke
+__copy_helper_block_e8_32s40s48s56s
+__37-[GCDAsyncSocket completeCurrentRead]_block_invoke
+__27-[GCDAsyncSocket doReadEOF]_block_invoke
+__28-[GCDAsyncSocket doReadData]_block_invoke
+__33-[GCDAsyncSocket flushSSLBuffers]_block_invoke
+__61-[GCDAsyncSocket progressOfReadReturningTag:bytesDone:total:]_block_invoke
+__79-[GCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:maxLength:tag:]_block_invoke
+__71-[GCDAsyncSocket readDataToLength:withTimeout:buffer:bufferOffset:tag:]_block_invoke
+__72-[GCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:maxLength:tag:]_block_invoke
+__66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke.359
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
+__66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_3
+__66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_2
+__66-[GCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke
+__26-[GCDAsyncSocket isSecure]_block_invoke
+__24-[GCDAsyncSocket isIPv6]_block_invoke
+__24-[GCDAsyncSocket isIPv4]_block_invoke
+__30-[GCDAsyncSocket localAddress]_block_invoke
+__34-[GCDAsyncSocket connectedAddress]_block_invoke
+__27-[GCDAsyncSocket localPort]_block_invoke
+__27-[GCDAsyncSocket localHost]_block_invoke
+__31-[GCDAsyncSocket connectedPort]_block_invoke
+__31-[GCDAsyncSocket connectedHost]_block_invoke
+__29-[GCDAsyncSocket isConnected]_block_invoke
+__32-[GCDAsyncSocket isDisconnected]_block_invoke
+__50-[GCDAsyncSocket disconnectAfterReadingAndWriting]_block_invoke
+__40-[GCDAsyncSocket disconnectAfterWriting]_block_invoke
+__40-[GCDAsyncSocket disconnectAfterReading]_block_invoke
+__28-[GCDAsyncSocket disconnect]_block_invoke
+__33-[GCDAsyncSocket closeWithError:]_block_invoke
+__38-[GCDAsyncSocket startConnectTimeout:]_block_invoke
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32s40s48s56b
+__copy_helper_block_e8_32b
+__29-[GCDAsyncSocket didConnect:]_block_invoke_4
+__29-[GCDAsyncSocket didConnect:]_block_invoke_3
+__29-[GCDAsyncSocket didConnect:]_block_invoke_2
+__29-[GCDAsyncSocket didConnect:]_block_invoke
+__53-[GCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke_3
+__53-[GCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke_2
+__53-[GCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke
+__35-[GCDAsyncSocket lookup:host:port:]_block_invoke_2
+__35-[GCDAsyncSocket lookup:host:port:]_block_invoke
+__66-[GCDAsyncSocket connectToAddress:viaInterface:withTimeout:error:]_block_invoke
+__copy_helper_block_e8_32s40s48s56r64r
+__70-[GCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]_block_invoke_2
+__70-[GCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]_block_invoke
+__27-[GCDAsyncSocket doAccept:]_block_invoke_2
+__27-[GCDAsyncSocket doAccept:]_block_invoke
+__destroy_helper_block_e8_32s40s48s56r64r
+__copy_helper_block_e8_32s40s48b56r64r
+__47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_3
+__47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_2.157
+__47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke.155
+__47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_2
+__47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke.126
+__47-[GCDAsyncSocket acceptOnInterface:port:error:]_block_invoke
+__30-[GCDAsyncSocket setUserData:]_block_invoke
+__26-[GCDAsyncSocket userData]_block_invoke
+__40-[GCDAsyncSocket setPreferIPv4OverIPv6:]_block_invoke
+__41-[GCDAsyncSocket isIPv4PreferredOverIPv6]_block_invoke
+__33-[GCDAsyncSocket setIPv6Enabled:]_block_invoke
+__31-[GCDAsyncSocket isIPv6Enabled]_block_invoke
+__33-[GCDAsyncSocket setIPv4Enabled:]_block_invoke
+__31-[GCDAsyncSocket isIPv4Enabled]_block_invoke
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
+__58-[GCDAsyncSocket setDelegate:delegateQueue:synchronously:]_block_invoke
+__44-[GCDAsyncSocket getDelegate:delegateQueue:]_block_invoke
+__49-[GCDAsyncSocket setDelegateQueue:synchronously:]_block_invoke
+__31-[GCDAsyncSocket delegateQueue]_block_invoke
+__44-[GCDAsyncSocket setDelegate:synchronously:]_block_invoke
+__26-[GCDAsyncSocket delegate]_block_invoke
+__25-[GCDAsyncSocket dealloc]_block_invoke
++[WebSocket isWebSocketRequest:]
++[WebSocket isVersion76Request:]
++[WebSocket isRFC6455Request:]
+-[WebSocket initWithRequest:socket:]
+-[WebSocket dealloc]
+-[WebSocket delegate]
+___21-[WebSocket delegate]_block_invoke
+-[WebSocket setDelegate:]
+___25-[WebSocket setDelegate:]_block_invoke
+-[WebSocket start]
+___18-[WebSocket start]_block_invoke
+-[WebSocket stop]
+___17-[WebSocket stop]_block_invoke
+-[WebSocket readRequestBody]
+-[WebSocket originResponseHeaderValue]
+-[WebSocket locationResponseHeaderValue]
+-[WebSocket secWebSocketKeyResponseHeaderValue]
+-[WebSocket sendResponseHeaders]
+-[WebSocket processKey:]
+-[WebSocket sendResponseBody:]
+-[WebSocket didOpen]
+-[WebSocket sendMessage:]
+-[WebSocket sendData:]
+-[WebSocket didReceiveMessage:]
+-[WebSocket didClose]
+-[WebSocket isValidWebSocketFrame:]
+-[WebSocket socket:didReadData:withTag:]
+-[WebSocket socketDidDisconnect:withError:]
+-[WebSocket websocketQueue]
+-[WebSocket .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_CLASSLIST_REFERENCES_$_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_CLASSLIST_REFERENCES_$_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.181
+__OBJC_$_CLASS_METHODS_WebSocket
+__OBJC_METACLASS_RO_$_WebSocket
+__OBJC_$_INSTANCE_METHODS_WebSocket
+_OBJC_IVAR_$_WebSocket.isRFC6455
+_OBJC_IVAR_$_WebSocket.nextFrameMasked
+_OBJC_IVAR_$_WebSocket.nextOpCode
+_OBJC_IVAR_$_WebSocket.maskingKey
+__OBJC_$_INSTANCE_VARIABLES_WebSocket
+__OBJC_$_PROP_LIST_WebSocket
+__OBJC_CLASS_RO_$_WebSocket
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Vendors/KTVCocoaHTTPServer/KTVCocoaHTTPServer/Classes/WebSocket.m
+KTVCocoaHTTPServer/Classes/WebSocket.m
+WS_PAYLOAD_LENGTH
+__17-[WebSocket stop]_block_invoke
+__18-[WebSocket start]_block_invoke
+__25-[WebSocket setDelegate:]_block_invoke
+__21-[WebSocket delegate]_block_invoke
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -mlinker-version=609
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk
+iPhoneOS14.0.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

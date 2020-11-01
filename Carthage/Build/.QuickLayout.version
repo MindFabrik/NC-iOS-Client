@@ -1,0 +1,11 @@
+{
+  "commitish" : "3.0.0",
+  "iOS" : [
+    {
+      "hash" : "6e61863fb2c671040ab45adffe585a1d40973ba692887c737c3fc8d15b67d277",
+      "name" : "QuickLayout",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

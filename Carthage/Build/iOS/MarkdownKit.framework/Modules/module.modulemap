@@ -1,0 +1,11 @@
+framework module MarkdownKit {
+  umbrella header "MarkdownKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MarkdownKit.Swift {
+    header "MarkdownKit-Swift.h"
+    requires objc
+}

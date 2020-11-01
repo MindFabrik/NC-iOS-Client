@@ -1,0 +1,11 @@
+{
+  "commitish" : "2.1.1",
+  "iOS" : [
+    {
+      "hash" : "7e041359dd92c7b9d803fb21e436aedb47f1823d8423d257de5c64cab635f90c",
+      "name" : "Queuer",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

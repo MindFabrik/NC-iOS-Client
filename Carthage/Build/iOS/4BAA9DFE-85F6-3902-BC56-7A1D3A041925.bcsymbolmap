@@ -1,0 +1,1804 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.21)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk
+iPhoneOS14.1.sdk
+/Users/oliveroeh/Library/Caches/org.carthage.CarthageKit/DerivedData/12.1_12A7403/FSCalendar/2.8.0/Build/Intermediates.noindex/ArchiveIntermediates/FSCalendar/IntermediateBuildFilesPath/FSCalendar.build/Release-iphoneos/FSCalendar.build/DerivedSources/FSCalendar_vers.c
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/Example-Objc
+-[FSCalendarDelegationProxy init]
+-[FSCalendarDelegationProxy respondsToSelector:]
+-[FSCalendarDelegationProxy conformsToProtocol:]
+-[FSCalendarDelegationProxy forwardInvocation:]
+-[FSCalendarDelegationProxy methodSignatureForSelector:]
+-[FSCalendarDelegationProxy deprecatedSelectorOfSelector:]
+-[FSCalendarDelegationProxy delegation]
+-[FSCalendarDelegationProxy setDelegation:]
+-[FSCalendarDelegationProxy protocol]
+-[FSCalendarDelegationProxy setProtocol:]
+-[FSCalendarDelegationProxy deprecations]
+-[FSCalendarDelegationProxy setDeprecations:]
+-[FSCalendarDelegationProxy .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_IVAR_$_FSCalendarDelegationProxy._delegation
+_OBJC_IVAR_$_FSCalendarDelegationProxy._protocol
+_OBJC_IVAR_$_FSCalendarDelegationProxy._deprecations
+__OBJC_METACLASS_RO_$_FSCalendarDelegationProxy
+__OBJC_$_INSTANCE_METHODS_FSCalendarDelegationProxy
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarDelegationProxy
+__OBJC_$_PROP_LIST_FSCalendarDelegationProxy
+__OBJC_CLASS_RO_$_FSCalendarDelegationProxy
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarDelegationProxy.m
+FSCalendar/FSCalendarDelegationProxy.m
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar
+FSCalendar/FSCalendarDelegationProxy.h
+-[FSCalendar initWithFrame:]
+-[FSCalendar initWithCoder:]
+-[FSCalendar initialize]
+-[FSCalendar dealloc]
+-[FSCalendar setBounds:]
+-[FSCalendar setFrame:]
+-[FSCalendar setValue:forUndefinedKey:]
+-[FSCalendar layoutSubviews]
+-[FSCalendar sizeThatFits:]
+-[FSCalendar sizeThatFits:scope:]
+-[FSCalendar numberOfSectionsInCollectionView:]
+-[FSCalendar collectionView:numberOfItemsInSection:]
+-[FSCalendar collectionView:cellForItemAtIndexPath:]
+-[FSCalendar collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
+-[FSCalendar collectionView:didEndDisplayingSupplementaryView:forElementOfKind:atIndexPath:]
+-[FSCalendar collectionView:shouldSelectItemAtIndexPath:]
+-[FSCalendar collectionView:didSelectItemAtIndexPath:]
+-[FSCalendar collectionView:shouldDeselectItemAtIndexPath:]
+-[FSCalendar collectionView:didDeselectItemAtIndexPath:]
+-[FSCalendar collectionView:willDisplayCell:forItemAtIndexPath:]
+-[FSCalendar collectionViewDidFinishLayoutSubviews:]
+-[FSCalendar scrollViewDidScroll:]
+___34-[FSCalendar scrollViewDidScroll:]_block_invoke
+-[FSCalendar scrollViewWillEndDragging:withVelocity:targetContentOffset:]
+-[FSCalendar gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[FSCalendar orientationDidChange:]
+-[FSCalendar setScrollDirection:]
++[FSCalendar automaticallyNotifiesObserversOfScope]
+-[FSCalendar setScope:]
+-[FSCalendar setFirstWeekday:]
+-[FSCalendar setToday:]
+_FSCalendarAssertDateInBounds
+-[FSCalendar setCurrentPage:]
+-[FSCalendar setCurrentPage:animated:]
+-[FSCalendar registerClass:forCellReuseIdentifier:]
+-[FSCalendar dequeueReusableCellWithIdentifier:forDate:atMonthPosition:]
+-[FSCalendar cellForDate:atMonthPosition:]
+-[FSCalendar dateForCell:]
+-[FSCalendar monthPositionForCell:]
+-[FSCalendar visibleCells]
+___26-[FSCalendar visibleCells]_block_invoke
+-[FSCalendar frameForDate:]
+-[FSCalendar setHeaderHeight:]
+-[FSCalendar setWeekdayHeight:]
+-[FSCalendar setLocale:]
+-[FSCalendar setAllowsMultipleSelection:]
+-[FSCalendar allowsMultipleSelection]
+-[FSCalendar setAllowsSelection:]
+-[FSCalendar allowsSelection]
+-[FSCalendar setPagingEnabled:]
+-[FSCalendar setScrollEnabled:]
+-[FSCalendar setOrientation:]
+-[FSCalendar selectedDate]
+-[FSCalendar selectedDates]
+-[FSCalendar preferredHeaderHeight]
+-[FSCalendar preferredWeekdayHeight]
+-[FSCalendar preferredRowHeight]
+-[FSCalendar floatingMode]
+-[FSCalendar scopeGesture]
+-[FSCalendar swipeToChooseGesture]
+-[FSCalendar setDataSource:]
+-[FSCalendar dataSource]
+-[FSCalendar setDelegate:]
+-[FSCalendar delegate]
+-[FSCalendar reloadData]
+-[FSCalendar setScope:animated:]
+___32-[FSCalendar setScope:animated:]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[FSCalendar setPlaceholderType:]
+-[FSCalendar setAdjustsBoundingRectWhenChangingMonths:]
+-[FSCalendar selectDate:]
+-[FSCalendar selectDate:scrollToDate:]
+-[FSCalendar deselectDate:]
+-[FSCalendar selectDate:scrollToDate:atMonthPosition:]
+-[FSCalendar handleScopeGesture:]
+-[FSCalendar scrollToDate:]
+-[FSCalendar scrollToDate:animated:]
+-[FSCalendar scrollToPageForDate:animated:]
+-[FSCalendar isDateInRange:]
+-[FSCalendar isPageInRange:]
+-[FSCalendar isDateSelected:]
+-[FSCalendar isDateInDifferentPage:]
+-[FSCalendar hasValidateVisibleLayout]
+-[FSCalendar invalidateDateTools]
+-[FSCalendar invalidateLayout]
+-[FSCalendar invalidateHeaders]
+-[FSCalendar invalidateAppearanceForCell:forDate:]
+-[FSCalendar reloadDataForCell:atIndexPath:]
+-[FSCalendar handleSwipeToChoose:]
+-[FSCalendar selectCounterpartDate:]
+-[FSCalendar deselectCounterpartDate:]
+-[FSCalendar enqueueSelectedDate:]
+-[FSCalendar visibleStickyHeaders]
+-[FSCalendar invalidateViewFrames]
+-[FSCalendar currentCalendarOrientation]
+-[FSCalendar adjustMonthPosition]
+-[FSCalendar requestBoundingDatesIfNecessary]
+-[FSCalendar configureAppearance]
+-[FSCalendar adjustBoundingRectIfNecessary]
+___43-[FSCalendar adjustBoundingRectIfNecessary]_block_invoke
+-[FSCalendar performEnsuringValidLayout:]
+-[FSCalendar executePendingOperationsIfNeeded]
+-[FSCalendar today]
+-[FSCalendar currentPage]
+-[FSCalendar locale]
+-[FSCalendar scrollDirection]
+-[FSCalendar scope]
+-[FSCalendar placeholderType]
+-[FSCalendar firstWeekday]
+-[FSCalendar headerHeight]
+-[FSCalendar weekdayHeight]
+-[FSCalendar calendarWeekdayView]
+-[FSCalendar setCalendarWeekdayView:]
+-[FSCalendar calendarHeaderView]
+-[FSCalendar setCalendarHeaderView:]
+-[FSCalendar adjustsBoundingRectWhenChangingMonths]
+-[FSCalendar pagingEnabled]
+-[FSCalendar scrollEnabled]
+-[FSCalendar rowHeight]
+-[FSCalendar setRowHeight:]
+-[FSCalendar appearance]
+-[FSCalendar minimumDate]
+-[FSCalendar maximumDate]
+-[FSCalendar gregorian]
+-[FSCalendar setGregorian:]
+-[FSCalendar formatter]
+-[FSCalendar setFormatter:]
+-[FSCalendar timeZone]
+-[FSCalendar setTimeZone:]
+-[FSCalendar contentView]
+-[FSCalendar setContentView:]
+-[FSCalendar daysContainer]
+-[FSCalendar setDaysContainer:]
+-[FSCalendar collectionView]
+-[FSCalendar setCollectionView:]
+-[FSCalendar collectionViewLayout]
+-[FSCalendar setCollectionViewLayout:]
+-[FSCalendar transitionCoordinator]
+-[FSCalendar setTransitionCoordinator:]
+-[FSCalendar calculator]
+-[FSCalendar setCalculator:]
+-[FSCalendar deliver]
+-[FSCalendar setDeliver:]
+-[FSCalendar needsAdjustingViewFrame]
+-[FSCalendar setNeedsAdjustingViewFrame:]
+-[FSCalendar needsRequestingBoundingDates]
+-[FSCalendar setNeedsRequestingBoundingDates:]
+-[FSCalendar setPreferredHeaderHeight:]
+-[FSCalendar setPreferredWeekdayHeight:]
+-[FSCalendar setPreferredRowHeight:]
+-[FSCalendar orientation]
+-[FSCalendar didLayoutOperations]
+-[FSCalendar setDidLayoutOperations:]
+-[FSCalendar dataSourceProxy]
+-[FSCalendar setDataSourceProxy:]
+-[FSCalendar delegateProxy]
+-[FSCalendar setDelegateProxy:]
+-[FSCalendar lastPressedIndexPath]
+-[FSCalendar setLastPressedIndexPath:]
+-[FSCalendar visibleSectionHeaders]
+-[FSCalendar setVisibleSectionHeaders:]
+-[FSCalendar .cxx_destruct]
+_OBJC_IVAR_$_FSCalendar._appearance
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_IVAR_$_FSCalendar._gregorian
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_IVAR_$_FSCalendar._formatter
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_IVAR_$_FSCalendar._locale
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_IVAR_$_FSCalendar._timeZone
+_OBJC_IVAR_$_FSCalendar._firstWeekday
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_IVAR_$_FSCalendar._today
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_IVAR_$_FSCalendar._currentPage
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_IVAR_$_FSCalendar._minimumDate
+_OBJC_IVAR_$_FSCalendar._maximumDate
+_OBJC_IVAR_$_FSCalendar._headerHeight
+_OBJC_IVAR_$_FSCalendar._weekdayHeight
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_IVAR_$_FSCalendar._rowHeight
+_OBJC_IVAR_$_FSCalendar._preferredHeaderHeight
+_OBJC_IVAR_$_FSCalendar._preferredWeekdayHeight
+_OBJC_IVAR_$_FSCalendar._preferredRowHeight
+_OBJC_IVAR_$_FSCalendar._scrollDirection
+_OBJC_IVAR_$_FSCalendar._scope
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_IVAR_$_FSCalendar._selectedDates
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_IVAR_$_FSCalendar._visibleSectionHeaders
+_OBJC_IVAR_$_FSCalendar._pagingEnabled
+_OBJC_IVAR_$_FSCalendar._scrollEnabled
+_OBJC_IVAR_$_FSCalendar._needsAdjustingViewFrame
+_OBJC_IVAR_$_FSCalendar._needsRequestingBoundingDates
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_IVAR_$_FSCalendar._orientation
+_OBJC_IVAR_$_FSCalendar._placeholderType
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_IVAR_$_FSCalendar._dataSourceProxy
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_IVAR_$_FSCalendar._delegateProxy
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_CLASSLIST_REFERENCES_$_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_CLASSLIST_REFERENCES_$_.103
+_OBJC_CLASSLIST_REFERENCES_$_.104
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_CLASSLIST_REFERENCES_$_.109
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_CLASSLIST_REFERENCES_$_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_CLASSLIST_REFERENCES_$_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_CLASSLIST_REFERENCES_$_.153
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_IVAR_$_FSCalendar._transitionCoordinator
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_IVAR_$_FSCalendar._contentView
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_IVAR_$_FSCalendar._deliver
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_IVAR_$_FSCalendar._daysContainer
+_OBJC_IVAR_$_FSCalendar._collectionView
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_SELECTOR_REFERENCES_.253
+_OBJC_SELECTOR_REFERENCES_.255
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.261
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_SELECTOR_REFERENCES_.271
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_CLASSLIST_REFERENCES_$_.320
+___block_descriptor_28_e48_c12?0"FSCalendarStickyHeader"4"NSDictionary"8l
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_IVAR_$_FSCalendar._collectionViewLayout
+_OBJC_IVAR_$_FSCalendar._calendarHeaderView
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_SELECTOR_REFERENCES_.353
+_OBJC_SELECTOR_REFERENCES_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_SELECTOR_REFERENCES_.365
+_OBJC_SELECTOR_REFERENCES_.367
+_OBJC_SELECTOR_REFERENCES_.369
+_OBJC_SELECTOR_REFERENCES_.371
+_OBJC_CLASSLIST_REFERENCES_$_.372
+_OBJC_SELECTOR_REFERENCES_.374
+_OBJC_SELECTOR_REFERENCES_.378
+_OBJC_SELECTOR_REFERENCES_.380
+_OBJC_SELECTOR_REFERENCES_.382
+_OBJC_SELECTOR_REFERENCES_.384
+_OBJC_CLASSLIST_REFERENCES_$_.385
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.391
+_OBJC_SELECTOR_REFERENCES_.399
+___block_descriptor_20_e24_c12?04"NSDictionary"8l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.404
+_OBJC_SELECTOR_REFERENCES_.406
+_OBJC_SELECTOR_REFERENCES_.408
+_OBJC_SELECTOR_REFERENCES_.410
+_OBJC_SELECTOR_REFERENCES_.412
+_OBJC_SELECTOR_REFERENCES_.414
+_OBJC_SELECTOR_REFERENCES_.416
+_OBJC_SELECTOR_REFERENCES_.418
+_OBJC_SELECTOR_REFERENCES_.420
+_OBJC_SELECTOR_REFERENCES_.422
+_OBJC_CLASSLIST_REFERENCES_$_.423
+_OBJC_SELECTOR_REFERENCES_.425
+_OBJC_IVAR_$_FSCalendar._scopeGesture
+_OBJC_CLASSLIST_REFERENCES_$_.426
+_OBJC_SELECTOR_REFERENCES_.428
+_OBJC_SELECTOR_REFERENCES_.430
+_OBJC_SELECTOR_REFERENCES_.432
+_OBJC_SELECTOR_REFERENCES_.434
+_OBJC_SELECTOR_REFERENCES_.436
+_OBJC_SELECTOR_REFERENCES_.438
+_OBJC_SELECTOR_REFERENCES_.440
+_OBJC_IVAR_$_FSCalendar._swipeToChooseGesture
+_OBJC_CLASSLIST_REFERENCES_$_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_SELECTOR_REFERENCES_.445
+_OBJC_SELECTOR_REFERENCES_.447
+_OBJC_SELECTOR_REFERENCES_.449
+_OBJC_SELECTOR_REFERENCES_.451
+_OBJC_SELECTOR_REFERENCES_.453
+_OBJC_SELECTOR_REFERENCES_.455
+_OBJC_SELECTOR_REFERENCES_.457
+_OBJC_SELECTOR_REFERENCES_.459
+_OBJC_SELECTOR_REFERENCES_.461
+___block_descriptor_29_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.464
+_OBJC_SELECTOR_REFERENCES_.466
+_OBJC_IVAR_$_FSCalendar._adjustsBoundingRectWhenChangingMonths
+_OBJC_SELECTOR_REFERENCES_.468
+_OBJC_SELECTOR_REFERENCES_.470
+_OBJC_SELECTOR_REFERENCES_.472
+_OBJC_SELECTOR_REFERENCES_.474
+_OBJC_SELECTOR_REFERENCES_.476
+_OBJC_SELECTOR_REFERENCES_.478
+_OBJC_SELECTOR_REFERENCES_.480
+_OBJC_SELECTOR_REFERENCES_.482
+_OBJC_SELECTOR_REFERENCES_.484
+_OBJC_SELECTOR_REFERENCES_.486
+_OBJC_SELECTOR_REFERENCES_.488
+_OBJC_CLASSLIST_REFERENCES_$_.489
+_OBJC_SELECTOR_REFERENCES_.491
+_OBJC_SELECTOR_REFERENCES_.493
+_OBJC_SELECTOR_REFERENCES_.495
+_OBJC_SELECTOR_REFERENCES_.497
+_OBJC_SELECTOR_REFERENCES_.499
+_OBJC_SELECTOR_REFERENCES_.501
+_OBJC_SELECTOR_REFERENCES_.503
+_OBJC_SELECTOR_REFERENCES_.505
+_OBJC_SELECTOR_REFERENCES_.507
+_OBJC_SELECTOR_REFERENCES_.509
+_OBJC_CLASSLIST_REFERENCES_$_.510
+_OBJC_SELECTOR_REFERENCES_.512
+_OBJC_IVAR_$_FSCalendar._calendarWeekdayView
+_OBJC_CLASSLIST_REFERENCES_$_.513
+_OBJC_CLASSLIST_REFERENCES_$_.514
+_OBJC_SELECTOR_REFERENCES_.516
+_OBJC_SELECTOR_REFERENCES_.518
+_OBJC_SELECTOR_REFERENCES_.520
+_OBJC_SELECTOR_REFERENCES_.522
+_OBJC_SELECTOR_REFERENCES_.524
+_OBJC_SELECTOR_REFERENCES_.526
+_OBJC_SELECTOR_REFERENCES_.528
+_OBJC_SELECTOR_REFERENCES_.530
+_OBJC_SELECTOR_REFERENCES_.532
+_OBJC_SELECTOR_REFERENCES_.534
+_OBJC_SELECTOR_REFERENCES_.536
+_OBJC_SELECTOR_REFERENCES_.538
+_OBJC_SELECTOR_REFERENCES_.540
+_OBJC_SELECTOR_REFERENCES_.542
+_OBJC_SELECTOR_REFERENCES_.544
+_OBJC_SELECTOR_REFERENCES_.546
+_OBJC_SELECTOR_REFERENCES_.548
+_OBJC_SELECTOR_REFERENCES_.550
+_OBJC_SELECTOR_REFERENCES_.552
+_OBJC_SELECTOR_REFERENCES_.554
+_OBJC_SELECTOR_REFERENCES_.556
+_OBJC_SELECTOR_REFERENCES_.558
+_OBJC_SELECTOR_REFERENCES_.560
+_OBJC_SELECTOR_REFERENCES_.562
+_OBJC_SELECTOR_REFERENCES_.564
+_OBJC_SELECTOR_REFERENCES_.566
+_OBJC_SELECTOR_REFERENCES_.568
+_OBJC_SELECTOR_REFERENCES_.570
+_OBJC_SELECTOR_REFERENCES_.572
+_OBJC_SELECTOR_REFERENCES_.574
+_OBJC_SELECTOR_REFERENCES_.576
+_OBJC_SELECTOR_REFERENCES_.578
+_OBJC_SELECTOR_REFERENCES_.580
+_OBJC_SELECTOR_REFERENCES_.582
+_OBJC_SELECTOR_REFERENCES_.584
+_OBJC_SELECTOR_REFERENCES_.586
+_OBJC_SELECTOR_REFERENCES_.588
+_OBJC_SELECTOR_REFERENCES_.590
+_OBJC_SELECTOR_REFERENCES_.592
+_OBJC_SELECTOR_REFERENCES_.594
+_OBJC_SELECTOR_REFERENCES_.596
+_OBJC_SELECTOR_REFERENCES_.598
+_OBJC_SELECTOR_REFERENCES_.600
+_OBJC_SELECTOR_REFERENCES_.602
+_OBJC_SELECTOR_REFERENCES_.604
+_OBJC_SELECTOR_REFERENCES_.606
+_OBJC_SELECTOR_REFERENCES_.608
+_OBJC_SELECTOR_REFERENCES_.610
+_OBJC_SELECTOR_REFERENCES_.612
+_OBJC_SELECTOR_REFERENCES_.614
+_OBJC_SELECTOR_REFERENCES_.616
+_OBJC_SELECTOR_REFERENCES_.618
+_OBJC_SELECTOR_REFERENCES_.620
+_OBJC_SELECTOR_REFERENCES_.622
+_OBJC_SELECTOR_REFERENCES_.624
+_OBJC_SELECTOR_REFERENCES_.626
+_OBJC_SELECTOR_REFERENCES_.628
+_OBJC_SELECTOR_REFERENCES_.630
+_OBJC_SELECTOR_REFERENCES_.632
+_OBJC_SELECTOR_REFERENCES_.634
+_OBJC_SELECTOR_REFERENCES_.636
+_OBJC_SELECTOR_REFERENCES_.638
+_OBJC_SELECTOR_REFERENCES_.640
+_OBJC_SELECTOR_REFERENCES_.642
+_OBJC_SELECTOR_REFERENCES_.644
+_OBJC_SELECTOR_REFERENCES_.646
+_OBJC_SELECTOR_REFERENCES_.648
+_OBJC_SELECTOR_REFERENCES_.650
+_OBJC_SELECTOR_REFERENCES_.652
+_OBJC_SELECTOR_REFERENCES_.654
+_OBJC_SELECTOR_REFERENCES_.656
+_OBJC_SELECTOR_REFERENCES_.658
+_OBJC_CLASSLIST_REFERENCES_$_.659
+_OBJC_SELECTOR_REFERENCES_.661
+_OBJC_SELECTOR_REFERENCES_.663
+_OBJC_SELECTOR_REFERENCES_.665
+_OBJC_SELECTOR_REFERENCES_.667
+_OBJC_SELECTOR_REFERENCES_.669
+_OBJC_SELECTOR_REFERENCES_.671
+_OBJC_SELECTOR_REFERENCES_.673
+_OBJC_SELECTOR_REFERENCES_.675
+_OBJC_SELECTOR_REFERENCES_.677
+_OBJC_SELECTOR_REFERENCES_.679
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.681
+_OBJC_CLASSLIST_REFERENCES_$_.682
+_OBJC_SELECTOR_REFERENCES_.684
+_OBJC_SELECTOR_REFERENCES_.686
+_OBJC_IVAR_$_FSCalendar._calculator
+_OBJC_IVAR_$_FSCalendar._didLayoutOperations
+_OBJC_IVAR_$_FSCalendar._lastPressedIndexPath
+__OBJC_$_CLASS_METHODS_FSCalendar
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDataSource
+__OBJC_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_REFS_UICollectionViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDelegate
+__OBJC_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_$_PROTOCOL_REFS_FSCalendarCollectionViewInternalDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FSCalendarCollectionViewInternalDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FSCalendarCollectionViewInternalDelegate
+__OBJC_PROTOCOL_$_FSCalendarCollectionViewInternalDelegate
+__OBJC_LABEL_PROTOCOL_$_FSCalendarCollectionViewInternalDelegate
+__OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+__OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+__OBJC_CLASS_PROTOCOLS_$_FSCalendar
+__OBJC_METACLASS_RO_$_FSCalendar
+__OBJC_$_INSTANCE_METHODS_FSCalendar
+__OBJC_$_INSTANCE_VARIABLES_FSCalendar
+__OBJC_$_PROP_LIST_FSCalendar
+__OBJC_CLASS_RO_$_FSCalendar
+_OBJC_SELECTOR_REFERENCES_.1078
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendar.m
+FSCalendar/FSCalendar.m
+FSCalendar/FSCalendar.h
+__43-[FSCalendar adjustBoundingRectIfNecessary]_block_invoke
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+CGPointMake
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__32-[FSCalendar setScope:animated:]_block_invoke
+__26-[FSCalendar visibleCells]_block_invoke
+FSCalendarAssertDateInBounds
+__34-[FSCalendar scrollViewDidScroll:]_block_invoke
+CGSizeMake
+CGRectMake
+-[FSCalendarAppearance init]
+-[FSCalendarAppearance setTitleFont:]
+-[FSCalendarAppearance setSubtitleFont:]
+-[FSCalendarAppearance setWeekdayFont:]
+-[FSCalendarAppearance setHeaderTitleFont:]
+-[FSCalendarAppearance setTitleOffset:]
+-[FSCalendarAppearance setSubtitleOffset:]
+-[FSCalendarAppearance setImageOffset:]
+-[FSCalendarAppearance setEventOffset:]
+-[FSCalendarAppearance setTitleDefaultColor:]
+-[FSCalendarAppearance titleDefaultColor]
+-[FSCalendarAppearance setTitleSelectionColor:]
+-[FSCalendarAppearance titleSelectionColor]
+-[FSCalendarAppearance setTitleTodayColor:]
+-[FSCalendarAppearance titleTodayColor]
+-[FSCalendarAppearance setTitlePlaceholderColor:]
+-[FSCalendarAppearance titlePlaceholderColor]
+-[FSCalendarAppearance setTitleWeekendColor:]
+-[FSCalendarAppearance titleWeekendColor]
+-[FSCalendarAppearance setSubtitleDefaultColor:]
+-[FSCalendarAppearance subtitleDefaultColor]
+-[FSCalendarAppearance setSubtitleSelectionColor:]
+-[FSCalendarAppearance subtitleSelectionColor]
+-[FSCalendarAppearance setSubtitleTodayColor:]
+-[FSCalendarAppearance subtitleTodayColor]
+-[FSCalendarAppearance setSubtitlePlaceholderColor:]
+-[FSCalendarAppearance subtitlePlaceholderColor]
+-[FSCalendarAppearance setSubtitleWeekendColor:]
+-[FSCalendarAppearance subtitleWeekendColor]
+-[FSCalendarAppearance setSelectionColor:]
+-[FSCalendarAppearance selectionColor]
+-[FSCalendarAppearance setTodayColor:]
+-[FSCalendarAppearance todayColor]
+-[FSCalendarAppearance setTodaySelectionColor:]
+-[FSCalendarAppearance todaySelectionColor]
+-[FSCalendarAppearance setEventDefaultColor:]
+-[FSCalendarAppearance setBorderDefaultColor:]
+-[FSCalendarAppearance borderDefaultColor]
+-[FSCalendarAppearance setBorderSelectionColor:]
+-[FSCalendarAppearance borderSelectionColor]
+-[FSCalendarAppearance setBorderRadius:]
+-[FSCalendarAppearance setWeekdayTextColor:]
+-[FSCalendarAppearance setHeaderTitleColor:]
+-[FSCalendarAppearance setHeaderMinimumDissolvedAlpha:]
+-[FSCalendarAppearance setHeaderDateFormat:]
+-[FSCalendarAppearance setCaseOptions:]
+-[FSCalendarAppearance setSeparators:]
+-[FSCalendarAppearance titleFont]
+-[FSCalendarAppearance subtitleFont]
+-[FSCalendarAppearance weekdayFont]
+-[FSCalendarAppearance headerTitleFont]
+-[FSCalendarAppearance titleOffset]
+-[FSCalendarAppearance subtitleOffset]
+-[FSCalendarAppearance eventOffset]
+-[FSCalendarAppearance imageOffset]
+-[FSCalendarAppearance eventDefaultColor]
+-[FSCalendarAppearance eventSelectionColor]
+-[FSCalendarAppearance setEventSelectionColor:]
+-[FSCalendarAppearance weekdayTextColor]
+-[FSCalendarAppearance headerTitleColor]
+-[FSCalendarAppearance headerDateFormat]
+-[FSCalendarAppearance headerMinimumDissolvedAlpha]
+-[FSCalendarAppearance borderRadius]
+-[FSCalendarAppearance caseOptions]
+-[FSCalendarAppearance separators]
+-[FSCalendarAppearance calendar]
+-[FSCalendarAppearance setCalendar:]
+-[FSCalendarAppearance backgroundColors]
+-[FSCalendarAppearance setBackgroundColors:]
+-[FSCalendarAppearance titleColors]
+-[FSCalendarAppearance setTitleColors:]
+-[FSCalendarAppearance subtitleColors]
+-[FSCalendarAppearance setSubtitleColors:]
+-[FSCalendarAppearance borderColors]
+-[FSCalendarAppearance setBorderColors:]
+-[FSCalendarAppearance .cxx_destruct]
+-[FSCalendarAppearance(Deprecated) setUseVeryShortWeekdaySymbols:]
+-[FSCalendarAppearance(Deprecated) useVeryShortWeekdaySymbols]
+-[FSCalendarAppearance(Deprecated) setTitleVerticalOffset:]
+-[FSCalendarAppearance(Deprecated) titleVerticalOffset]
+-[FSCalendarAppearance(Deprecated) setSubtitleVerticalOffset:]
+-[FSCalendarAppearance(Deprecated) subtitleVerticalOffset]
+-[FSCalendarAppearance(Deprecated) setEventColor:]
+-[FSCalendarAppearance(Deprecated) eventColor]
+-[FSCalendarAppearance(Deprecated) setTitleTextSize:]
+-[FSCalendarAppearance(Deprecated) setSubtitleTextSize:]
+-[FSCalendarAppearance(Deprecated) setWeekdayTextSize:]
+-[FSCalendarAppearance(Deprecated) setHeaderTitleTextSize:]
+-[FSCalendarAppearance(Deprecated) invalidateAppearance]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+__OBJC_METACLASS_RO_$_FSCalendarAppearance
+__OBJC_$_INSTANCE_METHODS_FSCalendarAppearance
+_OBJC_IVAR_$_FSCalendarAppearance._titleFont
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleFont
+_OBJC_IVAR_$_FSCalendarAppearance._weekdayFont
+_OBJC_IVAR_$_FSCalendarAppearance._headerTitleFont
+_OBJC_IVAR_$_FSCalendarAppearance._eventDefaultColor
+_OBJC_IVAR_$_FSCalendarAppearance._eventSelectionColor
+_OBJC_IVAR_$_FSCalendarAppearance._weekdayTextColor
+_OBJC_IVAR_$_FSCalendarAppearance._headerTitleColor
+_OBJC_IVAR_$_FSCalendarAppearance._headerDateFormat
+_OBJC_IVAR_$_FSCalendarAppearance._headerMinimumDissolvedAlpha
+_OBJC_IVAR_$_FSCalendarAppearance._borderRadius
+_OBJC_IVAR_$_FSCalendarAppearance._caseOptions
+_OBJC_IVAR_$_FSCalendarAppearance._separators
+_OBJC_IVAR_$_FSCalendarAppearance._calendar
+_OBJC_IVAR_$_FSCalendarAppearance._backgroundColors
+_OBJC_IVAR_$_FSCalendarAppearance._titleColors
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleColors
+_OBJC_IVAR_$_FSCalendarAppearance._borderColors
+_OBJC_IVAR_$_FSCalendarAppearance._titleOffset
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleOffset
+_OBJC_IVAR_$_FSCalendarAppearance._eventOffset
+_OBJC_IVAR_$_FSCalendarAppearance._imageOffset
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarAppearance
+__OBJC_$_PROP_LIST_FSCalendarAppearance
+__OBJC_CLASS_RO_$_FSCalendarAppearance
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+__OBJC_$_CATEGORY_INSTANCE_METHODS_FSCalendarAppearance_$_Deprecated
+__OBJC_$_CATEGORY_FSCalendarAppearance_$_Deprecated
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarAppearance.m
+FSCalendar/FSCalendarAppearance.m
+FSCalendar/FSCalendarAppearance.h
+__CGPointEqualToPoint
+-[FSCalendarCollectionView initWithFrame:collectionViewLayout:]
+-[FSCalendarCollectionView initWithFrame:]
+-[FSCalendarCollectionView commonInit]
+-[FSCalendarCollectionView layoutSubviews]
+-[FSCalendarCollectionView setContentInset:]
+-[FSCalendarCollectionView setScrollsToTop:]
+-[FSCalendarCollectionView scrollsToTop]
+-[FSCalendarCollectionView contentInset]
+-[FSCalendarCollectionView internalDelegate]
+-[FSCalendarCollectionView setInternalDelegate:]
+-[FSCalendarCollectionView .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_IVAR_$_FSCalendarCollectionView._scrollsToTop
+_OBJC_IVAR_$_FSCalendarCollectionView._contentInset
+_OBJC_IVAR_$_FSCalendarCollectionView._internalDelegate
+__OBJC_METACLASS_RO_$_FSCalendarCollectionView
+__OBJC_$_INSTANCE_METHODS_FSCalendarCollectionView
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarCollectionView
+__OBJC_$_PROP_LIST_FSCalendarCollectionView
+__OBJC_CLASS_RO_$_FSCalendarCollectionView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCollectionView.m
+FSCalendar/FSCalendarCollectionView.m
+FSCalendar/FSCalendarCollectionView.h
+-[FSCalendarCell initWithFrame:]
+-[FSCalendarCell initWithCoder:]
+-[FSCalendarCell commonInit]
+-[FSCalendarCell layoutSubviews]
+-[FSCalendarCell prepareForReuse]
+-[FSCalendarCell performSelecting]
+-[FSCalendarCell configureAppearance]
+-[FSCalendarCell colorForCurrentStateInDictionary:]
+-[FSCalendarCell colorForCellFill]
+-[FSCalendarCell colorForTitleLabel]
+-[FSCalendarCell colorForSubtitleLabel]
+-[FSCalendarCell colorForCellBorder]
+-[FSCalendarCell colorsForEvents]
+-[FSCalendarCell borderRadius]
+-[FSCalendarCell setPreferredTitleOffset:]
+-[FSCalendarCell preferredTitleOffset]
+-[FSCalendarCell setPreferredSubtitleOffset:]
+-[FSCalendarCell preferredSubtitleOffset]
+-[FSCalendarCell setPreferredImageOffset:]
+-[FSCalendarCell preferredImageOffset]
+-[FSCalendarCell setPreferredEventOffset:]
+-[FSCalendarCell preferredEventOffset]
+-[FSCalendarCell setCalendar:]
+-[FSCalendarCell setSubtitle:]
+-[FSCalendarCell titleLabel]
+-[FSCalendarCell setTitleLabel:]
+-[FSCalendarCell subtitleLabel]
+-[FSCalendarCell setSubtitleLabel:]
+-[FSCalendarCell shapeLayer]
+-[FSCalendarCell setShapeLayer:]
+-[FSCalendarCell imageView]
+-[FSCalendarCell setImageView:]
+-[FSCalendarCell eventIndicator]
+-[FSCalendarCell setEventIndicator:]
+-[FSCalendarCell isPlaceholder]
+-[FSCalendarCell setPlaceholder:]
+-[FSCalendarCell calendar]
+-[FSCalendarCell appearance]
+-[FSCalendarCell setAppearance:]
+-[FSCalendarCell subtitle]
+-[FSCalendarCell image]
+-[FSCalendarCell setImage:]
+-[FSCalendarCell monthPosition]
+-[FSCalendarCell setMonthPosition:]
+-[FSCalendarCell numberOfEvents]
+-[FSCalendarCell setNumberOfEvents:]
+-[FSCalendarCell dateIsToday]
+-[FSCalendarCell setDateIsToday:]
+-[FSCalendarCell weekend]
+-[FSCalendarCell setWeekend:]
+-[FSCalendarCell preferredFillDefaultColor]
+-[FSCalendarCell setPreferredFillDefaultColor:]
+-[FSCalendarCell preferredFillSelectionColor]
+-[FSCalendarCell setPreferredFillSelectionColor:]
+-[FSCalendarCell preferredTitleDefaultColor]
+-[FSCalendarCell setPreferredTitleDefaultColor:]
+-[FSCalendarCell preferredTitleSelectionColor]
+-[FSCalendarCell setPreferredTitleSelectionColor:]
+-[FSCalendarCell preferredSubtitleDefaultColor]
+-[FSCalendarCell setPreferredSubtitleDefaultColor:]
+-[FSCalendarCell preferredSubtitleSelectionColor]
+-[FSCalendarCell setPreferredSubtitleSelectionColor:]
+-[FSCalendarCell preferredBorderDefaultColor]
+-[FSCalendarCell setPreferredBorderDefaultColor:]
+-[FSCalendarCell preferredBorderSelectionColor]
+-[FSCalendarCell setPreferredBorderSelectionColor:]
+-[FSCalendarCell preferredEventDefaultColors]
+-[FSCalendarCell setPreferredEventDefaultColors:]
+-[FSCalendarCell preferredEventSelectionColors]
+-[FSCalendarCell setPreferredEventSelectionColors:]
+-[FSCalendarCell preferredBorderRadius]
+-[FSCalendarCell setPreferredBorderRadius:]
+-[FSCalendarCell .cxx_destruct]
+-[FSCalendarEventIndicator initWithFrame:]
+-[FSCalendarEventIndicator layoutSubviews]
+-[FSCalendarEventIndicator layoutSublayersOfLayer:]
+-[FSCalendarEventIndicator setColor:]
+-[FSCalendarEventIndicator setNumberOfEvents:]
+-[FSCalendarEventIndicator numberOfEvents]
+-[FSCalendarEventIndicator color]
+-[FSCalendarEventIndicator contentView]
+-[FSCalendarEventIndicator setContentView:]
+-[FSCalendarEventIndicator eventLayers]
+-[FSCalendarEventIndicator setEventLayers:]
+-[FSCalendarEventIndicator .cxx_destruct]
+-[FSCalendarBlankCell configureAppearance]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_IVAR_$_FSCalendarCell._titleLabel
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_IVAR_$_FSCalendarCell._subtitle
+_OBJC_IVAR_$_FSCalendarCell._subtitleLabel
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_IVAR_$_FSCalendarCell._imageView
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_IVAR_$_FSCalendarCell._shapeLayer
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_IVAR_$_FSCalendarCell._eventIndicator
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_CLASSLIST_REFERENCES_$_.114
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_CLASSLIST_REFERENCES_$_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_IVAR_$_FSCalendarCell._image
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_IVAR_$_FSCalendarCell._numberOfEvents
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_IVAR_$_FSCalendarCell._appearance
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_IVAR_$_FSCalendarCell._preferredBorderSelectionColor
+_OBJC_IVAR_$_FSCalendarCell._preferredBorderDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredEventSelectionColors
+_OBJC_IVAR_$_FSCalendarCell._preferredEventDefaultColors
+_OBJC_IVAR_$_FSCalendarCell._preferredBorderRadius
+_OBJC_IVAR_$_FSCalendarCell._preferredTitleOffset
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_IVAR_$_FSCalendarCell._preferredSubtitleOffset
+_OBJC_IVAR_$_FSCalendarCell._preferredImageOffset
+_OBJC_IVAR_$_FSCalendarCell._preferredEventOffset
+_OBJC_IVAR_$_FSCalendarCell._calendar
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_IVAR_$_FSCalendarCell._placeholder
+_OBJC_IVAR_$_FSCalendarCell._monthPosition
+_OBJC_IVAR_$_FSCalendarCell._dateIsToday
+_OBJC_IVAR_$_FSCalendarCell._weekend
+_OBJC_IVAR_$_FSCalendarCell._preferredFillDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredFillSelectionColor
+_OBJC_IVAR_$_FSCalendarCell._preferredTitleDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredTitleSelectionColor
+_OBJC_IVAR_$_FSCalendarCell._preferredSubtitleDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredSubtitleSelectionColor
+__OBJC_METACLASS_RO_$_FSCalendarCell
+__OBJC_$_INSTANCE_METHODS_FSCalendarCell
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarCell
+__OBJC_$_PROP_LIST_FSCalendarCell
+__OBJC_CLASS_RO_$_FSCalendarCell
+_OBJC_CLASSLIST_REFERENCES_$_.405
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_CLASSLIST_REFERENCES_$_.408
+_OBJC_CLASSLIST_REFERENCES_$_.413
+_OBJC_SELECTOR_REFERENCES_.415
+_OBJC_SELECTOR_REFERENCES_.417
+_OBJC_SELECTOR_REFERENCES_.419
+_OBJC_SELECTOR_REFERENCES_.421
+_OBJC_SELECTOR_REFERENCES_.423
+_OBJC_SELECTOR_REFERENCES_.427
+_OBJC_SELECTOR_REFERENCES_.429
+_OBJC_SELECTOR_REFERENCES_.431
+_OBJC_SELECTOR_REFERENCES_.433
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_IVAR_$_FSCalendarEventIndicator._color
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.439
+_OBJC_SELECTOR_REFERENCES_.441
+_OBJC_IVAR_$_FSCalendarEventIndicator._numberOfEvents
+_OBJC_IVAR_$_FSCalendarEventIndicator._contentView
+_OBJC_IVAR_$_FSCalendarEventIndicator._eventLayers
+__OBJC_METACLASS_RO_$_FSCalendarEventIndicator
+__OBJC_$_INSTANCE_METHODS_FSCalendarEventIndicator
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarEventIndicator
+__OBJC_$_PROP_LIST_FSCalendarEventIndicator
+__OBJC_CLASS_RO_$_FSCalendarEventIndicator
+__OBJC_METACLASS_RO_$_FSCalendarBlankCell
+__OBJC_$_INSTANCE_METHODS_FSCalendarBlankCell
+__OBJC_CLASS_RO_$_FSCalendarBlankCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCell.m
+FSCalendar/FSCalendarCell.m
+FSCalendar/FSCalendarCell.h
+-[FSCalendarCalculator initWithCalendar:]
+-[FSCalendarCalculator dealloc]
+-[FSCalendarCalculator forwardingTargetForSelector:]
+-[FSCalendarCalculator safeDateForDate:]
+-[FSCalendarCalculator dateForIndexPath:scope:]
+-[FSCalendarCalculator dateForIndexPath:]
+-[FSCalendarCalculator indexPathForDate:]
+-[FSCalendarCalculator indexPathForDate:scope:]
+-[FSCalendarCalculator indexPathForDate:atMonthPosition:scope:]
+-[FSCalendarCalculator indexPathForDate:atMonthPosition:]
+-[FSCalendarCalculator pageForSection:]
+-[FSCalendarCalculator monthForSection:]
+-[FSCalendarCalculator monthHeadForSection:]
+-[FSCalendarCalculator weekForSection:]
+-[FSCalendarCalculator numberOfSections]
+-[FSCalendarCalculator numberOfHeadPlaceholdersForMonth:]
+-[FSCalendarCalculator numberOfRowsInMonth:]
+-[FSCalendarCalculator numberOfRowsInSection:]
+-[FSCalendarCalculator monthPositionForIndexPath:]
+-[FSCalendarCalculator coordinateForIndexPath:]
+-[FSCalendarCalculator reloadSections]
+-[FSCalendarCalculator clearCaches]
+-[FSCalendarCalculator didReceiveNotifications:]
+-[FSCalendarCalculator calendar]
+-[FSCalendarCalculator setCalendar:]
+-[FSCalendarCalculator numberOfMonths]
+-[FSCalendarCalculator setNumberOfMonths:]
+-[FSCalendarCalculator months]
+-[FSCalendarCalculator setMonths:]
+-[FSCalendarCalculator monthHeads]
+-[FSCalendarCalculator setMonthHeads:]
+-[FSCalendarCalculator numberOfWeeks]
+-[FSCalendarCalculator setNumberOfWeeks:]
+-[FSCalendarCalculator weeks]
+-[FSCalendarCalculator setWeeks:]
+-[FSCalendarCalculator rowCounts]
+-[FSCalendarCalculator setRowCounts:]
+-[FSCalendarCalculator .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_CLASSLIST_REFERENCES_$_.72
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.119
+__OBJC_METACLASS_RO_$_FSCalendarCalculator
+__OBJC_$_INSTANCE_METHODS_FSCalendarCalculator
+_OBJC_IVAR_$_FSCalendarCalculator._calendar
+_OBJC_IVAR_$_FSCalendarCalculator._numberOfMonths
+_OBJC_IVAR_$_FSCalendarCalculator._months
+_OBJC_IVAR_$_FSCalendarCalculator._monthHeads
+_OBJC_IVAR_$_FSCalendarCalculator._numberOfWeeks
+_OBJC_IVAR_$_FSCalendarCalculator._weeks
+_OBJC_IVAR_$_FSCalendarCalculator._rowCounts
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarCalculator
+__OBJC_$_PROP_LIST_FSCalendarCalculator
+__OBJC_CLASS_RO_$_FSCalendarCalculator
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCalculator.m
+FSCalendar/FSCalendarCalculator.m
+FSCalendar/FSCalendarCalculator.h
+-[FSCalendarSeparatorDecorationView initWithFrame:]
+-[FSCalendarSeparatorDecorationView applyLayoutAttributes:]
+__OBJC_METACLASS_RO_$_FSCalendarSeparatorDecorationView
+__OBJC_$_INSTANCE_METHODS_FSCalendarSeparatorDecorationView
+__OBJC_CLASS_RO_$_FSCalendarSeparatorDecorationView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarSeparatorDecorationView.m
+FSCalendar/FSCalendarSeparatorDecorationView.m
+-[FSCalendarWeekdayView initWithFrame:]
+-[FSCalendarWeekdayView initWithCoder:]
+-[FSCalendarWeekdayView commonInit]
+-[FSCalendarWeekdayView layoutSubviews]
+-[FSCalendarWeekdayView setCalendar:]
+-[FSCalendarWeekdayView weekdayLabels]
+-[FSCalendarWeekdayView configureAppearance]
+-[FSCalendarWeekdayView weekdayPointers]
+-[FSCalendarWeekdayView setWeekdayPointers:]
+-[FSCalendarWeekdayView contentView]
+-[FSCalendarWeekdayView setContentView:]
+-[FSCalendarWeekdayView calendar]
+-[FSCalendarWeekdayView .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarWeekdayView._contentView
+_OBJC_IVAR_$_FSCalendarWeekdayView._weekdayPointers
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_IVAR_$_FSCalendarWeekdayView._calendar
+_OBJC_SELECTOR_REFERENCES_.46
+__OBJC_METACLASS_RO_$_FSCalendarWeekdayView
+__OBJC_$_INSTANCE_METHODS_FSCalendarWeekdayView
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarWeekdayView
+__OBJC_$_PROP_LIST_FSCalendarWeekdayView
+__OBJC_CLASS_RO_$_FSCalendarWeekdayView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarWeekdayView.m
+FSCalendar/FSCalendarWeekdayView.m
+FSCalendarSliceCake
+FSCalendar/FSCalendarConstants.h
+-[FSCalendarHeaderView initWithFrame:]
+-[FSCalendarHeaderView initWithCoder:]
+-[FSCalendarHeaderView initialize]
+-[FSCalendarHeaderView layoutSubviews]
+-[FSCalendarHeaderView dealloc]
+-[FSCalendarHeaderView collectionView:numberOfItemsInSection:]
+-[FSCalendarHeaderView collectionView:cellForItemAtIndexPath:]
+-[FSCalendarHeaderView scrollViewDidScroll:]
+-[FSCalendarHeaderView setCalendar:]
+-[FSCalendarHeaderView setScrollOffset:]
+-[FSCalendarHeaderView setScrollOffset:animated:]
+-[FSCalendarHeaderView scrollToOffset:animated:]
+-[FSCalendarHeaderView setScrollDirection:]
+-[FSCalendarHeaderView setScrollEnabled:]
+-[FSCalendarHeaderView reloadData]
+-[FSCalendarHeaderView configureCell:atIndexPath:]
+-[FSCalendarHeaderView configureAppearance]
+___43-[FSCalendarHeaderView configureAppearance]_block_invoke
+-[FSCalendarHeaderView collectionView]
+-[FSCalendarHeaderView setCollectionView:]
+-[FSCalendarHeaderView collectionViewLayout]
+-[FSCalendarHeaderView setCollectionViewLayout:]
+-[FSCalendarHeaderView calendar]
+-[FSCalendarHeaderView scrollDirection]
+-[FSCalendarHeaderView scrollEnabled]
+-[FSCalendarHeaderView .cxx_destruct]
+-[FSCalendarHeaderCell initWithFrame:]
+-[FSCalendarHeaderCell setBounds:]
+-[FSCalendarHeaderCell layoutSubviews]
+-[FSCalendarHeaderCell titleLabel]
+-[FSCalendarHeaderCell setTitleLabel:]
+-[FSCalendarHeaderCell header]
+-[FSCalendarHeaderCell setHeader:]
+-[FSCalendarHeaderCell .cxx_destruct]
+-[FSCalendarHeaderLayout init]
+-[FSCalendarHeaderLayout dealloc]
+-[FSCalendarHeaderLayout prepareLayout]
+-[FSCalendarHeaderLayout didReceiveOrientationChangeNotification:]
+-[FSCalendarHeaderLayout flipsHorizontallyInOppositeLayoutDirection]
+-[FSCalendarHeaderTouchDeliver hitTest:withEvent:]
+-[FSCalendarHeaderTouchDeliver calendar]
+-[FSCalendarHeaderTouchDeliver setCalendar:]
+-[FSCalendarHeaderTouchDeliver header]
+-[FSCalendarHeaderTouchDeliver setHeader:]
+-[FSCalendarHeaderTouchDeliver .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarHeaderView._scrollDirection
+_OBJC_IVAR_$_FSCalendarHeaderView._scrollEnabled
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_IVAR_$_FSCalendarHeaderView._collectionView
+_OBJC_IVAR_$_FSCalendarHeaderView._calendar
+_OBJC_IVAR_$_FSCalendarHeaderView._collectionViewLayout
+___block_descriptor_24_e4_20s_e36_v16?0"FSCalendarHeaderCell"4I8^c12l
+_OBJC_SELECTOR_REFERENCES_.126
+__OBJC_CLASS_PROTOCOLS_$_FSCalendarHeaderView
+__OBJC_METACLASS_RO_$_FSCalendarHeaderView
+__OBJC_$_INSTANCE_METHODS_FSCalendarHeaderView
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarHeaderView
+__OBJC_$_PROP_LIST_FSCalendarHeaderView
+__OBJC_CLASS_RO_$_FSCalendarHeaderView
+_OBJC_CLASSLIST_REFERENCES_$_.311
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.330
+_OBJC_SELECTOR_REFERENCES_.332
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_IVAR_$_FSCalendarHeaderCell._titleLabel
+_OBJC_IVAR_$_FSCalendarHeaderCell._header
+__OBJC_METACLASS_RO_$_FSCalendarHeaderCell
+__OBJC_$_INSTANCE_METHODS_FSCalendarHeaderCell
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarHeaderCell
+__OBJC_$_PROP_LIST_FSCalendarHeaderCell
+__OBJC_CLASS_RO_$_FSCalendarHeaderCell
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.354
+_OBJC_CLASSLIST_REFERENCES_$_.355
+__OBJC_METACLASS_RO_$_FSCalendarHeaderLayout
+__OBJC_$_INSTANCE_METHODS_FSCalendarHeaderLayout
+__OBJC_CLASS_RO_$_FSCalendarHeaderLayout
+_OBJC_SELECTOR_REFERENCES_.372
+_OBJC_IVAR_$_FSCalendarHeaderTouchDeliver._calendar
+_OBJC_IVAR_$_FSCalendarHeaderTouchDeliver._header
+__OBJC_METACLASS_RO_$_FSCalendarHeaderTouchDeliver
+__OBJC_$_INSTANCE_METHODS_FSCalendarHeaderTouchDeliver
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarHeaderTouchDeliver
+__OBJC_$_PROP_LIST_FSCalendarHeaderTouchDeliver
+__OBJC_CLASS_RO_$_FSCalendarHeaderTouchDeliver
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarHeaderView.m
+FSCalendar/FSCalendarHeaderView.m
+FSCalendar/FSCalendarHeaderView.h
+__43-[FSCalendarHeaderView configureAppearance]_block_invoke
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarConstants.m
+-[UIView(FSCalendarExtensions) fs_width]
+-[UIView(FSCalendarExtensions) setFs_width:]
+-[UIView(FSCalendarExtensions) fs_height]
+-[UIView(FSCalendarExtensions) setFs_height:]
+-[UIView(FSCalendarExtensions) fs_top]
+-[UIView(FSCalendarExtensions) setFs_top:]
+-[UIView(FSCalendarExtensions) fs_bottom]
+-[UIView(FSCalendarExtensions) setFs_bottom:]
+-[UIView(FSCalendarExtensions) fs_left]
+-[UIView(FSCalendarExtensions) setFs_left:]
+-[UIView(FSCalendarExtensions) fs_right]
+-[UIView(FSCalendarExtensions) setFs_right:]
+-[CALayer(FSCalendarExtensions) fs_width]
+-[CALayer(FSCalendarExtensions) setFs_width:]
+-[CALayer(FSCalendarExtensions) fs_height]
+-[CALayer(FSCalendarExtensions) setFs_height:]
+-[CALayer(FSCalendarExtensions) fs_top]
+-[CALayer(FSCalendarExtensions) setFs_top:]
+-[CALayer(FSCalendarExtensions) fs_bottom]
+-[CALayer(FSCalendarExtensions) setFs_bottom:]
+-[CALayer(FSCalendarExtensions) fs_left]
+-[CALayer(FSCalendarExtensions) setFs_left:]
+-[CALayer(FSCalendarExtensions) fs_right]
+-[CALayer(FSCalendarExtensions) setFs_right:]
+-[NSCalendar(FSCalendarExtensions) fs_firstDayOfMonth:]
+-[NSCalendar(FSCalendarExtensions) fs_lastDayOfMonth:]
+-[NSCalendar(FSCalendarExtensions) fs_firstDayOfWeek:]
+-[NSCalendar(FSCalendarExtensions) fs_lastDayOfWeek:]
+-[NSCalendar(FSCalendarExtensions) fs_middleDayOfWeek:]
+-[NSCalendar(FSCalendarExtensions) fs_numberOfDaysInMonth:]
+-[NSCalendar(FSCalendarExtensions) fs_privateComponents]
+-[NSMapTable(FSCalendarExtensions) setObject:forKeyedSubscript:]
+-[NSMapTable(FSCalendarExtensions) objectForKeyedSubscript:]
+-[NSCache(FSCalendarExtensions) setObject:forKeyedSubscript:]
+-[NSCache(FSCalendarExtensions) objectForKeyedSubscript:]
+-[NSObject(FSCalendarExtensions) fs_setBoolVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_boolVariableForKey:]
+-[NSObject(FSCalendarExtensions) fs_setFloatVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_floatVariableForKey:]
+-[NSObject(FSCalendarExtensions) fs_setIntegerVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_integerVariableForKey:]
+-[NSObject(FSCalendarExtensions) fs_setUnsignedIntegerVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_unsignedIntegerVariableForKey:]
+-[NSObject(FSCalendarExtensions) fs_setVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_variableForKey:]
+-[NSObject(FSCalendarExtensions) fs_performSelector:withObjects:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_FSCalendarExtensions
+__OBJC_$_PROP_LIST_UIView_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_UIView_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_CALayer_$_FSCalendarExtensions
+__OBJC_$_PROP_LIST_CALayer_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_CALayer_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSCalendar_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_NSCalendar_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSMapTable_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_NSMapTable_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSCache_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_NSCache_$_FSCalendarExtensions
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_CLASSLIST_REFERENCES_$_.172
+_OBJC_CLASSLIST_REFERENCES_$_.175
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_FSCalendarExtensions
+__OBJC_$_CATEGORY_NSObject_$_FSCalendarExtensions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarExtensions.m
+FSCalendar/FSCalendarExtensions.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+CGVectorMake
+-[FSCalendarCollectionViewLayout init]
+-[FSCalendarCollectionViewLayout dealloc]
+-[FSCalendarCollectionViewLayout prepareLayout]
+-[FSCalendarCollectionViewLayout collectionViewContentSize]
+-[FSCalendarCollectionViewLayout layoutAttributesForElementsInRect:]
+-[FSCalendarCollectionViewLayout layoutAttributesForItemAtIndexPath:]
+-[FSCalendarCollectionViewLayout layoutAttributesForSupplementaryViewOfKind:atIndexPath:]
+-[FSCalendarCollectionViewLayout layoutAttributesForDecorationViewOfKind:atIndexPath:]
+-[FSCalendarCollectionViewLayout flipsHorizontallyInOppositeLayoutDirection]
+-[FSCalendarCollectionViewLayout didReceiveNotifications:]
+-[FSCalendarCollectionViewLayout setScrollDirection:]
+-[FSCalendarCollectionViewLayout calculateRowOffset:totalRows:]
+-[FSCalendarCollectionViewLayout searchStartSection:::]
+-[FSCalendarCollectionViewLayout searchEndSection:::]
+-[FSCalendarCollectionViewLayout calendar]
+-[FSCalendarCollectionViewLayout setCalendar:]
+-[FSCalendarCollectionViewLayout sectionInsets]
+-[FSCalendarCollectionViewLayout setSectionInsets:]
+-[FSCalendarCollectionViewLayout scrollDirection]
+-[FSCalendarCollectionViewLayout widths]
+-[FSCalendarCollectionViewLayout setWidths:]
+-[FSCalendarCollectionViewLayout heights]
+-[FSCalendarCollectionViewLayout setHeights:]
+-[FSCalendarCollectionViewLayout lefts]
+-[FSCalendarCollectionViewLayout setLefts:]
+-[FSCalendarCollectionViewLayout tops]
+-[FSCalendarCollectionViewLayout setTops:]
+-[FSCalendarCollectionViewLayout sectionHeights]
+-[FSCalendarCollectionViewLayout setSectionHeights:]
+-[FSCalendarCollectionViewLayout sectionTops]
+-[FSCalendarCollectionViewLayout setSectionTops:]
+-[FSCalendarCollectionViewLayout sectionBottoms]
+-[FSCalendarCollectionViewLayout setSectionBottoms:]
+-[FSCalendarCollectionViewLayout sectionRowCounts]
+-[FSCalendarCollectionViewLayout setSectionRowCounts:]
+-[FSCalendarCollectionViewLayout estimatedItemSize]
+-[FSCalendarCollectionViewLayout setEstimatedItemSize:]
+-[FSCalendarCollectionViewLayout contentSize]
+-[FSCalendarCollectionViewLayout setContentSize:]
+-[FSCalendarCollectionViewLayout collectionViewSize]
+-[FSCalendarCollectionViewLayout setCollectionViewSize:]
+-[FSCalendarCollectionViewLayout headerReferenceSize]
+-[FSCalendarCollectionViewLayout setHeaderReferenceSize:]
+-[FSCalendarCollectionViewLayout numberOfSections]
+-[FSCalendarCollectionViewLayout setNumberOfSections:]
+-[FSCalendarCollectionViewLayout separators]
+-[FSCalendarCollectionViewLayout setSeparators:]
+-[FSCalendarCollectionViewLayout itemAttributes]
+-[FSCalendarCollectionViewLayout setItemAttributes:]
+-[FSCalendarCollectionViewLayout headerAttributes]
+-[FSCalendarCollectionViewLayout setHeaderAttributes:]
+-[FSCalendarCollectionViewLayout rowSeparatorAttributes]
+-[FSCalendarCollectionViewLayout setRowSeparatorAttributes:]
+-[FSCalendarCollectionViewLayout .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_CLASSLIST_REFERENCES_$_.127
+_OBJC_CLASSLIST_REFERENCES_$_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_CLASSLIST_REFERENCES_$_.154
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._scrollDirection
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._calendar
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._sectionInsets
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._widths
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._heights
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._lefts
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._tops
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._sectionHeights
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._sectionTops
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._sectionBottoms
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._sectionRowCounts
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._estimatedItemSize
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._contentSize
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._collectionViewSize
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._headerReferenceSize
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._numberOfSections
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._separators
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._itemAttributes
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._headerAttributes
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._rowSeparatorAttributes
+__OBJC_METACLASS_RO_$_FSCalendarCollectionViewLayout
+__OBJC_$_INSTANCE_METHODS_FSCalendarCollectionViewLayout
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarCollectionViewLayout
+__OBJC_$_PROP_LIST_FSCalendarCollectionViewLayout
+__OBJC_CLASS_RO_$_FSCalendarCollectionViewLayout
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCollectionViewLayout.m
+FSCalendar/FSCalendarCollectionViewLayout.m
+FSCalendar/FSCalendarCollectionViewLayout.h
+-[FSCalendarTransitionCoordinator initWithCalendar:]
+-[FSCalendarTransitionCoordinator handleScopeGesture:]
+-[FSCalendarTransitionCoordinator gestureRecognizerShouldBegin:]
+-[FSCalendarTransitionCoordinator gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[FSCalendarTransitionCoordinator scopeTransitionDidBegin:]
+-[FSCalendarTransitionCoordinator scopeTransitionDidUpdate:]
+-[FSCalendarTransitionCoordinator scopeTransitionDidEnd:]
+-[FSCalendarTransitionCoordinator performScopeTransitionFromScope:toScope:animated:]
+-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]
+___91-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke
+___91-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke_2
+___91-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke.107
+-[FSCalendarTransitionCoordinator performTransitionCompletionAnimated:]
+-[FSCalendarTransitionCoordinator createTransitionAttributesTargetingScope:]
+___76-[FSCalendarTransitionCoordinator createTransitionAttributesTargetingScope:]_block_invoke
+-[FSCalendarTransitionCoordinator representingScope]
+-[FSCalendarTransitionCoordinator boundingRectForScope:page:]
+-[FSCalendarTransitionCoordinator boundingRectWillChange:animated:]
+-[FSCalendarTransitionCoordinator performTransition:fromProgress:toProgress:animated:]
+___86-[FSCalendarTransitionCoordinator performTransition:fromProgress:toProgress:animated:]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+___86-[FSCalendarTransitionCoordinator performTransition:fromProgress:toProgress:animated:]_block_invoke.209
+-[FSCalendarTransitionCoordinator performAlphaAnimationWithProgress:]
+___69-[FSCalendarTransitionCoordinator performAlphaAnimationWithProgress:]_block_invoke
+-[FSCalendarTransitionCoordinator performPathAnimationWithProgress:]
+-[FSCalendarTransitionCoordinator calculateOffsetForProgress:]
+-[FSCalendarTransitionCoordinator prepareWeekToMonthTransition]
+-[FSCalendarTransitionCoordinator state]
+-[FSCalendarTransitionCoordinator setState:]
+-[FSCalendarTransitionCoordinator cachedMonthSize]
+-[FSCalendarTransitionCoordinator setCachedMonthSize:]
+-[FSCalendarTransitionCoordinator collectionView]
+-[FSCalendarTransitionCoordinator setCollectionView:]
+-[FSCalendarTransitionCoordinator collectionViewLayout]
+-[FSCalendarTransitionCoordinator setCollectionViewLayout:]
+-[FSCalendarTransitionCoordinator calendar]
+-[FSCalendarTransitionCoordinator setCalendar:]
+-[FSCalendarTransitionCoordinator transitionAttributes]
+-[FSCalendarTransitionCoordinator setTransitionAttributes:]
+-[FSCalendarTransitionCoordinator .cxx_destruct]
+-[FSCalendarTransitionAttributes revert]
+-[FSCalendarTransitionAttributes sourceBounds]
+-[FSCalendarTransitionAttributes setSourceBounds:]
+-[FSCalendarTransitionAttributes targetBounds]
+-[FSCalendarTransitionAttributes setTargetBounds:]
+-[FSCalendarTransitionAttributes sourcePage]
+-[FSCalendarTransitionAttributes setSourcePage:]
+-[FSCalendarTransitionAttributes targetPage]
+-[FSCalendarTransitionAttributes setTargetPage:]
+-[FSCalendarTransitionAttributes focusedRow]
+-[FSCalendarTransitionAttributes setFocusedRow:]
+-[FSCalendarTransitionAttributes focusedDate]
+-[FSCalendarTransitionAttributes setFocusedDate:]
+-[FSCalendarTransitionAttributes targetScope]
+-[FSCalendarTransitionAttributes setTargetScope:]
+-[FSCalendarTransitionAttributes .cxx_destruct]
+___block_descriptor_32_e4_20s_e7_v8?0c4l
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_CLASSLIST_REFERENCES_$_.106
+___block_descriptor_40_e4_20s_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.147
+___block_descriptor_28_e4_20s_e32_c12?0"NSDate"4"NSDictionary"8l
+___block_descriptor_32_e4_20s24s_e5_v4?0l
+___block_descriptor_24_e4_20s_e7_v8?0c4l
+___block_descriptor_24_e4_20s_e40_c12?0"FSCalendarCell"4"NSDictionary"8l
+_OBJC_CLASSLIST_REFERENCES_$_.221
+_OBJC_CLASSLIST_REFERENCES_$_.232
+__OBJC_CLASS_PROTOCOLS_$_FSCalendarTransitionCoordinator
+__OBJC_METACLASS_RO_$_FSCalendarTransitionCoordinator
+__OBJC_$_INSTANCE_METHODS_FSCalendarTransitionCoordinator
+_OBJC_IVAR_$_FSCalendarTransitionCoordinator._state
+_OBJC_IVAR_$_FSCalendarTransitionCoordinator._collectionView
+_OBJC_IVAR_$_FSCalendarTransitionCoordinator._collectionViewLayout
+_OBJC_IVAR_$_FSCalendarTransitionCoordinator._calendar
+_OBJC_IVAR_$_FSCalendarTransitionCoordinator._transitionAttributes
+_OBJC_IVAR_$_FSCalendarTransitionCoordinator._cachedMonthSize
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarTransitionCoordinator
+__OBJC_$_PROP_LIST_FSCalendarTransitionCoordinator
+__OBJC_CLASS_RO_$_FSCalendarTransitionCoordinator
+__OBJC_METACLASS_RO_$_FSCalendarTransitionAttributes
+__OBJC_$_INSTANCE_METHODS_FSCalendarTransitionAttributes
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._sourcePage
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._targetPage
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._focusedRow
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._focusedDate
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._targetScope
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._sourceBounds
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._targetBounds
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarTransitionAttributes
+__OBJC_$_PROP_LIST_FSCalendarTransitionAttributes
+__OBJC_CLASS_RO_$_FSCalendarTransitionAttributes
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarTransitionCoordinator.m
+FSCalendar/FSCalendarTransitionCoordinator.m
+FSCalendar/FSCalendarTransitionCoordinator.h
+__69-[FSCalendarTransitionCoordinator performAlphaAnimationWithProgress:]_block_invoke
+__86-[FSCalendarTransitionCoordinator performTransition:fromProgress:toProgress:animated:]_block_invoke.209
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__86-[FSCalendarTransitionCoordinator performTransition:fromProgress:toProgress:animated:]_block_invoke
+__76-[FSCalendarTransitionCoordinator createTransitionAttributesTargetingScope:]_block_invoke
+__91-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke.107
+__91-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke_2
+__91-[FSCalendarTransitionCoordinator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke
+-[FSCalendarStickyHeader initWithFrame:]
+-[FSCalendarStickyHeader layoutSubviews]
+-[FSCalendarStickyHeader setCalendar:]
+-[FSCalendarStickyHeader configureAppearance]
+-[FSCalendarStickyHeader setMonth:]
+-[FSCalendarStickyHeader calendar]
+-[FSCalendarStickyHeader titleLabel]
+-[FSCalendarStickyHeader setTitleLabel:]
+-[FSCalendarStickyHeader month]
+-[FSCalendarStickyHeader contentView]
+-[FSCalendarStickyHeader setContentView:]
+-[FSCalendarStickyHeader bottomBorder]
+-[FSCalendarStickyHeader setBottomBorder:]
+-[FSCalendarStickyHeader weekdayView]
+-[FSCalendarStickyHeader setWeekdayView:]
+-[FSCalendarStickyHeader .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_IVAR_$_FSCalendarStickyHeader._contentView
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_IVAR_$_FSCalendarStickyHeader._calendar
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_IVAR_$_FSCalendarStickyHeader._bottomBorder
+_OBJC_IVAR_$_FSCalendarStickyHeader._titleLabel
+_OBJC_IVAR_$_FSCalendarStickyHeader._weekdayView
+_OBJC_IVAR_$_FSCalendarStickyHeader._month
+__OBJC_METACLASS_RO_$_FSCalendarStickyHeader
+__OBJC_$_INSTANCE_METHODS_FSCalendarStickyHeader
+__OBJC_$_INSTANCE_VARIABLES_FSCalendarStickyHeader
+__OBJC_$_PROP_LIST_FSCalendarStickyHeader
+__OBJC_CLASS_RO_$_FSCalendarStickyHeader
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarStickyHeader.m
+FSCalendar/FSCalendarStickyHeader.m
+FSCalendar/FSCalendarStickyHeader.h
++[FSCalendarDelegationFactory dataSourceProxy]
++[FSCalendarDelegationFactory delegateProxy]
+__OBJC_$_PROTOCOL_REFS_FSCalendarDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FSCalendarDataSource
+__OBJC_$_PROTOCOL_METHOD_TYPES_FSCalendarDataSource
+__OBJC_PROTOCOL_$_FSCalendarDataSource
+__OBJC_LABEL_PROTOCOL_$_FSCalendarDataSource
+__OBJC_PROTOCOL_REFERENCE_$_FSCalendarDataSource
+__OBJC_$_PROTOCOL_REFS_FSCalendarDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FSCalendarDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FSCalendarDelegate
+__OBJC_PROTOCOL_$_FSCalendarDelegate
+__OBJC_LABEL_PROTOCOL_$_FSCalendarDelegate
+__OBJC_$_PROTOCOL_REFS_FSCalendarDelegateAppearance
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FSCalendarDelegateAppearance
+__OBJC_$_PROTOCOL_METHOD_TYPES_FSCalendarDelegateAppearance
+__OBJC_PROTOCOL_$_FSCalendarDelegateAppearance
+__OBJC_LABEL_PROTOCOL_$_FSCalendarDelegateAppearance
+__OBJC_PROTOCOL_REFERENCE_$_FSCalendarDelegateAppearance
+__OBJC_$_CLASS_METHODS_FSCalendarDelegationFactory
+__OBJC_METACLASS_RO_$_FSCalendarDelegationFactory
+__OBJC_CLASS_RO_$_FSCalendarDelegationFactory
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarDelegationFactory.m
+FSCalendar/FSCalendarDelegationFactory.m
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -mlinker-version=609 -march=armv7a
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk
+iPhoneOS14.0.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

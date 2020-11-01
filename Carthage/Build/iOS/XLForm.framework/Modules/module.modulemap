@@ -1,0 +1,6 @@
+framework module XLForm {
+  umbrella header "XLForm.h"
+
+  export *
+  module * { export * }
+}

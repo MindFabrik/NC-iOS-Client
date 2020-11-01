@@ -1,0 +1,10 @@
+{
+  "commitish" : "6c7cf839d9c74e5a0b92bbf343e1a33b6f56a277",
+  "iOS" : [
+    {
+      "name" : "OpenSSL",
+      "hash" : "790303a7fc4ba7b1ad7b8e5c73c9b5135a62562e5cc61f15e483a0c631acaedc",
+      "linking" : "dynamic"
+    }
+  ]
+}

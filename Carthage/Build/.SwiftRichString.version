@@ -1,0 +1,11 @@
+{
+  "commitish" : "3.7.2",
+  "iOS" : [
+    {
+      "hash" : "61a08ad3375a35ff6d788011ee30e14dce261cc4630da5ff9ec734e0dcee949b",
+      "name" : "SwiftRichString",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

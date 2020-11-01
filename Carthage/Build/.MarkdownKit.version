@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.6",
+  "iOS" : [
+    {
+      "hash" : "9fbfc444d4416cc1db430737f156f0089e8deff9e392c30de9154321d9175d18",
+      "name" : "MarkdownKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

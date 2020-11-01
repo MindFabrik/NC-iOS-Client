@@ -1,0 +1,10 @@
+{
+  "commitish" : "4.2.0",
+  "iOS" : [
+    {
+      "name" : "XLForm",
+      "hash" : "c47a58badbeac6d8a5968d1734456935ead12de4944865190fe03b68b9ade7c5",
+      "linking" : "dynamic"
+    }
+  ]
+}

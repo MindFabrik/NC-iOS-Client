@@ -1,0 +1,1747 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.21)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk
+iPhoneOS14.1.sdk
+/Users/oliveroeh/Library/Caches/org.carthage.CarthageKit/DerivedData/12.1_12A7403/TOPasscodeViewController/0.0.7/Build/Intermediates.noindex/ArchiveIntermediates/TOPasscodeViewController/IntermediateBuildFilesPath/TOPasscodeViewControllerExample.build/Release-iphoneos/TOPasscodeViewController.build/DerivedSources/TOPasscodeViewController_vers.c
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController
+-[TOPasscodeViewController initWithStyle:passcodeType:]
+-[TOPasscodeViewController initWithNibName:bundle:]
+-[TOPasscodeViewController dealloc]
+-[TOPasscodeViewController setUp]
+-[TOPasscodeViewController setUpBackgroundEffectViewForStyle:]
+-[TOPasscodeViewController setUpBackgroundViewForStyle:]
+-[TOPasscodeViewController blurEffectStyleForStyle:]
+-[TOPasscodeViewController setUpAccessoryButtons]
+-[TOPasscodeViewController viewDidLoad]
+-[TOPasscodeViewController viewDidAppear:]
+-[TOPasscodeViewController viewDidLayoutSubviews]
+-[TOPasscodeViewController viewWillAppear:]
+___43-[TOPasscodeViewController viewWillAppear:]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[TOPasscodeViewController viewWillDisappear:]
+-[TOPasscodeViewController preferredStatusBarStyle]
+-[TOPasscodeViewController viewWillTransitionToSize:withTransitionCoordinator:]
+-[TOPasscodeViewController applyThemeForStyle:]
+-[TOPasscodeViewController updateAccessoryButtonFontsForSize:]
+-[TOPasscodeViewController verticalLayoutAccessoryButtonsForSize:]
+-[TOPasscodeViewController horizontalLayoutAccessoryButtonsForSize:]
+-[TOPasscodeViewController layoutAccessoryButtonsForSize:]
+-[TOPasscodeViewController accessoryButtonTapped:]
+-[TOPasscodeViewController keypadButtonTapped]
+___46-[TOPasscodeViewController keypadButtonTapped]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+-[TOPasscodeViewController didCompleteEnteringPasscode:]
+-[TOPasscodeViewController keyboardWillChangeFrame:]
+___52-[TOPasscodeViewController keyboardWillChangeFrame:]_block_invoke
+-[TOPasscodeViewController animationControllerForPresentedController:presentingController:sourceController:]
+-[TOPasscodeViewController animationControllerForDismissedController:]
+-[TOPasscodeViewController leftButton]
+-[TOPasscodeViewController rightButton]
+-[TOPasscodeViewController passcodeView]
+___40-[TOPasscodeViewController passcodeView]_block_invoke
+___copy_helper_block_e4_20w
+___destroy_helper_block_e4_20w
+___40-[TOPasscodeViewController passcodeView]_block_invoke.262
+-[TOPasscodeViewController setStyle:]
+-[TOPasscodeViewController setAllowBiometricValidation:]
+-[TOPasscodeViewController setTitleLabelColor:]
+-[TOPasscodeViewController setSubtitleLabelColor:]
+-[TOPasscodeViewController titleLabelColor]
+-[TOPasscodeViewController setInputProgressViewTintColor:]
+-[TOPasscodeViewController inputProgressViewTintColor]
+-[TOPasscodeViewController setKeypadButtonBackgroundTintColor:]
+-[TOPasscodeViewController setKeypadButtonShowLettering:]
+-[TOPasscodeViewController keypadButtonBackgroundTintColor]
+-[TOPasscodeViewController setKeypadButtonTextColor:]
+-[TOPasscodeViewController keypadButtonTextColor]
+-[TOPasscodeViewController setKeypadButtonHighlightedTextColor:]
+-[TOPasscodeViewController keypadButtonHighlightedTextColor]
+-[TOPasscodeViewController setAccessoryButtonTintColor:]
+-[TOPasscodeViewController setBiometryType:]
+-[TOPasscodeViewController setContentHidden:]
+-[TOPasscodeViewController setContentHidden:animated:]
+___54-[TOPasscodeViewController setContentHidden:animated:]_block_invoke
+___54-[TOPasscodeViewController setContentHidden:animated:]_block_invoke.298
+___copy_helper_block_e4_20b
+___54-[TOPasscodeViewController setContentHidden:animated:]_block_invoke.299
+-[TOPasscodeViewController delegate]
+-[TOPasscodeViewController setDelegate:]
+-[TOPasscodeViewController style]
+-[TOPasscodeViewController passcodeType]
+-[TOPasscodeViewController setPasscodeType:]
+-[TOPasscodeViewController allowBiometricValidation]
+-[TOPasscodeViewController allowCancel]
+-[TOPasscodeViewController setAllowCancel:]
+-[TOPasscodeViewController handleDeletePress]
+-[TOPasscodeViewController setHandleDeletePress:]
+-[TOPasscodeViewController biometryType]
+-[TOPasscodeViewController automaticallyPromptForBiometricValidation]
+-[TOPasscodeViewController setAutomaticallyPromptForBiometricValidation:]
+-[TOPasscodeViewController keypadButtonShowLettering]
+-[TOPasscodeViewController accessoryButtonTintColor]
+-[TOPasscodeViewController backgroundEffectView]
+-[TOPasscodeViewController setBackgroundEffectView:]
+-[TOPasscodeViewController backgroundView]
+-[TOPasscodeViewController setBackgroundView:]
+-[TOPasscodeViewController biometricButton]
+-[TOPasscodeViewController setBiometricButton:]
+-[TOPasscodeViewController cancelButton]
+-[TOPasscodeViewController setCancelButton:]
+-[TOPasscodeViewController leftAccessoryButton]
+-[TOPasscodeViewController setLeftAccessoryButton:]
+-[TOPasscodeViewController rightAccessoryButton]
+-[TOPasscodeViewController setRightAccessoryButton:]
+-[TOPasscodeViewController accessoryButtonsVerticalInset]
+-[TOPasscodeViewController setAccessoryButtonsVerticalInset:]
+-[TOPasscodeViewController contentHidden]
+-[TOPasscodeViewController keyboardHeight]
+-[TOPasscodeViewController setKeyboardHeight:]
+-[TOPasscodeViewController passcodeSuccess]
+-[TOPasscodeViewController setPasscodeSuccess:]
+-[TOPasscodeViewController setPasscodeView:]
+-[TOPasscodeViewController .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_IVAR_$_TOPasscodeViewController._style
+_OBJC_IVAR_$_TOPasscodeViewController._passcodeType
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_CLASSLIST_REFERENCES_$_.247
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_IVAR_$_TOPasscodeViewController._passcodeView
+_OBJC_CLASSLIST_REFERENCES_$_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+___block_descriptor_24_e4_20w_e17_v8?0"NSString"4l
+_OBJC_SELECTOR_REFERENCES_.261
+___block_descriptor_24_e4_20w_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_IVAR_$_TOPasscodeViewController._allowBiometricValidation
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.278
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+_OBJC_SELECTOR_REFERENCES_.292
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_IVAR_$_TOPasscodeViewController._accessoryButtonTintColor
+_OBJC_IVAR_$_TOPasscodeViewController._biometryType
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_IVAR_$_TOPasscodeViewController._contentHidden
+___block_descriptor_24_e4_20s_e7_v8?0c4l
+___block_descriptor_25_e4_20bs_e7_v8?0c4l
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_SELECTOR_REFERENCES_.303
+___block_descriptor_25_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_IVAR_$_TOPasscodeViewController._delegate
+_OBJC_IVAR_$_TOPasscodeViewController._allowCancel
+_OBJC_IVAR_$_TOPasscodeViewController._handleDeletePress
+_OBJC_IVAR_$_TOPasscodeViewController._automaticallyPromptForBiometricValidation
+_OBJC_IVAR_$_TOPasscodeViewController._keypadButtonShowLettering
+_OBJC_IVAR_$_TOPasscodeViewController._backgroundEffectView
+_OBJC_IVAR_$_TOPasscodeViewController._backgroundView
+_OBJC_IVAR_$_TOPasscodeViewController._biometricButton
+_OBJC_IVAR_$_TOPasscodeViewController._cancelButton
+_OBJC_IVAR_$_TOPasscodeViewController._leftAccessoryButton
+_OBJC_IVAR_$_TOPasscodeViewController._rightAccessoryButton
+_OBJC_IVAR_$_TOPasscodeViewController._accessoryButtonsVerticalInset
+_OBJC_IVAR_$_TOPasscodeViewController._keyboardHeight
+_OBJC_IVAR_$_TOPasscodeViewController._passcodeSuccess
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UIViewControllerTransitioningDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerTransitioningDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerTransitioningDelegate
+__OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
+__OBJC_CLASS_PROTOCOLS_$_TOPasscodeViewController
+__OBJC_METACLASS_RO_$_TOPasscodeViewController
+__OBJC_$_INSTANCE_METHODS_TOPasscodeViewController
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeViewController
+__OBJC_$_PROP_LIST_TOPasscodeViewController
+__OBJC_CLASS_RO_$_TOPasscodeViewController
+_OBJC_CLASSLIST_REFERENCES_$_.471
+_OBJC_SELECTOR_REFERENCES_.473
+_OBJC_SELECTOR_REFERENCES_.475
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/TOPasscodeViewController.m
+TOPasscodeViewController/TOPasscodeViewController.m
+TOPasscodeViewController/TOPasscodeViewController.h
+__54-[TOPasscodeViewController setContentHidden:animated:]_block_invoke.299
+__copy_helper_block_e4_20b
+__54-[TOPasscodeViewController setContentHidden:animated:]_block_invoke.298
+__54-[TOPasscodeViewController setContentHidden:animated:]_block_invoke
+TOPasscodeBiometryTitleForType
+TOPasscodeViewController/Supporting/TOPasscodeViewControllerConstants.h
+__40-[TOPasscodeViewController passcodeView]_block_invoke.262
+__destroy_helper_block_e4_20w
+__copy_helper_block_e4_20w
+__40-[TOPasscodeViewController passcodeView]_block_invoke
+UI_USER_INTERFACE_IDIOM
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
+__52-[TOPasscodeViewController keyboardWillChangeFrame:]_block_invoke
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__46-[TOPasscodeViewController keypadButtonTapped]_block_invoke
+TOPasscodeViewStyleIsDark
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__43-[TOPasscodeViewController viewWillAppear:]_block_invoke
+TOPasscodeViewStyleIsTranslucent
+-[TOPasscodeSettingsViewController initWithStyle:]
+-[TOPasscodeSettingsViewController initWithNibName:bundle:]
+-[TOPasscodeSettingsViewController setUp]
+-[TOPasscodeSettingsViewController dealloc]
+-[TOPasscodeSettingsViewController viewDidLoad]
+___47-[TOPasscodeSettingsViewController viewDidLoad]_block_invoke
+___47-[TOPasscodeSettingsViewController viewDidLoad]_block_invoke.109
+___47-[TOPasscodeSettingsViewController viewDidLoad]_block_invoke.120
+-[TOPasscodeSettingsViewController viewWillAppear:]
+-[TOPasscodeSettingsViewController updateContentForState:type:animated:]
+___72-[TOPasscodeSettingsViewController updateContentForState:type:animated:]_block_invoke
+-[TOPasscodeSettingsViewController updateWarningLabelForState:]
+-[TOPasscodeSettingsViewController transitionToState:animated:]
+___63-[TOPasscodeSettingsViewController transitionToState:animated:]_block_invoke
+___63-[TOPasscodeSettingsViewController transitionToState:animated:]_block_invoke.213
+-[TOPasscodeSettingsViewController viewDidLayoutSubviews]
+-[TOPasscodeSettingsViewController applyThemeForStyle:]
+-[TOPasscodeSettingsViewController inputViewDidCompletePasscode:]
+-[TOPasscodeSettingsViewController validateCurrentPasscodeAttemptWithPasscode:]
+-[TOPasscodeSettingsViewController didReceiveNewPasscode:]
+-[TOPasscodeSettingsViewController confirmNewPasscode:]
+-[TOPasscodeSettingsViewController keyboardWillChangeFrame:]
+-[TOPasscodeSettingsViewController contentOverlapFrame]
+-[TOPasscodeSettingsViewController optionsCodeButtonTapped:]
+___60-[TOPasscodeSettingsViewController optionsCodeButtonTapped:]_block_invoke
+-[TOPasscodeSettingsViewController nextButtonTapped:]
+-[TOPasscodeSettingsViewController doneButtonTapped:]
+-[TOPasscodeSettingsViewController setPasscodeType:]
+-[TOPasscodeSettingsViewController setPasscodeType:animated:]
+-[TOPasscodeSettingsViewController setState:]
+-[TOPasscodeSettingsViewController setFailedPasscodeAttemptCount:]
+-[TOPasscodeSettingsViewController delegate]
+-[TOPasscodeSettingsViewController setDelegate:]
+-[TOPasscodeSettingsViewController state]
+-[TOPasscodeSettingsViewController style]
+-[TOPasscodeSettingsViewController setStyle:]
+-[TOPasscodeSettingsViewController passcodeType]
+-[TOPasscodeSettingsViewController failedPasscodeAttemptCount]
+-[TOPasscodeSettingsViewController requireCurrentPasscode]
+-[TOPasscodeSettingsViewController setRequireCurrentPasscode:]
+-[TOPasscodeSettingsViewController disabledInputDate]
+-[TOPasscodeSettingsViewController setDisabledInputDate:]
+-[TOPasscodeSettingsViewController hideOptionsButton]
+-[TOPasscodeSettingsViewController setHideOptionsButton:]
+-[TOPasscodeSettingsViewController potentialPasscode]
+-[TOPasscodeSettingsViewController setPotentialPasscode:]
+-[TOPasscodeSettingsViewController verticalMidPoint]
+-[TOPasscodeSettingsViewController setVerticalMidPoint:]
+-[TOPasscodeSettingsViewController keyboardFrame]
+-[TOPasscodeSettingsViewController setKeyboardFrame:]
+-[TOPasscodeSettingsViewController containerView]
+-[TOPasscodeSettingsViewController setContainerView:]
+-[TOPasscodeSettingsViewController titleLabel]
+-[TOPasscodeSettingsViewController setTitleLabel:]
+-[TOPasscodeSettingsViewController errorLabel]
+-[TOPasscodeSettingsViewController setErrorLabel:]
+-[TOPasscodeSettingsViewController optionsButton]
+-[TOPasscodeSettingsViewController setOptionsButton:]
+-[TOPasscodeSettingsViewController inputField]
+-[TOPasscodeSettingsViewController setInputField:]
+-[TOPasscodeSettingsViewController keypadView]
+-[TOPasscodeSettingsViewController setKeypadView:]
+-[TOPasscodeSettingsViewController warningLabel]
+-[TOPasscodeSettingsViewController setWarningLabel:]
+-[TOPasscodeSettingsViewController nextBarButtonItem]
+-[TOPasscodeSettingsViewController setNextBarButtonItem:]
+-[TOPasscodeSettingsViewController doneBarButtonItem]
+-[TOPasscodeSettingsViewController setDoneBarButtonItem:]
+-[TOPasscodeSettingsViewController .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._style
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._failedPasscodeAttemptCount
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_CLASSLIST_REFERENCES_$_.60
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_CLASSLIST_REFERENCES_$_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_CLASSLIST_REFERENCES_$_.94
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._hideOptionsButton
+_OBJC_CLASSLIST_REFERENCES_$_.110
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+___block_descriptor_24_e4_20w_e7_v8?0i4l
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+___block_descriptor_36_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_CLASSLIST_REFERENCES_$_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_CLASSLIST_REFERENCES_$_.288
+_OBJC_CLASSLIST_REFERENCES_$_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.309
+___block_descriptor_28_e4_20w_e22_v8?0"UIAlertAction"4l
+_OBJC_CLASSLIST_REFERENCES_$_.311
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.333
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._passcodeType
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._state
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._delegate
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._requireCurrentPasscode
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._disabledInputDate
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._potentialPasscode
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._verticalMidPoint
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._keyboardFrame
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._containerView
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._titleLabel
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._errorLabel
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._optionsButton
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._inputField
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._keypadView
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._warningLabel
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._nextBarButtonItem
+_OBJC_IVAR_$_TOPasscodeSettingsViewController._doneBarButtonItem
+__OBJC_METACLASS_RO_$_TOPasscodeSettingsViewController
+__OBJC_$_INSTANCE_METHODS_TOPasscodeSettingsViewController
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeSettingsViewController
+__OBJC_$_PROP_LIST_TOPasscodeSettingsViewController
+__OBJC_CLASS_RO_$_TOPasscodeSettingsViewController
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/TOPasscodeSettingsViewController.m
+TOPasscodeViewController/TOPasscodeSettingsViewController.m
+TOPasscodeViewController/TOPasscodeSettingsViewController.h
+__60-[TOPasscodeSettingsViewController optionsCodeButtonTapped:]_block_invoke
+__63-[TOPasscodeSettingsViewController transitionToState:animated:]_block_invoke.213
+__63-[TOPasscodeSettingsViewController transitionToState:animated:]_block_invoke
+__72-[TOPasscodeSettingsViewController updateContentForState:type:animated:]_block_invoke
+__47-[TOPasscodeSettingsViewController viewDidLoad]_block_invoke.120
+__47-[TOPasscodeSettingsViewController viewDidLoad]_block_invoke.109
+__47-[TOPasscodeSettingsViewController viewDidLoad]_block_invoke
++[TOPasscodeCircleImage circleImageOfSize:inset:padding:antialias:]
++[TOPasscodeCircleImage hollowCircleImageOfSize:strokeWidth:padding:]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+__OBJC_$_CLASS_METHODS_TOPasscodeCircleImage
+__OBJC_METACLASS_RO_$_TOPasscodeCircleImage
+__OBJC_CLASS_RO_$_TOPasscodeCircleImage
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Models/TOPasscodeCircleImage.m
+TOPasscodeViewController/Models/TOPasscodeCircleImage.m
++[TOSettingsKeypadImage buttonImageWithCornerRadius:foregroundColor:edgeColor:edgeThickness:]
++[TOSettingsKeypadImage deleteIcon]
++[TOSettingsKeypadImage bezierPathWithContinuousRoundedRect:cornerRadius:]
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+__OBJC_$_CLASS_METHODS_TOSettingsKeypadImage
+__OBJC_METACLASS_RO_$_TOSettingsKeypadImage
+__OBJC_CLASS_RO_$_TOSettingsKeypadImage
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Models/TOSettingsKeypadImage.m
+TOPasscodeViewController/Models/TOSettingsKeypadImage.m
+CGPointMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+UIEdgeInsetsMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+CGSizeMake
++[TOPasscodeViewContentLayout defaultScreenContentLayout]
++[TOPasscodeViewContentLayout mediumScreenContentLayout]
++[TOPasscodeViewContentLayout smallScreenContentLayout]
+-[TOPasscodeViewContentLayout viewWidth]
+-[TOPasscodeViewContentLayout setViewWidth:]
+-[TOPasscodeViewContentLayout bottomPadding]
+-[TOPasscodeViewContentLayout setBottomPadding:]
+-[TOPasscodeViewContentLayout titleViewBottomSpacing]
+-[TOPasscodeViewContentLayout setTitleViewBottomSpacing:]
+-[TOPasscodeViewContentLayout titleLabelBottomSpacing]
+-[TOPasscodeViewContentLayout setTitleLabelBottomSpacing:]
+-[TOPasscodeViewContentLayout subtitleLabelBottomSpacing]
+-[TOPasscodeViewContentLayout setSubtitleLabelBottomSpacing:]
+-[TOPasscodeViewContentLayout titleLabelFont]
+-[TOPasscodeViewContentLayout setTitleLabelFont:]
+-[TOPasscodeViewContentLayout subtitleLabelFont]
+-[TOPasscodeViewContentLayout setSubtitleLabelFont:]
+-[TOPasscodeViewContentLayout titleHorizontalLayoutWidth]
+-[TOPasscodeViewContentLayout setTitleHorizontalLayoutWidth:]
+-[TOPasscodeViewContentLayout titleHorizontalLayoutSpacing]
+-[TOPasscodeViewContentLayout setTitleHorizontalLayoutSpacing:]
+-[TOPasscodeViewContentLayout titleViewHorizontalBottomSpacing]
+-[TOPasscodeViewContentLayout setTitleViewHorizontalBottomSpacing:]
+-[TOPasscodeViewContentLayout titleLabelHorizontalBottomSpacing]
+-[TOPasscodeViewContentLayout setTitleLabelHorizontalBottomSpacing:]
+-[TOPasscodeViewContentLayout subtitleLabelHorizontalBottomSpacing]
+-[TOPasscodeViewContentLayout setSubtitleLabelHorizontalBottomSpacing:]
+-[TOPasscodeViewContentLayout circleRowDiameter]
+-[TOPasscodeViewContentLayout setCircleRowDiameter:]
+-[TOPasscodeViewContentLayout circleRowSpacing]
+-[TOPasscodeViewContentLayout setCircleRowSpacing:]
+-[TOPasscodeViewContentLayout circleRowBottomSpacing]
+-[TOPasscodeViewContentLayout setCircleRowBottomSpacing:]
+-[TOPasscodeViewContentLayout textFieldBorderThickness]
+-[TOPasscodeViewContentLayout setTextFieldBorderThickness:]
+-[TOPasscodeViewContentLayout textFieldBorderRadius]
+-[TOPasscodeViewContentLayout setTextFieldBorderRadius:]
+-[TOPasscodeViewContentLayout textFieldCircleDiameter]
+-[TOPasscodeViewContentLayout setTextFieldCircleDiameter:]
+-[TOPasscodeViewContentLayout textFieldCircleSpacing]
+-[TOPasscodeViewContentLayout setTextFieldCircleSpacing:]
+-[TOPasscodeViewContentLayout textFieldBorderPadding]
+-[TOPasscodeViewContentLayout setTextFieldBorderPadding:]
+-[TOPasscodeViewContentLayout textFieldNumericCharacterLength]
+-[TOPasscodeViewContentLayout setTextFieldNumericCharacterLength:]
+-[TOPasscodeViewContentLayout textFieldAlphanumericCharacterLength]
+-[TOPasscodeViewContentLayout setTextFieldAlphanumericCharacterLength:]
+-[TOPasscodeViewContentLayout submitButtonFontSize]
+-[TOPasscodeViewContentLayout setSubmitButtonFontSize:]
+-[TOPasscodeViewContentLayout submitButtonSpacing]
+-[TOPasscodeViewContentLayout setSubmitButtonSpacing:]
+-[TOPasscodeViewContentLayout circleButtonDiameter]
+-[TOPasscodeViewContentLayout setCircleButtonDiameter:]
+-[TOPasscodeViewContentLayout circleButtonSpacing]
+-[TOPasscodeViewContentLayout setCircleButtonSpacing:]
+-[TOPasscodeViewContentLayout circleButtonStrokeWidth]
+-[TOPasscodeViewContentLayout setCircleButtonStrokeWidth:]
+-[TOPasscodeViewContentLayout circleButtonTitleLabelFont]
+-[TOPasscodeViewContentLayout setCircleButtonTitleLabelFont:]
+-[TOPasscodeViewContentLayout circleButtonLetteringLabelFont]
+-[TOPasscodeViewContentLayout setCircleButtonLetteringLabelFont:]
+-[TOPasscodeViewContentLayout circleButtonLabelSpacing]
+-[TOPasscodeViewContentLayout setCircleButtonLabelSpacing:]
+-[TOPasscodeViewContentLayout circleButtonLetteringSpacing]
+-[TOPasscodeViewContentLayout setCircleButtonLetteringSpacing:]
+-[TOPasscodeViewContentLayout .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+__OBJC_$_CLASS_METHODS_TOPasscodeViewContentLayout
+__OBJC_METACLASS_RO_$_TOPasscodeViewContentLayout
+__OBJC_$_INSTANCE_METHODS_TOPasscodeViewContentLayout
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._viewWidth
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._bottomPadding
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleViewBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleLabelBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._subtitleLabelBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleLabelFont
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._subtitleLabelFont
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleHorizontalLayoutWidth
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleHorizontalLayoutSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleViewHorizontalBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._titleLabelHorizontalBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._subtitleLabelHorizontalBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleRowDiameter
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleRowSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleRowBottomSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldBorderThickness
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldBorderRadius
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldCircleDiameter
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldCircleSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldNumericCharacterLength
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldAlphanumericCharacterLength
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._submitButtonFontSize
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._submitButtonSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonDiameter
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonStrokeWidth
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonTitleLabelFont
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonLetteringLabelFont
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonLabelSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonLetteringSpacing
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._textFieldBorderPadding
+_OBJC_IVAR_$_TOPasscodeViewContentLayout._circleButtonSpacing
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeViewContentLayout
+__OBJC_$_PROP_LIST_TOPasscodeViewContentLayout
+__OBJC_CLASS_RO_$_TOPasscodeViewContentLayout
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Models/TOPasscodeViewContentLayout.m
+TOPasscodeViewController/Models/TOPasscodeViewContentLayout.m
+TOPasscodeViewController/Models/TOPasscodeViewContentLayout.h
+-[TOPasscodeViewControllerAnimatedTransitioning initWithPasscodeViewController:dismissing:success:]
+-[TOPasscodeViewControllerAnimatedTransitioning transitionDuration:]
+-[TOPasscodeViewControllerAnimatedTransitioning animateTransition:]
+___67-[TOPasscodeViewControllerAnimatedTransitioning animateTransition:]_block_invoke
+___copy_helper_block_e4_20s24s28s32s36s
+___destroy_helper_block_e4_20s24s28s32s36s
+___67-[TOPasscodeViewControllerAnimatedTransitioning animateTransition:]_block_invoke.43
+___copy_helper_block_e4_20s24s28s
+___destroy_helper_block_e4_20s24s28s
+-[TOPasscodeViewControllerAnimatedTransitioning passcodeViewController]
+-[TOPasscodeViewControllerAnimatedTransitioning setPasscodeViewController:]
+-[TOPasscodeViewControllerAnimatedTransitioning dismissing]
+-[TOPasscodeViewControllerAnimatedTransitioning setDismissing:]
+-[TOPasscodeViewControllerAnimatedTransitioning success]
+-[TOPasscodeViewControllerAnimatedTransitioning setSuccess:]
+-[TOPasscodeViewControllerAnimatedTransitioning .cxx_destruct]
+___block_descriptor_41_e4_20s24s28s32s36s_e5_v4?0l
+___block_descriptor_32_e4_20s24s28s_e7_v8?0c4l
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.72
+__OBJC_$_PROTOCOL_REFS_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerAnimatedTransitioning
+__OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_CLASS_PROTOCOLS_$_TOPasscodeViewControllerAnimatedTransitioning
+__OBJC_METACLASS_RO_$_TOPasscodeViewControllerAnimatedTransitioning
+__OBJC_$_INSTANCE_METHODS_TOPasscodeViewControllerAnimatedTransitioning
+_OBJC_IVAR_$_TOPasscodeViewControllerAnimatedTransitioning._dismissing
+_OBJC_IVAR_$_TOPasscodeViewControllerAnimatedTransitioning._success
+_OBJC_IVAR_$_TOPasscodeViewControllerAnimatedTransitioning._passcodeViewController
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeViewControllerAnimatedTransitioning
+__OBJC_$_PROP_LIST_TOPasscodeViewControllerAnimatedTransitioning
+__OBJC_CLASS_RO_$_TOPasscodeViewControllerAnimatedTransitioning
+_OBJC_CLASSLIST_REFERENCES_$_.143
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Models/TOPasscodeViewControllerAnimatedTransitioning.m
+TOPasscodeViewController/Models/TOPasscodeViewControllerAnimatedTransitioning.m
+TOPasscodeViewController/Models/TOPasscodeViewControllerAnimatedTransitioning.h
+__destroy_helper_block_e4_20s24s28s
+__copy_helper_block_e4_20s24s28s
+__67-[TOPasscodeViewControllerAnimatedTransitioning animateTransition:]_block_invoke.43
+__destroy_helper_block_e4_20s24s28s32s36s
+__copy_helper_block_e4_20s24s28s32s36s
+__67-[TOPasscodeViewControllerAnimatedTransitioning animateTransition:]_block_invoke
+-[TOPasscodeView initWithFrame:]
+-[TOPasscodeView initWithStyle:passcodeType:]
+-[TOPasscodeView initWithCoder:]
+-[TOPasscodeView setUp]
+-[TOPasscodeView verticallyLayoutSubviews]
+-[TOPasscodeView horizontallyLayoutSubviews]
+-[TOPasscodeView layoutSubviews]
+-[TOPasscodeView sizeToFitSize:]
+-[TOPasscodeView verticalSizeToFit]
+-[TOPasscodeView horizontalSizeToFit]
+-[TOPasscodeView sizeToFit]
+-[TOPasscodeView setUpViewForType:]
+___35-[TOPasscodeView setUpViewForType:]_block_invoke
+___35-[TOPasscodeView setUpViewForType:]_block_invoke.147
+-[TOPasscodeView updateSubviewsForContentLayout:]
+-[TOPasscodeView applyThemeForStyle:]
+-[TOPasscodeView resetPasscodeAnimated:playImpact:]
+-[TOPasscodeView deleteLastPasscodeCharacterAnimated:]
+-[TOPasscodeView blurEffectForStyle:]
+-[TOPasscodeView setHorizontalLayout:]
+-[TOPasscodeView setHorizontalLayout:animated:duration:]
+-[TOPasscodeView setDefaultContentLayout:]
+-[TOPasscodeView setCurrentLayout:]
+-[TOPasscodeView setStyle:]
+-[TOPasscodeView setTitleLabelColor:]
+-[TOPasscodeView setSubtitleLabelColor:]
+-[TOPasscodeView setInputProgressViewTintColor:]
+-[TOPasscodeView setKeypadButtonBackgroundColor:]
+-[TOPasscodeView setKeypadButtonTextColor:]
+-[TOPasscodeView setKeypadButtonHighlightedTextColor:]
+-[TOPasscodeView setLeftButton:]
+-[TOPasscodeView setRightButton:]
+-[TOPasscodeView keypadButtonInset]
+-[TOPasscodeView setContentAlpha:]
+-[TOPasscodeView setPasscode:]
+-[TOPasscodeView passcode]
+-[TOPasscodeView style]
+-[TOPasscodeView passcodeType]
+-[TOPasscodeView setPasscodeType:]
+-[TOPasscodeView horizontalLayout]
+-[TOPasscodeView titleText]
+-[TOPasscodeView setTitleText:]
+-[TOPasscodeView subtitleText]
+-[TOPasscodeView setSubtitleText:]
+-[TOPasscodeView titleView]
+-[TOPasscodeView setTitleView:]
+-[TOPasscodeView leftButton]
+-[TOPasscodeView rightButton]
+-[TOPasscodeView titleLabel]
+-[TOPasscodeView setTitleLabel:]
+-[TOPasscodeView subtitleLabel]
+-[TOPasscodeView setSubtitleLabel:]
+-[TOPasscodeView inputField]
+-[TOPasscodeView setInputField:]
+-[TOPasscodeView keypadView]
+-[TOPasscodeView setKeypadView:]
+-[TOPasscodeView titleLabelColor]
+-[TOPasscodeView subtitleLabelColor]
+-[TOPasscodeView inputProgressViewTintColor]
+-[TOPasscodeView keypadButtonBackgroundColor]
+-[TOPasscodeView keypadButtonTextColor]
+-[TOPasscodeView keypadButtonHighlightedTextColor]
+-[TOPasscodeView contentAlpha]
+-[TOPasscodeView defaultContentLayout]
+-[TOPasscodeView contentLayouts]
+-[TOPasscodeView setContentLayouts:]
+-[TOPasscodeView passcodeDigitEnteredHandler]
+-[TOPasscodeView setPasscodeDigitEnteredHandler:]
+-[TOPasscodeView passcodeCompletedHandler]
+-[TOPasscodeView setPasscodeCompletedHandler:]
+-[TOPasscodeView currentLayout]
+-[TOPasscodeView .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeView._style
+_OBJC_IVAR_$_TOPasscodeView._passcodeType
+_OBJC_IVAR_$_TOPasscodeView._defaultContentLayout
+_OBJC_IVAR_$_TOPasscodeView._currentLayout
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_IVAR_$_TOPasscodeView._contentLayouts
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_IVAR_$_TOPasscodeView._titleText
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_CLASSLIST_REFERENCES_$_.77
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_CLASSLIST_REFERENCES_$_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_CLASSLIST_REFERENCES_$_.142
+_OBJC_CLASSLIST_REFERENCES_$_.148
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_CLASSLIST_REFERENCES_$_.244
+_OBJC_CLASSLIST_REFERENCES_$_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_IVAR_$_TOPasscodeView._horizontalLayout
+_OBJC_IVAR_$_TOPasscodeView._titleLabelColor
+_OBJC_IVAR_$_TOPasscodeView._subtitleLabelColor
+_OBJC_IVAR_$_TOPasscodeView._inputProgressViewTintColor
+_OBJC_IVAR_$_TOPasscodeView._keypadButtonBackgroundColor
+_OBJC_IVAR_$_TOPasscodeView._keypadButtonTextColor
+_OBJC_IVAR_$_TOPasscodeView._keypadButtonHighlightedTextColor
+_OBJC_IVAR_$_TOPasscodeView._leftButton
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_IVAR_$_TOPasscodeView._rightButton
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_IVAR_$_TOPasscodeView._contentAlpha
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_IVAR_$_TOPasscodeView._subtitleText
+_OBJC_IVAR_$_TOPasscodeView._titleView
+_OBJC_IVAR_$_TOPasscodeView._titleLabel
+_OBJC_IVAR_$_TOPasscodeView._subtitleLabel
+_OBJC_IVAR_$_TOPasscodeView._inputField
+_OBJC_IVAR_$_TOPasscodeView._keypadView
+_OBJC_IVAR_$_TOPasscodeView._passcodeDigitEnteredHandler
+_OBJC_IVAR_$_TOPasscodeView._passcodeCompletedHandler
+__OBJC_METACLASS_RO_$_TOPasscodeView
+__OBJC_$_INSTANCE_METHODS_TOPasscodeView
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeView
+__OBJC_$_PROP_LIST_TOPasscodeView
+__OBJC_CLASS_RO_$_TOPasscodeView
+_OBJC_CLASSLIST_REFERENCES_$_.434
+_OBJC_SELECTOR_REFERENCES_.436
+_OBJC_SELECTOR_REFERENCES_.438
+_OBJC_SELECTOR_REFERENCES_.440
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Main/TOPasscodeView.m
+TOPasscodeViewController/Views/Main/TOPasscodeView.m
+TOPasscodeViewController/Views/Main/TOPasscodeView.h
+__35-[TOPasscodeView setUpViewForType:]_block_invoke.147
+__35-[TOPasscodeView setUpViewForType:]_block_invoke
+-[TOPasscodeCircleButton initWithNumberString:letteringString:]
+-[TOPasscodeCircleButton setUp]
+-[TOPasscodeCircleButton setUpSubviews]
+-[TOPasscodeCircleButton setUpViewInteraction]
+-[TOPasscodeCircleButton layoutSubviews]
+-[TOPasscodeCircleButton buttonDidTouchDown:]
+-[TOPasscodeCircleButton buttonDidTouchUpInside:]
+-[TOPasscodeCircleButton buttonDidDragInside:]
+-[TOPasscodeCircleButton buttonDidDragOutside:]
+-[TOPasscodeCircleButton setHighlighted:animated:]
+___50-[TOPasscodeCircleButton setHighlighted:animated:]_block_invoke
+-[TOPasscodeCircleButton setBackgroundImage:]
+-[TOPasscodeCircleButton backgroundImage]
+-[TOPasscodeCircleButton setVibrancyEffect:]
+-[TOPasscodeCircleButton setHightlightedBackgroundImage:]
+-[TOPasscodeCircleButton hightlightedBackgroundImage]
+-[TOPasscodeCircleButton setNumberFont:]
+-[TOPasscodeCircleButton numberFont]
+-[TOPasscodeCircleButton setLetteringFont:]
+-[TOPasscodeCircleButton letteringFont]
+-[TOPasscodeCircleButton setLetteringVerticalSpacing:]
+-[TOPasscodeCircleButton letteringVerticalSpacing]
+-[TOPasscodeCircleButton setLetteringCharacterSpacing:]
+-[TOPasscodeCircleButton letteringCharacterSpacing]
+-[TOPasscodeCircleButton setTextColor:]
+-[TOPasscodeCircleButton setContentAlpha:]
+-[TOPasscodeCircleButton contentAlpha]
+-[TOPasscodeCircleButton vibrancyEffect]
+-[TOPasscodeCircleButton textColor]
+-[TOPasscodeCircleButton highlightedTextColor]
+-[TOPasscodeCircleButton setHighlightedTextColor:]
+-[TOPasscodeCircleButton numberString]
+-[TOPasscodeCircleButton setNumberString:]
+-[TOPasscodeCircleButton letteringString]
+-[TOPasscodeCircleButton setLetteringString:]
+-[TOPasscodeCircleButton buttonLabel]
+-[TOPasscodeCircleButton setButtonLabel:]
+-[TOPasscodeCircleButton circleView]
+-[TOPasscodeCircleButton setCircleView:]
+-[TOPasscodeCircleButton vibrancyView]
+-[TOPasscodeCircleButton setVibrancyView:]
+-[TOPasscodeCircleButton buttonTappedHandler]
+-[TOPasscodeCircleButton setButtonTappedHandler:]
+-[TOPasscodeCircleButton .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeCircleButton._numberString
+_OBJC_IVAR_$_TOPasscodeCircleButton._letteringString
+_OBJC_IVAR_$_TOPasscodeCircleButton._contentAlpha
+_OBJC_IVAR_$_TOPasscodeCircleButton._textColor
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_CLASSLIST_REFERENCES_$_.76
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_IVAR_$_TOPasscodeCircleButton._vibrancyEffect
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_IVAR_$_TOPasscodeCircleButton._highlightedTextColor
+_OBJC_IVAR_$_TOPasscodeCircleButton._buttonLabel
+_OBJC_IVAR_$_TOPasscodeCircleButton._circleView
+_OBJC_IVAR_$_TOPasscodeCircleButton._vibrancyView
+_OBJC_IVAR_$_TOPasscodeCircleButton._buttonTappedHandler
+__OBJC_METACLASS_RO_$_TOPasscodeCircleButton
+__OBJC_$_INSTANCE_METHODS_TOPasscodeCircleButton
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeCircleButton
+__OBJC_$_PROP_LIST_TOPasscodeCircleButton
+__OBJC_CLASS_RO_$_TOPasscodeCircleButton
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Main/TOPasscodeCircleButton.m
+TOPasscodeViewController/Views/Main/TOPasscodeCircleButton.m
+TOPasscodeViewController/Views/Main/TOPasscodeCircleButton.h
+__50-[TOPasscodeCircleButton setHighlighted:animated:]_block_invoke
+-[TOPasscodeKeypadView initWithFrame:]
+-[TOPasscodeKeypadView makeCircleButtonWithNumber:letteringString:]
+___67-[TOPasscodeKeypadView makeCircleButtonWithNumber:letteringString:]_block_invoke
+-[TOPasscodeKeypadView setUpButtons]
+-[TOPasscodeKeypadView sizeToFit]
+-[TOPasscodeKeypadView layoutSubviews]
+-[TOPasscodeKeypadView setVibrancyEffect:]
+-[TOPasscodeKeypadView buttonImage]
+-[TOPasscodeKeypadView tappedButtonImage]
+-[TOPasscodeKeypadView keypadButtons]
+-[TOPasscodeKeypadView enableInputClicksWhenVisible]
+-[TOPasscodeKeypadView setHorizontalLayout:]
+-[TOPasscodeKeypadView setHorizontalLayout:animated:duration:]
+___62-[TOPasscodeKeypadView setHorizontalLayout:animated:duration:]_block_invoke
+___62-[TOPasscodeKeypadView setHorizontalLayout:animated:duration:]_block_invoke.114
+-[TOPasscodeKeypadView updateButtonsForCurrentState]
+-[TOPasscodeKeypadView setButtonDiameter:]
+-[TOPasscodeKeypadView setButtonSpacing:]
+-[TOPasscodeKeypadView setButtonStrokeWidth:]
+-[TOPasscodeKeypadView setShowLettering:]
+-[TOPasscodeKeypadView setButtonNumberFont:]
+-[TOPasscodeKeypadView setButtonLetteringFont:]
+-[TOPasscodeKeypadView setButtonLabelSpacing:]
+-[TOPasscodeKeypadView setButtonLetteringSpacing:]
+-[TOPasscodeKeypadView setButtonBackgroundColor:]
+-[TOPasscodeKeypadView setButtonTextColor:]
+-[TOPasscodeKeypadView setButtonHighlightedTextColor:]
+-[TOPasscodeKeypadView setLeftAccessoryView:]
+-[TOPasscodeKeypadView setRightAccessoryView:]
+-[TOPasscodeKeypadView setContentAlpha:]
+-[TOPasscodeKeypadView horizontalLayout]
+-[TOPasscodeKeypadView vibrancyEffect]
+-[TOPasscodeKeypadView buttonDiameter]
+-[TOPasscodeKeypadView buttonStrokeWidth]
+-[TOPasscodeKeypadView buttonSpacing]
+-[TOPasscodeKeypadView buttonNumberFont]
+-[TOPasscodeKeypadView buttonLetteringFont]
+-[TOPasscodeKeypadView buttonLabelSpacing]
+-[TOPasscodeKeypadView buttonLetteringSpacing]
+-[TOPasscodeKeypadView showLettering]
+-[TOPasscodeKeypadView letteringSpacing]
+-[TOPasscodeKeypadView setLetteringSpacing:]
+-[TOPasscodeKeypadView buttonBackgroundColor]
+-[TOPasscodeKeypadView buttonTextColor]
+-[TOPasscodeKeypadView buttonHighlightedTextColor]
+-[TOPasscodeKeypadView contentAlpha]
+-[TOPasscodeKeypadView leftAccessoryView]
+-[TOPasscodeKeypadView rightAccessoryView]
+-[TOPasscodeKeypadView buttonTappedHandler]
+-[TOPasscodeKeypadView setButtonTappedHandler:]
+-[TOPasscodeKeypadView setKeypadButtons:]
+-[TOPasscodeKeypadView verticalZeroButton]
+-[TOPasscodeKeypadView setVerticalZeroButton:]
+-[TOPasscodeKeypadView horizontalZeroButton]
+-[TOPasscodeKeypadView setHorizontalZeroButton:]
+-[TOPasscodeKeypadView setButtonImage:]
+-[TOPasscodeKeypadView setTappedButtonImage:]
+-[TOPasscodeKeypadView .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonDiameter
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonSpacing
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonStrokeWidth
+_OBJC_IVAR_$_TOPasscodeKeypadView._showLettering
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonNumberFont
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonLetteringFont
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonLabelSpacing
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonLetteringSpacing
+_OBJC_CLASSLIST_REFERENCES_$_.7
+___block_descriptor_28_e4_20w_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_IVAR_$_TOPasscodeKeypadView._keypadButtons
+_OBJC_IVAR_$_TOPasscodeKeypadView._vibrancyEffect
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonImage
+_OBJC_CLASSLIST_REFERENCES_$_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_IVAR_$_TOPasscodeKeypadView._tappedButtonImage
+_OBJC_IVAR_$_TOPasscodeKeypadView._horizontalLayout
+_OBJC_CLASSLIST_REFERENCES_$_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonBackgroundColor
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonTextColor
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonHighlightedTextColor
+_OBJC_IVAR_$_TOPasscodeKeypadView._leftAccessoryView
+_OBJC_IVAR_$_TOPasscodeKeypadView._rightAccessoryView
+_OBJC_IVAR_$_TOPasscodeKeypadView._contentAlpha
+_OBJC_IVAR_$_TOPasscodeKeypadView._letteringSpacing
+_OBJC_IVAR_$_TOPasscodeKeypadView._buttonTappedHandler
+_OBJC_IVAR_$_TOPasscodeKeypadView._verticalZeroButton
+_OBJC_IVAR_$_TOPasscodeKeypadView._horizontalZeroButton
+__OBJC_$_PROTOCOL_REFS_UIInputViewAudioFeedback
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIInputViewAudioFeedback
+__OBJC_$_PROP_LIST_UIInputViewAudioFeedback
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIInputViewAudioFeedback
+__OBJC_PROTOCOL_$_UIInputViewAudioFeedback
+__OBJC_LABEL_PROTOCOL_$_UIInputViewAudioFeedback
+__OBJC_CLASS_PROTOCOLS_$_TOPasscodeKeypadView
+__OBJC_METACLASS_RO_$_TOPasscodeKeypadView
+__OBJC_$_INSTANCE_METHODS_TOPasscodeKeypadView
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeKeypadView
+__OBJC_$_PROP_LIST_TOPasscodeKeypadView
+__OBJC_CLASS_RO_$_TOPasscodeKeypadView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Main/TOPasscodeKeypadView.m
+TOPasscodeViewController/Views/Main/TOPasscodeKeypadView.m
+TOPasscodeViewController/Views/Main/TOPasscodeKeypadView.h
+__CGSizeEqualToSize
+__62-[TOPasscodeKeypadView setHorizontalLayout:animated:duration:]_block_invoke.114
+__62-[TOPasscodeKeypadView setHorizontalLayout:animated:duration:]_block_invoke
+__67-[TOPasscodeKeypadView makeCircleButtonWithNumber:letteringString:]_block_invoke
++[TOPasscodeSettingsKeypadButton button]
+-[TOPasscodeSettingsKeypadButton buttonLabel]
+-[TOPasscodeSettingsKeypadButton setBottomInset:]
+-[TOPasscodeSettingsKeypadButton setEnabled:]
+-[TOPasscodeSettingsKeypadButton setHighlighted:]
+___49-[TOPasscodeSettingsKeypadButton setHighlighted:]_block_invoke
+-[TOPasscodeSettingsKeypadButton setButtonBackgroundImage:]
+-[TOPasscodeSettingsKeypadButton buttonBackgroundImage]
+-[TOPasscodeSettingsKeypadButton setButtonTappedBackgroundImage:]
+-[TOPasscodeSettingsKeypadButton buttonTappedBackgroundImage]
+-[TOPasscodeSettingsKeypadButton bottomInset]
+-[TOPasscodeSettingsKeypadButton setButtonLabel:]
+-[TOPasscodeSettingsKeypadButton .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadButton._buttonLabel
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadButton._bottomInset
+_OBJC_CLASSLIST_REFERENCES_$_.28
+__OBJC_$_CLASS_METHODS_TOPasscodeSettingsKeypadButton
+__OBJC_METACLASS_RO_$_TOPasscodeSettingsKeypadButton
+__OBJC_$_INSTANCE_METHODS_TOPasscodeSettingsKeypadButton
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeSettingsKeypadButton
+__OBJC_$_PROP_LIST_TOPasscodeSettingsKeypadButton
+__OBJC_CLASS_RO_$_TOPasscodeSettingsKeypadButton
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadButton.m
+TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadButton.m
+TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadButton.h
+__49-[TOPasscodeSettingsKeypadButton setHighlighted:]_block_invoke
+-[TOPasscodeSettingsKeypadView initWithFrame:]
+-[TOPasscodeSettingsKeypadView setUp]
+-[TOPasscodeSettingsKeypadView setUpKeypadButtons]
+-[TOPasscodeSettingsKeypadView setUpDeleteButton]
+-[TOPasscodeSettingsKeypadView setUpDefaultValuesForStye:]
+-[TOPasscodeSettingsKeypadView setUpImagesIfNeeded]
+-[TOPasscodeSettingsKeypadView applyTheme]
+-[TOPasscodeSettingsKeypadView layoutSubviews]
+-[TOPasscodeSettingsKeypadView buttonTapped:]
+-[TOPasscodeSettingsKeypadView setStyle:]
+-[TOPasscodeSettingsKeypadView setButtonLabelHorizontalLayout:]
+-[TOPasscodeSettingsKeypadView setButtonLabelHorizontalLayout:animated:]
+___72-[TOPasscodeSettingsKeypadView setButtonLabelHorizontalLayout:animated:]_block_invoke
+___72-[TOPasscodeSettingsKeypadView setButtonLabelHorizontalLayout:animated:]_block_invoke.208
+-[TOPasscodeSettingsKeypadView setKeypadButtonForegroundColor:]
+-[TOPasscodeSettingsKeypadView setKeypadButtonBorderColor:]
+-[TOPasscodeSettingsKeypadView setKeypadButtonTappedForegroundColor:]
+-[TOPasscodeSettingsKeypadView setEnabled:]
+-[TOPasscodeSettingsKeypadView enabled]
+-[TOPasscodeSettingsKeypadView style]
+-[TOPasscodeSettingsKeypadView separatorLineColor]
+-[TOPasscodeSettingsKeypadView setSeparatorLineColor:]
+-[TOPasscodeSettingsKeypadView buttonLabelHorizontalLayout]
+-[TOPasscodeSettingsKeypadView keypadButtonBorderThickness]
+-[TOPasscodeSettingsKeypadView setKeypadButtonBorderThickness:]
+-[TOPasscodeSettingsKeypadView keypadButtonForegroundColor]
+-[TOPasscodeSettingsKeypadView keypadButtonBorderColor]
+-[TOPasscodeSettingsKeypadView keypadButtonTappedForegroundColor]
+-[TOPasscodeSettingsKeypadView keypadButtonTappedBorderColor]
+-[TOPasscodeSettingsKeypadView setKeypadButtonTappedBorderColor:]
+-[TOPasscodeSettingsKeypadView keypadButtonNumberFont]
+-[TOPasscodeSettingsKeypadView setKeypadButtonNumberFont:]
+-[TOPasscodeSettingsKeypadView keypadButtonLetteringFont]
+-[TOPasscodeSettingsKeypadView setKeypadButtonLetteringFont:]
+-[TOPasscodeSettingsKeypadView keypadButtonLabelTextColor]
+-[TOPasscodeSettingsKeypadView setKeypadButtonLabelTextColor:]
+-[TOPasscodeSettingsKeypadView keypadButtonVerticalSpacing]
+-[TOPasscodeSettingsKeypadView setKeypadButtonVerticalSpacing:]
+-[TOPasscodeSettingsKeypadView keypadButtonHorizontalSpacing]
+-[TOPasscodeSettingsKeypadView setKeypadButtonHorizontalSpacing:]
+-[TOPasscodeSettingsKeypadView keypadButtonLetteringSpacing]
+-[TOPasscodeSettingsKeypadView setKeypadButtonLetteringSpacing:]
+-[TOPasscodeSettingsKeypadView numberButtonTappedHandler]
+-[TOPasscodeSettingsKeypadView setNumberButtonTappedHandler:]
+-[TOPasscodeSettingsKeypadView deleteButtonTappedHandler]
+-[TOPasscodeSettingsKeypadView setDeleteButtonTappedHandler:]
+-[TOPasscodeSettingsKeypadView separatorView]
+-[TOPasscodeSettingsKeypadView setSeparatorView:]
+-[TOPasscodeSettingsKeypadView keypadButtons]
+-[TOPasscodeSettingsKeypadView setKeypadButtons:]
+-[TOPasscodeSettingsKeypadView deleteButton]
+-[TOPasscodeSettingsKeypadView setDeleteButton:]
+-[TOPasscodeSettingsKeypadView buttonBackgroundImage]
+-[TOPasscodeSettingsKeypadView setButtonBackgroundImage:]
+-[TOPasscodeSettingsKeypadView buttonTappedBackgroundImage]
+-[TOPasscodeSettingsKeypadView setButtonTappedBackgroundImage:]
+-[TOPasscodeSettingsKeypadView .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonNumberFont
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonLetteringFont
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonVerticalSpacing
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonHorizontalSpacing
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonLetteringSpacing
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._style
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_CLASSLIST_REFERENCES_$_.81
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_CLASSLIST_REFERENCES_$_.99
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_CLASSLIST_REFERENCES_$_.178
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._buttonLabelHorizontalLayout
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonForegroundColor
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonBorderColor
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonTappedForegroundColor
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._enabled
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._separatorLineColor
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonBorderThickness
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonTappedBorderColor
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtonLabelTextColor
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._numberButtonTappedHandler
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._deleteButtonTappedHandler
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._separatorView
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._keypadButtons
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._deleteButton
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._buttonBackgroundImage
+_OBJC_IVAR_$_TOPasscodeSettingsKeypadView._buttonTappedBackgroundImage
+__OBJC_METACLASS_RO_$_TOPasscodeSettingsKeypadView
+__OBJC_$_INSTANCE_METHODS_TOPasscodeSettingsKeypadView
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeSettingsKeypadView
+__OBJC_$_PROP_LIST_TOPasscodeSettingsKeypadView
+__OBJC_CLASS_RO_$_TOPasscodeSettingsKeypadView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadView.m
+TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadView.m
+TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadView.h
+__72-[TOPasscodeSettingsKeypadView setButtonLabelHorizontalLayout:animated:]_block_invoke.208
+__72-[TOPasscodeSettingsKeypadView setButtonLabelHorizontalLayout:animated:]_block_invoke
+-[TOPasscodeSettingsWarningLabel initWithFrame:]
+-[TOPasscodeSettingsWarningLabel setUp]
+-[TOPasscodeSettingsWarningLabel didMoveToSuperview]
+-[TOPasscodeSettingsWarningLabel sizeToFit]
+-[TOPasscodeSettingsWarningLabel layoutSubviews]
+-[TOPasscodeSettingsWarningLabel setTextForCount:]
+-[TOPasscodeSettingsWarningLabel setBackgroundImageIfNeeded]
++[TOPasscodeSettingsWarningLabel roundedBackgroundImageWithHeight:]
+-[TOPasscodeSettingsWarningLabel setNumberOfWarnings:]
+-[TOPasscodeSettingsWarningLabel backgroundColor]
+-[TOPasscodeSettingsWarningLabel setBackgroundColor:]
+-[TOPasscodeSettingsWarningLabel numberOfWarnings]
+-[TOPasscodeSettingsWarningLabel textFont]
+-[TOPasscodeSettingsWarningLabel setTextFont:]
+-[TOPasscodeSettingsWarningLabel textPadding]
+-[TOPasscodeSettingsWarningLabel setTextPadding:]
+-[TOPasscodeSettingsWarningLabel label]
+-[TOPasscodeSettingsWarningLabel setLabel:]
+-[TOPasscodeSettingsWarningLabel .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeSettingsWarningLabel._numberOfWarnings
+_OBJC_IVAR_$_TOPasscodeSettingsWarningLabel._textPadding
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_IVAR_$_TOPasscodeSettingsWarningLabel.__backgroundColor
+_OBJC_IVAR_$_TOPasscodeSettingsWarningLabel._textFont
+_OBJC_IVAR_$_TOPasscodeSettingsWarningLabel._label
+__OBJC_$_CLASS_METHODS_TOPasscodeSettingsWarningLabel
+__OBJC_METACLASS_RO_$_TOPasscodeSettingsWarningLabel
+__OBJC_$_INSTANCE_METHODS_TOPasscodeSettingsWarningLabel
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeSettingsWarningLabel
+__OBJC_$_PROP_LIST_TOPasscodeSettingsWarningLabel
+__OBJC_CLASS_RO_$_TOPasscodeSettingsWarningLabel
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Settings/TOPasscodeSettingsWarningLabel.m
+TOPasscodeViewController/Views/Settings/TOPasscodeSettingsWarningLabel.m
+TOPasscodeViewController/Views/Settings/TOPasscodeSettingsWarningLabel.h
+-[TOPasscodeButtonLabel initWithFrame:]
+-[TOPasscodeButtonLabel setUpViews]
+-[TOPasscodeButtonLabel updateLetteringLabelText]
+-[TOPasscodeButtonLabel layoutSubviews]
+-[TOPasscodeButtonLabel setTextColor:]
+-[TOPasscodeButtonLabel setNumberString:]
+-[TOPasscodeButtonLabel numberString]
+-[TOPasscodeButtonLabel setLetteringString:]
+-[TOPasscodeButtonLabel setLetteringCharacterSpacing:]
+-[TOPasscodeButtonLabel setNumberLabelFont:]
+-[TOPasscodeButtonLabel setLetteringLabelFont:]
+-[TOPasscodeButtonLabel horizontalLayout]
+-[TOPasscodeButtonLabel setHorizontalLayout:]
+-[TOPasscodeButtonLabel letteringString]
+-[TOPasscodeButtonLabel textColor]
+-[TOPasscodeButtonLabel numberLabel]
+-[TOPasscodeButtonLabel setNumberLabel:]
+-[TOPasscodeButtonLabel letteringLabel]
+-[TOPasscodeButtonLabel setLetteringLabel:]
+-[TOPasscodeButtonLabel numberLabelFont]
+-[TOPasscodeButtonLabel letteringLabelFont]
+-[TOPasscodeButtonLabel letteringCharacterSpacing]
+-[TOPasscodeButtonLabel letteringVerticalSpacing]
+-[TOPasscodeButtonLabel setLetteringVerticalSpacing:]
+-[TOPasscodeButtonLabel letteringHorizontalSpacing]
+-[TOPasscodeButtonLabel setLetteringHorizontalSpacing:]
+-[TOPasscodeButtonLabel verticallyCenterNumberLabel]
+-[TOPasscodeButtonLabel setVerticallyCenterNumberLabel:]
+-[TOPasscodeButtonLabel .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeButtonLabel._letteringVerticalSpacing
+_OBJC_IVAR_$_TOPasscodeButtonLabel._letteringCharacterSpacing
+_OBJC_IVAR_$_TOPasscodeButtonLabel._letteringHorizontalSpacing
+_OBJC_IVAR_$_TOPasscodeButtonLabel._numberLabelFont
+_OBJC_IVAR_$_TOPasscodeButtonLabel._letteringLabelFont
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_IVAR_$_TOPasscodeButtonLabel._textColor
+_OBJC_IVAR_$_TOPasscodeButtonLabel._letteringString
+_OBJC_IVAR_$_TOPasscodeButtonLabel._horizontalLayout
+_OBJC_IVAR_$_TOPasscodeButtonLabel._numberLabel
+_OBJC_IVAR_$_TOPasscodeButtonLabel._letteringLabel
+_OBJC_IVAR_$_TOPasscodeButtonLabel._verticallyCenterNumberLabel
+__OBJC_METACLASS_RO_$_TOPasscodeButtonLabel
+__OBJC_$_INSTANCE_METHODS_TOPasscodeButtonLabel
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeButtonLabel
+__OBJC_$_PROP_LIST_TOPasscodeButtonLabel
+__OBJC_CLASS_RO_$_TOPasscodeButtonLabel
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Shared/TOPasscodeButtonLabel.m
+TOPasscodeViewController/Views/Shared/TOPasscodeButtonLabel.m
+TOPasscodeViewController/Views/Shared/TOPasscodeButtonLabel.h
+-[TOPasscodeCircleView initWithFrame:]
+-[TOPasscodeCircleView setIsHighlighted:]
+-[TOPasscodeCircleView setHighlighted:animated:]
+___48-[TOPasscodeCircleView setHighlighted:animated:]_block_invoke
+-[TOPasscodeCircleView setCircleImage:]
+-[TOPasscodeCircleView setHighlightedCircleImage:]
+-[TOPasscodeCircleView circleImage]
+-[TOPasscodeCircleView highlightedCircleImage]
+-[TOPasscodeCircleView isHighlighted]
+-[TOPasscodeCircleView bottomView]
+-[TOPasscodeCircleView setBottomView:]
+-[TOPasscodeCircleView topView]
+-[TOPasscodeCircleView setTopView:]
+-[TOPasscodeCircleView .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeCircleView._isHighlighted
+_OBJC_IVAR_$_TOPasscodeCircleView._circleImage
+_OBJC_IVAR_$_TOPasscodeCircleView._highlightedCircleImage
+_OBJC_IVAR_$_TOPasscodeCircleView._bottomView
+_OBJC_IVAR_$_TOPasscodeCircleView._topView
+__OBJC_METACLASS_RO_$_TOPasscodeCircleView
+__OBJC_$_INSTANCE_METHODS_TOPasscodeCircleView
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeCircleView
+__OBJC_$_PROP_LIST_TOPasscodeCircleView
+__OBJC_CLASS_RO_$_TOPasscodeCircleView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Shared/TOPasscodeCircleView.m
+TOPasscodeViewController/Views/Shared/TOPasscodeCircleView.m
+TOPasscodeViewController/Views/Shared/TOPasscodeCircleView.h
+__48-[TOPasscodeCircleView setHighlighted:animated:]_block_invoke
+-[TOPasscodeInputField initWithFrame:]
+-[TOPasscodeInputField initWithStyle:]
+-[TOPasscodeInputField setUp]
+-[TOPasscodeInputField setUpForStyle:]
+-[TOPasscodeInputField sizeToFit]
+-[TOPasscodeInputField layoutSubviews]
+-[TOPasscodeInputField touchesBegan:withEvent:]
+-[TOPasscodeInputField touchesEnded:withEvent:]
+___47-[TOPasscodeInputField touchesEnded:withEvent:]_block_invoke
+-[TOPasscodeInputField pointInside:withEvent:]
+-[TOPasscodeInputField hitTest:withEvent:]
+-[TOPasscodeInputField canBecomeFirstResponder]
+-[TOPasscodeInputField hasText]
+-[TOPasscodeInputField insertText:]
+-[TOPasscodeInputField deleteBackward]
+-[TOPasscodeInputField keyboardType]
+-[TOPasscodeInputField autocorrectionType]
+-[TOPasscodeInputField returnKeyType]
+-[TOPasscodeInputField enablesReturnKeyAutomatically]
+-[TOPasscodeInputField setPasscode:animated:]
+-[TOPasscodeInputField appendPasscodeCharacters:animated:]
+-[TOPasscodeInputField deletePasscodeCharactersOfCount:animated:]
+-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]
+___57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke
+___57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke_2
+___57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke.109
+___57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke_2.112
+___57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke_3
+-[TOPasscodeInputField submitButtonTapped:]
+-[TOPasscodeInputField inputField]
+-[TOPasscodeInputField maximumPasscodeLength]
+-[TOPasscodeInputField setShowSubmitButton:]
+-[TOPasscodeInputField setSubmitButtonSpacing:]
+-[TOPasscodeInputField setSubmitButtonFontSize:]
+-[TOPasscodeInputField setStyle:]
+-[TOPasscodeInputField setPasscode:]
+-[TOPasscodeInputField setContentAlpha:]
+-[TOPasscodeInputField setHorizontalLayout:]
+-[TOPasscodeInputField setHorizontalLayout:animated:duration:]
+___62-[TOPasscodeInputField setHorizontalLayout:animated:duration:]_block_invoke
+___62-[TOPasscodeInputField setHorizontalLayout:animated:duration:]_block_invoke.147
+-[TOPasscodeInputField visualEffectView]
+-[TOPasscodeInputField setVisualEffectView:]
+-[TOPasscodeInputField style]
+-[TOPasscodeInputField fixedInputView]
+-[TOPasscodeInputField setFixedInputView:]
+-[TOPasscodeInputField variableInputView]
+-[TOPasscodeInputField setVariableInputView:]
+-[TOPasscodeInputField submitButton]
+-[TOPasscodeInputField setSubmitButton:]
+-[TOPasscodeInputField showSubmitButton]
+-[TOPasscodeInputField submitButtonSpacing]
+-[TOPasscodeInputField submitButtonVerticalSpacing]
+-[TOPasscodeInputField setSubmitButtonVerticalSpacing:]
+-[TOPasscodeInputField submitButtonFontSize]
+-[TOPasscodeInputField passcode]
+-[TOPasscodeInputField keyboardAppearance]
+-[TOPasscodeInputField setKeyboardAppearance:]
+-[TOPasscodeInputField setReturnKeyType:]
+-[TOPasscodeInputField contentAlpha]
+-[TOPasscodeInputField enabled]
+-[TOPasscodeInputField setEnabled:]
+-[TOPasscodeInputField passcodeCompletedHandler]
+-[TOPasscodeInputField setPasscodeCompletedHandler:]
+-[TOPasscodeInputField horizontalLayout]
+-[TOPasscodeInputField .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeInputField._style
+_OBJC_IVAR_$_TOPasscodeInputField._submitButtonSpacing
+_OBJC_IVAR_$_TOPasscodeInputField._submitButtonVerticalSpacing
+_OBJC_IVAR_$_TOPasscodeInputField._visualEffectView
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_IVAR_$_TOPasscodeInputField._passcode
+___block_descriptor_32_e4_20s_e5_v4?0l
+___block_descriptor_32_e4_20s_e7_v8?0c4l
+_OBJC_IVAR_$_TOPasscodeInputField._showSubmitButton
+_OBJC_CLASSLIST_REFERENCES_$_.119
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_IVAR_$_TOPasscodeInputField._submitButtonFontSize
+_OBJC_IVAR_$_TOPasscodeInputField._contentAlpha
+_OBJC_IVAR_$_TOPasscodeInputField._horizontalLayout
+___block_descriptor_28_e4_20s24s_e7_v8?0c4l
+_OBJC_IVAR_$_TOPasscodeInputField._fixedInputView
+_OBJC_IVAR_$_TOPasscodeInputField._variableInputView
+_OBJC_IVAR_$_TOPasscodeInputField._submitButton
+_OBJC_IVAR_$_TOPasscodeInputField._keyboardAppearance
+_OBJC_IVAR_$_TOPasscodeInputField._returnKeyType
+_OBJC_IVAR_$_TOPasscodeInputField._enabled
+_OBJC_IVAR_$_TOPasscodeInputField._passcodeCompletedHandler
+__OBJC_$_PROTOCOL_REFS_UITextInputTraits
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextInputTraits
+__OBJC_$_PROP_LIST_UITextInputTraits
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextInputTraits
+__OBJC_PROTOCOL_$_UITextInputTraits
+__OBJC_LABEL_PROTOCOL_$_UITextInputTraits
+__OBJC_$_PROTOCOL_REFS_UIKeyInput
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UIKeyInput
+__OBJC_$_PROP_LIST_UIKeyInput
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIKeyInput
+__OBJC_PROTOCOL_$_UIKeyInput
+__OBJC_LABEL_PROTOCOL_$_UIKeyInput
+__OBJC_CLASS_PROTOCOLS_$_TOPasscodeInputField
+__OBJC_METACLASS_RO_$_TOPasscodeInputField
+__OBJC_$_INSTANCE_METHODS_TOPasscodeInputField
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeInputField
+__OBJC_$_PROP_LIST_TOPasscodeInputField
+__OBJC_CLASS_RO_$_TOPasscodeInputField
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Shared/TOPasscodeInputField.m
+TOPasscodeViewController/Views/Shared/TOPasscodeInputField.m
+TOPasscodeViewController/Views/Shared/TOPasscodeInputField.h
+__62-[TOPasscodeInputField setHorizontalLayout:animated:duration:]_block_invoke.147
+__62-[TOPasscodeInputField setHorizontalLayout:animated:duration:]_block_invoke
+__57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke_3
+__57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke_2.112
+__57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke.109
+__57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke_2
+__57-[TOPasscodeInputField resetPasscodeAnimated:playImpact:]_block_invoke
+__47-[TOPasscodeInputField touchesEnded:withEvent:]_block_invoke
+-[TOPasscodeFixedInputView initWithLength:]
+-[TOPasscodeFixedInputView initWithFrame:]
+-[TOPasscodeFixedInputView sizeToFit]
+-[TOPasscodeFixedInputView layoutSubviews]
+-[TOPasscodeFixedInputView setHighlightedLength:animated:]
+-[TOPasscodeFixedInputView setCircleViewsForLength:]
+___52-[TOPasscodeFixedInputView setCircleViewsForLength:]_block_invoke
+-[TOPasscodeFixedInputView setCircleImagesForDiameter:]
+-[TOPasscodeFixedInputView setImagesOfCircleView:]
+-[TOPasscodeFixedInputView circleViews]
+-[TOPasscodeFixedInputView setCircleDiameter:]
+-[TOPasscodeFixedInputView setLength:]
+-[TOPasscodeFixedInputView setHighlightedLength:]
+-[TOPasscodeFixedInputView circleDiameter]
+-[TOPasscodeFixedInputView circleSpacing]
+-[TOPasscodeFixedInputView setCircleSpacing:]
+-[TOPasscodeFixedInputView length]
+-[TOPasscodeFixedInputView highlightedLength]
+-[TOPasscodeFixedInputView setCircleViews:]
+-[TOPasscodeFixedInputView circleImage]
+-[TOPasscodeFixedInputView setCircleImage:]
+-[TOPasscodeFixedInputView highlightedCircleImage]
+-[TOPasscodeFixedInputView setHighlightedCircleImage:]
+-[TOPasscodeFixedInputView .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeFixedInputView._length
+_OBJC_IVAR_$_TOPasscodeFixedInputView._circleSpacing
+_OBJC_IVAR_$_TOPasscodeFixedInputView._circleDiameter
+_OBJC_CLASSLIST_REFERENCES_$_.19
+___block_descriptor_32_e4_20s24s_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_IVAR_$_TOPasscodeFixedInputView._circleViews
+_OBJC_IVAR_$_TOPasscodeFixedInputView._highlightedLength
+_OBJC_IVAR_$_TOPasscodeFixedInputView._circleImage
+_OBJC_IVAR_$_TOPasscodeFixedInputView._highlightedCircleImage
+__OBJC_METACLASS_RO_$_TOPasscodeFixedInputView
+__OBJC_$_INSTANCE_METHODS_TOPasscodeFixedInputView
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeFixedInputView
+__OBJC_$_PROP_LIST_TOPasscodeFixedInputView
+__OBJC_CLASS_RO_$_TOPasscodeFixedInputView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Shared/TOPasscodeFixedInputView.m
+TOPasscodeViewController/Views/Shared/TOPasscodeFixedInputView.m
+TOPasscodeViewController/Views/Shared/TOPasscodeFixedInputView.h
+__52-[TOPasscodeFixedInputView setCircleViewsForLength:]_block_invoke
+-[TOPasscodeVariableInputView initWithFrame:]
+-[TOPasscodeVariableInputView setUpImageForCircleViews]
+-[TOPasscodeVariableInputView setUpCircleViewsForLength:]
+___57-[TOPasscodeVariableInputView setUpCircleViewsForLength:]_block_invoke
+-[TOPasscodeVariableInputView setUpBackgroundImage]
+-[TOPasscodeVariableInputView sizeToFit]
+-[TOPasscodeVariableInputView layoutSubviews]
+-[TOPasscodeVariableInputView setOutlineThickness:]
+-[TOPasscodeVariableInputView setOutlineCornerRadius:]
+-[TOPasscodeVariableInputView setCircleDiameter:]
+-[TOPasscodeVariableInputView setCircleSpacing:]
+-[TOPasscodeVariableInputView setOutlinePadding:]
+-[TOPasscodeVariableInputView setMaximumVisibleLength:]
+-[TOPasscodeVariableInputView setLength:]
+-[TOPasscodeVariableInputView setLength:animated:]
+___50-[TOPasscodeVariableInputView setLength:animated:]_block_invoke
++[TOPasscodeVariableInputView backgroundImageWithThickness:cornerRadius:]
+-[TOPasscodeVariableInputView outlineThickness]
+-[TOPasscodeVariableInputView outlineCornerRadius]
+-[TOPasscodeVariableInputView circleDiameter]
+-[TOPasscodeVariableInputView circleSpacing]
+-[TOPasscodeVariableInputView outlinePadding]
+-[TOPasscodeVariableInputView maximumVisibleLength]
+-[TOPasscodeVariableInputView length]
+-[TOPasscodeVariableInputView backgroundImage]
+-[TOPasscodeVariableInputView setBackgroundImage:]
+-[TOPasscodeVariableInputView circleImage]
+-[TOPasscodeVariableInputView setCircleImage:]
+-[TOPasscodeVariableInputView circleViews]
+-[TOPasscodeVariableInputView setCircleViews:]
+-[TOPasscodeVariableInputView .cxx_destruct]
+_OBJC_IVAR_$_TOPasscodeVariableInputView._outlineThickness
+_OBJC_IVAR_$_TOPasscodeVariableInputView._outlineCornerRadius
+_OBJC_IVAR_$_TOPasscodeVariableInputView._circleDiameter
+_OBJC_IVAR_$_TOPasscodeVariableInputView._circleSpacing
+_OBJC_IVAR_$_TOPasscodeVariableInputView._outlinePadding
+_OBJC_IVAR_$_TOPasscodeVariableInputView._maximumVisibleLength
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_CLASSLIST_REFERENCES_$_.29
+___block_descriptor_28_e4_20s_e5_v4?0l
+_OBJC_IVAR_$_TOPasscodeVariableInputView._length
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_IVAR_$_TOPasscodeVariableInputView._backgroundImage
+_OBJC_IVAR_$_TOPasscodeVariableInputView._circleImage
+_OBJC_IVAR_$_TOPasscodeVariableInputView._circleViews
+__OBJC_$_CLASS_METHODS_TOPasscodeVariableInputView
+__OBJC_METACLASS_RO_$_TOPasscodeVariableInputView
+__OBJC_$_INSTANCE_METHODS_TOPasscodeVariableInputView
+__OBJC_$_INSTANCE_VARIABLES_TOPasscodeVariableInputView
+__OBJC_$_PROP_LIST_TOPasscodeVariableInputView
+__OBJC_CLASS_RO_$_TOPasscodeVariableInputView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/TOPasscodeViewController/TOPasscodeViewController/Views/Shared/TOPasscodeVariableInputView.m
+TOPasscodeViewController/Views/Shared/TOPasscodeVariableInputView.m
+TOPasscodeViewController/Views/Shared/TOPasscodeVariableInputView.h
+__50-[TOPasscodeVariableInputView setLength:animated:]_block_invoke
+__57-[TOPasscodeVariableInputView setUpCircleViewsForLength:]_block_invoke
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -mlinker-version=609 -march=armv7a
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk
+iPhoneOS14.0.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

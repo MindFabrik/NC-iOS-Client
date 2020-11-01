@@ -1,0 +1,1563 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.21)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk
+iPhoneOS14.1.sdk
+/Users/oliveroeh/Library/Caches/org.carthage.CarthageKit/DerivedData/12.1_12A7403/KTVHTTPCache/2.0.2/Build/Intermediates.noindex/ArchiveIntermediates/KTVHTTPCache/IntermediateBuildFilesPath/KTVHTTPCache.build/Release-iphoneos/KTVHTTPCache.build/DerivedSources/KTVHTTPCache_vers.c
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/Framework
+-[KTVHCDataUnitQueue initWithPath:]
+-[KTVHCDataUnitQueue allUnits]
+-[KTVHCDataUnitQueue unitWithKey:]
+-[KTVHCDataUnitQueue putUnit:]
+-[KTVHCDataUnitQueue popUnit:]
+-[KTVHCDataUnitQueue archive]
+-[KTVHCDataUnitQueue path]
+-[KTVHCDataUnitQueue setPath:]
+-[KTVHCDataUnitQueue unitArray]
+-[KTVHCDataUnitQueue setUnitArray:]
+-[KTVHCDataUnitQueue .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_SELECTOR_REFERENCES_.64
+__OBJC_METACLASS_RO_$_KTVHCDataUnitQueue
+__OBJC_$_INSTANCE_METHODS_KTVHCDataUnitQueue
+_OBJC_IVAR_$_KTVHCDataUnitQueue._path
+_OBJC_IVAR_$_KTVHCDataUnitQueue._unitArray
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataUnitQueue
+__OBJC_$_PROP_LIST_KTVHCDataUnitQueue
+__OBJC_CLASS_RO_$_KTVHCDataUnitQueue
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitQueue.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitQueue.m
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache
+-[KTVHCDataUnitItem copyWithZone:]
+-[KTVHCDataUnitItem initWithPath:]
+-[KTVHCDataUnitItem initWithPath:offset:]
+-[KTVHCDataUnitItem initWithCoder:]
+-[KTVHCDataUnitItem encodeWithCoder:]
+-[KTVHCDataUnitItem dealloc]
+-[KTVHCDataUnitItem commonInit]
+-[KTVHCDataUnitItem updateLength:]
+-[KTVHCDataUnitItem lock]
+-[KTVHCDataUnitItem unlock]
+-[KTVHCDataUnitItem relativePath]
+-[KTVHCDataUnitItem absolutePath]
+-[KTVHCDataUnitItem createTimeInterval]
+-[KTVHCDataUnitItem offset]
+-[KTVHCDataUnitItem length]
+-[KTVHCDataUnitItem coreLock]
+-[KTVHCDataUnitItem setCoreLock:]
+-[KTVHCDataUnitItem .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_CLASSLIST_REFERENCES_$_.78
+_OBJC_SELECTOR_REFERENCES_.80
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSLocking
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSLocking
+__OBJC_PROTOCOL_$_NSLocking
+__OBJC_LABEL_PROTOCOL_$_NSLocking
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataUnitItem
+__OBJC_METACLASS_RO_$_KTVHCDataUnitItem
+__OBJC_$_INSTANCE_METHODS_KTVHCDataUnitItem
+_OBJC_IVAR_$_KTVHCDataUnitItem._relativePath
+_OBJC_IVAR_$_KTVHCDataUnitItem._absolutePath
+_OBJC_IVAR_$_KTVHCDataUnitItem._coreLock
+_OBJC_IVAR_$_KTVHCDataUnitItem._createTimeInterval
+_OBJC_IVAR_$_KTVHCDataUnitItem._offset
+_OBJC_IVAR_$_KTVHCDataUnitItem._length
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataUnitItem
+__OBJC_$_PROP_LIST_KTVHCDataUnitItem
+__OBJC_CLASS_RO_$_KTVHCDataUnitItem
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitItem.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitItem.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitItem.h
++[KTVHCDownload download]
+___25+[KTVHCDownload download]_block_invoke
+___copy_helper_block_e4_
+___destroy_helper_block_e4_
+-[KTVHCDownload init]
+-[KTVHCDownload dealloc]
+-[KTVHCDownload availableHeaderKeys]
+___36-[KTVHCDownload availableHeaderKeys]_block_invoke
+-[KTVHCDownload downloadWithRequest:delegate:]
+___46-[KTVHCDownload downloadWithRequest:delegate:]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+___46-[KTVHCDownload downloadWithRequest:delegate:]_block_invoke.124
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[KTVHCDownload URLSession:task:didCompleteWithError:]
+-[KTVHCDownload URLSession:dataTask:didReceiveResponse:completionHandler:]
+___74-[KTVHCDownload URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+-[KTVHCDownload URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[KTVHCDownload URLSession:dataTask:didReceiveData:]
+-[KTVHCDownload URLSession:didReceiveChallenge:completionHandler:]
+-[KTVHCDownload lock]
+-[KTVHCDownload unlock]
+-[KTVHCDownload applicationDidEnterBackground:]
+-[KTVHCDownload applicationWillEnterForeground:]
+-[KTVHCDownload beginBackgroundTask]
+___36-[KTVHCDownload beginBackgroundTask]_block_invoke
+-[KTVHCDownload endBackgroundTask]
+-[KTVHCDownload endBackgroundTaskDelay]
+___39-[KTVHCDownload endBackgroundTaskDelay]_block_invoke
+-[KTVHCDownload timeoutInterval]
+-[KTVHCDownload setTimeoutInterval:]
+-[KTVHCDownload whitelistHeaderKeys]
+-[KTVHCDownload setWhitelistHeaderKeys:]
+-[KTVHCDownload additionalHeaders]
+-[KTVHCDownload setAdditionalHeaders:]
+-[KTVHCDownload acceptableContentTypes]
+-[KTVHCDownload setAcceptableContentTypes:]
+-[KTVHCDownload unacceptableContentTypeDisposer]
+-[KTVHCDownload setUnacceptableContentTypeDisposer:]
+-[KTVHCDownload coreLock]
+-[KTVHCDownload setCoreLock:]
+-[KTVHCDownload session]
+-[KTVHCDownload setSession:]
+-[KTVHCDownload sessionDelegateQueue]
+-[KTVHCDownload setSessionDelegateQueue:]
+-[KTVHCDownload sessionConfiguration]
+-[KTVHCDownload setSessionConfiguration:]
+-[KTVHCDownload errorDictionary]
+-[KTVHCDownload setErrorDictionary:]
+-[KTVHCDownload requestDictionary]
+-[KTVHCDownload setRequestDictionary:]
+-[KTVHCDownload delegateDictionary]
+-[KTVHCDownload setDelegateDictionary:]
+-[KTVHCDownload backgroundTask]
+-[KTVHCDownload setBackgroundTask:]
+-[KTVHCDownload .cxx_destruct]
+_download.obj
+_download.onceToken
+___block_descriptor_24_e4__e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_CLASSLIST_REFERENCES_$_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_CLASSLIST_REFERENCES_$_.75
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_availableHeaderKeys.obj
+_availableHeaderKeys.onceToken
+___block_descriptor_20_e5_v4?0l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+___block_descriptor_28_e4_20s24s_e34_v16?0"NSString"4"NSString"8^c12l
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+___block_descriptor_24_e4_20s_e34_v16?0"NSString"4"NSString"8^c12l
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_CLASSLIST_REFERENCES_$_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_CLASSLIST_REFERENCES_$_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+___block_descriptor_20_e8_q12?0q4l
+___block_literal_global.198
+_OBJC_CLASSLIST_REFERENCES_$_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_CLASSLIST_REFERENCES_$_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_CLASSLIST_REFERENCES_$_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_CLASSLIST_REFERENCES_$_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+__OBJC_$_CLASS_METHODS_KTVHCDownload
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
+__OBJC_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_REFS_NSURLSessionTaskDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionTaskDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionTaskDelegate
+__OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+__OBJC_$_PROTOCOL_REFS_NSURLSessionDataDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDataDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDataDelegate
+__OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDownload
+__OBJC_METACLASS_RO_$_KTVHCDownload
+__OBJC_$_INSTANCE_METHODS_KTVHCDownload
+_OBJC_IVAR_$_KTVHCDownload._whitelistHeaderKeys
+_OBJC_IVAR_$_KTVHCDownload._additionalHeaders
+_OBJC_IVAR_$_KTVHCDownload._acceptableContentTypes
+_OBJC_IVAR_$_KTVHCDownload._unacceptableContentTypeDisposer
+_OBJC_IVAR_$_KTVHCDownload._coreLock
+_OBJC_IVAR_$_KTVHCDownload._session
+_OBJC_IVAR_$_KTVHCDownload._sessionDelegateQueue
+_OBJC_IVAR_$_KTVHCDownload._sessionConfiguration
+_OBJC_IVAR_$_KTVHCDownload._errorDictionary
+_OBJC_IVAR_$_KTVHCDownload._requestDictionary
+_OBJC_IVAR_$_KTVHCDownload._delegateDictionary
+_OBJC_IVAR_$_KTVHCDownload._backgroundTask
+_OBJC_IVAR_$_KTVHCDownload._timeoutInterval
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDownload
+__OBJC_$_PROP_LIST_KTVHCDownload
+__OBJC_CLASS_RO_$_KTVHCDownload
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDownload/KTVHCDownload.m
+KTVHTTPCache/Classes/KTVHCDownload/KTVHCDownload.m
+KTVHTTPCache/Classes/KTVHCDownload/KTVHCDownload.h
+__39-[KTVHCDownload endBackgroundTaskDelay]_block_invoke
+__36-[KTVHCDownload beginBackgroundTask]_block_invoke
+__74-[KTVHCDownload URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__46-[KTVHCDownload downloadWithRequest:delegate:]_block_invoke.124
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__46-[KTVHCDownload downloadWithRequest:delegate:]_block_invoke
+__36-[KTVHCDownload availableHeaderKeys]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/dispatch/once.h
+__destroy_helper_block_e4_
+__copy_helper_block_e4_
+__25+[KTVHCDownload download]_block_invoke
+-[KTVHCDataResponse initWithURL:headers:]
+-[KTVHCDataResponse dealloc]
+-[KTVHCDataResponse headerValueWithKey:]
+-[KTVHCDataResponse URL]
+-[KTVHCDataResponse headers]
+-[KTVHCDataResponse contentType]
+-[KTVHCDataResponse contentRangeString]
+-[KTVHCDataResponse contentRange]
+-[KTVHCDataResponse contentLength]
+-[KTVHCDataResponse totalLength]
+-[KTVHCDataResponse .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.31
+__OBJC_METACLASS_RO_$_KTVHCDataResponse
+__OBJC_$_INSTANCE_METHODS_KTVHCDataResponse
+_OBJC_IVAR_$_KTVHCDataResponse._URL
+_OBJC_IVAR_$_KTVHCDataResponse._headers
+_OBJC_IVAR_$_KTVHCDataResponse._contentType
+_OBJC_IVAR_$_KTVHCDataResponse._contentRangeString
+_OBJC_IVAR_$_KTVHCDataResponse._contentLength
+_OBJC_IVAR_$_KTVHCDataResponse._totalLength
+_OBJC_IVAR_$_KTVHCDataResponse._contentRange
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataResponse
+__OBJC_$_PROP_LIST_KTVHCDataResponse
+__OBJC_CLASS_RO_$_KTVHCDataResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataResponse.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataResponse.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataResponse.h
++[KTVHCURLTool tool]
+___20+[KTVHCURLTool tool]_block_invoke
+-[KTVHCURLTool keyWithURL:]
+-[KTVHCURLTool md5:]
+-[KTVHCURLTool base64Encode:]
+-[KTVHCURLTool base64Decode:]
+-[KTVHCURLTool URLEncode:]
+-[KTVHCURLTool URLDecode:]
+-[KTVHCURLTool parseQuery:]
+-[KTVHCURLTool URLConverter]
+-[KTVHCURLTool setURLConverter:]
+-[KTVHCURLTool .cxx_destruct]
+_tool.obj
+_tool.onceToken
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_CLASSLIST_REFERENCES_$_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_CLASSLIST_REFERENCES_$_.77
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.103
+__OBJC_$_CLASS_METHODS_KTVHCURLTool
+__OBJC_METACLASS_RO_$_KTVHCURLTool
+__OBJC_$_INSTANCE_METHODS_KTVHCURLTool
+_OBJC_IVAR_$_KTVHCURLTool._URLConverter
+__OBJC_$_INSTANCE_VARIABLES_KTVHCURLTool
+__OBJC_$_PROP_LIST_KTVHCURLTool
+__OBJC_CLASS_RO_$_KTVHCURLTool
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCTools/KTVHCURLTool.m
+KTVHTTPCache/Classes/KTVHCTools/KTVHCURLTool.m
+KTVHTTPCache/Classes/KTVHCTools/KTVHCURLTool.h
+__20+[KTVHCURLTool tool]_block_invoke
++[KTVHCLog log]
+___15+[KTVHCLog log]_block_invoke
+-[KTVHCLog init]
+-[KTVHCLog addRecordLog:]
+-[KTVHCLog recordLogFileURL]
+-[KTVHCLog deleteRecordLogFile]
+-[KTVHCLog addError:forURL:]
+-[KTVHCLog errors]
+-[KTVHCLog errorForURL:]
+-[KTVHCLog cleanErrorForURL:]
+-[KTVHCLog applicationWillTerminate:]
+-[KTVHCLog consoleLogEnable]
+-[KTVHCLog setConsoleLogEnable:]
+-[KTVHCLog recordLogEnable]
+-[KTVHCLog setRecordLogEnable:]
+-[KTVHCLog lock]
+-[KTVHCLog setLock:]
+-[KTVHCLog writingHandle]
+-[KTVHCLog setWritingHandle:]
+-[KTVHCLog internalErrors]
+-[KTVHCLog setInternalErrors:]
+-[KTVHCLog .cxx_destruct]
+_log.obj
+_log.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_CLASSLIST_REFERENCES_$_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.75
+__OBJC_$_CLASS_METHODS_KTVHCLog
+__OBJC_METACLASS_RO_$_KTVHCLog
+__OBJC_$_INSTANCE_METHODS_KTVHCLog
+_OBJC_IVAR_$_KTVHCLog._consoleLogEnable
+_OBJC_IVAR_$_KTVHCLog._recordLogEnable
+_OBJC_IVAR_$_KTVHCLog._lock
+_OBJC_IVAR_$_KTVHCLog._writingHandle
+_OBJC_IVAR_$_KTVHCLog._internalErrors
+__OBJC_$_INSTANCE_VARIABLES_KTVHCLog
+__OBJC_$_PROP_LIST_KTVHCLog
+__OBJC_CLASS_RO_$_KTVHCLog
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCCommon/KTVHCLog.m
+KTVHTTPCache/Classes/KTVHCCommon/KTVHCLog.m
+KTVHTTPCache/Classes/KTVHCCommon/KTVHCLog.h
+__15+[KTVHCLog log]_block_invoke
+-[KTVHCHTTPResponse initWithConnection:dataRequest:]
+-[KTVHCHTTPResponse dealloc]
+-[KTVHCHTTPResponse readDataOfLength:]
+-[KTVHCHTTPResponse delayResponseHeaders]
+-[KTVHCHTTPResponse contentLength]
+-[KTVHCHTTPResponse httpHeaders]
+-[KTVHCHTTPResponse offset]
+-[KTVHCHTTPResponse setOffset:]
+-[KTVHCHTTPResponse isDone]
+-[KTVHCHTTPResponse connectionDidClose]
+-[KTVHCHTTPResponse ktv_readerDidPrepare:]
+-[KTVHCHTTPResponse ktv_readerHasAvailableData:]
+-[KTVHCHTTPResponse ktv_reader:didFailWithError:]
+-[KTVHCHTTPResponse waitingResponse]
+-[KTVHCHTTPResponse setWaitingResponse:]
+-[KTVHCHTTPResponse reader]
+-[KTVHCHTTPResponse setReader:]
+-[KTVHCHTTPResponse connection]
+-[KTVHCHTTPResponse setConnection:]
+-[KTVHCHTTPResponse .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.102
+__OBJC_$_PROTOCOL_REFS_KTVHCDataReaderDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDataReaderDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDataReaderDelegate
+__OBJC_PROTOCOL_$_KTVHCDataReaderDelegate
+__OBJC_LABEL_PROTOCOL_$_KTVHCDataReaderDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_HTTPResponse
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HTTPResponse
+__OBJC_$_PROTOCOL_METHOD_TYPES_HTTPResponse
+__OBJC_PROTOCOL_$_HTTPResponse
+__OBJC_LABEL_PROTOCOL_$_HTTPResponse
+__OBJC_CLASS_PROTOCOLS_$_KTVHCHTTPResponse
+__OBJC_METACLASS_RO_$_KTVHCHTTPResponse
+__OBJC_$_INSTANCE_METHODS_KTVHCHTTPResponse
+_OBJC_IVAR_$_KTVHCHTTPResponse._waitingResponse
+_OBJC_IVAR_$_KTVHCHTTPResponse._reader
+_OBJC_IVAR_$_KTVHCHTTPResponse._connection
+__OBJC_$_INSTANCE_VARIABLES_KTVHCHTTPResponse
+__OBJC_$_PROP_LIST_KTVHCHTTPResponse
+__OBJC_CLASS_RO_$_KTVHCHTTPResponse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPResponse.m
+KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPResponse.m
+-[KTVHCDataSourceManager initWithSources:delegate:delegateQueue:]
+-[KTVHCDataSourceManager dealloc]
+-[KTVHCDataSourceManager prepare]
+___33-[KTVHCDataSourceManager prepare]_block_invoke
+-[KTVHCDataSourceManager close]
+-[KTVHCDataSourceManager readDataOfLength:]
+-[KTVHCDataSourceManager nextSource]
+-[KTVHCDataSourceManager nextNetworkSource]
+-[KTVHCDataSourceManager ktv_fileSourceDidPrepare:]
+-[KTVHCDataSourceManager ktv_fileSource:didFailWithError:]
+-[KTVHCDataSourceManager ktv_networkSourceDidPrepare:]
+-[KTVHCDataSourceManager ktv_networkSourceHasAvailableData:]
+___60-[KTVHCDataSourceManager ktv_networkSourceHasAvailableData:]_block_invoke
+-[KTVHCDataSourceManager ktv_networkSourceDidFinisheDownload:]
+-[KTVHCDataSourceManager ktv_networkSource:didFailWithError:]
+-[KTVHCDataSourceManager callbackForPrepared]
+___45-[KTVHCDataSourceManager callbackForPrepared]_block_invoke
+-[KTVHCDataSourceManager callbackForReceiveResponse:]
+___53-[KTVHCDataSourceManager callbackForReceiveResponse:]_block_invoke
+-[KTVHCDataSourceManager callbackForFailed:]
+___44-[KTVHCDataSourceManager callbackForFailed:]_block_invoke
+-[KTVHCDataSourceManager lock]
+-[KTVHCDataSourceManager unlock]
+-[KTVHCDataSourceManager error]
+-[KTVHCDataSourceManager range]
+-[KTVHCDataSourceManager isClosed]
+-[KTVHCDataSourceManager isPrepared]
+-[KTVHCDataSourceManager isFinished]
+-[KTVHCDataSourceManager readedLength]
+-[KTVHCDataSourceManager delegate]
+-[KTVHCDataSourceManager delegateQueue]
+-[KTVHCDataSourceManager coreLock]
+-[KTVHCDataSourceManager setCoreLock:]
+-[KTVHCDataSourceManager currentSource]
+-[KTVHCDataSourceManager setCurrentSource:]
+-[KTVHCDataSourceManager currentNetworkSource]
+-[KTVHCDataSourceManager setCurrentNetworkSource:]
+-[KTVHCDataSourceManager sources]
+-[KTVHCDataSourceManager setSources:]
+-[KTVHCDataSourceManager calledPrepare]
+-[KTVHCDataSourceManager setCalledPrepare:]
+-[KTVHCDataSourceManager calledReceiveResponse]
+-[KTVHCDataSourceManager setCalledReceiveResponse:]
+-[KTVHCDataSourceManager .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.23
+___block_descriptor_20_e48_i12?0"<KTVHCDataSource>"4"<KTVHCDataSource>"8l
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_CLASSLIST_REFERENCES_$_.125
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_CLASSLIST_REFERENCES_$_.159
+_OBJC_SELECTOR_REFERENCES_.161
+__OBJC_$_PROTOCOL_REFS_KTVHCDataFileSourceDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDataFileSourceDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDataFileSourceDelegate
+__OBJC_PROTOCOL_$_KTVHCDataFileSourceDelegate
+__OBJC_LABEL_PROTOCOL_$_KTVHCDataFileSourceDelegate
+__OBJC_$_PROTOCOL_REFS_KTVHCDataNetworkSourceDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDataNetworkSourceDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDataNetworkSourceDelegate
+__OBJC_PROTOCOL_$_KTVHCDataNetworkSourceDelegate
+__OBJC_LABEL_PROTOCOL_$_KTVHCDataNetworkSourceDelegate
+__OBJC_$_PROTOCOL_REFS_KTVHCDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDataSource
+__OBJC_$_PROP_LIST_KTVHCDataSource
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDataSource
+__OBJC_PROTOCOL_$_KTVHCDataSource
+__OBJC_LABEL_PROTOCOL_$_KTVHCDataSource
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataSourceManager
+__OBJC_METACLASS_RO_$_KTVHCDataSourceManager
+__OBJC_$_INSTANCE_METHODS_KTVHCDataSourceManager
+_OBJC_IVAR_$_KTVHCDataSourceManager._closed
+_OBJC_IVAR_$_KTVHCDataSourceManager._prepared
+_OBJC_IVAR_$_KTVHCDataSourceManager._finished
+_OBJC_IVAR_$_KTVHCDataSourceManager._calledPrepare
+_OBJC_IVAR_$_KTVHCDataSourceManager._calledReceiveResponse
+_OBJC_IVAR_$_KTVHCDataSourceManager._error
+_OBJC_IVAR_$_KTVHCDataSourceManager._delegate
+_OBJC_IVAR_$_KTVHCDataSourceManager._delegateQueue
+_OBJC_IVAR_$_KTVHCDataSourceManager._coreLock
+_OBJC_IVAR_$_KTVHCDataSourceManager._currentSource
+_OBJC_IVAR_$_KTVHCDataSourceManager._currentNetworkSource
+_OBJC_IVAR_$_KTVHCDataSourceManager._sources
+_OBJC_IVAR_$_KTVHCDataSourceManager._readedLength
+_OBJC_IVAR_$_KTVHCDataSourceManager._range
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataSourceManager
+__OBJC_$_PROP_LIST_KTVHCDataSourceManager
+__OBJC_CLASS_RO_$_KTVHCDataSourceManager
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataSourceManager.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataSourceManager.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataSourceManager.h
+__44-[KTVHCDataSourceManager callbackForFailed:]_block_invoke
+__53-[KTVHCDataSourceManager callbackForReceiveResponse:]_block_invoke
+__45-[KTVHCDataSourceManager callbackForPrepared]_block_invoke
+__60-[KTVHCDataSourceManager ktv_networkSourceHasAvailableData:]_block_invoke
+__33-[KTVHCDataSourceManager prepare]_block_invoke
+-[KTVHCDataNetworkSource initWithRequest:]
+-[KTVHCDataNetworkSource dealloc]
+-[KTVHCDataNetworkSource prepare]
+-[KTVHCDataNetworkSource close]
+-[KTVHCDataNetworkSource readDataOfLength:]
+-[KTVHCDataNetworkSource setDelegate:delegateQueue:]
+-[KTVHCDataNetworkSource ktv_download:didCompleteWithError:]
+___60-[KTVHCDataNetworkSource ktv_download:didCompleteWithError:]_block_invoke
+-[KTVHCDataNetworkSource ktv_download:didReceiveResponse:]
+-[KTVHCDataNetworkSource ktv_download:didReceiveData:]
+-[KTVHCDataNetworkSource destoryReadingHandle]
+-[KTVHCDataNetworkSource destoryWritingHandle]
+-[KTVHCDataNetworkSource callbackForPrepared]
+___45-[KTVHCDataNetworkSource callbackForPrepared]_block_invoke
+-[KTVHCDataNetworkSource callbackForHasAvailableData]
+___53-[KTVHCDataNetworkSource callbackForHasAvailableData]_block_invoke
+-[KTVHCDataNetworkSource callbackForFailed:]
+___44-[KTVHCDataNetworkSource callbackForFailed:]_block_invoke
+-[KTVHCDataNetworkSource lock]
+-[KTVHCDataNetworkSource unlock]
+-[KTVHCDataNetworkSource error]
+-[KTVHCDataNetworkSource range]
+-[KTVHCDataNetworkSource isClosed]
+-[KTVHCDataNetworkSource isPrepared]
+-[KTVHCDataNetworkSource isFinished]
+-[KTVHCDataNetworkSource readedLength]
+-[KTVHCDataNetworkSource request]
+-[KTVHCDataNetworkSource response]
+-[KTVHCDataNetworkSource delegate]
+-[KTVHCDataNetworkSource delegateQueue]
+-[KTVHCDataNetworkSource coreLock]
+-[KTVHCDataNetworkSource setCoreLock:]
+-[KTVHCDataNetworkSource readingHandle]
+-[KTVHCDataNetworkSource setReadingHandle:]
+-[KTVHCDataNetworkSource writingHandle]
+-[KTVHCDataNetworkSource setWritingHandle:]
+-[KTVHCDataNetworkSource unitItem]
+-[KTVHCDataNetworkSource setUnitItem:]
+-[KTVHCDataNetworkSource downlaodTask]
+-[KTVHCDataNetworkSource setDownlaodTask:]
+-[KTVHCDataNetworkSource downloadLength]
+-[KTVHCDataNetworkSource setDownloadLength:]
+-[KTVHCDataNetworkSource downloadCalledComplete]
+-[KTVHCDataNetworkSource setDownloadCalledComplete:]
+-[KTVHCDataNetworkSource callHasAvailableData]
+-[KTVHCDataNetworkSource setCallHasAvailableData:]
+-[KTVHCDataNetworkSource calledPrepare]
+-[KTVHCDataNetworkSource setCalledPrepare:]
+-[KTVHCDataNetworkSource .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.99
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_CLASSLIST_REFERENCES_$_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_CLASSLIST_REFERENCES_$_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_CLASSLIST_REFERENCES_$_.140
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_CLASSLIST_REFERENCES_$_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_CLASSLIST_REFERENCES_$_.212
+__OBJC_$_PROTOCOL_REFS_KTVHCDownloadDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDownloadDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDownloadDelegate
+__OBJC_PROTOCOL_$_KTVHCDownloadDelegate
+__OBJC_LABEL_PROTOCOL_$_KTVHCDownloadDelegate
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataNetworkSource
+__OBJC_METACLASS_RO_$_KTVHCDataNetworkSource
+__OBJC_$_INSTANCE_METHODS_KTVHCDataNetworkSource
+_OBJC_IVAR_$_KTVHCDataNetworkSource._closed
+_OBJC_IVAR_$_KTVHCDataNetworkSource._prepared
+_OBJC_IVAR_$_KTVHCDataNetworkSource._finished
+_OBJC_IVAR_$_KTVHCDataNetworkSource._downloadCalledComplete
+_OBJC_IVAR_$_KTVHCDataNetworkSource._callHasAvailableData
+_OBJC_IVAR_$_KTVHCDataNetworkSource._calledPrepare
+_OBJC_IVAR_$_KTVHCDataNetworkSource._error
+_OBJC_IVAR_$_KTVHCDataNetworkSource._request
+_OBJC_IVAR_$_KTVHCDataNetworkSource._response
+_OBJC_IVAR_$_KTVHCDataNetworkSource._delegate
+_OBJC_IVAR_$_KTVHCDataNetworkSource._delegateQueue
+_OBJC_IVAR_$_KTVHCDataNetworkSource._coreLock
+_OBJC_IVAR_$_KTVHCDataNetworkSource._readingHandle
+_OBJC_IVAR_$_KTVHCDataNetworkSource._writingHandle
+_OBJC_IVAR_$_KTVHCDataNetworkSource._unitItem
+_OBJC_IVAR_$_KTVHCDataNetworkSource._downlaodTask
+_OBJC_IVAR_$_KTVHCDataNetworkSource._readedLength
+_OBJC_IVAR_$_KTVHCDataNetworkSource._downloadLength
+_OBJC_IVAR_$_KTVHCDataNetworkSource._range
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataNetworkSource
+__OBJC_$_PROP_LIST_KTVHCDataNetworkSource
+__OBJC_CLASS_RO_$_KTVHCDataNetworkSource
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataNetworkSource.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataNetworkSource.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataNetworkSource.h
+__44-[KTVHCDataNetworkSource callbackForFailed:]_block_invoke
+__53-[KTVHCDataNetworkSource callbackForHasAvailableData]_block_invoke
+__45-[KTVHCDataNetworkSource callbackForPrepared]_block_invoke
+__60-[KTVHCDataNetworkSource ktv_download:didCompleteWithError:]_block_invoke
+-[KTVHCHTTPConnection initWithAsyncSocket:configuration:]
+-[KTVHCHTTPConnection dealloc]
+-[KTVHCHTTPConnection httpResponseForMethod:URI:]
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_CLASSLIST_REFERENCES_$_.45
+__OBJC_METACLASS_RO_$_KTVHCHTTPConnection
+__OBJC_$_INSTANCE_METHODS_KTVHCHTTPConnection
+__OBJC_CLASS_RO_$_KTVHCHTTPConnection
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPConnection.m
+KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPConnection.m
+-[KTVHCDataFileSource initWithPath:range:readRange:]
+-[KTVHCDataFileSource dealloc]
+-[KTVHCDataFileSource prepare]
+___30-[KTVHCDataFileSource prepare]_block_invoke
+-[KTVHCDataFileSource close]
+-[KTVHCDataFileSource readDataOfLength:]
+-[KTVHCDataFileSource destoryReadingHandle]
+-[KTVHCDataFileSource callbackForFailed:]
+___41-[KTVHCDataFileSource callbackForFailed:]_block_invoke
+-[KTVHCDataFileSource setDelegate:delegateQueue:]
+-[KTVHCDataFileSource lock]
+-[KTVHCDataFileSource unlock]
+-[KTVHCDataFileSource error]
+-[KTVHCDataFileSource range]
+-[KTVHCDataFileSource isClosed]
+-[KTVHCDataFileSource isPrepared]
+-[KTVHCDataFileSource isFinished]
+-[KTVHCDataFileSource readedLength]
+-[KTVHCDataFileSource path]
+-[KTVHCDataFileSource readRange]
+-[KTVHCDataFileSource delegate]
+-[KTVHCDataFileSource delegateQueue]
+-[KTVHCDataFileSource coreLock]
+-[KTVHCDataFileSource setCoreLock:]
+-[KTVHCDataFileSource readingHandle]
+-[KTVHCDataFileSource setReadingHandle:]
+-[KTVHCDataFileSource .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.32
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_CLASSLIST_REFERENCES_$_.104
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataFileSource
+__OBJC_METACLASS_RO_$_KTVHCDataFileSource
+__OBJC_$_INSTANCE_METHODS_KTVHCDataFileSource
+_OBJC_IVAR_$_KTVHCDataFileSource._closed
+_OBJC_IVAR_$_KTVHCDataFileSource._prepared
+_OBJC_IVAR_$_KTVHCDataFileSource._finished
+_OBJC_IVAR_$_KTVHCDataFileSource._error
+_OBJC_IVAR_$_KTVHCDataFileSource._path
+_OBJC_IVAR_$_KTVHCDataFileSource._delegate
+_OBJC_IVAR_$_KTVHCDataFileSource._delegateQueue
+_OBJC_IVAR_$_KTVHCDataFileSource._coreLock
+_OBJC_IVAR_$_KTVHCDataFileSource._readingHandle
+_OBJC_IVAR_$_KTVHCDataFileSource._readedLength
+_OBJC_IVAR_$_KTVHCDataFileSource._range
+_OBJC_IVAR_$_KTVHCDataFileSource._readRange
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataFileSource
+__OBJC_$_PROP_LIST_KTVHCDataFileSource
+__OBJC_CLASS_RO_$_KTVHCDataFileSource
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataFileSource.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataFileSource.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataFileSource.h
+__41-[KTVHCDataFileSource callbackForFailed:]_block_invoke
+__30-[KTVHCDataFileSource prepare]_block_invoke
++[KTVHCDataCallback callbackWithQueue:block:]
++[KTVHCDataCallback callbackWithQueue:block:async:]
+___51+[KTVHCDataCallback callbackWithQueue:block:async:]_block_invoke
+___copy_helper_block_e4_20b
+___51+[KTVHCDataCallback callbackWithQueue:block:async:]_block_invoke.1
+___block_descriptor_24_e4_20bs_e5_v4?0l
+__OBJC_$_CLASS_METHODS_KTVHCDataCallback
+__OBJC_METACLASS_RO_$_KTVHCDataCallback
+__OBJC_CLASS_RO_$_KTVHCDataCallback
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCallback.m
+__51+[KTVHCDataCallback callbackWithQueue:block:async:]_block_invoke.1
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCallback.m
+__copy_helper_block_e4_20b
+__51+[KTVHCDataCallback callbackWithQueue:block:async:]_block_invoke
++[KTVHCHTTPServer server]
+___25+[KTVHCHTTPServer server]_block_invoke
+-[KTVHCHTTPServer init]
+-[KTVHCHTTPServer dealloc]
+-[KTVHCHTTPServer isRunning]
+-[KTVHCHTTPServer start:]
+-[KTVHCHTTPServer stop]
+-[KTVHCHTTPServer URLWithOriginalURL:]
+-[KTVHCHTTPServer startInternal:]
+-[KTVHCHTTPServer stopInternal]
+-[KTVHCHTTPServer applicationDidEnterBackground]
+-[KTVHCHTTPServer applicationWillEnterForeground]
+-[KTVHCHTTPServer HTTPConnectionDidDie]
+___39-[KTVHCHTTPServer HTTPConnectionDidDie]_block_invoke
+-[KTVHCHTTPServer beginBackgroundTask]
+___38-[KTVHCHTTPServer beginBackgroundTask]_block_invoke
+-[KTVHCHTTPServer endBackgroundTask]
+-[KTVHCHTTPServer server]
+-[KTVHCHTTPServer setServer:]
+-[KTVHCHTTPServer backgroundTask]
+-[KTVHCHTTPServer setBackgroundTask:]
+-[KTVHCHTTPServer wantsRunning]
+-[KTVHCHTTPServer setWantsRunning:]
+-[KTVHCHTTPServer .cxx_destruct]
+_server.obj
+_server.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_CLASSLIST_REFERENCES_$_.83
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_CLASSLIST_REFERENCES_$_.118
+__OBJC_$_CLASS_METHODS_KTVHCHTTPServer
+__OBJC_METACLASS_RO_$_KTVHCHTTPServer
+__OBJC_$_INSTANCE_METHODS_KTVHCHTTPServer
+_OBJC_IVAR_$_KTVHCHTTPServer._wantsRunning
+_OBJC_IVAR_$_KTVHCHTTPServer._server
+_OBJC_IVAR_$_KTVHCHTTPServer._backgroundTask
+__OBJC_$_INSTANCE_VARIABLES_KTVHCHTTPServer
+__OBJC_$_PROP_LIST_KTVHCHTTPServer
+__OBJC_CLASS_RO_$_KTVHCHTTPServer
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPServer.m
+KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPServer.m
+__38-[KTVHCHTTPServer beginBackgroundTask]_block_invoke
+__39-[KTVHCHTTPServer HTTPConnectionDidDie]_block_invoke
+__25+[KTVHCHTTPServer server]_block_invoke
+-[KTVHCDataUnit initWithURL:]
+-[KTVHCDataUnit initWithCoder:]
+-[KTVHCDataUnit encodeWithCoder:]
+-[KTVHCDataUnit dealloc]
+-[KTVHCDataUnit commonInit]
+-[KTVHCDataUnit sortUnitItems]
+___30-[KTVHCDataUnit sortUnitItems]_block_invoke
+-[KTVHCDataUnit unitItems]
+-[KTVHCDataUnit insertUnitItem:]
+-[KTVHCDataUnit updateResponseHeaders:totalLength:]
+___51-[KTVHCDataUnit updateResponseHeaders:totalLength:]_block_invoke
+-[KTVHCDataUnit completeURL]
+-[KTVHCDataUnit cacheLength]
+-[KTVHCDataUnit validLength]
+-[KTVHCDataUnit lastItemCreateInterval]
+-[KTVHCDataUnit workingRetain]
+-[KTVHCDataUnit workingRelease]
+-[KTVHCDataUnit deleteFiles]
+-[KTVHCDataUnit mergeFilesIfNeeded]
+-[KTVHCDataUnit lock]
+-[KTVHCDataUnit unlock]
+-[KTVHCDataUnit error]
+-[KTVHCDataUnit URL]
+-[KTVHCDataUnit key]
+-[KTVHCDataUnit responseHeaders]
+-[KTVHCDataUnit createTimeInterval]
+-[KTVHCDataUnit totalLength]
+-[KTVHCDataUnit workingCount]
+-[KTVHCDataUnit delegate]
+-[KTVHCDataUnit setDelegate:]
+-[KTVHCDataUnit coreLock]
+-[KTVHCDataUnit setCoreLock:]
+-[KTVHCDataUnit unitItemsInternal]
+-[KTVHCDataUnit setUnitItemsInternal:]
+-[KTVHCDataUnit lockingUnitItems]
+-[KTVHCDataUnit setLockingUnitItems:]
+-[KTVHCDataUnit .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_CLASSLIST_REFERENCES_$_.94
+_OBJC_SELECTOR_REFERENCES_.100
+___block_descriptor_20_e48_i12?0"KTVHCDataUnitItem"4"KTVHCDataUnitItem"8l
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_updateResponseHeaders:totalLength:.whiteList
+_updateResponseHeaders:totalLength:.onceToken
+___block_literal_global.133
+_OBJC_CLASSLIST_REFERENCES_$_.142
+_OBJC_CLASSLIST_REFERENCES_$_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_CLASSLIST_REFERENCES_$_.184
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_CLASSLIST_REFERENCES_$_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_CLASSLIST_REFERENCES_$_.226
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataUnit
+__OBJC_METACLASS_RO_$_KTVHCDataUnit
+__OBJC_$_INSTANCE_METHODS_KTVHCDataUnit
+_OBJC_IVAR_$_KTVHCDataUnit._error
+_OBJC_IVAR_$_KTVHCDataUnit._URL
+_OBJC_IVAR_$_KTVHCDataUnit._key
+_OBJC_IVAR_$_KTVHCDataUnit._responseHeaders
+_OBJC_IVAR_$_KTVHCDataUnit._workingCount
+_OBJC_IVAR_$_KTVHCDataUnit._delegate
+_OBJC_IVAR_$_KTVHCDataUnit._coreLock
+_OBJC_IVAR_$_KTVHCDataUnit._unitItemsInternal
+_OBJC_IVAR_$_KTVHCDataUnit._lockingUnitItems
+_OBJC_IVAR_$_KTVHCDataUnit._createTimeInterval
+_OBJC_IVAR_$_KTVHCDataUnit._totalLength
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataUnit
+__OBJC_$_PROP_LIST_KTVHCDataUnit
+__OBJC_CLASS_RO_$_KTVHCDataUnit
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnit.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnit.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnit.h
+__51-[KTVHCDataUnit updateResponseHeaders:totalLength:]_block_invoke
+__30-[KTVHCDataUnit sortUnitItems]_block_invoke
+-[KTVHCDataRequest initWithURL:headers:]
+-[KTVHCDataRequest dealloc]
+-[KTVHCDataRequest newRequestWithRange:]
+-[KTVHCDataRequest newRequestWithTotalLength:]
+-[KTVHCDataRequest URL]
+-[KTVHCDataRequest headers]
+-[KTVHCDataRequest range]
+-[KTVHCDataRequest .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.34
+__OBJC_METACLASS_RO_$_KTVHCDataRequest
+__OBJC_$_INSTANCE_METHODS_KTVHCDataRequest
+_OBJC_IVAR_$_KTVHCDataRequest._URL
+_OBJC_IVAR_$_KTVHCDataRequest._headers
+_OBJC_IVAR_$_KTVHCDataRequest._range
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataRequest
+__OBJC_$_PROP_LIST_KTVHCDataRequest
+__OBJC_CLASS_RO_$_KTVHCDataRequest
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataRequest.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataRequest.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataRequest.h
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.12
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCCommon/KTVHCRange.m
+KTVHCRangeWithEnsureLength
+KTVHTTPCache/Classes/KTVHCCommon/KTVHCRange.m
+KTVHCMakeRange
+KTVHCRangeWithResponseHeaderValue
+KTVHCRangeInvaild
+KTVHCRangeWithRequestHeaderValue
+KTVHCRangeWithSeparateValue
+KTVHCRangeZero
+KTVHCRangeFillToResponseHeaders
+KTVHCRangeFillToRequestHeadersIfNeeded
+KTVHCRangeFillToRequestHeaders
+KTVHCRangeGetHeaderString
+KTVHCStringFromRange
+KTVHCRangeGetLength
+KTVHCRangeIsInvaild
+KTVHCRangeIsVaild
+KTVHCEqualRanges
+KTVHCRangeFull
+KTVHCRangeIsFull
++[KTVHTTPCache proxyStart:]
++[KTVHTTPCache proxyStop]
++[KTVHTTPCache proxyIsRunning]
++[KTVHTTPCache proxyURLWithOriginalURL:]
++[KTVHTTPCache cacheCompleteFileURLWithURL:]
++[KTVHTTPCache cacheReaderWithRequest:]
++[KTVHTTPCache cacheLoaderWithRequest:]
++[KTVHTTPCache cacheSetMaxCacheLength:]
++[KTVHTTPCache cacheMaxCacheLength]
++[KTVHTTPCache cacheTotalCacheLength]
++[KTVHTTPCache cacheCacheItemWithURL:]
++[KTVHTTPCache cacheAllCacheItems]
++[KTVHTTPCache cacheDeleteCacheWithURL:]
++[KTVHTTPCache cacheDeleteAllCaches]
++[KTVHTTPCache encodeSetURLConverter:]
++[KTVHTTPCache downloadSetTimeoutInterval:]
++[KTVHTTPCache downloadTimeoutInterval]
++[KTVHTTPCache downloadSetWhitelistHeaderKeys:]
++[KTVHTTPCache downloadWhitelistHeaderKeys]
++[KTVHTTPCache downloadSetAdditionalHeaders:]
++[KTVHTTPCache downloadAdditionalHeaders]
++[KTVHTTPCache downloadSetAcceptableContentTypes:]
++[KTVHTTPCache downloadAcceptableContentTypes]
++[KTVHTTPCache downloadSetUnacceptableContentTypeDisposer:]
++[KTVHTTPCache logAddLog:]
++[KTVHTTPCache logSetConsoleLogEnable:]
++[KTVHTTPCache logConsoleLogEnable]
++[KTVHTTPCache logRecordLogEnable]
++[KTVHTTPCache logRecordLogFileURL]
++[KTVHTTPCache logSetRecordLogEnable:]
++[KTVHTTPCache logDeleteRecordLogFile]
++[KTVHTTPCache logErrors]
++[KTVHTTPCache logCleanErrorForURL:]
++[KTVHTTPCache logErrorForURL:]
++[KTVHTTPCache(Deprecated) logDeleteRecordLog]
++[KTVHTTPCache(Deprecated) logRecordLogFilePath]
++[KTVHTTPCache(Deprecated) proxyURLStringWithOriginalURLString:]
++[KTVHTTPCache(Deprecated) cacheCompleteFileURLIfExistedWithURL:]
++[KTVHTTPCache(Deprecated) cacheCompleteFilePathIfExistedWithURLString:]
++[KTVHTTPCache(Deprecated) cacheCacheItemWithURLString:]
++[KTVHTTPCache(Deprecated) cacheDeleteCacheWithURLString:]
++[KTVHTTPCache(Deprecated) tokenSetURLFilter:]
++[KTVHTTPCache(Deprecated) downloadSetAcceptContentTypes:]
++[KTVHTTPCache(Deprecated) downloadAcceptContentTypes]
++[KTVHTTPCache(Deprecated) downloadSetUnsupportContentTypeFilter:]
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_CLASSLIST_REFERENCES_$_.67
+__OBJC_$_CLASS_METHODS_KTVHTTPCache
+__OBJC_METACLASS_RO_$_KTVHTTPCache
+__OBJC_CLASS_RO_$_KTVHTTPCache
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_CLASSLIST_REFERENCES_$_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.145
+__OBJC_$_CATEGORY_CLASS_METHODS_KTVHTTPCache_$_Deprecated
+__OBJC_$_CATEGORY_KTVHTTPCache_$_Deprecated
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/KTVHTTPCache.m
+KTVHTTPCache/KTVHTTPCache.m
++[KTVHCPathTool rootDirectory]
++[KTVHCPathTool logPath]
++[KTVHCPathTool archivePath]
++[KTVHCPathTool directoryPathWithURL:]
++[KTVHCPathTool completeFilePathWithURL:]
++[KTVHCPathTool filePathWithURL:offset:]
++[KTVHCPathTool basePath]
++[KTVHCPathTool isRelativePath:]
++[KTVHCPathTool isAbsolutePath:]
++[KTVHCPathTool converToRelativePath:]
++[KTVHCPathTool converToAbsoultePath:]
++[KTVHCPathTool createFileAtPath:]
++[KTVHCPathTool createDirectoryAtPath:]
++[KTVHCPathTool deleteFileAtPath:]
++[KTVHCPathTool deleteDirectoryAtPath:]
++[KTVHCPathTool sizeAtPath:]
+_OBJC_CLASSLIST_REFERENCES_$_.21
+__OBJC_$_CLASS_METHODS_KTVHCPathTool
+__OBJC_METACLASS_RO_$_KTVHCPathTool
+__OBJC_CLASS_RO_$_KTVHCPathTool
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCTools/KTVHCPathTool.m
+KTVHTTPCache/Classes/KTVHCTools/KTVHCPathTool.m
+-[KTVHCDataCacheItem initWithURL:zones:totalLength:cacheLength:vaildLength:]
+-[KTVHCDataCacheItem URL]
+-[KTVHCDataCacheItem zones]
+-[KTVHCDataCacheItem totalLength]
+-[KTVHCDataCacheItem cacheLength]
+-[KTVHCDataCacheItem vaildLength]
+-[KTVHCDataCacheItem .cxx_destruct]
+__OBJC_METACLASS_RO_$_KTVHCDataCacheItem
+__OBJC_$_INSTANCE_METHODS_KTVHCDataCacheItem
+_OBJC_IVAR_$_KTVHCDataCacheItem._URL
+_OBJC_IVAR_$_KTVHCDataCacheItem._zones
+_OBJC_IVAR_$_KTVHCDataCacheItem._totalLength
+_OBJC_IVAR_$_KTVHCDataCacheItem._cacheLength
+_OBJC_IVAR_$_KTVHCDataCacheItem._vaildLength
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataCacheItem
+__OBJC_$_PROP_LIST_KTVHCDataCacheItem
+__OBJC_CLASS_RO_$_KTVHCDataCacheItem
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItem.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItem.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItem.h
++[KTVHCDataStorage storage]
+___27+[KTVHCDataStorage storage]_block_invoke
+-[KTVHCDataStorage init]
+-[KTVHCDataStorage completeFileURLWithURL:]
+-[KTVHCDataStorage readerWithRequest:]
+-[KTVHCDataStorage loaderWithRequest:]
+-[KTVHCDataStorage cacheItemWithURL:]
+-[KTVHCDataStorage allCacheItems]
+-[KTVHCDataStorage totalCacheLength]
+-[KTVHCDataStorage deleteCacheWithURL:]
+-[KTVHCDataStorage deleteAllCaches]
+-[KTVHCDataStorage maxCacheLength]
+-[KTVHCDataStorage setMaxCacheLength:]
+_storage.obj
+_storage.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.24
+__OBJC_$_CLASS_METHODS_KTVHCDataStorage
+__OBJC_METACLASS_RO_$_KTVHCDataStorage
+__OBJC_$_INSTANCE_METHODS_KTVHCDataStorage
+_OBJC_IVAR_$_KTVHCDataStorage._maxCacheLength
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataStorage
+__OBJC_$_PROP_LIST_KTVHCDataStorage
+__OBJC_CLASS_RO_$_KTVHCDataStorage
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataStorage.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataStorage.h
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataStorage.m
+__27+[KTVHCDataStorage storage]_block_invoke
+-[KTVHCDataCacheItemZone initWithOffset:length:]
+-[KTVHCDataCacheItemZone offset]
+-[KTVHCDataCacheItemZone length]
+__OBJC_METACLASS_RO_$_KTVHCDataCacheItemZone
+__OBJC_$_INSTANCE_METHODS_KTVHCDataCacheItemZone
+_OBJC_IVAR_$_KTVHCDataCacheItemZone._offset
+_OBJC_IVAR_$_KTVHCDataCacheItemZone._length
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataCacheItemZone
+__OBJC_$_PROP_LIST_KTVHCDataCacheItemZone
+__OBJC_CLASS_RO_$_KTVHCDataCacheItemZone
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItemZone.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItemZone.h
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItemZone.m
+-[KTVHCDataReader initWithRequest:]
+-[KTVHCDataReader dealloc]
+-[KTVHCDataReader prepare]
+-[KTVHCDataReader close]
+-[KTVHCDataReader readDataOfLength:]
+-[KTVHCDataReader prepareSourceManager]
+___39-[KTVHCDataReader prepareSourceManager]_block_invoke
+-[KTVHCDataReader ktv_sourceManagerDidPrepare:]
+-[KTVHCDataReader ktv_sourceManager:didReceiveResponse:]
+-[KTVHCDataReader ktv_sourceManagerHasAvailableData:]
+___53-[KTVHCDataReader ktv_sourceManagerHasAvailableData:]_block_invoke
+-[KTVHCDataReader ktv_sourceManager:didFailWithError:]
+___54-[KTVHCDataReader ktv_sourceManager:didFailWithError:]_block_invoke
+-[KTVHCDataReader callbackForPrepared]
+___38-[KTVHCDataReader callbackForPrepared]_block_invoke
+-[KTVHCDataReader lock]
+-[KTVHCDataReader unlock]
+-[KTVHCDataReader delegate]
+-[KTVHCDataReader setDelegate:]
+-[KTVHCDataReader object]
+-[KTVHCDataReader setObject:]
+-[KTVHCDataReader request]
+-[KTVHCDataReader response]
+-[KTVHCDataReader error]
+-[KTVHCDataReader isPrepared]
+-[KTVHCDataReader isFinished]
+-[KTVHCDataReader isClosed]
+-[KTVHCDataReader readedLength]
+-[KTVHCDataReader progress]
+-[KTVHCDataReader unit]
+-[KTVHCDataReader setUnit:]
+-[KTVHCDataReader coreLock]
+-[KTVHCDataReader setCoreLock:]
+-[KTVHCDataReader delegateQueue]
+-[KTVHCDataReader setDelegateQueue:]
+-[KTVHCDataReader internalDelegateQueue]
+-[KTVHCDataReader setInternalDelegateQueue:]
+-[KTVHCDataReader sourceManager]
+-[KTVHCDataReader setSourceManager:]
+-[KTVHCDataReader calledPrepare]
+-[KTVHCDataReader setCalledPrepare:]
+-[KTVHCDataReader .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_CLASSLIST_REFERENCES_$_.98
+___block_descriptor_20_e52_i12?0"KTVHCDataFileSource"4"KTVHCDataFileSource"8l
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_CLASSLIST_REFERENCES_$_.112
+_OBJC_CLASSLIST_REFERENCES_$_.117
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_CLASSLIST_REFERENCES_$_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_CLASSLIST_REFERENCES_$_.173
+_OBJC_SELECTOR_REFERENCES_.175
+__OBJC_$_PROTOCOL_REFS_KTVHCDataSourceManagerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDataSourceManagerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDataSourceManagerDelegate
+__OBJC_PROTOCOL_$_KTVHCDataSourceManagerDelegate
+__OBJC_LABEL_PROTOCOL_$_KTVHCDataSourceManagerDelegate
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataReader
+__OBJC_METACLASS_RO_$_KTVHCDataReader
+__OBJC_$_INSTANCE_METHODS_KTVHCDataReader
+_OBJC_IVAR_$_KTVHCDataReader._prepared
+_OBJC_IVAR_$_KTVHCDataReader._finished
+_OBJC_IVAR_$_KTVHCDataReader._closed
+_OBJC_IVAR_$_KTVHCDataReader._calledPrepare
+_OBJC_IVAR_$_KTVHCDataReader._delegate
+_OBJC_IVAR_$_KTVHCDataReader._object
+_OBJC_IVAR_$_KTVHCDataReader._request
+_OBJC_IVAR_$_KTVHCDataReader._response
+_OBJC_IVAR_$_KTVHCDataReader._error
+_OBJC_IVAR_$_KTVHCDataReader._unit
+_OBJC_IVAR_$_KTVHCDataReader._coreLock
+_OBJC_IVAR_$_KTVHCDataReader._delegateQueue
+_OBJC_IVAR_$_KTVHCDataReader._internalDelegateQueue
+_OBJC_IVAR_$_KTVHCDataReader._sourceManager
+_OBJC_IVAR_$_KTVHCDataReader._readedLength
+_OBJC_IVAR_$_KTVHCDataReader._progress
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataReader
+__OBJC_$_PROP_LIST_KTVHCDataReader
+__OBJC_CLASS_RO_$_KTVHCDataReader
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataReader.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataReader.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataReader.h
+__38-[KTVHCDataReader callbackForPrepared]_block_invoke
+__54-[KTVHCDataReader ktv_sourceManager:didFailWithError:]_block_invoke
+__53-[KTVHCDataReader ktv_sourceManagerHasAvailableData:]_block_invoke
+__39-[KTVHCDataReader prepareSourceManager]_block_invoke
++[KTVHCError errorForResponseUnavailable:request:response:]
++[KTVHCError errorForUnsupportContentType:request:response:]
++[KTVHCError errorForNotEnoughDiskSpace:request:totalCacheLength:maxCacheLength:]
++[KTVHCError errorForException:]
+__OBJC_$_CLASS_METHODS_KTVHCError
+__OBJC_METACLASS_RO_$_KTVHCError
+__OBJC_CLASS_RO_$_KTVHCError
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCCommon/KTVHCError.m
+KTVHTTPCache/Classes/KTVHCCommon/KTVHCError.m
+-[KTVHCDataLoader initWithRequest:]
+-[KTVHCDataLoader dealloc]
+-[KTVHCDataLoader prepare]
+-[KTVHCDataLoader close]
+-[KTVHCDataLoader request]
+-[KTVHCDataLoader response]
+-[KTVHCDataLoader error]
+-[KTVHCDataLoader isFinished]
+-[KTVHCDataLoader isClosed]
+-[KTVHCDataLoader ktv_readerDidPrepare:]
+-[KTVHCDataLoader ktv_readerHasAvailableData:]
+-[KTVHCDataLoader ktv_reader:didFailWithError:]
+-[KTVHCDataLoader readData]
+-[KTVHCDataLoader delegate]
+-[KTVHCDataLoader setDelegate:]
+-[KTVHCDataLoader object]
+-[KTVHCDataLoader setObject:]
+-[KTVHCDataLoader loadedLength]
+-[KTVHCDataLoader progress]
+-[KTVHCDataLoader reader]
+-[KTVHCDataLoader setReader:]
+-[KTVHCDataLoader .cxx_destruct]
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataLoader
+__OBJC_METACLASS_RO_$_KTVHCDataLoader
+__OBJC_$_INSTANCE_METHODS_KTVHCDataLoader
+_OBJC_IVAR_$_KTVHCDataLoader._delegate
+_OBJC_IVAR_$_KTVHCDataLoader._object
+_OBJC_IVAR_$_KTVHCDataLoader._reader
+_OBJC_IVAR_$_KTVHCDataLoader._loadedLength
+_OBJC_IVAR_$_KTVHCDataLoader._progress
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataLoader
+__OBJC_$_PROP_LIST_KTVHCDataLoader
+__OBJC_CLASS_RO_$_KTVHCDataLoader
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataLoader.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataLoader.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataLoader.h
++[KTVHCDataUnitPool pool]
+___25+[KTVHCDataUnitPool pool]_block_invoke
+-[KTVHCDataUnitPool init]
+-[KTVHCDataUnitPool dealloc]
+-[KTVHCDataUnitPool unitWithURL:]
+-[KTVHCDataUnitPool totalCacheLength]
+-[KTVHCDataUnitPool cacheItemWithURL:]
+-[KTVHCDataUnitPool allCacheItem]
+-[KTVHCDataUnitPool deleteUnitWithURL:]
+-[KTVHCDataUnitPool deleteUnitsWithLength:]
+___43-[KTVHCDataUnitPool deleteUnitsWithLength:]_block_invoke
+-[KTVHCDataUnitPool deleteAllUnits]
+-[KTVHCDataUnitPool setNeedsArchive]
+___36-[KTVHCDataUnitPool setNeedsArchive]_block_invoke
+___copy_helper_block_e8_20s
+___destroy_helper_block_e8_20s
+-[KTVHCDataUnitPool archiveIfNeeded]
+-[KTVHCDataUnitPool ktv_unitDidChangeMetadata:]
+-[KTVHCDataUnitPool applicationWillTerminate:]
+-[KTVHCDataUnitPool applicationDidEnterBackground:]
+-[KTVHCDataUnitPool applicationWillResignActive:]
+-[KTVHCDataUnitPool lock]
+-[KTVHCDataUnitPool unlock]
+-[KTVHCDataUnitPool coreLock]
+-[KTVHCDataUnitPool setCoreLock:]
+-[KTVHCDataUnitPool unitQueue]
+-[KTVHCDataUnitPool setUnitQueue:]
+-[KTVHCDataUnitPool archiveQueue]
+-[KTVHCDataUnitPool setArchiveQueue:]
+-[KTVHCDataUnitPool expectArchiveIndex]
+-[KTVHCDataUnitPool setExpectArchiveIndex:]
+-[KTVHCDataUnitPool actualArchiveIndex]
+-[KTVHCDataUnitPool setActualArchiveIndex:]
+-[KTVHCDataUnitPool .cxx_destruct]
+_pool.obj
+_pool.onceToken
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_CLASSLIST_REFERENCES_$_.92
+___block_descriptor_20_e40_i12?0"KTVHCDataUnit"4"KTVHCDataUnit"8l
+___block_descriptor_36_e8_20s_e5_v4?0l
+__OBJC_$_CLASS_METHODS_KTVHCDataUnitPool
+__OBJC_$_PROTOCOL_REFS_KTVHCDataUnitDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_KTVHCDataUnitDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_KTVHCDataUnitDelegate
+__OBJC_PROTOCOL_$_KTVHCDataUnitDelegate
+__OBJC_LABEL_PROTOCOL_$_KTVHCDataUnitDelegate
+__OBJC_CLASS_PROTOCOLS_$_KTVHCDataUnitPool
+__OBJC_METACLASS_RO_$_KTVHCDataUnitPool
+__OBJC_$_INSTANCE_METHODS_KTVHCDataUnitPool
+_OBJC_IVAR_$_KTVHCDataUnitPool._coreLock
+_OBJC_IVAR_$_KTVHCDataUnitPool._unitQueue
+_OBJC_IVAR_$_KTVHCDataUnitPool._archiveQueue
+_OBJC_IVAR_$_KTVHCDataUnitPool._expectArchiveIndex
+_OBJC_IVAR_$_KTVHCDataUnitPool._actualArchiveIndex
+__OBJC_$_INSTANCE_VARIABLES_KTVHCDataUnitPool
+__OBJC_$_PROP_LIST_KTVHCDataUnitPool
+__OBJC_CLASS_RO_$_KTVHCDataUnitPool
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/KTVHTTPCache/KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitPool.m
+KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitPool.m
+__destroy_helper_block_e8_20s
+__copy_helper_block_e8_20s
+__36-[KTVHCDataUnitPool setNeedsArchive]_block_invoke
+__43-[KTVHCDataUnitPool deleteUnitsWithLength:]_block_invoke
+__25+[KTVHCDataUnitPool pool]_block_invoke
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+_OBJC_SELECTOR_REFERENCES_.113
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -mlinker-version=609 -march=armv7a
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk
+iPhoneOS14.0.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

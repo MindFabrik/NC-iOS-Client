@@ -1,0 +1,15 @@
+{
+  "commitish" : "2.0.2",
+  "iOS" : [
+    {
+      "name" : "KTVCocoaHTTPServer",
+      "hash" : "bab738de17e7151b9e478536de83ac37369e57eda3fcdd1f10e357c4c0b7dd2b",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "KTVHTTPCache",
+      "hash" : "137ef8fa21bf55ab23006d1bdd325791dc37a58ee066b36db64171ee3f88a93f",
+      "linking" : "dynamic"
+    }
+  ]
+}

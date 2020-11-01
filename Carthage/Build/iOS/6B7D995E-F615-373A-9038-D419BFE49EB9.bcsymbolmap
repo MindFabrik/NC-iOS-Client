@@ -1,0 +1,1730 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.21)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk
+iPhoneOS14.1.sdk
+/Users/oliveroeh/Library/Caches/org.carthage.CarthageKit/DerivedData/12.1_12A7403/XLForm/4.2.0/Build/Intermediates.noindex/ArchiveIntermediates/XLForm/IntermediateBuildFilesPath/XLForm.build/Release-iphoneos/XLForm.build/DerivedSources/XLForm_vers.c
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm
++[UIView(XLFormAdditions) autolayoutView]
+-[UIView(XLFormAdditions) layoutConstraintSameHeightOf:]
+-[UIView(XLFormAdditions) findFirstResponder]
+-[UIView(XLFormAdditions) formDescriptorCell]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_XLFormDescriptorCell
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormDescriptorCell
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_XLFormDescriptorCell
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_XLFormDescriptorCell
+__OBJC_$_PROP_LIST_XLFormDescriptorCell
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormDescriptorCell
+__OBJC_PROTOCOL_$_XLFormDescriptorCell
+__OBJC_LABEL_PROTOCOL_$_XLFormDescriptorCell
+__OBJC_PROTOCOL_REFERENCE_$_XLFormDescriptorCell
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_XLFormAdditions
+__OBJC_$_CATEGORY_CLASS_METHODS_UIView_$_XLFormAdditions
+__OBJC_$_CATEGORY_UIView_$_XLFormAdditions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/UIView+XLFormAdditions.m
+XLForm/XL/UIView+XLFormAdditions.m
+-[XLFormPickerCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormPickerCell formDescriptorCellBecomeFirstResponder]
+-[XLFormPickerCell canResignFirstResponder]
+-[XLFormPickerCell canBecomeFirstResponder]
+-[XLFormPickerCell configure]
+-[XLFormPickerCell update]
++[XLFormPickerCell formDescriptorCellHeightForRowDescriptor:]
+-[XLFormPickerCell pickerView:titleForRow:forComponent:]
+-[XLFormPickerCell pickerView:didSelectRow:inComponent:]
+-[XLFormPickerCell numberOfComponentsInPickerView:]
+-[XLFormPickerCell pickerView:numberOfRowsInComponent:]
+-[XLFormPickerCell selectedIndex]
+-[XLFormPickerCell pickerView]
+-[XLFormPickerCell setPickerView:]
+-[XLFormPickerCell inlineRowDescriptor]
+-[XLFormPickerCell setInlineRowDescriptor:]
+-[XLFormPickerCell .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_IVAR_$_XLFormPickerCell._pickerView
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_IVAR_$_XLFormPickerCell._inlineRowDescriptor
+__OBJC_$_CLASS_METHODS_XLFormPickerCell
+__OBJC_$_PROTOCOL_REFS_UIPickerViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPickerViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIPickerViewDelegate
+__OBJC_PROTOCOL_$_UIPickerViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIPickerViewDelegate
+__OBJC_$_PROTOCOL_REFS_UIPickerViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UIPickerViewDataSource
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIPickerViewDataSource
+__OBJC_PROTOCOL_$_UIPickerViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UIPickerViewDataSource
+__OBJC_$_PROTOCOL_REFS_XLFormInlineRowDescriptorCell
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormInlineRowDescriptorCell
+__OBJC_$_PROP_LIST_XLFormInlineRowDescriptorCell
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormInlineRowDescriptorCell
+__OBJC_PROTOCOL_$_XLFormInlineRowDescriptorCell
+__OBJC_LABEL_PROTOCOL_$_XLFormInlineRowDescriptorCell
+__OBJC_CLASS_PROTOCOLS_$_XLFormPickerCell
+__OBJC_METACLASS_RO_$_XLFormPickerCell
+__OBJC_$_INSTANCE_METHODS_XLFormPickerCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormPickerCell
+__OBJC_$_PROP_LIST_XLFormPickerCell
+__OBJC_CLASS_RO_$_XLFormPickerCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormPickerCell.m
+XLForm/XL/XLFormPickerCell.m
+-[XLFormRowDescriptor init]
+-[XLFormRowDescriptor initWithTag:rowType:title:]
++[XLFormRowDescriptor formRowDescriptorWithTag:rowType:]
++[XLFormRowDescriptor formRowDescriptorWithTag:rowType:title:]
+-[XLFormRowDescriptor cellForFormController:]
+-[XLFormRowDescriptor configureCellAtCreationTime]
+___50-[XLFormRowDescriptor configureCellAtCreationTime]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[XLFormRowDescriptor cellConfig]
+-[XLFormRowDescriptor cellConfigForSelector]
+-[XLFormRowDescriptor cellConfigIfDisabled]
+-[XLFormRowDescriptor cellConfigAtConfigure]
+-[XLFormRowDescriptor editTextValue]
+-[XLFormRowDescriptor displayTextValue]
+-[XLFormRowDescriptor description]
+-[XLFormRowDescriptor action]
+-[XLFormRowDescriptor setAction:]
+-[XLFormRowDescriptor height]
+-[XLFormRowDescriptor setHeight:]
+-[XLFormRowDescriptor copyWithZone:]
+-[XLFormRowDescriptor dealloc]
+-[XLFormRowDescriptor observeValueForKeyPath:ofObject:change:context:]
+-[XLFormRowDescriptor isDisabled]
+-[XLFormRowDescriptor setDisabled:]
+-[XLFormRowDescriptor evaluateIsDisabled]
+-[XLFormRowDescriptor disabled]
+-[XLFormRowDescriptor setDisablePredicateCache:]
+-[XLFormRowDescriptor disablePredicateCache]
+-[XLFormRowDescriptor hidePredicateCache]
+-[XLFormRowDescriptor setHidePredicateCache:]
+-[XLFormRowDescriptor isHidden]
+-[XLFormRowDescriptor evaluateIsHidden]
+-[XLFormRowDescriptor setHidden:]
+-[XLFormRowDescriptor hidden]
+-[XLFormRowDescriptor addValidator:]
+-[XLFormRowDescriptor removeValidator:]
+-[XLFormRowDescriptor valueIsEmpty]
+-[XLFormRowDescriptor doValidation]
+-[XLFormRowDescriptor setButtonViewController:]
+-[XLFormRowDescriptor buttonViewController]
+-[XLFormRowDescriptor setSelectorControllerClass:]
+-[XLFormRowDescriptor selectorControllerClass]
+-[XLFormRowDescriptor setButtonViewControllerPresentationMode:]
+-[XLFormRowDescriptor buttonViewControllerPresentationMode]
+-[XLFormRowDescriptor cellClass]
+-[XLFormRowDescriptor setCellClass:]
+-[XLFormRowDescriptor tag]
+-[XLFormRowDescriptor setTag:]
+-[XLFormRowDescriptor rowType]
+-[XLFormRowDescriptor title]
+-[XLFormRowDescriptor setTitle:]
+-[XLFormRowDescriptor value]
+-[XLFormRowDescriptor setValue:]
+-[XLFormRowDescriptor valueTransformer]
+-[XLFormRowDescriptor setValueTransformer:]
+-[XLFormRowDescriptor cellStyle]
+-[XLFormRowDescriptor setCellStyle:]
+-[XLFormRowDescriptor onChangeBlock]
+-[XLFormRowDescriptor setOnChangeBlock:]
+-[XLFormRowDescriptor useValueFormatterDuringInput]
+-[XLFormRowDescriptor setUseValueFormatterDuringInput:]
+-[XLFormRowDescriptor valueFormatter]
+-[XLFormRowDescriptor setValueFormatter:]
+-[XLFormRowDescriptor isRequired]
+-[XLFormRowDescriptor setRequired:]
+-[XLFormRowDescriptor sectionDescriptor]
+-[XLFormRowDescriptor setSectionDescriptor:]
+-[XLFormRowDescriptor requireMsg]
+-[XLFormRowDescriptor setRequireMsg:]
+-[XLFormRowDescriptor noValueDisplayText]
+-[XLFormRowDescriptor setNoValueDisplayText:]
+-[XLFormRowDescriptor selectorTitle]
+-[XLFormRowDescriptor setSelectorTitle:]
+-[XLFormRowDescriptor selectorOptions]
+-[XLFormRowDescriptor setSelectorOptions:]
+-[XLFormRowDescriptor leftRightSelectorLeftOptionSelected]
+-[XLFormRowDescriptor setLeftRightSelectorLeftOptionSelected:]
+-[XLFormRowDescriptor cell]
+-[XLFormRowDescriptor setCell:]
+-[XLFormRowDescriptor validators]
+-[XLFormRowDescriptor setValidators:]
+-[XLFormRowDescriptor isDirtyDisablePredicateCache]
+-[XLFormRowDescriptor setIsDirtyDisablePredicateCache:]
+-[XLFormRowDescriptor isDirtyHidePredicateCache]
+-[XLFormRowDescriptor setIsDirtyHidePredicateCache:]
+-[XLFormRowDescriptor .cxx_destruct]
++[XLFormLeftRightSelectorOption formLeftRightSelectorOptionWithLeftValue:httpParameterKey:rightOptions:]
+-[XLFormLeftRightSelectorOption initWithLeftValue:httpParameterKey:rightOptions:]
+-[XLFormLeftRightSelectorOption leftValueChangePolicy]
+-[XLFormLeftRightSelectorOption setLeftValueChangePolicy:]
+-[XLFormLeftRightSelectorOption leftValue]
+-[XLFormLeftRightSelectorOption rightOptions]
+-[XLFormLeftRightSelectorOption httpParameterKey]
+-[XLFormLeftRightSelectorOption rightSelectorControllerClass]
+-[XLFormLeftRightSelectorOption setRightSelectorControllerClass:]
+-[XLFormLeftRightSelectorOption noValueDisplayText]
+-[XLFormLeftRightSelectorOption setNoValueDisplayText:]
+-[XLFormLeftRightSelectorOption selectorTitle]
+-[XLFormLeftRightSelectorOption setSelectorTitle:]
+-[XLFormLeftRightSelectorOption .cxx_destruct]
+-[XLFormAction init]
+-[XLFormAction copyWithZone:]
+-[XLFormAction setViewControllerClass:]
+-[XLFormAction setViewControllerNibName:]
+-[XLFormAction setViewControllerStoryboardId:]
+-[XLFormAction setFormSelector:]
+-[XLFormAction setFormBlock:]
+-[XLFormAction setFormSegueClass:]
+-[XLFormAction setFormSegueIdentifier:]
+-[XLFormAction setFormSegueIdenfifier:]
+-[XLFormAction formSegueIdenfifier]
+-[XLFormAction viewControllerClass]
+-[XLFormAction viewControllerStoryboardId]
+-[XLFormAction viewControllerNibName]
+-[XLFormAction viewControllerPresentationMode]
+-[XLFormAction setViewControllerPresentationMode:]
+-[XLFormAction formBlock]
+-[XLFormAction formSelector]
+-[XLFormAction formSegueIdentifier]
+-[XLFormAction formSegueClass]
+-[XLFormAction .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_CLASSLIST_REFERENCES_$_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+___block_descriptor_40_e8_32s_e25_v32?0"NSString"816^B24l
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_CLASSLIST_REFERENCES_$_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_CLASSLIST_REFERENCES_$_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_CLASSLIST_REFERENCES_$_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_SELECTOR_REFERENCES_.229
+__OBJC_$_PROTOCOL_REFS_XLFormValidatorProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormValidatorProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormValidatorProtocol
+__OBJC_PROTOCOL_$_XLFormValidatorProtocol
+__OBJC_LABEL_PROTOCOL_$_XLFormValidatorProtocol
+__OBJC_PROTOCOL_REFERENCE_$_XLFormValidatorProtocol
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.278
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_CLASSLIST_REFERENCES_$_.283
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.306
+_OBJC_SELECTOR_REFERENCES_.308
+__OBJC_$_CLASS_METHODS_XLFormRowDescriptor
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_XLFormRowDescriptor
+__OBJC_METACLASS_RO_$_XLFormRowDescriptor
+__OBJC_$_INSTANCE_METHODS_XLFormRowDescriptor
+_OBJC_IVAR_$_XLFormRowDescriptor._useValueFormatterDuringInput
+_OBJC_IVAR_$_XLFormRowDescriptor._required
+_OBJC_IVAR_$_XLFormRowDescriptor._isDirtyDisablePredicateCache
+_OBJC_IVAR_$_XLFormRowDescriptor._isDirtyHidePredicateCache
+_OBJC_IVAR_$_XLFormRowDescriptor._action
+_OBJC_IVAR_$_XLFormRowDescriptor._disabled
+_OBJC_IVAR_$_XLFormRowDescriptor._hidden
+_OBJC_IVAR_$_XLFormRowDescriptor._hidePredicateCache
+_OBJC_IVAR_$_XLFormRowDescriptor._disablePredicateCache
+_OBJC_IVAR_$_XLFormRowDescriptor._cellConfig
+_OBJC_IVAR_$_XLFormRowDescriptor._cellConfigForSelector
+_OBJC_IVAR_$_XLFormRowDescriptor._cellConfigIfDisabled
+_OBJC_IVAR_$_XLFormRowDescriptor._cellConfigAtConfigure
+_OBJC_IVAR_$_XLFormRowDescriptor._height
+_OBJC_IVAR_$_XLFormRowDescriptor._cellClass
+_OBJC_IVAR_$_XLFormRowDescriptor._tag
+_OBJC_IVAR_$_XLFormRowDescriptor._rowType
+_OBJC_IVAR_$_XLFormRowDescriptor._title
+_OBJC_IVAR_$_XLFormRowDescriptor._value
+_OBJC_IVAR_$_XLFormRowDescriptor._valueTransformer
+_OBJC_IVAR_$_XLFormRowDescriptor._cellStyle
+_OBJC_IVAR_$_XLFormRowDescriptor._onChangeBlock
+_OBJC_IVAR_$_XLFormRowDescriptor._valueFormatter
+_OBJC_IVAR_$_XLFormRowDescriptor._sectionDescriptor
+_OBJC_IVAR_$_XLFormRowDescriptor._requireMsg
+_OBJC_IVAR_$_XLFormRowDescriptor._noValueDisplayText
+_OBJC_IVAR_$_XLFormRowDescriptor._selectorTitle
+_OBJC_IVAR_$_XLFormRowDescriptor._selectorOptions
+_OBJC_IVAR_$_XLFormRowDescriptor._leftRightSelectorLeftOptionSelected
+_OBJC_IVAR_$_XLFormRowDescriptor._cell
+_OBJC_IVAR_$_XLFormRowDescriptor._validators
+__OBJC_$_INSTANCE_VARIABLES_XLFormRowDescriptor
+__OBJC_$_PROP_LIST_XLFormRowDescriptor
+__OBJC_CLASS_RO_$_XLFormRowDescriptor
+_OBJC_CLASSLIST_REFERENCES_$_.471
+_OBJC_SELECTOR_REFERENCES_.473
+__OBJC_$_CLASS_METHODS_XLFormLeftRightSelectorOption
+__OBJC_METACLASS_RO_$_XLFormLeftRightSelectorOption
+__OBJC_$_INSTANCE_METHODS_XLFormLeftRightSelectorOption
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._leftValueChangePolicy
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._leftValue
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._rightOptions
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._httpParameterKey
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._rightSelectorControllerClass
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._noValueDisplayText
+_OBJC_IVAR_$_XLFormLeftRightSelectorOption._selectorTitle
+__OBJC_$_INSTANCE_VARIABLES_XLFormLeftRightSelectorOption
+__OBJC_$_PROP_LIST_XLFormLeftRightSelectorOption
+__OBJC_CLASS_RO_$_XLFormLeftRightSelectorOption
+_OBJC_SELECTOR_REFERENCES_.503
+_OBJC_SELECTOR_REFERENCES_.505
+_OBJC_SELECTOR_REFERENCES_.507
+_OBJC_SELECTOR_REFERENCES_.509
+_OBJC_SELECTOR_REFERENCES_.511
+_OBJC_SELECTOR_REFERENCES_.513
+_OBJC_SELECTOR_REFERENCES_.515
+_OBJC_SELECTOR_REFERENCES_.517
+_OBJC_SELECTOR_REFERENCES_.519
+_OBJC_SELECTOR_REFERENCES_.521
+_OBJC_SELECTOR_REFERENCES_.523
+_OBJC_SELECTOR_REFERENCES_.525
+__OBJC_METACLASS_RO_$_XLFormAction
+__OBJC_$_INSTANCE_METHODS_XLFormAction
+_OBJC_IVAR_$_XLFormAction._viewControllerClass
+_OBJC_IVAR_$_XLFormAction._viewControllerStoryboardId
+_OBJC_IVAR_$_XLFormAction._viewControllerNibName
+_OBJC_IVAR_$_XLFormAction._viewControllerPresentationMode
+_OBJC_IVAR_$_XLFormAction._formBlock
+_OBJC_IVAR_$_XLFormAction._formSelector
+_OBJC_IVAR_$_XLFormAction._formSegueIdentifier
+_OBJC_IVAR_$_XLFormAction._formSegueClass
+__OBJC_$_INSTANCE_VARIABLES_XLFormAction
+__OBJC_$_PROP_LIST_XLFormAction
+__OBJC_CLASS_RO_$_XLFormAction
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormRowDescriptor.m
+XLForm/XL/XLFormRowDescriptor.m
+XLForm/XL/XLFormRowDescriptor.h
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__50-[XLFormRowDescriptor configureCellAtCreationTime]_block_invoke
+-[XLFormSelectorCell valueDisplayText]
+-[XLFormSelectorCell inputView]
+-[XLFormSelectorCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormSelectorCell formDescriptorCellBecomeFirstResponder]
+-[XLFormSelectorCell canBecomeFirstResponder]
+-[XLFormSelectorCell pickerView]
+-[XLFormSelectorCell configure]
+-[XLFormSelectorCell update]
+-[XLFormSelectorCell formDescriptorCellDidSelectedWithFormController:]
+___70-[XLFormSelectorCell formDescriptorCellDidSelectedWithFormController:]_block_invoke
+___copy_helper_block_e8_32s40s48w
+___destroy_helper_block_e8_32s40s48w
+___70-[XLFormSelectorCell formDescriptorCellDidSelectedWithFormController:]_block_invoke.184
+___copy_helper_block_e8_32s40w
+___destroy_helper_block_e8_32s40w
+-[XLFormSelectorCell highlight]
+-[XLFormSelectorCell unhighlight]
+-[XLFormSelectorCell pickerView:titleForRow:forComponent:]
+-[XLFormSelectorCell pickerView:didSelectRow:inComponent:]
+-[XLFormSelectorCell numberOfComponentsInPickerView:]
+-[XLFormSelectorCell pickerView:numberOfRowsInComponent:]
+-[XLFormSelectorCell popoverPresentationControllerDidDismissPopover:]
+-[XLFormSelectorCell selectedIndex]
+-[XLFormSelectorCell controllerToPresent]
+-[XLFormSelectorCell storyboardToPresent]
+-[XLFormSelectorCell setPickerView:]
+-[XLFormSelectorCell .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_IVAR_$_XLFormSelectorCell._pickerView
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_CLASSLIST_REFERENCES_$_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_CLASSLIST_REFERENCES_$_.154
+_OBJC_CLASSLIST_REFERENCES_$_.157
+_OBJC_CLASSLIST_REFERENCES_$_.158
+___block_descriptor_56_e8_32s40s48w_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+___block_descriptor_48_e8_32s40w_e23_v16?0"UIAlertAction"8l
+_OBJC_IVAR_$_XLFormSelectorCell._beforeChangeColor
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+__OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
+__OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UIPopoverPresentationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPopoverPresentationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIPopoverPresentationControllerDelegate
+__OBJC_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_XLFormSelectorCell
+__OBJC_METACLASS_RO_$_XLFormSelectorCell
+__OBJC_$_INSTANCE_METHODS_XLFormSelectorCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormSelectorCell
+__OBJC_$_PROP_LIST_XLFormSelectorCell
+__OBJC_CLASS_RO_$_XLFormSelectorCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormSelectorCell.m
+XLForm/XL/XLFormSelectorCell.m
+__destroy_helper_block_e8_32s40w
+__copy_helper_block_e8_32s40w
+__70-[XLFormSelectorCell formDescriptorCellDidSelectedWithFormController:]_block_invoke.184
+__destroy_helper_block_e8_32s40s48w
+__copy_helper_block_e8_32s40s48w
+__70-[XLFormSelectorCell formDescriptorCellDidSelectedWithFormController:]_block_invoke
+-[XLFormValidator isValid:]
++[XLFormValidator emailValidator]
++[XLFormValidator emailValidatorLong]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_CLASSLIST_REFERENCES_$_.2
+__OBJC_$_CLASS_METHODS_XLFormValidator
+__OBJC_CLASS_PROTOCOLS_$_XLFormValidator
+__OBJC_METACLASS_RO_$_XLFormValidator
+__OBJC_$_INSTANCE_METHODS_XLFormValidator
+__OBJC_$_PROP_LIST_XLFormValidator
+__OBJC_CLASS_RO_$_XLFormValidator
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormValidator.m
+XLForm/XL/XLFormValidator.m
+-[XLFormTextFieldCell observeValueForKeyPath:ofObject:change:context:]
+-[XLFormTextFieldCell initWithStyle:reuseIdentifier:]
+-[XLFormTextFieldCell dealloc]
+-[XLFormTextFieldCell configure]
+-[XLFormTextFieldCell update]
+-[XLFormTextFieldCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormTextFieldCell formDescriptorCellBecomeFirstResponder]
+-[XLFormTextFieldCell highlight]
+-[XLFormTextFieldCell unhighlight]
+-[XLFormTextFieldCell layoutConstraints]
+-[XLFormTextFieldCell updateConstraints]
+-[XLFormTextFieldCell textFieldShouldClear:]
+-[XLFormTextFieldCell textFieldShouldReturn:]
+-[XLFormTextFieldCell textFieldShouldBeginEditing:]
+-[XLFormTextFieldCell textFieldShouldEndEditing:]
+-[XLFormTextFieldCell textField:shouldChangeCharactersInRange:replacementString:]
+-[XLFormTextFieldCell textFieldDidBeginEditing:]
+-[XLFormTextFieldCell textFieldDidEndEditing:]
+-[XLFormTextFieldCell textFieldDidChange:]
+-[XLFormTextFieldCell setReturnKeyType:]
+-[XLFormTextFieldCell returnKeyType]
+-[XLFormTextFieldCell textField]
+-[XLFormTextFieldCell textLabel]
+-[XLFormTextFieldCell nextReturnKeyType]
+-[XLFormTextFieldCell setNextReturnKeyType:]
+-[XLFormTextFieldCell textFieldLengthPercentage]
+-[XLFormTextFieldCell setTextFieldLengthPercentage:]
+-[XLFormTextFieldCell textFieldMaxNumberOfCharacters]
+-[XLFormTextFieldCell setTextFieldMaxNumberOfCharacters:]
+-[XLFormTextFieldCell dynamicCustomConstraints]
+-[XLFormTextFieldCell setDynamicCustomConstraints:]
+-[XLFormTextFieldCell .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_IVAR_$_XLFormTextFieldCell._returnKeyType
+_OBJC_IVAR_$_XLFormTextFieldCell._nextReturnKeyType
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_IVAR_$_XLFormTextFieldCell._textLabel
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_IVAR_$_XLFormTextFieldCell._textField
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_CLASSLIST_REFERENCES_$_.138
+_OBJC_CLASSLIST_REFERENCES_$_.145
+_OBJC_CLASSLIST_REFERENCES_$_.148
+_OBJC_CLASSLIST_REFERENCES_$_.167
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_CLASSLIST_REFERENCES_$_.242
+_OBJC_CLASSLIST_REFERENCES_$_.243
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_IVAR_$_XLFormTextFieldCell._textFieldLengthPercentage
+_OBJC_IVAR_$_XLFormTextFieldCell._textFieldMaxNumberOfCharacters
+_OBJC_IVAR_$_XLFormTextFieldCell._dynamicCustomConstraints
+__OBJC_$_PROTOCOL_REFS_UITextFieldDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextFieldDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextFieldDelegate
+__OBJC_PROTOCOL_$_UITextFieldDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormReturnKeyProtocol
+__OBJC_$_PROP_LIST_XLFormReturnKeyProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormReturnKeyProtocol
+__OBJC_PROTOCOL_$_XLFormReturnKeyProtocol
+__OBJC_LABEL_PROTOCOL_$_XLFormReturnKeyProtocol
+__OBJC_CLASS_PROTOCOLS_$_XLFormTextFieldCell
+__OBJC_METACLASS_RO_$_XLFormTextFieldCell
+__OBJC_$_INSTANCE_METHODS_XLFormTextFieldCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormTextFieldCell
+__OBJC_$_PROP_LIST_XLFormTextFieldCell
+__OBJC_CLASS_RO_$_XLFormTextFieldCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormTextFieldCell.m
+XLForm/XL/XLFormTextFieldCell.m
+XLForm/XL/XLFormTextFieldCell.h
+-[XLFormRegexValidator initWithMsg:andRegexString:]
+-[XLFormRegexValidator isValid:]
++[XLFormRegexValidator formRegexValidatorWithMsg:regex:]
+-[XLFormRegexValidator msg]
+-[XLFormRegexValidator setMsg:]
+-[XLFormRegexValidator regex]
+-[XLFormRegexValidator setRegex:]
+-[XLFormRegexValidator .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_IVAR_$_XLFormRegexValidator._msg
+_OBJC_IVAR_$_XLFormRegexValidator._regex
+__OBJC_$_CLASS_METHODS_XLFormRegexValidator
+__OBJC_METACLASS_RO_$_XLFormRegexValidator
+__OBJC_$_INSTANCE_METHODS_XLFormRegexValidator
+__OBJC_$_INSTANCE_VARIABLES_XLFormRegexValidator
+__OBJC_$_PROP_LIST_XLFormRegexValidator
+__OBJC_CLASS_RO_$_XLFormRegexValidator
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormRegexValidator.m
+XLForm/XL/XLFormRegexValidator.m
+XLForm/XL/XLFormRegexValidator.h
+-[NSExpression(XLFormAdditions) getExpressionVars]
+_OBJC_CLASSLIST_REFERENCES_$_.11
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSExpression_$_XLFormAdditions
+__OBJC_$_CATEGORY_NSExpression_$_XLFormAdditions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/NSExpression+XLFormAdditions.m
+XLForm/XL/NSExpression+XLFormAdditions.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[XLFormTextViewCell initWithStyle:reuseIdentifier:]
+-[XLFormTextViewCell observeValueForKeyPath:ofObject:change:context:]
+-[XLFormTextViewCell dealloc]
+-[XLFormTextViewCell label]
+-[XLFormTextViewCell configure]
+-[XLFormTextViewCell update]
++[XLFormTextViewCell formDescriptorCellHeightForRowDescriptor:]
+-[XLFormTextViewCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormTextViewCell formDescriptorCellBecomeFirstResponder]
+-[XLFormTextViewCell highlight]
+-[XLFormTextViewCell unhighlight]
+-[XLFormTextViewCell updateConstraints]
+-[XLFormTextViewCell textViewDidBeginEditing:]
+-[XLFormTextViewCell textViewDidEndEditing:]
+-[XLFormTextViewCell textViewShouldBeginEditing:]
+-[XLFormTextViewCell textViewDidChange:]
+-[XLFormTextViewCell textView:shouldChangeTextInRange:replacementText:]
+-[XLFormTextViewCell textLabel]
+-[XLFormTextViewCell textView]
+-[XLFormTextViewCell textViewLengthPercentage]
+-[XLFormTextViewCell setTextViewLengthPercentage:]
+-[XLFormTextViewCell textViewMaxNumberOfCharacters]
+-[XLFormTextViewCell setTextViewMaxNumberOfCharacters:]
+-[XLFormTextViewCell .cxx_destruct]
+_OBJC_IVAR_$_XLFormTextViewCell._dynamicCustomConstraints
+_OBJC_IVAR_$_XLFormTextViewCell._textLabel
+_OBJC_IVAR_$_XLFormTextViewCell._textView
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_CLASSLIST_REFERENCES_$_.97
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_CLASSLIST_REFERENCES_$_.110
+_OBJC_IVAR_$_XLFormTextViewCell._textViewLengthPercentage
+_OBJC_IVAR_$_XLFormTextViewCell._textViewMaxNumberOfCharacters
+__OBJC_$_CLASS_METHODS_XLFormTextViewCell
+__OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_REFS_UITextViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextViewDelegate
+__OBJC_PROTOCOL_$_UITextViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+__OBJC_CLASS_PROTOCOLS_$_XLFormTextViewCell
+__OBJC_METACLASS_RO_$_XLFormTextViewCell
+__OBJC_$_INSTANCE_METHODS_XLFormTextViewCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormTextViewCell
+__OBJC_$_PROP_LIST_XLFormTextViewCell
+__OBJC_CLASS_RO_$_XLFormTextViewCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormTextViewCell.m
+XLForm/XL/XLFormTextViewCell.m
+XLForm/XL/XLFormTextViewCell.h
+-[XLFormInlineSelectorCell canBecomeFirstResponder]
+-[XLFormInlineSelectorCell becomeFirstResponder]
+-[XLFormInlineSelectorCell resignFirstResponder]
+-[XLFormInlineSelectorCell configure]
+-[XLFormInlineSelectorCell update]
+-[XLFormInlineSelectorCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormInlineSelectorCell formDescriptorCellBecomeFirstResponder]
+-[XLFormInlineSelectorCell formDescriptorCellDidSelectedWithFormController:]
+-[XLFormInlineSelectorCell highlight]
+-[XLFormInlineSelectorCell unhighlight]
+-[XLFormInlineSelectorCell valueDisplayText]
+-[XLFormInlineSelectorCell .cxx_destruct]
+_OBJC_IVAR_$_XLFormInlineSelectorCell._beforeChangeColor
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+__OBJC_METACLASS_RO_$_XLFormInlineSelectorCell
+__OBJC_$_INSTANCE_METHODS_XLFormInlineSelectorCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormInlineSelectorCell
+__OBJC_CLASS_RO_$_XLFormInlineSelectorCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormInlineSelectorCell.m
+XLForm/XL/XLFormInlineSelectorCell.m
++[XLFormOptionsObject formOptionsObjectWithValue:displayText:]
+-[XLFormOptionsObject initWithValue:displayText:]
++[XLFormOptionsObject formOptionsOptionForValue:fromOptions:]
++[XLFormOptionsObject formOptionsOptionForDisplayText:fromOptions:]
+-[XLFormOptionsObject isEqual:]
+-[XLFormOptionsObject formDisplayText]
+-[XLFormOptionsObject formValue]
+-[XLFormOptionsObject encodeWithCoder:]
+-[XLFormOptionsObject initWithCoder:]
+-[XLFormOptionsObject hash]
+-[XLFormOptionsObject formDisplaytext]
+-[XLFormOptionsObject setFormDisplaytext:]
+-[XLFormOptionsObject setFormValue:]
+-[XLFormOptionsObject .cxx_destruct]
+__OBJC_$_CLASS_METHODS_XLFormOptionsObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormOptionObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormOptionObject
+__OBJC_PROTOCOL_$_XLFormOptionObject
+__OBJC_LABEL_PROTOCOL_$_XLFormOptionObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_CLASS_PROTOCOLS_$_XLFormOptionsObject
+__OBJC_METACLASS_RO_$_XLFormOptionsObject
+__OBJC_$_INSTANCE_METHODS_XLFormOptionsObject
+_OBJC_IVAR_$_XLFormOptionsObject._formDisplaytext
+_OBJC_IVAR_$_XLFormOptionsObject._formValue
+__OBJC_$_INSTANCE_VARIABLES_XLFormOptionsObject
+__OBJC_$_PROP_LIST_XLFormOptionsObject
+__OBJC_CLASS_RO_$_XLFormOptionsObject
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormOptionsObject.m
+XLForm/XL/XLFormOptionsObject.m
+XLForm/XL/XLFormOptionsObject.h
+-[XLFormSegmentedCell configure]
+-[XLFormSegmentedCell update]
+-[XLFormSegmentedCell observeValueForKeyPath:ofObject:change:context:]
+-[XLFormSegmentedCell segmentedControl]
+-[XLFormSegmentedCell textLabel]
+-[XLFormSegmentedCell valueChanged]
+-[XLFormSegmentedCell getItems]
+-[XLFormSegmentedCell updateSegmentedControl]
+___45-[XLFormSegmentedCell updateSegmentedControl]_block_invoke
+-[XLFormSegmentedCell selectedIndex]
+-[XLFormSegmentedCell updateConstraints]
+-[XLFormSegmentedCell dealloc]
+-[XLFormSegmentedCell dynamicCustomConstraints]
+-[XLFormSegmentedCell setDynamicCustomConstraints:]
+-[XLFormSegmentedCell .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_IVAR_$_XLFormSegmentedCell._segmentedControl
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_IVAR_$_XLFormSegmentedCell._textLabel
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_CLASSLIST_REFERENCES_$_.78
+___block_descriptor_40_e8_32s_e15_v32?08Q16^B24l
+_OBJC_CLASSLIST_REFERENCES_$_.116
+_OBJC_CLASSLIST_REFERENCES_$_.123
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_IVAR_$_XLFormSegmentedCell._dynamicCustomConstraints
+__OBJC_METACLASS_RO_$_XLFormSegmentedCell
+__OBJC_$_INSTANCE_METHODS_XLFormSegmentedCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormSegmentedCell
+__OBJC_$_PROP_LIST_XLFormSegmentedCell
+__OBJC_CLASS_RO_$_XLFormSegmentedCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormSegmentedCell.m
+XLForm/XL/XLFormSegmentedCell.m
+__45-[XLFormSegmentedCell updateSegmentedControl]_block_invoke
+-[XLFormValidationStatus initWithMsg:andStatus:]
+-[XLFormValidationStatus initWithMsg:status:rowDescriptor:]
++[XLFormValidationStatus formValidationStatusWithMsg:status:]
++[XLFormValidationStatus formValidationStatusWithMsg:status:rowDescriptor:]
+-[XLFormValidationStatus msg]
+-[XLFormValidationStatus setMsg:]
+-[XLFormValidationStatus isValid]
+-[XLFormValidationStatus setIsValid:]
+-[XLFormValidationStatus rowDescriptor]
+-[XLFormValidationStatus setRowDescriptor:]
+-[XLFormValidationStatus .cxx_destruct]
+__OBJC_$_CLASS_METHODS_XLFormValidationStatus
+__OBJC_METACLASS_RO_$_XLFormValidationStatus
+__OBJC_$_INSTANCE_METHODS_XLFormValidationStatus
+_OBJC_IVAR_$_XLFormValidationStatus._isValid
+_OBJC_IVAR_$_XLFormValidationStatus._msg
+_OBJC_IVAR_$_XLFormValidationStatus._rowDescriptor
+__OBJC_$_INSTANCE_VARIABLES_XLFormValidationStatus
+__OBJC_$_PROP_LIST_XLFormValidationStatus
+__OBJC_CLASS_RO_$_XLFormValidationStatus
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormValidationStatus.m
+XLForm/XL/XLFormValidationStatus.m
+XLForm/XL/XLFormValidationStatus.h
+-[XLFormOptionsViewController initWithStyle:]
+-[XLFormOptionsViewController initWithStyle:titleHeaderSection:titleFooterSection:]
+-[XLFormOptionsViewController viewDidLoad]
+-[XLFormOptionsViewController tableView:numberOfRowsInSection:]
+-[XLFormOptionsViewController tableView:cellForRowAtIndexPath:]
+___63-[XLFormOptionsViewController tableView:cellForRowAtIndexPath:]_block_invoke
+-[XLFormOptionsViewController tableView:titleForFooterInSection:]
+-[XLFormOptionsViewController tableView:titleForHeaderInSection:]
+-[XLFormOptionsViewController tableView:didSelectRowAtIndexPath:]
+-[XLFormOptionsViewController selectedValues]
+-[XLFormOptionsViewController selectedValuesContainsOption:]
+-[XLFormOptionsViewController selectedValuesRemoveOption:]
+-[XLFormOptionsViewController selectedValuesAddOption:]
+-[XLFormOptionsViewController valueDisplayTextForOption:]
+-[XLFormOptionsViewController selectorOptions]
+-[XLFormOptionsViewController leftOptionForOption:]
+___51-[XLFormOptionsViewController leftOptionForOption:]_block_invoke
+-[XLFormOptionsViewController titleHeaderSection]
+-[XLFormOptionsViewController setTitleHeaderSection:]
+-[XLFormOptionsViewController titleFooterSection]
+-[XLFormOptionsViewController setTitleFooterSection:]
+-[XLFormOptionsViewController rowDescriptor]
+-[XLFormOptionsViewController setRowDescriptor:]
+-[XLFormOptionsViewController .cxx_destruct]
+_OBJC_IVAR_$_XLFormOptionsViewController._titleFooterSection
+_OBJC_IVAR_$_XLFormOptionsViewController._titleHeaderSection
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_CLASSLIST_REFERENCES_$_.87
+___block_descriptor_40_e8_32s_e25_B24?08"NSDictionary"16l
+_OBJC_IVAR_$_XLFormOptionsViewController._rowDescriptor
+__OBJC_$_PROTOCOL_REFS_UITableViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UITableViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITableViewDataSource
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITableViewDataSource
+__OBJC_PROTOCOL_$_UITableViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+__OBJC_$_PROTOCOL_REFS_XLFormRowDescriptorViewController
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormRowDescriptorViewController
+__OBJC_$_PROP_LIST_XLFormRowDescriptorViewController
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormRowDescriptorViewController
+__OBJC_PROTOCOL_$_XLFormRowDescriptorViewController
+__OBJC_LABEL_PROTOCOL_$_XLFormRowDescriptorViewController
+__OBJC_CLASS_PROTOCOLS_$_XLFormOptionsViewController
+__OBJC_METACLASS_RO_$_XLFormOptionsViewController
+__OBJC_$_INSTANCE_METHODS_XLFormOptionsViewController
+__OBJC_$_INSTANCE_VARIABLES_XLFormOptionsViewController
+__OBJC_$_PROP_LIST_XLFormOptionsViewController
+__OBJC_CLASS_RO_$_XLFormOptionsViewController
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormOptionsViewController.m
+XLForm/XL/XLFormOptionsViewController.m
+__51-[XLFormOptionsViewController leftOptionForOption:]_block_invoke
+__63-[XLFormOptionsViewController tableView:cellForRowAtIndexPath:]_block_invoke
+-[XLFormButtonCell initWithStyle:reuseIdentifier:]
+-[XLFormButtonCell configure]
+-[XLFormButtonCell update]
+-[XLFormButtonCell formDescriptorCellDidSelectedWithFormController:]
+-[XLFormButtonCell controllerToPresent]
+-[XLFormButtonCell storyboardToPresent]
+-[XLFormButtonCell useTintColor]
+-[XLFormButtonCell setUseTintColor:]
+_OBJC_IVAR_$_XLFormButtonCell._useTintColor
+__OBJC_PROTOCOL_REFERENCE_$_XLFormRowDescriptorViewController
+_OBJC_CLASSLIST_REFERENCES_$_.119
+__OBJC_METACLASS_RO_$_XLFormButtonCell
+__OBJC_$_INSTANCE_METHODS_XLFormButtonCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormButtonCell
+__OBJC_$_PROP_LIST_XLFormButtonCell
+__OBJC_CLASS_RO_$_XLFormButtonCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormButtonCell.m
+XLForm/XL/XLFormButtonCell.m
+-[NSPredicate(XLFormAdditions) getPredicateVars]
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSPredicate_$_XLFormAdditions
+__OBJC_$_CATEGORY_NSPredicate_$_XLFormAdditions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/NSPredicate+XLFormAdditions.m
+XLForm/XL/NSPredicate+XLFormAdditions.m
+-[XLFormDatePickerCell canResignFirstResponder]
+-[XLFormDatePickerCell datePickerValueChanged:]
+-[XLFormDatePickerCell configure]
+-[XLFormDatePickerCell update]
++[XLFormDatePickerCell formDescriptorCellHeightForRowDescriptor:]
+-[XLFormDatePickerCell datePicker]
+-[XLFormDatePickerCell inlineRowDescriptor]
+-[XLFormDatePickerCell setInlineRowDescriptor:]
+-[XLFormDatePickerCell .cxx_destruct]
+_OBJC_IVAR_$_XLFormDatePickerCell._datePicker
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_IVAR_$_XLFormDatePickerCell._inlineRowDescriptor
+__OBJC_$_CLASS_METHODS_XLFormDatePickerCell
+__OBJC_CLASS_PROTOCOLS_$_XLFormDatePickerCell
+__OBJC_METACLASS_RO_$_XLFormDatePickerCell
+__OBJC_$_INSTANCE_METHODS_XLFormDatePickerCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormDatePickerCell
+__OBJC_$_PROP_LIST_XLFormDatePickerCell
+__OBJC_CLASS_RO_$_XLFormDatePickerCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormDatePickerCell.m
+XLForm/XL/XLFormDatePickerCell.m
+-[XLFormSwitchCell configure]
+-[XLFormSwitchCell update]
+-[XLFormSwitchCell switchControl]
+-[XLFormSwitchCell valueChanged]
+_OBJC_SELECTOR_REFERENCES_.43
+__OBJC_METACLASS_RO_$_XLFormSwitchCell
+__OBJC_$_INSTANCE_METHODS_XLFormSwitchCell
+__OBJC_CLASS_RO_$_XLFormSwitchCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormSwitchCell.m
+XLForm/XL/XLFormSwitchCell.m
+-[XLFormTextView dealloc]
+-[XLFormTextView initWithFrame:]
+-[XLFormTextView textChanged:]
+-[XLFormTextView setText:]
+-[XLFormTextView drawRect:]
+-[XLFormTextView placeholder]
+-[XLFormTextView setPlaceholder:]
+-[XLFormTextView placeholderColor]
+-[XLFormTextView setPlaceholderColor:]
+-[XLFormTextView placeHolderLabel]
+-[XLFormTextView .cxx_destruct]
+_OBJC_IVAR_$_XLFormTextView._placeHolderLabel
+_OBJC_IVAR_$_XLFormTextView._placeholder
+_OBJC_IVAR_$_XLFormTextView._placeholderColor
+__OBJC_METACLASS_RO_$_XLFormTextView
+__OBJC_$_INSTANCE_METHODS_XLFormTextView
+__OBJC_$_INSTANCE_VARIABLES_XLFormTextView
+__OBJC_$_PROP_LIST_XLFormTextView
+__OBJC_CLASS_RO_$_XLFormTextView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormTextView.m
+XLForm/XL/XLFormTextView.m
+XLForm/XL/XLFormTextView.h
+-[XLFormDescriptor init]
+-[XLFormDescriptor initWithTitle:]
++[XLFormDescriptor formDescriptor]
++[XLFormDescriptor formDescriptorWithTitle:]
+-[XLFormDescriptor addFormSection:]
+-[XLFormDescriptor addFormSection:atIndex:]
+-[XLFormDescriptor addFormSection:afterSection:]
+-[XLFormDescriptor addFormRow:beforeRow:]
+-[XLFormDescriptor addFormRow:beforeRowTag:]
+-[XLFormDescriptor addFormRow:afterRow:]
+-[XLFormDescriptor addFormRow:afterRowTag:]
+-[XLFormDescriptor removeFormSectionAtIndex:]
+-[XLFormDescriptor removeFormSection:]
+-[XLFormDescriptor removeFormRow:]
+-[XLFormDescriptor showFormSection:]
+-[XLFormDescriptor hideFormSection:]
+-[XLFormDescriptor formRowWithTag:]
+-[XLFormDescriptor formRowWithHash:]
+-[XLFormDescriptor removeFormRowWithTag:]
+-[XLFormDescriptor formRowAtIndex:]
+-[XLFormDescriptor formSectionAtIndex:]
+-[XLFormDescriptor indexPathOfFormRow:]
+-[XLFormDescriptor globalIndexPathOfFormRow:]
+-[XLFormDescriptor formValues]
+-[XLFormDescriptor httpParameters:]
+-[XLFormDescriptor httpParameterKeyForRow:cell:]
+-[XLFormDescriptor localValidationErrors:]
+-[XLFormDescriptor setFirstResponder:]
+-[XLFormDescriptor observeValueForKeyPath:ofObject:change:context:]
+-[XLFormDescriptor dealloc]
+-[XLFormDescriptor countOfFormSections]
+-[XLFormDescriptor objectInFormSectionsAtIndex:]
+-[XLFormDescriptor formSectionsAtIndexes:]
+-[XLFormDescriptor insertObject:inFormSectionsAtIndex:]
+-[XLFormDescriptor removeObjectFromFormSectionsAtIndex:]
+-[XLFormDescriptor countOfAllSections]
+-[XLFormDescriptor objectInAllSectionsAtIndex:]
+-[XLFormDescriptor allSectionsAtIndexes:]
+-[XLFormDescriptor removeObjectFromAllSectionsAtIndex:]
+___55-[XLFormDescriptor removeObjectFromAllSectionsAtIndex:]_block_invoke
+-[XLFormDescriptor insertObject:inAllSectionsAtIndex:]
+___54-[XLFormDescriptor insertObject:inAllSectionsAtIndex:]_block_invoke
+-[XLFormDescriptor forceEvaluate]
+-[XLFormDescriptor formSections]
+-[XLFormDescriptor nextRowDescriptorForRow:]
+-[XLFormDescriptor previousRowDescriptorForRow:]
+-[XLFormDescriptor addRowToTagCollection:]
+-[XLFormDescriptor removeRowFromTagCollection:]
+-[XLFormDescriptor addObserversOfObject:predicateType:]
+-[XLFormDescriptor removeObserversOfObject:predicateType:]
+-[XLFormDescriptor title]
+-[XLFormDescriptor setTitle:]
+-[XLFormDescriptor endEditingTableViewOnScroll]
+-[XLFormDescriptor setEndEditingTableViewOnScroll:]
+-[XLFormDescriptor assignFirstResponderOnShow]
+-[XLFormDescriptor setAssignFirstResponderOnShow:]
+-[XLFormDescriptor addAsteriskToRequiredRowsTitle]
+-[XLFormDescriptor setAddAsteriskToRequiredRowsTitle:]
+-[XLFormDescriptor isDisabled]
+-[XLFormDescriptor setDisabled:]
+-[XLFormDescriptor rowNavigationOptions]
+-[XLFormDescriptor setRowNavigationOptions:]
+-[XLFormDescriptor delegate]
+-[XLFormDescriptor setDelegate:]
+-[XLFormDescriptor setFormSections:]
+-[XLFormDescriptor allSections]
+-[XLFormDescriptor allRowsByTag]
+-[XLFormDescriptor rowObservers]
+-[XLFormDescriptor setRowObservers:]
+-[XLFormDescriptor .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_CLASSLIST_REFERENCES_$_.91
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_CLASSLIST_REFERENCES_$_.180
+_OBJC_CLASSLIST_REFERENCES_$_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_CLASSLIST_REFERENCES_$_.190
+__OBJC_$_CLASS_METHODS_XLFormDescriptor
+__OBJC_METACLASS_RO_$_XLFormDescriptor
+__OBJC_$_INSTANCE_METHODS_XLFormDescriptor
+_OBJC_IVAR_$_XLFormDescriptor._endEditingTableViewOnScroll
+_OBJC_IVAR_$_XLFormDescriptor._assignFirstResponderOnShow
+_OBJC_IVAR_$_XLFormDescriptor._addAsteriskToRequiredRowsTitle
+_OBJC_IVAR_$_XLFormDescriptor._disabled
+_OBJC_IVAR_$_XLFormDescriptor._title
+_OBJC_IVAR_$_XLFormDescriptor._rowNavigationOptions
+_OBJC_IVAR_$_XLFormDescriptor._delegate
+_OBJC_IVAR_$_XLFormDescriptor._formSections
+_OBJC_IVAR_$_XLFormDescriptor._allSections
+_OBJC_IVAR_$_XLFormDescriptor._allRowsByTag
+_OBJC_IVAR_$_XLFormDescriptor._rowObservers
+__OBJC_$_INSTANCE_VARIABLES_XLFormDescriptor
+__OBJC_$_PROP_LIST_XLFormDescriptor
+__OBJC_CLASS_RO_$_XLFormDescriptor
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormDescriptor.m
+XLForm/XL/XLFormDescriptor.m
+XLForm/XL/XLFormDescriptor.h
+__54-[XLFormDescriptor insertObject:inAllSectionsAtIndex:]_block_invoke
+__55-[XLFormDescriptor removeObjectFromAllSectionsAtIndex:]_block_invoke
+-[XLFormSliderCell configure]
+-[XLFormSliderCell update]
+-[XLFormSliderCell valueChanged:]
++[XLFormSliderCell formDescriptorCellHeightForRowDescriptor:]
+-[XLFormSliderCell textLabel]
+-[XLFormSliderCell slider]
+-[XLFormSliderCell setTextLabel:]
+-[XLFormSliderCell setSlider:]
+-[XLFormSliderCell steps]
+-[XLFormSliderCell setSteps:]
+-[XLFormSliderCell .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_IVAR_$_XLFormSliderCell._textLabel
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_IVAR_$_XLFormSliderCell._slider
+_OBJC_IVAR_$_XLFormSliderCell._steps
+__OBJC_$_CLASS_METHODS_XLFormSliderCell
+__OBJC_METACLASS_RO_$_XLFormSliderCell
+__OBJC_$_INSTANCE_METHODS_XLFormSliderCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormSliderCell
+__OBJC_$_PROP_LIST_XLFormSliderCell
+__OBJC_CLASS_RO_$_XLFormSliderCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormSliderCell.m
+XLForm/XL/XLFormSliderCell.m
+-[NSString(XLFormAdditions) formPredicate]
+-[NSString(XLFormAdditions) formKeyForPredicateType:]
+_OBJC_CLASSLIST_REFERENCES_$_.18
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_XLFormAdditions
+__OBJC_$_CATEGORY_NSString_$_XLFormAdditions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/NSString+XLFormAdditions.m
+XLForm/XL/NSString+XLFormAdditions.m
+-[XLFormLeftRightSelectorCell leftButton]
+-[XLFormLeftRightSelectorCell rightLabel]
+-[XLFormLeftRightSelectorCell leftOptionForDescription:]
+___56-[XLFormLeftRightSelectorCell leftOptionForDescription:]_block_invoke
+-[XLFormLeftRightSelectorCell leftOptionForOption:]
+___51-[XLFormLeftRightSelectorCell leftOptionForOption:]_block_invoke
+-[XLFormLeftRightSelectorCell configure]
+-[XLFormLeftRightSelectorCell update]
+-[XLFormLeftRightSelectorCell rightTextLabel]
+-[XLFormLeftRightSelectorCell formDescriptorCellDidSelectedWithFormController:]
+-[XLFormLeftRightSelectorCell formDescriptorHttpParameterName]
+-[XLFormLeftRightSelectorCell chooseNewRightValueFromOption:]
+-[XLFormLeftRightSelectorCell leftButtonPressed:]
+___49-[XLFormLeftRightSelectorCell leftButtonPressed:]_block_invoke
+-[XLFormLeftRightSelectorCell .cxx_destruct]
+_OBJC_IVAR_$_XLFormLeftRightSelectorCell._leftButton
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_IVAR_$_XLFormLeftRightSelectorCell._rightLabel
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_CLASSLIST_REFERENCES_$_.73
+_OBJC_IVAR_$_XLFormLeftRightSelectorCell._constraintTextField
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_CLASSLIST_REFERENCES_$_.166
+_OBJC_CLASSLIST_REFERENCES_$_.185
+_OBJC_CLASSLIST_REFERENCES_$_.188
+_OBJC_CLASSLIST_REFERENCES_$_.189
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+__OBJC_METACLASS_RO_$_XLFormLeftRightSelectorCell
+__OBJC_$_INSTANCE_METHODS_XLFormLeftRightSelectorCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormLeftRightSelectorCell
+__OBJC_$_PROP_LIST_XLFormLeftRightSelectorCell
+__OBJC_CLASS_RO_$_XLFormLeftRightSelectorCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormLeftRightSelectorCell.m
+XLForm/XL/XLFormLeftRightSelectorCell.m
+__49-[XLFormLeftRightSelectorCell leftButtonPressed:]_block_invoke
+__51-[XLFormLeftRightSelectorCell leftOptionForOption:]_block_invoke
+__56-[XLFormLeftRightSelectorCell leftOptionForDescription:]_block_invoke
+-[XLFormRightImageButton intrinsicContentSize]
+__OBJC_METACLASS_RO_$_XLFormRightImageButton
+__OBJC_$_INSTANCE_METHODS_XLFormRightImageButton
+__OBJC_CLASS_RO_$_XLFormRightImageButton
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormRightImageButton.m
+XLForm/XL/XLFormRightImageButton.m
+-[XLFormRowNavigationAccessoryView initWithFrame:]
+-[XLFormRowNavigationAccessoryView touchesBegan:withEvent:]
+-[XLFormRowNavigationAccessoryView previousButton]
+-[XLFormRowNavigationAccessoryView setPreviousButton:]
+-[XLFormRowNavigationAccessoryView nextButton]
+-[XLFormRowNavigationAccessoryView setNextButton:]
+-[XLFormRowNavigationAccessoryView doneButton]
+-[XLFormRowNavigationAccessoryView setDoneButton:]
+-[XLFormRowNavigationAccessoryView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_IVAR_$_XLFormRowNavigationAccessoryView._previousButton
+_OBJC_IVAR_$_XLFormRowNavigationAccessoryView._nextButton
+_OBJC_IVAR_$_XLFormRowNavigationAccessoryView._doneButton
+_OBJC_CLASSLIST_REFERENCES_$_.12
+__OBJC_METACLASS_RO_$_XLFormRowNavigationAccessoryView
+__OBJC_$_INSTANCE_METHODS_XLFormRowNavigationAccessoryView
+__OBJC_$_INSTANCE_VARIABLES_XLFormRowNavigationAccessoryView
+__OBJC_$_PROP_LIST_XLFormRowNavigationAccessoryView
+__OBJC_CLASS_RO_$_XLFormRowNavigationAccessoryView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormRowNavigationAccessoryView.m
+XLForm/XL/XLFormRowNavigationAccessoryView.m
+-[XLFormStepCounterCell initWithStyle:reuseIdentifier:]
+-[XLFormStepCounterCell configure]
+-[XLFormStepCounterCell update]
+-[XLFormStepCounterCell valueChanged:]
+-[XLFormStepCounterCell stepControl]
+-[XLFormStepCounterCell currentStepValue]
+-[XLFormStepCounterCell setStepControl:]
+-[XLFormStepCounterCell setCurrentStepValue:]
+-[XLFormStepCounterCell .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_IVAR_$_XLFormStepCounterCell._stepControl
+_OBJC_CLASSLIST_REFERENCES_$_.74
+_OBJC_IVAR_$_XLFormStepCounterCell._currentStepValue
+_OBJC_CLASSLIST_REFERENCES_$_.81
+__OBJC_METACLASS_RO_$_XLFormStepCounterCell
+__OBJC_$_INSTANCE_METHODS_XLFormStepCounterCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormStepCounterCell
+__OBJC_$_PROP_LIST_XLFormStepCounterCell
+__OBJC_CLASS_RO_$_XLFormStepCounterCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormStepCounterCell.m
+XLForm/XL/XLFormStepCounterCell.m
+-[XLFormViewController initWithForm:]
+-[XLFormViewController initWithForm:style:]
+-[XLFormViewController initWithNibName:bundle:]
+-[XLFormViewController initWithCoder:]
+-[XLFormViewController dealloc]
+-[XLFormViewController viewDidLoad]
+-[XLFormViewController viewWillAppear:]
+-[XLFormViewController viewDidAppear:]
+-[XLFormViewController viewDidDisappear:]
+-[XLFormViewController didReceiveMemoryWarning]
+-[XLFormViewController addObserverToController]
+-[XLFormViewController removeObserverFromController]
++[XLFormViewController cellClassesForRowDescriptorTypes]
+___56+[XLFormViewController cellClassesForRowDescriptorTypes]_block_invoke
++[XLFormViewController inlineRowDescriptorTypesForRowDescriptorTypes]
+___69+[XLFormViewController inlineRowDescriptorTypesForRowDescriptorTypes]_block_invoke
+-[XLFormViewController formRowHasBeenAdded:atIndexPath:]
+-[XLFormViewController formRowHasBeenRemoved:atIndexPath:]
+-[XLFormViewController formSectionHasBeenRemoved:atIndex:]
+-[XLFormViewController formSectionHasBeenAdded:atIndex:]
+-[XLFormViewController formRowDescriptorValueHasChanged:oldValue:newValue:]
+-[XLFormViewController formRowDescriptorPredicateHasChanged:oldValue:newValue:predicateType:]
+-[XLFormViewController updateAfterDependentRowChanged:]
+-[XLFormViewController formValues]
+-[XLFormViewController httpParameters]
+-[XLFormViewController didSelectFormRow:]
+-[XLFormViewController insertRowAnimationForRow:]
+-[XLFormViewController deleteRowAnimationForRow:]
+-[XLFormViewController insertRowAnimationForSection:]
+-[XLFormViewController deleteRowAnimationForSection:]
+-[XLFormViewController inputAccessoryViewForRowDescriptor:]
+-[XLFormViewController beginEditing:]
+-[XLFormViewController endEditing:]
+-[XLFormViewController formRowFormMultivaluedFormSection:]
+-[XLFormViewController multivaluedInsertButtonTapped:]
+___54-[XLFormViewController multivaluedInsertButtonTapped:]_block_invoke
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
+-[XLFormViewController ensureRowIsVisible:]
+-[XLFormViewController formValidationErrors]
+-[XLFormViewController showFormValidationError:]
+-[XLFormViewController showFormValidationError:withTitle:]
+-[XLFormViewController performFormSelector:withObject:]
+-[XLFormViewController contentSizeCategoryChanged:]
+-[XLFormViewController keyboardWillShow:]
+-[XLFormViewController keyboardWillHide:]
+-[XLFormViewController deselectFormRow:]
+-[XLFormViewController reloadFormRow:]
+-[XLFormViewController updateFormRow:]
+-[XLFormViewController configureCell:]
+___38-[XLFormViewController configureCell:]_block_invoke
+___38-[XLFormViewController configureCell:]_block_invoke.344
+-[XLFormViewController numberOfSectionsInTableView:]
+-[XLFormViewController tableView:numberOfRowsInSection:]
+-[XLFormViewController tableView:cellForRowAtIndexPath:]
+-[XLFormViewController tableView:canEditRowAtIndexPath:]
+-[XLFormViewController tableView:canMoveRowAtIndexPath:]
+-[XLFormViewController tableView:moveRowAtIndexPath:toIndexPath:]
+___65-[XLFormViewController tableView:moveRowAtIndexPath:toIndexPath:]_block_invoke
+-[XLFormViewController tableView:commitEditingStyle:forRowAtIndexPath:]
+___71-[XLFormViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke
+___71-[XLFormViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2
+-[XLFormViewController tableView:titleForHeaderInSection:]
+-[XLFormViewController tableView:titleForFooterInSection:]
+-[XLFormViewController tableView:heightForRowAtIndexPath:]
+-[XLFormViewController tableView:estimatedHeightForRowAtIndexPath:]
+-[XLFormViewController tableView:didSelectRowAtIndexPath:]
+-[XLFormViewController tableView:editingStyleForRowAtIndexPath:]
+-[XLFormViewController tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:]
+-[XLFormViewController tableView:shouldIndentWhileEditingRowAtIndexPath:]
+-[XLFormViewController tableView:willBeginReorderingRowAtIndexPath:]
+-[XLFormViewController textFieldShouldClear:]
+-[XLFormViewController textFieldShouldReturn:]
+-[XLFormViewController textFieldShouldBeginEditing:]
+-[XLFormViewController textFieldShouldEndEditing:]
+-[XLFormViewController textField:shouldChangeCharactersInRange:replacementString:]
+-[XLFormViewController textFieldDidBeginEditing:]
+-[XLFormViewController textFieldDidEndEditing:]
+-[XLFormViewController textViewShouldBeginEditing:]
+-[XLFormViewController textViewDidBeginEditing:]
+-[XLFormViewController textViewDidEndEditing:]
+-[XLFormViewController textView:shouldChangeTextInRange:replacementText:]
+-[XLFormViewController scrollViewWillBeginDragging:]
+-[XLFormViewController prepareForSegue:sender:]
+-[XLFormViewController rowNavigationAction:]
+-[XLFormViewController rowNavigationDone:]
+-[XLFormViewController navigateToDirection:]
+-[XLFormViewController nextRowDescriptorForRow:withDirection:]
+-[XLFormViewController setForm:]
+-[XLFormViewController form]
+-[XLFormViewController navigationAccessoryView]
+-[XLFormViewController tableView]
+-[XLFormViewController setTableView:]
+-[XLFormViewController tableViewStyle]
+-[XLFormViewController setTableViewStyle:]
+-[XLFormViewController setNavigationAccessoryView:]
+-[XLFormViewController .cxx_destruct]
+_OBJC_IVAR_$_XLFormViewController._tableViewStyle
+_OBJC_IVAR_$_XLFormViewController._form
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_IVAR_$_XLFormViewController._oldBottomTableContentInset
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_cellClassesForRowDescriptorTypes._cellClassesForRowDescriptorTypes
+_cellClassesForRowDescriptorTypes.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.106
+_OBJC_CLASSLIST_REFERENCES_$_.112
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_CLASSLIST_REFERENCES_$_.115
+_OBJC_CLASSLIST_REFERENCES_$_.117
+_OBJC_CLASSLIST_REFERENCES_$_.118
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_CLASSLIST_REFERENCES_$_.121
+_OBJC_CLASSLIST_REFERENCES_$_.122
+_inlineRowDescriptorTypesForRowDescriptorTypes._inlineRowDescriptorTypesForRowDescriptorTypes
+_inlineRowDescriptorTypesForRowDescriptorTypes.onceToken
+___block_literal_global.128
+_OBJC_CLASSLIST_REFERENCES_$_.131
+_OBJC_CLASSLIST_REFERENCES_$_.144
+_OBJC_CLASSLIST_REFERENCES_$_.176
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+___block_descriptor_40_e8_32w_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_CLASSLIST_REFERENCES_$_.251
+_OBJC_CLASSLIST_REFERENCES_$_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_CLASSLIST_REFERENCES_$_.265
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_SELECTOR_REFERENCES_.271
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_IVAR_$_XLFormViewController._keyboardFrame
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_CLASSLIST_REFERENCES_$_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_CLASSLIST_REFERENCES_$_.299
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_CLASSLIST_REFERENCES_$_.332
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.346
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_CLASSLIST_REFERENCES_$_.349
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_SELECTOR_REFERENCES_.353
+__OBJC_PROTOCOL_REFERENCE_$_XLFormInlineRowDescriptorCell
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.408
+_OBJC_SELECTOR_REFERENCES_.410
+_OBJC_SELECTOR_REFERENCES_.413
+_OBJC_SELECTOR_REFERENCES_.415
+_OBJC_SELECTOR_REFERENCES_.417
+_OBJC_SELECTOR_REFERENCES_.419
+_OBJC_SELECTOR_REFERENCES_.421
+_OBJC_SELECTOR_REFERENCES_.423
+_OBJC_SELECTOR_REFERENCES_.425
+_OBJC_SELECTOR_REFERENCES_.427
+_OBJC_CLASSLIST_REFERENCES_$_.428
+_OBJC_SELECTOR_REFERENCES_.430
+_OBJC_SELECTOR_REFERENCES_.432
+_OBJC_SELECTOR_REFERENCES_.434
+_OBJC_SELECTOR_REFERENCES_.436
+_OBJC_SELECTOR_REFERENCES_.438
+_OBJC_SELECTOR_REFERENCES_.440
+_OBJC_CLASSLIST_REFERENCES_$_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_SELECTOR_REFERENCES_.444
+__OBJC_PROTOCOL_REFERENCE_$_XLFormReturnKeyProtocol
+_OBJC_SELECTOR_REFERENCES_.455
+_OBJC_SELECTOR_REFERENCES_.456
+_OBJC_SELECTOR_REFERENCES_.457
+_OBJC_SELECTOR_REFERENCES_.459
+_OBJC_CLASSLIST_REFERENCES_$_.460
+_OBJC_SELECTOR_REFERENCES_.462
+_OBJC_SELECTOR_REFERENCES_.463
+_OBJC_SELECTOR_REFERENCES_.466
+_OBJC_SELECTOR_REFERENCES_.468
+_OBJC_SELECTOR_REFERENCES_.470
+_OBJC_SELECTOR_REFERENCES_.472
+_OBJC_SELECTOR_REFERENCES_.474
+_OBJC_IVAR_$_XLFormViewController._navigationAccessoryView
+_OBJC_CLASSLIST_REFERENCES_$_.475
+_OBJC_SELECTOR_REFERENCES_.477
+_OBJC_SELECTOR_REFERENCES_.479
+_OBJC_SELECTOR_REFERENCES_.481
+_OBJC_SELECTOR_REFERENCES_.483
+_OBJC_SELECTOR_REFERENCES_.485
+_OBJC_SELECTOR_REFERENCES_.487
+_OBJC_SELECTOR_REFERENCES_.489
+_OBJC_SELECTOR_REFERENCES_.491
+_OBJC_IVAR_$_XLFormViewController._tableView
+__OBJC_$_CLASS_METHODS_XLFormViewController
+__OBJC_$_PROTOCOL_REFS_UITableViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITableViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITableViewDelegate
+__OBJC_PROTOCOL_$_UITableViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+__OBJC_$_PROTOCOL_REFS_XLFormDescriptorDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_XLFormDescriptorDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormDescriptorDelegate
+__OBJC_PROTOCOL_$_XLFormDescriptorDelegate
+__OBJC_LABEL_PROTOCOL_$_XLFormDescriptorDelegate
+__OBJC_$_PROTOCOL_REFS_XLFormViewControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_XLFormViewControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_XLFormViewControllerDelegate
+__OBJC_PROTOCOL_$_XLFormViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_XLFormViewControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_XLFormViewController
+__OBJC_METACLASS_RO_$_XLFormViewController
+__OBJC_$_INSTANCE_METHODS_XLFormViewController
+__OBJC_$_INSTANCE_VARIABLES_XLFormViewController
+__OBJC_$_PROP_LIST_XLFormViewController
+__OBJC_CLASS_RO_$_XLFormViewController
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormViewController.m
+XLForm/XL/XLFormViewController.m
+XLForm/XL/XLFormViewController.h
+__71-[XLFormViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2
+__71-[XLFormViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke
+__65-[XLFormViewController tableView:moveRowAtIndexPath:toIndexPath:]_block_invoke
+__38-[XLFormViewController configureCell:]_block_invoke.344
+__38-[XLFormViewController configureCell:]_block_invoke
+__destroy_helper_block_e8_32w
+__copy_helper_block_e8_32w
+__54-[XLFormViewController multivaluedInsertButtonTapped:]_block_invoke
+__69+[XLFormViewController inlineRowDescriptorTypesForRowDescriptorTypes]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/dispatch/once.h
+__56+[XLFormViewController cellClassesForRowDescriptorTypes]_block_invoke
+-[XLFormCheckCell configure]
+-[XLFormCheckCell update]
+-[XLFormCheckCell formDescriptorCellDidSelectedWithFormController:]
+__OBJC_METACLASS_RO_$_XLFormCheckCell
+__OBJC_$_INSTANCE_METHODS_XLFormCheckCell
+__OBJC_CLASS_RO_$_XLFormCheckCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormCheckCell.m
+XLForm/XL/XLFormCheckCell.m
++[XLFormImageCell formDescriptorCellHeightForRowDescriptor:]
+-[XLFormImageCell configure]
+-[XLFormImageCell update]
+-[XLFormImageCell chooseImage:]
+-[XLFormImageCell imageView]
+-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]
+___67-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]_block_invoke
+___67-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]_block_invoke.52
+___67-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]_block_invoke_2
+-[XLFormImageCell openImage:]
+-[XLFormImageCell imagePickerController:didFinishPickingMediaWithInfo:]
+-[XLFormImageCell .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_IVAR_$_XLFormImageCell.alertController
+_OBJC_CLASSLIST_REFERENCES_$_.32
+___block_descriptor_40_e8_32w_e23_v16?0"UIAlertAction"8l
+___block_descriptor_48_e8_32s40w_e5_v8?0l
+_OBJC_IVAR_$_XLFormImageCell.imagePickerController
+__OBJC_$_CLASS_METHODS_XLFormImageCell
+__OBJC_$_PROTOCOL_REFS_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIImagePickerControllerDelegate
+__OBJC_PROTOCOL_$_UIImagePickerControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UINavigationControllerDelegate
+__OBJC_PROTOCOL_$_UINavigationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_XLFormImageCell
+__OBJC_METACLASS_RO_$_XLFormImageCell
+__OBJC_$_INSTANCE_METHODS_XLFormImageCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormImageCell
+__OBJC_$_PROP_LIST_XLFormImageCell
+__OBJC_CLASS_RO_$_XLFormImageCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormImageCell.m
+XLForm/XL/XLFormImageCell.m
+__67-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]_block_invoke_2
+__67-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]_block_invoke.52
+__67-[XLFormImageCell formDescriptorCellDidSelectedWithFormController:]_block_invoke
+-[XLFormBaseCell initWithStyle:reuseIdentifier:]
+-[XLFormBaseCell awakeFromNib]
+-[XLFormBaseCell configure]
+-[XLFormBaseCell update]
+-[XLFormBaseCell highlight]
+-[XLFormBaseCell unhighlight]
+-[XLFormBaseCell formViewController]
+-[XLFormBaseCell inputAccessoryView]
+-[XLFormBaseCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormBaseCell becomeFirstResponder]
+-[XLFormBaseCell resignFirstResponder]
+-[XLFormBaseCell rowDescriptor]
+-[XLFormBaseCell setRowDescriptor:]
+-[XLFormBaseCell .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_IVAR_$_XLFormBaseCell._rowDescriptor
+__OBJC_CLASS_PROTOCOLS_$_XLFormBaseCell
+__OBJC_METACLASS_RO_$_XLFormBaseCell
+__OBJC_$_INSTANCE_METHODS_XLFormBaseCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormBaseCell
+__OBJC_$_PROP_LIST_XLFormBaseCell
+__OBJC_CLASS_RO_$_XLFormBaseCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormBaseCell.m
+XLForm/XL/XLFormBaseCell.m
+XLForm/XL/XLFormBaseCell.h
+-[XLFormDateCell inputView]
+-[XLFormDateCell canBecomeFirstResponder]
+-[XLFormDateCell becomeFirstResponder]
+-[XLFormDateCell resignFirstResponder]
+-[XLFormDateCell configure]
+-[XLFormDateCell update]
+-[XLFormDateCell formDescriptorCellDidSelectedWithFormController:]
+-[XLFormDateCell formDescriptorCellCanBecomeFirstResponder]
+-[XLFormDateCell formDescriptorCellBecomeFirstResponder]
+-[XLFormDateCell highlight]
+-[XLFormDateCell unhighlight]
+-[XLFormDateCell valueDisplayText]
+-[XLFormDateCell formattedDate:]
+-[XLFormDateCell setModeToDatePicker:]
+-[XLFormDateCell datePicker]
+-[XLFormDateCell setLocale:]
+-[XLFormDateCell datePickerValueChanged:]
+-[XLFormDateCell setFormDatePickerMode:]
+-[XLFormDateCell formDatePickerMode]
+-[XLFormDateCell minimumDate]
+-[XLFormDateCell setMinimumDate:]
+-[XLFormDateCell maximumDate]
+-[XLFormDateCell setMaximumDate:]
+-[XLFormDateCell minuteInterval]
+-[XLFormDateCell setMinuteInterval:]
+-[XLFormDateCell locale]
+-[XLFormDateCell setDatePicker:]
+-[XLFormDateCell .cxx_destruct]
+_OBJC_IVAR_$_XLFormDateCell._beforeChangeColor
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_IVAR_$_XLFormDateCell._dateFormatter
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_IVAR_$_XLFormDateCell._datePicker
+_OBJC_IVAR_$_XLFormDateCell._locale
+_OBJC_IVAR_$_XLFormDateCell._formDatePickerMode
+_OBJC_IVAR_$_XLFormDateCell._minimumDate
+_OBJC_IVAR_$_XLFormDateCell._maximumDate
+_OBJC_IVAR_$_XLFormDateCell._minuteInterval
+__OBJC_METACLASS_RO_$_XLFormDateCell
+__OBJC_$_INSTANCE_METHODS_XLFormDateCell
+__OBJC_$_INSTANCE_VARIABLES_XLFormDateCell
+__OBJC_$_PROP_LIST_XLFormDateCell
+__OBJC_CLASS_RO_$_XLFormDateCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormDateCell.m
+XLForm/XL/XLFormDateCell.m
+XLForm/XL/XLFormDateCell.h
+-[XLFormRightDetailCell initWithStyle:reuseIdentifier:]
+__OBJC_METACLASS_RO_$_XLFormRightDetailCell
+__OBJC_$_INSTANCE_METHODS_XLFormRightDetailCell
+__OBJC_CLASS_RO_$_XLFormRightDetailCell
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormRightDetailCell.m
+XLForm/XL/XLFormRightDetailCell.m
+-[XLFormSectionDescriptor init]
+-[XLFormSectionDescriptor initWithTitle:sectionOptions:sectionInsertMode:]
++[XLFormSectionDescriptor formSection]
++[XLFormSectionDescriptor formSectionWithTitle:]
++[XLFormSectionDescriptor formSectionWithTitle:multivaluedSection:]
++[XLFormSectionDescriptor formSectionWithTitle:sectionOptions:]
++[XLFormSectionDescriptor formSectionWithTitle:sectionOptions:sectionInsertMode:]
+-[XLFormSectionDescriptor isMultivaluedSection]
+-[XLFormSectionDescriptor addFormRow:]
+-[XLFormSectionDescriptor addFormRow:afterRow:]
+-[XLFormSectionDescriptor addFormRow:beforeRow:]
+-[XLFormSectionDescriptor removeFormRowAtIndex:]
+-[XLFormSectionDescriptor removeFormRow:]
+-[XLFormSectionDescriptor moveRowAtIndexPath:toIndexPath:]
+-[XLFormSectionDescriptor dealloc]
+-[XLFormSectionDescriptor showFormRow:]
+-[XLFormSectionDescriptor hideFormRow:]
+-[XLFormSectionDescriptor observeValueForKeyPath:ofObject:change:context:]
+-[XLFormSectionDescriptor countOfFormRows]
+-[XLFormSectionDescriptor objectInFormRowsAtIndex:]
+-[XLFormSectionDescriptor formRowsAtIndexes:]
+-[XLFormSectionDescriptor insertObject:inFormRowsAtIndex:]
+-[XLFormSectionDescriptor removeObjectFromFormRowsAtIndex:]
+-[XLFormSectionDescriptor countOfAllRows]
+-[XLFormSectionDescriptor objectInAllRowsAtIndex:]
+-[XLFormSectionDescriptor allRowsAtIndexes:]
+-[XLFormSectionDescriptor insertObject:inAllRowsAtIndex:]
+-[XLFormSectionDescriptor removeObjectFromAllRowsAtIndex:]
+-[XLFormSectionDescriptor canInsertUsingButton]
+-[XLFormSectionDescriptor hidePredicateCache]
+-[XLFormSectionDescriptor setHidePredicateCache:]
+-[XLFormSectionDescriptor isHidden]
+-[XLFormSectionDescriptor evaluateIsHidden]
+-[XLFormSectionDescriptor hidden]
+-[XLFormSectionDescriptor setHidden:]
+-[XLFormSectionDescriptor title]
+-[XLFormSectionDescriptor setTitle:]
+-[XLFormSectionDescriptor footerTitle]
+-[XLFormSectionDescriptor setFooterTitle:]
+-[XLFormSectionDescriptor formRows]
+-[XLFormSectionDescriptor setFormRows:]
+-[XLFormSectionDescriptor sectionInsertMode]
+-[XLFormSectionDescriptor sectionOptions]
+-[XLFormSectionDescriptor multivaluedRowTemplate]
+-[XLFormSectionDescriptor setMultivaluedRowTemplate:]
+-[XLFormSectionDescriptor multivaluedAddButton]
+-[XLFormSectionDescriptor multivaluedTag]
+-[XLFormSectionDescriptor setMultivaluedTag:]
+-[XLFormSectionDescriptor formDescriptor]
+-[XLFormSectionDescriptor setFormDescriptor:]
+-[XLFormSectionDescriptor allRows]
+-[XLFormSectionDescriptor setAllRows:]
+-[XLFormSectionDescriptor isDirtyHidePredicateCache]
+-[XLFormSectionDescriptor setIsDirtyHidePredicateCache:]
+-[XLFormSectionDescriptor .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_CLASSLIST_REFERENCES_$_.150
+_OBJC_CLASSLIST_REFERENCES_$_.161
+__OBJC_$_CLASS_METHODS_XLFormSectionDescriptor
+__OBJC_METACLASS_RO_$_XLFormSectionDescriptor
+__OBJC_$_INSTANCE_METHODS_XLFormSectionDescriptor
+_OBJC_IVAR_$_XLFormSectionDescriptor._isDirtyHidePredicateCache
+_OBJC_IVAR_$_XLFormSectionDescriptor._hidden
+_OBJC_IVAR_$_XLFormSectionDescriptor._hidePredicateCache
+_OBJC_IVAR_$_XLFormSectionDescriptor._title
+_OBJC_IVAR_$_XLFormSectionDescriptor._footerTitle
+_OBJC_IVAR_$_XLFormSectionDescriptor._formRows
+_OBJC_IVAR_$_XLFormSectionDescriptor._sectionInsertMode
+_OBJC_IVAR_$_XLFormSectionDescriptor._sectionOptions
+_OBJC_IVAR_$_XLFormSectionDescriptor._multivaluedRowTemplate
+_OBJC_IVAR_$_XLFormSectionDescriptor._multivaluedAddButton
+_OBJC_IVAR_$_XLFormSectionDescriptor._multivaluedTag
+_OBJC_IVAR_$_XLFormSectionDescriptor._formDescriptor
+_OBJC_IVAR_$_XLFormSectionDescriptor._allRows
+__OBJC_$_INSTANCE_VARIABLES_XLFormSectionDescriptor
+__OBJC_$_PROP_LIST_XLFormSectionDescriptor
+__OBJC_CLASS_RO_$_XLFormSectionDescriptor
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLFormSectionDescriptor.m
+XLForm/XL/XLFormSectionDescriptor.m
+XLForm/XL/XLFormSectionDescriptor.h
+-[NSObject(XLFormAdditions) displayText]
+-[NSObject(XLFormAdditions) valueData]
+___38-[NSObject(XLFormAdditions) valueData]_block_invoke
+__OBJC_PROTOCOL_REFERENCE_$_XLFormOptionObject
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_XLFormAdditions
+__OBJC_$_CATEGORY_NSObject_$_XLFormAdditions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/NSObject+XLFormAdditions.m
+__38-[NSObject(XLFormAdditions) valueData]_block_invoke
+XLForm/XL/NSObject+XLFormAdditions.m
+-[NSArray(XLFormAdditions) formIndexForItem:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_XLFormAdditions
+__OBJC_$_CATEGORY_NSArray_$_XLFormAdditions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/NSArray+XLFormAdditions.m
+XLForm/XL/NSArray+XLFormAdditions.m
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/XLForm/XLForm/XL/XLForm.m

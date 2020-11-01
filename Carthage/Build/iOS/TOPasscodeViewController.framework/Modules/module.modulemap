@@ -1,0 +1,6 @@
+framework module TOPasscodeViewController {
+  umbrella header "TOPasscodeViewController.h"
+
+  export *
+  module * { export * }
+}

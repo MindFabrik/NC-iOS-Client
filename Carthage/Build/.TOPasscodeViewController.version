@@ -1,0 +1,10 @@
+{
+  "commitish" : "0.0.7",
+  "iOS" : [
+    {
+      "name" : "TOPasscodeViewController",
+      "hash" : "b38d3a5ca33b9f2f22d955463559c7e6ad8a39ae4bd19cac13444eb80ecbc3c0",
+      "linking" : "dynamic"
+    }
+  ]
+}

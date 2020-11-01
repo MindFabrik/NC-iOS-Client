@@ -1,0 +1,11 @@
+{
+  "commitish" : "0.9.10",
+  "iOS" : [
+    {
+      "hash" : "8788779f875811be01c4773668ae657c2a4b87dccd2977f0e47e28684e153438",
+      "name" : "ZIPFoundation",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

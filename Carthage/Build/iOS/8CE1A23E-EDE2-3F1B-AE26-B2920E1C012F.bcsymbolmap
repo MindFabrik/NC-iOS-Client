@@ -1,0 +1,2670 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.21)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk
+iPhoneOS14.1.sdk
+/Users/oliveroeh/Library/Caches/org.carthage.CarthageKit/DerivedData/12.1_12A7403/SVGKit/df9e52a2f501a22dd2636088b24d40eeec8a10a1/Build/Intermediates.noindex/ArchiveIntermediates/SVGKitFramework-iOS/IntermediateBuildFilesPath/SVGKit-iOS.build/Release-iphoneos/SVGKitFramework-iOS.build/DerivedSources/SVGKit_vers.c
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit
+-[AppleSucksDOMImplementation hasFeature:version:]
+-[AppleSucksDOMImplementation createDocumentType:publicId:systemId:]
+-[AppleSucksDOMImplementation createDocument:qualifiedName:doctype:]
+__OBJC_METACLASS_RO_$_AppleSucksDOMImplementation
+__OBJC_$_INSTANCE_METHODS_AppleSucksDOMImplementation
+__OBJC_CLASS_RO_$_AppleSucksDOMImplementation
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/AppleSucksDOMImplementation.m
+Source/DOM classes/Core DOM/AppleSucksDOMImplementation.m
+-[Attr initWithName:value:]
+-[Attr initWithNamespace:qualifiedName:value:]
+-[Attr name]
+-[Attr setName:]
+-[Attr specified]
+-[Attr setSpecified:]
+-[Attr value]
+-[Attr setValue:]
+-[Attr ownerElement]
+-[Attr setOwnerElement:]
+-[Attr .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_IVAR_$_Attr.name
+_OBJC_IVAR_$_Attr.specified
+_OBJC_IVAR_$_Attr.value
+_OBJC_IVAR_$_Attr.ownerElement
+__OBJC_METACLASS_RO_$_Attr
+__OBJC_$_INSTANCE_METHODS_Attr
+__OBJC_$_INSTANCE_VARIABLES_Attr
+__OBJC_$_PROP_LIST_Attr
+__OBJC_CLASS_RO_$_Attr
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Attr.m
+Source/DOM classes/Core DOM/Attr.m
+-[CDATASection initWithValue:]
+__OBJC_METACLASS_RO_$_CDATASection
+__OBJC_$_INSTANCE_METHODS_CDATASection
+__OBJC_CLASS_RO_$_CDATASection
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CDATASection.m
+Source/DOM classes/Core DOM/CDATASection.m
+-[CharacterData substringData:count:]
+-[CharacterData appendData:]
+-[CharacterData insertData:arg:]
+-[CharacterData deleteData:count:]
+-[CharacterData replaceData:count:arg:]
+-[CharacterData data]
+-[CharacterData length]
+-[CharacterData .cxx_destruct]
+_OBJC_IVAR_$_CharacterData.data
+_OBJC_IVAR_$_CharacterData.length
+__OBJC_METACLASS_RO_$_CharacterData
+__OBJC_$_INSTANCE_METHODS_CharacterData
+__OBJC_$_INSTANCE_VARIABLES_CharacterData
+__OBJC_$_PROP_LIST_CharacterData
+__OBJC_CLASS_RO_$_CharacterData
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CharacterData.m
+Source/DOM classes/Core DOM/CharacterData.m
+-[Comment initWithValue:]
+__OBJC_METACLASS_RO_$_Comment
+__OBJC_$_INSTANCE_METHODS_Comment
+__OBJC_CLASS_RO_$_Comment
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Comment.m
+Source/DOM classes/Core DOM/Comment.m
+-[CSSStyleDeclaration init]
+-[CSSStyleDeclaration setCssText:]
+-[CSSStyleDeclaration NSDictionaryFromCSSAttributes:]
+-[CSSStyleDeclaration getPropertyValue:]
+-[CSSStyleDeclaration getPropertyCSSValue:]
+-[CSSStyleDeclaration removeProperty:]
+-[CSSStyleDeclaration getPropertyPriority:]
+-[CSSStyleDeclaration setProperty:value:priority:]
+-[CSSStyleDeclaration item:]
+-[CSSStyleDeclaration description]
+-[CSSStyleDeclaration internalDictionaryOfStylesByCSSClass]
+-[CSSStyleDeclaration setInternalDictionaryOfStylesByCSSClass:]
+-[CSSStyleDeclaration cssText]
+-[CSSStyleDeclaration length]
+-[CSSStyleDeclaration setLength:]
+-[CSSStyleDeclaration parentRule]
+-[CSSStyleDeclaration setParentRule:]
+-[CSSStyleDeclaration .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.54
+__OBJC_METACLASS_RO_$_CSSStyleDeclaration
+__OBJC_$_INSTANCE_METHODS_CSSStyleDeclaration
+_OBJC_IVAR_$_CSSStyleDeclaration.internalDictionaryOfStylesByCSSClass
+_OBJC_IVAR_$_CSSStyleDeclaration._cssText
+_OBJC_IVAR_$_CSSStyleDeclaration.length
+_OBJC_IVAR_$_CSSStyleDeclaration.parentRule
+__OBJC_$_INSTANCE_VARIABLES_CSSStyleDeclaration
+__OBJC_$_PROP_LIST_CSSStyleDeclaration
+__OBJC_CLASS_RO_$_CSSStyleDeclaration
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSStyleDeclaration.m
+Source/DOM classes/Core DOM/CSSStyleDeclaration.m
+-[CSSRule type]
+-[CSSRule setType:]
+-[CSSRule cssText]
+-[CSSRule setCssText:]
+-[CSSRule parentStyleSheet]
+-[CSSRule setParentStyleSheet:]
+-[CSSRule parentRule]
+-[CSSRule setParentRule:]
+-[CSSRule .cxx_destruct]
+__OBJC_METACLASS_RO_$_CSSRule
+__OBJC_$_INSTANCE_METHODS_CSSRule
+_OBJC_IVAR_$_CSSRule.type
+_OBJC_IVAR_$_CSSRule.cssText
+_OBJC_IVAR_$_CSSRule.parentStyleSheet
+_OBJC_IVAR_$_CSSRule.parentRule
+__OBJC_$_INSTANCE_VARIABLES_CSSRule
+__OBJC_$_PROP_LIST_CSSRule
+__OBJC_CLASS_RO_$_CSSRule
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSRule.m
+Source/DOM classes/Core DOM/CSSRule.m
+-[SVGTextLayer contentsAreFlipped]
+__OBJC_METACLASS_RO_$_SVGTextLayer
+__OBJC_$_INSTANCE_METHODS_SVGTextLayer
+__OBJC_CLASS_RO_$_SVGTextLayer
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/SVGTextLayer.m
+Source/QuartzCore additions/SVGTextLayer.m
+-[CSSStyleRule init]
+-[CSSStyleRule initWithSelectorText:styleText:]
+-[CSSStyleRule description]
+-[CSSStyleRule selectorText]
+-[CSSStyleRule setSelectorText:]
+-[CSSStyleRule style]
+-[CSSStyleRule setStyle:]
+-[CSSStyleRule .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_IVAR_$_CSSStyleRule.selectorText
+_OBJC_IVAR_$_CSSStyleRule.style
+__OBJC_METACLASS_RO_$_CSSStyleRule
+__OBJC_$_INSTANCE_METHODS_CSSStyleRule
+__OBJC_$_INSTANCE_VARIABLES_CSSStyleRule
+__OBJC_$_PROP_LIST_CSSStyleRule
+__OBJC_CLASS_RO_$_CSSStyleRule
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSStyleRule.m
+Source/DOM classes/Core DOM/CSSStyleRule.m
+-[CSSStyleSheet insertRule:index:]
+-[CSSStyleSheet deleteRule:]
+-[CSSStyleSheet initWithString:]
+-[CSSStyleSheet ownerRule]
+-[CSSStyleSheet setOwnerRule:]
+-[CSSStyleSheet cssRules]
+-[CSSStyleSheet setCssRules:]
+-[CSSStyleSheet .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+__OBJC_METACLASS_RO_$_CSSStyleSheet
+__OBJC_$_INSTANCE_METHODS_CSSStyleSheet
+_OBJC_IVAR_$_CSSStyleSheet.ownerRule
+_OBJC_IVAR_$_CSSStyleSheet.cssRules
+__OBJC_$_INSTANCE_VARIABLES_CSSStyleSheet
+__OBJC_$_PROP_LIST_CSSStyleSheet
+__OBJC_CLASS_RO_$_CSSStyleSheet
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSStyleSheet.m
+Source/DOM classes/Core DOM/CSSStyleSheet.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[CSSRuleList init]
+-[CSSRuleList length]
+-[CSSRuleList item:]
+-[CSSRuleList description]
+-[CSSRuleList internalArray]
+-[CSSRuleList setInternalArray:]
+-[CSSRuleList .cxx_destruct]
+__OBJC_METACLASS_RO_$_CSSRuleList
+__OBJC_$_INSTANCE_METHODS_CSSRuleList
+_OBJC_IVAR_$_CSSRuleList.internalArray
+__OBJC_$_INSTANCE_VARIABLES_CSSRuleList
+__OBJC_$_PROP_LIST_CSSRuleList
+__OBJC_CLASS_RO_$_CSSRuleList
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSRuleList.m
+Source/DOM classes/Core DOM/CSSRuleList.m
+-[CSSPrimitiveValue init]
+-[CSSPrimitiveValue setFloatValue:floatValue:]
+-[CSSPrimitiveValue getFloatValue:]
+-[CSSPrimitiveValue setStringValue:stringValue:]
+-[CSSPrimitiveValue getStringValue]
+-[CSSPrimitiveValue getCounterValue]
+-[CSSPrimitiveValue getRectValue]
+-[CSSPrimitiveValue getRGBColorValue]
+-[CSSPrimitiveValue setCssText:]
+-[CSSPrimitiveValue pixelsPerInch]
+-[CSSPrimitiveValue setPixelsPerInch:]
+-[CSSPrimitiveValue internalValue]
+-[CSSPrimitiveValue setInternalValue:]
+-[CSSPrimitiveValue internalString]
+-[CSSPrimitiveValue setInternalString:]
+-[CSSPrimitiveValue primitiveType]
+-[CSSPrimitiveValue setPrimitiveType:]
+-[CSSPrimitiveValue .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_IVAR_$_CSSPrimitiveValue.pixelsPerInch
+_OBJC_IVAR_$_CSSPrimitiveValue.internalValue
+_OBJC_IVAR_$_CSSPrimitiveValue.internalString
+_OBJC_IVAR_$_CSSPrimitiveValue.primitiveType
+__OBJC_METACLASS_RO_$_CSSPrimitiveValue
+__OBJC_$_INSTANCE_METHODS_CSSPrimitiveValue
+__OBJC_$_INSTANCE_VARIABLES_CSSPrimitiveValue
+__OBJC_$_PROP_LIST_CSSPrimitiveValue
+__OBJC_CLASS_RO_$_CSSPrimitiveValue
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSPrimitiveValue.m
+Source/DOM classes/Core DOM/CSSPrimitiveValue.m
+-[CSSValueList init]
+-[CSSValueList length]
+-[CSSValueList item:]
+-[CSSValueList setCssText:]
+-[CSSValueList internalArray]
+-[CSSValueList setInternalArray:]
+-[CSSValueList .cxx_destruct]
+_OBJC_IVAR_$_CSSValueList.internalArray
+__OBJC_METACLASS_RO_$_CSSValueList
+__OBJC_$_INSTANCE_METHODS_CSSValueList
+__OBJC_$_INSTANCE_VARIABLES_CSSValueList
+__OBJC_$_PROP_LIST_CSSValueList
+__OBJC_CLASS_RO_$_CSSValueList
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSValueList.m
+Source/DOM classes/Core DOM/CSSValueList.m
+-[CSSValue init]
+-[CSSValue initWithUnitType:]
+-[CSSValue cssText]
+-[CSSValue setCssText:]
+-[CSSValue cssValueType]
+-[CSSValue setCssValueType:]
+-[CSSValue .cxx_destruct]
+__OBJC_METACLASS_RO_$_CSSValue
+__OBJC_$_INSTANCE_METHODS_CSSValue
+_OBJC_IVAR_$_CSSValue.cssValueType
+__OBJC_$_INSTANCE_VARIABLES_CSSValue
+__OBJC_$_PROP_LIST_CSSValue
+__OBJC_CLASS_RO_$_CSSValue
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSValue.m
+Source/DOM classes/Core DOM/CSSValue.m
+-[Document createElement:]
+-[Document createDocumentFragment]
+-[Document createTextNode:]
+-[Document createComment:]
+-[Document createCDATASection:]
+-[Document createProcessingInstruction:data:]
+-[Document createAttribute:]
+-[Document createEntityReference:]
+-[Document getElementsByTagName:]
+-[Document importNode:deep:]
+-[Document createElementNS:qualifiedName:]
+-[Document createAttributeNS:qualifiedName:]
+-[Document getElementsByTagNameNS:localName:]
+-[Document getElementById:]
+-[Document doctype]
+-[Document implementation]
+-[Document documentElement]
+-[Document setDocumentElement:]
+-[Document .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_IVAR_$_Document.doctype
+_OBJC_IVAR_$_Document.implementation
+_OBJC_IVAR_$_Document.documentElement
+__OBJC_METACLASS_RO_$_Document
+__OBJC_$_INSTANCE_METHODS_Document
+__OBJC_$_INSTANCE_VARIABLES_Document
+__OBJC_$_PROP_LIST_Document
+__OBJC_CLASS_RO_$_Document
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Document.m
+Source/DOM classes/Core DOM/Document.m
+-[StyleSheetList init]
+-[StyleSheetList length]
+-[StyleSheetList item:]
+-[StyleSheetList internalArray]
+-[StyleSheetList setInternalArray:]
+-[StyleSheetList .cxx_destruct]
+__OBJC_METACLASS_RO_$_StyleSheetList
+__OBJC_$_INSTANCE_METHODS_StyleSheetList
+_OBJC_IVAR_$_StyleSheetList.internalArray
+__OBJC_$_INSTANCE_VARIABLES_StyleSheetList
+__OBJC_$_PROP_LIST_StyleSheetList
+__OBJC_CLASS_RO_$_StyleSheetList
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/StyleSheetList.m
+Source/DOM classes/Core DOM/StyleSheetList.m
+-[StyleSheet type]
+-[StyleSheet setType:]
+-[StyleSheet disabled]
+-[StyleSheet setDisabled:]
+-[StyleSheet ownerNode]
+-[StyleSheet setOwnerNode:]
+-[StyleSheet parentStyleSheet]
+-[StyleSheet setParentStyleSheet:]
+-[StyleSheet href]
+-[StyleSheet setHref:]
+-[StyleSheet title]
+-[StyleSheet setTitle:]
+-[StyleSheet media]
+-[StyleSheet setMedia:]
+-[StyleSheet .cxx_destruct]
+__OBJC_METACLASS_RO_$_StyleSheet
+__OBJC_$_INSTANCE_METHODS_StyleSheet
+_OBJC_IVAR_$_StyleSheet._disabled
+_OBJC_IVAR_$_StyleSheet._type
+_OBJC_IVAR_$_StyleSheet._ownerNode
+_OBJC_IVAR_$_StyleSheet._parentStyleSheet
+_OBJC_IVAR_$_StyleSheet._href
+_OBJC_IVAR_$_StyleSheet._title
+_OBJC_IVAR_$_StyleSheet._media
+__OBJC_$_INSTANCE_VARIABLES_StyleSheet
+__OBJC_$_PROP_LIST_StyleSheet
+__OBJC_CLASS_RO_$_StyleSheet
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/StyleSheet.m
+Source/DOM classes/Core DOM/StyleSheet.m
+Source/DOM classes/Core DOM/StyleSheet.h
+-[MediaList item:]
+-[MediaList deleteMedium:]
+-[MediaList appendMedium:]
+-[MediaList mediaText]
+-[MediaList setMediaText:]
+-[MediaList length]
+-[MediaList setLength:]
+-[MediaList .cxx_destruct]
+__OBJC_METACLASS_RO_$_MediaList
+__OBJC_$_INSTANCE_METHODS_MediaList
+_OBJC_IVAR_$_MediaList.mediaText
+_OBJC_IVAR_$_MediaList.length
+__OBJC_$_INSTANCE_VARIABLES_MediaList
+__OBJC_$_PROP_LIST_MediaList
+__OBJC_CLASS_RO_$_MediaList
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/MediaList.m
+Source/DOM classes/Core DOM/MediaList.m
+-[DocumentFragment init]
+__OBJC_METACLASS_RO_$_DocumentFragment
+__OBJC_$_INSTANCE_METHODS_DocumentFragment
+__OBJC_CLASS_RO_$_DocumentFragment
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/DocumentFragment.m
+Source/DOM classes/Core DOM/DocumentFragment.m
+-[DocumentType name]
+-[DocumentType entities]
+-[DocumentType notations]
+-[DocumentType publicId]
+-[DocumentType systemId]
+-[DocumentType internalSubset]
+-[DocumentType .cxx_destruct]
+_OBJC_IVAR_$_DocumentType.name
+_OBJC_IVAR_$_DocumentType.entities
+_OBJC_IVAR_$_DocumentType.notations
+_OBJC_IVAR_$_DocumentType.publicId
+_OBJC_IVAR_$_DocumentType.systemId
+_OBJC_IVAR_$_DocumentType.internalSubset
+__OBJC_METACLASS_RO_$_DocumentType
+__OBJC_$_INSTANCE_METHODS_DocumentType
+__OBJC_$_INSTANCE_VARIABLES_DocumentType
+__OBJC_$_PROP_LIST_DocumentType
+__OBJC_CLASS_RO_$_DocumentType
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/DocumentType.m
+Source/DOM classes/Core DOM/DocumentType.m
++[DOMHelperUtilities privateGetElementsByName:inNamespace:childrenOfElement:addToList:]
++[DOMHelperUtilities privateGetElementById:childrenOfElement:]
+__OBJC_$_CLASS_METHODS_DOMHelperUtilities
+__OBJC_METACLASS_RO_$_DOMHelperUtilities
+__OBJC_CLASS_RO_$_DOMHelperUtilities
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/DOMHelperUtilities.m
+Source/DOM classes/Core DOM/DOMHelperUtilities.m
+-[Element initWithLocalName:attributes:]
+-[Element initWithQualifiedName:inNameSpaceURI:attributes:]
+-[Element getAttribute:]
+-[Element setAttribute:value:]
+-[Element removeAttribute:]
+-[Element getAttributeNode:]
+-[Element setAttributeNode:]
+-[Element removeAttributeNode:]
+-[Element getElementsByTagName:]
+-[Element getAttributeNS:localName:]
+-[Element setAttributeNS:qualifiedName:value:]
+-[Element removeAttributeNS:localName:]
+-[Element getAttributeNodeNS:localName:]
+-[Element setAttributeNodeNS:]
+-[Element getElementsByTagNameNS:localName:]
+-[Element hasAttribute:]
+-[Element hasAttributeNS:localName:]
+-[Element tagName]
+-[Element setTagName:]
+-[Element .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_IVAR_$_Element.tagName
+__OBJC_METACLASS_RO_$_Element
+__OBJC_$_INSTANCE_METHODS_Element
+__OBJC_$_INSTANCE_VARIABLES_Element
+__OBJC_$_PROP_LIST_Element
+__OBJC_CLASS_RO_$_Element
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Element.m
+Source/DOM classes/Core DOM/Element.m
+__OBJC_METACLASS_RO_$_EntityReference
+__OBJC_CLASS_RO_$_EntityReference
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/EntityReference.m
+-[NamedNodeMap init]
+-[NamedNodeMap getNamedItem:]
+-[NamedNodeMap setNamedItem:]
+-[NamedNodeMap removeNamedItem:]
+-[NamedNodeMap length]
+-[NamedNodeMap item:]
+-[NamedNodeMap getNamedItemNS:localName:]
+-[NamedNodeMap setNamedItemNS:]
+-[NamedNodeMap removeNamedItemNS:localName:]
+-[NamedNodeMap setNamedItemNS:inNodeNamespace:]
+-[NamedNodeMap description]
+-[NamedNodeMap allNodesUnsortedDOM1]
+-[NamedNodeMap allNodesUnsortedDOM2]
+-[NamedNodeMap copyWithZone:]
+-[NamedNodeMap internalDictionary]
+-[NamedNodeMap setInternalDictionary:]
+-[NamedNodeMap internalDictionaryOfNamespaces]
+-[NamedNodeMap setInternalDictionaryOfNamespaces:]
+-[NamedNodeMap .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_CLASSLIST_REFERENCES_$_.46
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_NamedNodeMap
+__OBJC_METACLASS_RO_$_NamedNodeMap
+__OBJC_$_INSTANCE_METHODS_NamedNodeMap
+_OBJC_IVAR_$_NamedNodeMap.internalDictionary
+_OBJC_IVAR_$_NamedNodeMap.internalDictionaryOfNamespaces
+__OBJC_$_INSTANCE_VARIABLES_NamedNodeMap
+__OBJC_$_PROP_LIST_NamedNodeMap
+__OBJC_CLASS_RO_$_NamedNodeMap
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/NamedNodeMap.m
+Source/DOM classes/Core DOM/NamedNodeMap.m
+-[Node init]
+-[Node initType:name:value:]
+-[Node initType:name:]
+-[Node postInitNamespaceHandling:]
+-[Node initType:name:inNamespace:]
+-[Node initType:name:value:inNamespace:]
+-[Node firstChild]
+-[Node lastChild]
+-[Node previousSibling]
+-[Node nextSibling]
+-[Node insertBefore:refChild:]
+-[Node replaceChild:oldChild:]
+-[Node removeChild:]
+-[Node appendChild:]
+-[Node hasChildNodes]
+-[Node cloneNode:]
+-[Node normalize]
+-[Node isSupportedFeature:version:]
+-[Node hasAttributes]
+-[Node textContent]
+-[Node description]
+-[Node appendXMLToString:availableNamespaces:activeNamespaces:]
+-[Node nodeName]
+-[Node setNodeName:]
+-[Node nodeValue]
+-[Node setNodeValue:]
+-[Node nodeType]
+-[Node setNodeType:]
+-[Node parentNode]
+-[Node setParentNode:]
+-[Node childNodes]
+-[Node setChildNodes:]
+-[Node attributes]
+-[Node setAttributes:]
+-[Node ownerDocument]
+-[Node setOwnerDocument:]
+-[Node setHasAttributes:]
+-[Node setHasChildNodes:]
+-[Node localName]
+-[Node setLocalName:]
+-[Node namespaceURI]
+-[Node setNamespaceURI:]
+-[Node prefix]
+-[Node setPrefix:]
+-[Node .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.144
+__OBJC_METACLASS_RO_$_Node
+__OBJC_$_INSTANCE_METHODS_Node
+_OBJC_IVAR_$_Node.hasAttributes
+_OBJC_IVAR_$_Node.hasChildNodes
+_OBJC_IVAR_$_Node.nodeType
+_OBJC_IVAR_$_Node.nodeName
+_OBJC_IVAR_$_Node.nodeValue
+_OBJC_IVAR_$_Node.parentNode
+_OBJC_IVAR_$_Node.childNodes
+_OBJC_IVAR_$_Node.attributes
+_OBJC_IVAR_$_Node.ownerDocument
+_OBJC_IVAR_$_Node.localName
+_OBJC_IVAR_$_Node.namespaceURI
+_OBJC_IVAR_$_Node.prefix
+__OBJC_$_INSTANCE_VARIABLES_Node
+__OBJC_$_PROP_LIST_Node
+__OBJC_CLASS_RO_$_Node
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Node.m
+Source/DOM classes/Core DOM/Node.m
+-[SVGRadialGradientElement newGradientLayerForObjectRect:viewportRect:transform:]
+-[SVGRadialGradientElement synthesizeProperties]
+-[SVGRadialGradientElement cx]
+-[SVGRadialGradientElement setCx:]
+-[SVGRadialGradientElement cy]
+-[SVGRadialGradientElement setCy:]
+-[SVGRadialGradientElement r]
+-[SVGRadialGradientElement setR:]
+-[SVGRadialGradientElement fx]
+-[SVGRadialGradientElement setFx:]
+-[SVGRadialGradientElement fy]
+-[SVGRadialGradientElement setFy:]
+-[SVGRadialGradientElement fr]
+-[SVGRadialGradientElement setFr:]
+-[SVGRadialGradientElement hasSynthesizedProperties]
+-[SVGRadialGradientElement setHasSynthesizedProperties:]
+-[SVGRadialGradientElement .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_IVAR_$_SVGRadialGradientElement._cx
+_OBJC_IVAR_$_SVGRadialGradientElement._cy
+_OBJC_IVAR_$_SVGRadialGradientElement._r
+_OBJC_IVAR_$_SVGRadialGradientElement._fx
+_OBJC_IVAR_$_SVGRadialGradientElement._fy
+_OBJC_IVAR_$_SVGRadialGradientElement._fr
+_OBJC_IVAR_$_SVGRadialGradientElement._hasSynthesizedProperties
+__OBJC_METACLASS_RO_$_SVGRadialGradientElement
+__OBJC_$_INSTANCE_METHODS_SVGRadialGradientElement
+__OBJC_$_INSTANCE_VARIABLES_SVGRadialGradientElement
+__OBJC_$_PROP_LIST_SVGRadialGradientElement
+__OBJC_CLASS_RO_$_SVGRadialGradientElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.h
+__CGSizeApplyAffineTransform
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
+__CGPointApplyAffineTransform
+-[NodeList init]
+-[NodeList item:]
+-[NodeList length]
+-[NodeList countByEnumeratingWithState:objects:count:]
+-[NodeList description]
+-[NodeList internalArray]
+-[NodeList setInternalArray:]
+-[NodeList .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.13
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSFastEnumeration
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSFastEnumeration
+__OBJC_PROTOCOL_$_NSFastEnumeration
+__OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+__OBJC_CLASS_PROTOCOLS_$_NodeList
+__OBJC_METACLASS_RO_$_NodeList
+__OBJC_$_INSTANCE_METHODS_NodeList
+_OBJC_IVAR_$_NodeList.internalArray
+__OBJC_$_INSTANCE_VARIABLES_NodeList
+__OBJC_$_PROP_LIST_NodeList
+__OBJC_CLASS_RO_$_NodeList
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/NodeList.m
+Source/DOM classes/Core DOM/NodeList.m
+-[ProcessingInstruction initProcessingInstruction:value:]
+-[ProcessingInstruction target]
+-[ProcessingInstruction setTarget:]
+-[ProcessingInstruction data]
+-[ProcessingInstruction setData:]
+-[ProcessingInstruction .cxx_destruct]
+_OBJC_IVAR_$_ProcessingInstruction.target
+_OBJC_IVAR_$_ProcessingInstruction.data
+__OBJC_METACLASS_RO_$_ProcessingInstruction
+__OBJC_$_INSTANCE_METHODS_ProcessingInstruction
+__OBJC_$_INSTANCE_VARIABLES_ProcessingInstruction
+__OBJC_$_PROP_LIST_ProcessingInstruction
+__OBJC_CLASS_RO_$_ProcessingInstruction
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/ProcessingInstruction.m
+Source/DOM classes/Core DOM/ProcessingInstruction.m
+-[Text initWithValue:]
+-[Text splitText:]
+__OBJC_METACLASS_RO_$_Text
+__OBJC_$_INSTANCE_METHODS_Text
+__OBJC_CLASS_RO_$_Text
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Text.m
+Source/DOM classes/Core DOM/Text.m
+-[SVGAngle newValueSpecifiedUnits:valueInSpecifiedUnits:]
+-[SVGAngle convertToSpecifiedUnits:]
+-[SVGAngle unitType]
+-[SVGAngle value]
+-[SVGAngle setValue:]
+-[SVGAngle valueInSpecifiedUnits]
+-[SVGAngle setValueInSpecifiedUnits:]
+-[SVGAngle valueAsString]
+-[SVGAngle setValueAsString:]
+-[SVGAngle .cxx_destruct]
+__OBJC_METACLASS_RO_$_SVGAngle
+__OBJC_$_INSTANCE_METHODS_SVGAngle
+_OBJC_IVAR_$_SVGAngle.unitType
+_OBJC_IVAR_$_SVGAngle.value
+_OBJC_IVAR_$_SVGAngle.valueInSpecifiedUnits
+_OBJC_IVAR_$_SVGAngle.valueAsString
+__OBJC_$_INSTANCE_VARIABLES_SVGAngle
+__OBJC_$_PROP_LIST_SVGAngle
+__OBJC_CLASS_RO_$_SVGAngle
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGAngle.m
+Source/DOM classes/SVG-DOM/SVGAngle.m
+-[SVGAnimatedPreserveAspectRatio init]
+-[SVGAnimatedPreserveAspectRatio animVal]
+-[SVGAnimatedPreserveAspectRatio baseVal]
+-[SVGAnimatedPreserveAspectRatio setBaseVal:]
+-[SVGAnimatedPreserveAspectRatio .cxx_destruct]
+__OBJC_METACLASS_RO_$_SVGAnimatedPreserveAspectRatio
+__OBJC_$_INSTANCE_METHODS_SVGAnimatedPreserveAspectRatio
+_OBJC_IVAR_$_SVGAnimatedPreserveAspectRatio._baseVal
+__OBJC_$_INSTANCE_VARIABLES_SVGAnimatedPreserveAspectRatio
+__OBJC_$_PROP_LIST_SVGAnimatedPreserveAspectRatio
+__OBJC_CLASS_RO_$_SVGAnimatedPreserveAspectRatio
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.m
+Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.m
+Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.h
+-[SVGClipPathElement postProcessAttributesAddingErrorsTo:]
+-[SVGClipPathElement newLayer]
+-[SVGClipPathElement layoutLayer:toMaskLayer:]
+-[SVGClipPathElement clipPathUnits]
+-[SVGClipPathElement transform]
+-[SVGClipPathElement setTransform:]
+_OBJC_IVAR_$_SVGClipPathElement.clipPathUnits
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_IVAR_$_SVGClipPathElement.transform
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_SVGTransformable
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SVGTransformable
+__OBJC_$_PROP_LIST_SVGTransformable
+__OBJC_$_PROTOCOL_METHOD_TYPES_SVGTransformable
+__OBJC_PROTOCOL_$_SVGTransformable
+__OBJC_LABEL_PROTOCOL_$_SVGTransformable
+__OBJC_$_PROTOCOL_REFS_SVGStylable
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SVGStylable
+__OBJC_$_PROP_LIST_SVGStylable
+__OBJC_$_PROTOCOL_METHOD_TYPES_SVGStylable
+__OBJC_PROTOCOL_$_SVGStylable
+__OBJC_LABEL_PROTOCOL_$_SVGStylable
+__OBJC_CLASS_PROTOCOLS_$_SVGClipPathElement
+__OBJC_METACLASS_RO_$_SVGClipPathElement
+__OBJC_$_INSTANCE_METHODS_SVGClipPathElement
+__OBJC_$_INSTANCE_VARIABLES_SVGClipPathElement
+__OBJC_$_PROP_LIST_SVGClipPathElement
+__OBJC_CLASS_RO_$_SVGClipPathElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGClipPathElement.m
+Source/DOM classes/SVG-DOM/SVGClipPathElement.m
+__OBJC_METACLASS_RO_$_SVGDefsElement
+__OBJC_CLASS_RO_$_SVGDefsElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGDefsElement.m
+-[SVGDocument init]
+-[SVGDocument setRootElement:]
+-[SVGDocument setDocumentElement:]
+-[SVGDocument allPrefixesByNamespace]
++[SVGDocument accumulateNamespacesForNode:intoDictionary:]
+-[SVGDocument allPrefixesByNamespaceNormalized]
+-[SVGDocument title]
+-[SVGDocument setTitle:]
+-[SVGDocument referrer]
+-[SVGDocument setReferrer:]
+-[SVGDocument domain]
+-[SVGDocument setDomain:]
+-[SVGDocument URL]
+-[SVGDocument setURL:]
+-[SVGDocument rootElement]
+-[SVGDocument .cxx_destruct]
+_OBJC_IVAR_$_SVGDocument._rootElement
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_IVAR_$_SVGDocument.title
+_OBJC_IVAR_$_SVGDocument.referrer
+_OBJC_IVAR_$_SVGDocument.domain
+_OBJC_IVAR_$_SVGDocument.URL
+__OBJC_$_CLASS_METHODS_SVGDocument
+__OBJC_METACLASS_RO_$_SVGDocument
+__OBJC_$_INSTANCE_METHODS_SVGDocument
+__OBJC_$_INSTANCE_VARIABLES_SVGDocument
+__OBJC_$_PROP_LIST_SVGDocument
+__OBJC_CLASS_RO_$_SVGDocument
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGDocument.m
+Source/DOM classes/SVG-DOM/SVGDocument.m
+-[SVGElementInstance dealloc]
+-[SVGElementInstance setParentNode:]
+-[SVGElementInstance firstChild]
+-[SVGElementInstance lastChild]
+-[SVGElementInstance previousSibling]
+-[SVGElementInstance nextSibling]
+-[SVGElementInstance parentNode]
+-[SVGElementInstance childNodes]
+-[SVGElementInstance setChildNodes:]
+-[SVGElementInstance correspondingElement]
+-[SVGElementInstance setCorrespondingElement:]
+-[SVGElementInstance correspondingUseElement]
+-[SVGElementInstance setCorrespondingUseElement:]
+-[SVGElementInstance .cxx_destruct]
+__OBJC_METACLASS_RO_$_SVGElementInstance
+__OBJC_$_INSTANCE_METHODS_SVGElementInstance
+_OBJC_IVAR_$_SVGElementInstance.parentNode
+_OBJC_IVAR_$_SVGElementInstance.childNodes
+_OBJC_IVAR_$_SVGElementInstance._correspondingElement
+_OBJC_IVAR_$_SVGElementInstance._correspondingUseElement
+__OBJC_$_INSTANCE_VARIABLES_SVGElementInstance
+__OBJC_$_PROP_LIST_SVGElementInstance
+__OBJC_CLASS_RO_$_SVGElementInstance
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGElementInstance.m
+Source/DOM classes/SVG-DOM/SVGElementInstance.m
+Source/DOM classes/SVG-DOM/SVGElementInstance_Mutable.h
+Source/DOM classes/SVG-DOM/SVGElementInstance.h
+-[SVGElementInstanceList init]
+-[SVGElementInstanceList length]
+-[SVGElementInstanceList item:]
+-[SVGElementInstanceList internalArray]
+-[SVGElementInstanceList setInternalArray:]
+-[SVGElementInstanceList .cxx_destruct]
+_OBJC_IVAR_$_SVGElementInstanceList.internalArray
+__OBJC_METACLASS_RO_$_SVGElementInstanceList
+__OBJC_$_INSTANCE_METHODS_SVGElementInstanceList
+__OBJC_$_INSTANCE_VARIABLES_SVGElementInstanceList
+__OBJC_$_PROP_LIST_SVGElementInstanceList
+__OBJC_CLASS_RO_$_SVGElementInstanceList
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGElementInstanceList.m
+Source/DOM classes/SVG-DOM/SVGElementInstanceList.m
+-[SVGGElement newLayer]
+-[SVGGElement layoutLayer:]
+-[SVGGElement transform]
+-[SVGGElement setTransform:]
+_OBJC_IVAR_$_SVGGElement.transform
+__OBJC_$_PROTOCOL_REFS_ConverterSVGToCALayer
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_ConverterSVGToCALayer
+__OBJC_$_PROTOCOL_METHOD_TYPES_ConverterSVGToCALayer
+__OBJC_PROTOCOL_$_ConverterSVGToCALayer
+__OBJC_LABEL_PROTOCOL_$_ConverterSVGToCALayer
+__OBJC_CLASS_PROTOCOLS_$_SVGGElement
+__OBJC_METACLASS_RO_$_SVGGElement
+__OBJC_$_INSTANCE_METHODS_SVGGElement
+__OBJC_$_INSTANCE_VARIABLES_SVGGElement
+__OBJC_$_PROP_LIST_SVGGElement
+__OBJC_CLASS_RO_$_SVGGElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGGElement.m
+Source/DOM classes/SVG-DOM/SVGGElement.m
+-[SVGLength init]
+-[SVGLength initWithCSSPrimitiveValue:]
+-[SVGLength value]
+-[SVGLength unitType]
+-[SVGLength newValueSpecifiedUnits:valueInSpecifiedUnits:]
+-[SVGLength convertToSpecifiedUnits:]
++[SVGLength initialize]
++[SVGLength svgLengthZero]
++[SVGLength svgLengthFromNSString:]
+-[SVGLength pixelsValue]
+-[SVGLength pixelsValueWithDimension:]
+-[SVGLength pixelsValueWithGradientDimension:]
+-[SVGLength numberValue]
++[SVGLength pixelsPerInchForCurrentDevice]
+-[SVGLength setValue:]
+-[SVGLength valueInSpecifiedUnits]
+-[SVGLength setValueInSpecifiedUnits:]
+-[SVGLength valueAsString]
+-[SVGLength setValueAsString:]
+-[SVGLength internalCSSPrimitiveValue]
+-[SVGLength setInternalCSSPrimitiveValue:]
+-[SVGLength .cxx_destruct]
+_cachedDevicePixelsPerInch
+_OBJC_CLASSLIST_REFERENCES_$_.102
+__OBJC_$_CLASS_METHODS_SVGLength
+__OBJC_METACLASS_RO_$_SVGLength
+__OBJC_$_INSTANCE_METHODS_SVGLength
+_OBJC_IVAR_$_SVGLength.unitType
+_OBJC_IVAR_$_SVGLength.value
+_OBJC_IVAR_$_SVGLength.valueInSpecifiedUnits
+_OBJC_IVAR_$_SVGLength.valueAsString
+_OBJC_IVAR_$_SVGLength.internalCSSPrimitiveValue
+__OBJC_$_INSTANCE_VARIABLES_SVGLength
+__OBJC_$_PROP_LIST_SVGLength
+__OBJC_CLASS_RO_$_SVGLength
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGLength.m
+Source/DOM classes/SVG-DOM/SVGLength.m
+-[SVGMatrix multiply:]
+-[SVGMatrix inverse]
+-[SVGMatrix translate:y:]
+-[SVGMatrix scale:]
+-[SVGMatrix scaleNonUniform:scaleFactorY:]
+-[SVGMatrix rotate:]
+-[SVGMatrix rotateFromVector:y:]
+-[SVGMatrix flipX]
+-[SVGMatrix flipY]
+-[SVGMatrix skewX:]
+-[SVGMatrix skewY:]
+-[SVGMatrix a]
+-[SVGMatrix setA:]
+-[SVGMatrix b]
+-[SVGMatrix setB:]
+-[SVGMatrix c]
+-[SVGMatrix setC:]
+-[SVGMatrix d]
+-[SVGMatrix setD:]
+-[SVGMatrix e]
+-[SVGMatrix setE:]
+-[SVGMatrix f]
+-[SVGMatrix setF:]
+__OBJC_METACLASS_RO_$_SVGMatrix
+__OBJC_$_INSTANCE_METHODS_SVGMatrix
+_OBJC_IVAR_$_SVGMatrix.a
+_OBJC_IVAR_$_SVGMatrix.b
+_OBJC_IVAR_$_SVGMatrix.c
+_OBJC_IVAR_$_SVGMatrix.d
+_OBJC_IVAR_$_SVGMatrix.e
+_OBJC_IVAR_$_SVGMatrix.f
+__OBJC_$_INSTANCE_VARIABLES_SVGMatrix
+__OBJC_$_PROP_LIST_SVGMatrix
+__OBJC_CLASS_RO_$_SVGMatrix
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGMatrix.m
+Source/DOM classes/SVG-DOM/SVGMatrix.m
+-[SVGPoint matrixTransform:]
+-[SVGPoint x]
+-[SVGPoint y]
+__OBJC_METACLASS_RO_$_SVGPoint
+__OBJC_$_INSTANCE_METHODS_SVGPoint
+_OBJC_IVAR_$_SVGPoint.x
+_OBJC_IVAR_$_SVGPoint.y
+__OBJC_$_INSTANCE_VARIABLES_SVGPoint
+__OBJC_$_PROP_LIST_SVGPoint
+__OBJC_CLASS_RO_$_SVGPoint
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGPoint.m
+Source/DOM classes/SVG-DOM/SVGPoint.m
+-[SVGPreserveAspectRatio init]
+-[SVGPreserveAspectRatio align]
+-[SVGPreserveAspectRatio setAlign:]
+-[SVGPreserveAspectRatio meetOrSlice]
+-[SVGPreserveAspectRatio setMeetOrSlice:]
+__OBJC_METACLASS_RO_$_SVGPreserveAspectRatio
+__OBJC_$_INSTANCE_METHODS_SVGPreserveAspectRatio
+_OBJC_IVAR_$_SVGPreserveAspectRatio._align
+_OBJC_IVAR_$_SVGPreserveAspectRatio._meetOrSlice
+__OBJC_$_INSTANCE_VARIABLES_SVGPreserveAspectRatio
+__OBJC_$_PROP_LIST_SVGPreserveAspectRatio
+__OBJC_CLASS_RO_$_SVGPreserveAspectRatio
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.m
+Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.h
+Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.m
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGRect.m
+NSStringFromSVGRect
+Source/DOM classes/SVG-DOM/SVGRect.m
+CGRectFromSVGRect
+CGSizeFromSVGRect
+SVGRectMake
+SVGRectUninitialized
+SVGRectIsInitialized
+-[SVGTransform setMatrix:]
+-[SVGTransform setTranslate:ty:]
+-[SVGTransform setScale:sy:]
+-[SVGTransform setRotate:cx:cy:]
+-[SVGTransform setSkewX:]
+-[SVGTransform setSkewY:]
+-[SVGTransform type]
+-[SVGTransform setType:]
+-[SVGTransform matrix]
+-[SVGTransform angle]
+-[SVGTransform .cxx_destruct]
+__OBJC_METACLASS_RO_$_SVGTransform
+__OBJC_$_INSTANCE_METHODS_SVGTransform
+_OBJC_IVAR_$_SVGTransform.type
+_OBJC_IVAR_$_SVGTransform.angle
+_OBJC_IVAR_$_SVGTransform.matrix
+__OBJC_$_INSTANCE_VARIABLES_SVGTransform
+__OBJC_$_PROP_LIST_SVGTransform
+__OBJC_CLASS_RO_$_SVGTransform
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGTransform.m
+Source/DOM classes/SVG-DOM/SVGTransform.m
+-[SVGUseElement newLayer]
+-[SVGUseElement layoutLayer:]
+-[SVGUseElement x]
+-[SVGUseElement setX:]
+-[SVGUseElement y]
+-[SVGUseElement setY:]
+-[SVGUseElement width]
+-[SVGUseElement setWidth:]
+-[SVGUseElement height]
+-[SVGUseElement setHeight:]
+-[SVGUseElement instanceRoot]
+-[SVGUseElement setInstanceRoot:]
+-[SVGUseElement animatedInstanceRoot]
+-[SVGUseElement setAnimatedInstanceRoot:]
+-[SVGUseElement transform]
+-[SVGUseElement setTransform:]
+-[SVGUseElement .cxx_destruct]
+_OBJC_IVAR_$_SVGUseElement.instanceRoot
+_OBJC_IVAR_$_SVGUseElement.x
+_OBJC_IVAR_$_SVGUseElement.y
+_OBJC_IVAR_$_SVGUseElement.width
+_OBJC_IVAR_$_SVGUseElement.height
+_OBJC_IVAR_$_SVGUseElement.animatedInstanceRoot
+_OBJC_IVAR_$_SVGUseElement.transform
+__OBJC_CLASS_PROTOCOLS_$_SVGUseElement
+__OBJC_METACLASS_RO_$_SVGUseElement
+__OBJC_$_INSTANCE_METHODS_SVGUseElement
+__OBJC_$_INSTANCE_VARIABLES_SVGUseElement
+__OBJC_$_PROP_LIST_SVGUseElement
+__OBJC_CLASS_RO_$_SVGUseElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGUseElement.m
+Source/DOM classes/SVG-DOM/SVGUseElement.m
++[SVGHelperUtilities transformRelativeIncludingViewportForTransformableOrViewportEstablishingElement:]
++[SVGHelperUtilities transformAbsoluteIncludingViewportForTransformableOrViewportEstablishingElement:]
++[SVGHelperUtilities configureCALayer:usingElement:]
++[SVGHelperUtilities newCALayerForPathBasedSVGElement:withPath:]
++[SVGHelperUtilities getGradientLayerWithId:forElement:withRect:transform:]
++[SVGHelperUtilities parseFillForElement:]
++[SVGHelperUtilities parseFillForElement:fromFill:andOpacity:]
++[SVGHelperUtilities parseStrokeForElement:]
++[SVGHelperUtilities parseStrokeForElement:fromStroke:andOpacity:]
++[SVGHelperUtilities parsePaintColorForElement:paintColor:paintOpacity:defaultColor:]
++[SVGHelperUtilities parsePreserveAspectRatioFor:]
+__OBJC_PROTOCOL_REFERENCE_$_SVGTransformable
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.94
+__OBJC_PROTOCOL_REFERENCE_$_SVGStylable
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_CLASSLIST_REFERENCES_$_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_CLASSLIST_REFERENCES_$_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_CLASSLIST_REFERENCES_$_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_CLASSLIST_REFERENCES_$_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_CLASSLIST_REFERENCES_$_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_CLASSLIST_REFERENCES_$_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_CLASSLIST_REFERENCES_$_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_CLASSLIST_REFERENCES_$_.265
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.283
+__OBJC_$_CLASS_METHODS_SVGHelperUtilities
+__OBJC_METACLASS_RO_$_SVGHelperUtilities
+__OBJC_CLASS_RO_$_SVGHelperUtilities
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGHelperUtilities.m
+Source/DOM classes/SVG-DOM/SVGHelperUtilities.m
+-[SVGTextPositioningElement postProcessAttributesAddingErrorsTo:]
+-[SVGTextPositioningElement x]
+-[SVGTextPositioningElement setX:]
+-[SVGTextPositioningElement y]
+-[SVGTextPositioningElement setY:]
+-[SVGTextPositioningElement dx]
+-[SVGTextPositioningElement setDx:]
+-[SVGTextPositioningElement dy]
+-[SVGTextPositioningElement setDy:]
+-[SVGTextPositioningElement rotate]
+-[SVGTextPositioningElement setRotate:]
+-[SVGTextPositioningElement .cxx_destruct]
+_OBJC_IVAR_$_SVGTextPositioningElement.x
+_OBJC_IVAR_$_SVGTextPositioningElement.y
+_OBJC_IVAR_$_SVGTextPositioningElement.dx
+_OBJC_IVAR_$_SVGTextPositioningElement.dy
+_OBJC_IVAR_$_SVGTextPositioningElement.rotate
+__OBJC_METACLASS_RO_$_SVGTextPositioningElement
+__OBJC_$_INSTANCE_METHODS_SVGTextPositioningElement
+__OBJC_$_INSTANCE_VARIABLES_SVGTextPositioningElement
+__OBJC_$_PROP_LIST_SVGTextPositioningElement
+__OBJC_CLASS_RO_$_SVGTextPositioningElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGTextPositioningElement.m
+Source/DOM classes/SVG-DOM/SVGTextPositioningElement.m
+-[SVGTextContentElement textLength]
+-[SVGTextContentElement .cxx_destruct]
+_OBJC_IVAR_$_SVGTextContentElement.textLength
+__OBJC_CLASS_PROTOCOLS_$_SVGTextContentElement
+__OBJC_METACLASS_RO_$_SVGTextContentElement
+__OBJC_$_INSTANCE_METHODS_SVGTextContentElement
+__OBJC_$_INSTANCE_VARIABLES_SVGTextContentElement
+__OBJC_$_PROP_LIST_SVGTextContentElement
+__OBJC_CLASS_RO_$_SVGTextContentElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGTextContentElement.m
+Source/DOM classes/SVG-DOM/SVGTextContentElement.m
+-[SVGGradientElement addStop:]
+-[SVGGradientElement colors]
+-[SVGGradientElement locations]
+-[SVGGradientElement gradientUnits]
+-[SVGGradientElement spreadMethod]
+-[SVGGradientElement postProcessAttributesAddingErrorsTo:]
+-[SVGGradientElement getAttributeInheritedIfNil:]
+-[SVGGradientElement newGradientLayerForObjectRect:viewportRect:transform:]
+-[SVGGradientElement synthesizeProperties]
+-[SVGGradientElement layoutLayer:]
+-[SVGGradientElement stops]
+-[SVGGradientElement transform]
+-[SVGGradientElement setTransform:]
+-[SVGGradientElement .cxx_destruct]
+_OBJC_IVAR_$_SVGGradientElement._stops
+_OBJC_IVAR_$_SVGGradientElement._colors
+_OBJC_IVAR_$_SVGGradientElement._locations
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_IVAR_$_SVGGradientElement.transform
+__OBJC_CLASS_PROTOCOLS_$_SVGGradientElement
+__OBJC_METACLASS_RO_$_SVGGradientElement
+__OBJC_$_INSTANCE_METHODS_SVGGradientElement
+_OBJC_IVAR_$_SVGGradientElement._gradientUnits
+_OBJC_IVAR_$_SVGGradientElement._spreadMethod
+__OBJC_$_INSTANCE_VARIABLES_SVGGradientElement
+__OBJC_$_PROP_LIST_SVGGradientElement
+__OBJC_CLASS_RO_$_SVGGradientElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGGradientElement.m
+-[SVGGradientStop loadDefaults]
+-[SVGGradientStop postProcessAttributesAddingErrorsTo:]
+-[SVGGradientStop offset]
+-[SVGGradientStop stopColor]
+-[SVGGradientStop stopOpacity]
+_OBJC_IVAR_$_SVGGradientStop._stopOpacity
+_OBJC_IVAR_$_SVGGradientStop._offset
+_OBJC_IVAR_$_SVGGradientStop._stopColor
+__OBJC_METACLASS_RO_$_SVGGradientStop
+__OBJC_$_INSTANCE_METHODS_SVGGradientStop
+__OBJC_$_INSTANCE_VARIABLES_SVGGradientStop
+__OBJC_$_PROP_LIST_SVGGradientStop
+__OBJC_CLASS_RO_$_SVGGradientStop
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGradientStop.m
+Source/DOM classes/Unported or Partial DOM/SVGGradientStop.m
+__OBJC_METACLASS_RO_$_SVGStyleElement
+__OBJC_CLASS_RO_$_SVGStyleElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGStyleElement.m
+-[SVGCircleElement r]
+__OBJC_METACLASS_RO_$_SVGCircleElement
+__OBJC_$_INSTANCE_METHODS_SVGCircleElement
+__OBJC_$_PROP_LIST_SVGCircleElement
+__OBJC_CLASS_RO_$_SVGCircleElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGCircleElement.m
+Source/DOM classes/Unported or Partial DOM/SVGCircleElement.m
++[SVGDescriptionElement shouldStoreContent]
+__OBJC_$_CLASS_METHODS_SVGDescriptionElement
+__OBJC_METACLASS_RO_$_SVGDescriptionElement
+__OBJC_CLASS_RO_$_SVGDescriptionElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m
+Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m
+-[SVGElement getPresentationAttribute:]
++[SVGElement shouldStoreContent]
+-[SVGElement reCalculateAndSetViewportElementReferenceUsingFirstSVGAncestor:]
+-[SVGElement setParentNode:]
+-[SVGElement setRootOfCurrentDocumentFragment:]
+-[SVGElement setViewportElement:]
+-[SVGElement loadDefaults]
+-[SVGElement getAttributeAsSVGLength:]
+-[SVGElement postProcessAttributesAddingErrorsTo:]
+___50-[SVGElement postProcessAttributesAddingErrorsTo:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+-[SVGElement description]
+-[SVGElement initWithLocalName:attributes:]
+-[SVGElement initWithQualifiedName:inNameSpaceURI:attributes:]
+-[SVGElement nextSelectorGroupFromText:startFrom:]
+-[SVGElement nextSelectorRangeFromText:startFrom:]
+-[SVGElement selector:appliesTo:specificity:]
+-[SVGElement styleRule:appliesTo:specificity:]
+-[SVGElement cascadedValueForStylableProperty:]
+-[SVGElement cascadedValueForStylableProperty:inherit:]
+-[SVGElement identifier]
+-[SVGElement setIdentifier:]
+-[SVGElement xmlbase]
+-[SVGElement setXmlbase:]
+-[SVGElement rootOfCurrentDocumentFragment]
+-[SVGElement viewportElement]
+-[SVGElement stringValue]
+-[SVGElement setStringValue:]
+-[SVGElement className]
+-[SVGElement setClassName:]
+-[SVGElement style]
+-[SVGElement setStyle:]
+-[SVGElement .cxx_destruct]
+_OBJC_IVAR_$_SVGElement._rootOfCurrentDocumentFragment
+_OBJC_IVAR_$_SVGElement._viewportElement
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_CLASSLIST_REFERENCES_$_.119
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_CLASSLIST_REFERENCES_$_.138
+_OBJC_CLASSLIST_REFERENCES_$_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_CLASSLIST_REFERENCES_$_.144
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_CLASSLIST_REFERENCES_$_.153
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.175
+___block_descriptor_56_e8_32s40s48s_e37_v32?0"NSTextCheckingResult"8Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_CLASSLIST_REFERENCES_$_.191
+_OBJC_IVAR_$_SVGElement._identifier
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_IVAR_$_SVGElement._stringValue
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_CLASSLIST_REFERENCES_$_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_CLASSLIST_REFERENCES_$_.261
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_CLASSLIST_REFERENCES_$_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_CLASSLIST_REFERENCES_$_.271
+_OBJC_IVAR_$_SVGElement.xmlbase
+_OBJC_IVAR_$_SVGElement.className
+_OBJC_IVAR_$_SVGElement.style
+__OBJC_$_CLASS_METHODS_SVGElement
+__OBJC_CLASS_PROTOCOLS_$_SVGElement
+__OBJC_METACLASS_RO_$_SVGElement
+__OBJC_$_INSTANCE_METHODS_SVGElement
+__OBJC_$_INSTANCE_VARIABLES_SVGElement
+__OBJC_$_PROP_LIST_SVGElement
+__OBJC_CLASS_RO_$_SVGElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGElement.m
+Source/DOM classes/Unported or Partial DOM/SVGElement.m
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
+__50-[SVGElement postProcessAttributesAddingErrorsTo:]_block_invoke
+-[SVGEllipseElement postProcessAttributesAddingErrorsTo:]
+-[SVGEllipseElement cx]
+-[SVGEllipseElement setCx:]
+-[SVGEllipseElement cy]
+-[SVGEllipseElement setCy:]
+-[SVGEllipseElement rx]
+-[SVGEllipseElement setRx:]
+-[SVGEllipseElement ry]
+-[SVGEllipseElement setRy:]
+_OBJC_IVAR_$_SVGEllipseElement._cx
+_OBJC_IVAR_$_SVGEllipseElement._cy
+_OBJC_IVAR_$_SVGEllipseElement._rx
+_OBJC_IVAR_$_SVGEllipseElement._ry
+__OBJC_METACLASS_RO_$_SVGEllipseElement
+__OBJC_$_INSTANCE_METHODS_SVGEllipseElement
+__OBJC_$_INSTANCE_VARIABLES_SVGEllipseElement
+__OBJC_$_PROP_LIST_SVGEllipseElement
+__OBJC_CLASS_RO_$_SVGEllipseElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.m
+Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.m
+-[SVGGroupElement loadDefaults]
+-[SVGGroupElement postProcessAttributesAddingErrorsTo:]
+-[SVGGroupElement newLayer]
+-[SVGGroupElement layoutLayer:]
+-[SVGGroupElement opacity]
+_OBJC_IVAR_$_SVGGroupElement._opacity
+__OBJC_CLASS_PROTOCOLS_$_SVGGroupElement
+__OBJC_METACLASS_RO_$_SVGGroupElement
+__OBJC_$_INSTANCE_METHODS_SVGGroupElement
+__OBJC_$_INSTANCE_VARIABLES_SVGGroupElement
+__OBJC_$_PROP_LIST_SVGGroupElement
+__OBJC_CLASS_RO_$_SVGGroupElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGroupElement.m
+Source/DOM classes/Unported or Partial DOM/SVGGroupElement.m
+-[SVGImageElement postProcessAttributesAddingErrorsTo:]
+-[SVGImageElement newLayer]
+-[SVGImageElement clipFrame:fromRatio:]
+-[SVGImageElement layoutLayer:]
+-[SVGImageElement aspectRatioFromWidthPerHeight]
+-[SVGImageElement aspectRatioFromViewBox]
+-[SVGImageElement transform]
+-[SVGImageElement setTransform:]
+-[SVGImageElement viewBox]
+-[SVGImageElement setViewBox:]
+-[SVGImageElement preserveAspectRatio]
+-[SVGImageElement setPreserveAspectRatio:]
+-[SVGImageElement x]
+-[SVGImageElement y]
+-[SVGImageElement width]
+-[SVGImageElement height]
+-[SVGImageElement href]
+-[SVGImageElement setHref:]
+-[SVGImageElement .cxx_destruct]
+_OBJC_IVAR_$_SVGImageElement._x
+_OBJC_IVAR_$_SVGImageElement._y
+_OBJC_IVAR_$_SVGImageElement._width
+_OBJC_IVAR_$_SVGImageElement._height
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_IVAR_$_SVGImageElement._href
+_OBJC_CLASSLIST_REFERENCES_$_.58
+_OBJC_CLASSLIST_REFERENCES_$_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_CLASSLIST_REFERENCES_$_.74
+_OBJC_CLASSLIST_REFERENCES_$_.75
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_IVAR_$_SVGImageElement.transform
+_OBJC_IVAR_$_SVGImageElement.viewBox
+_OBJC_IVAR_$_SVGImageElement.preserveAspectRatio
+__OBJC_$_PROTOCOL_REFS_SVGFitToViewBox
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SVGFitToViewBox
+__OBJC_$_PROP_LIST_SVGFitToViewBox
+__OBJC_$_PROTOCOL_METHOD_TYPES_SVGFitToViewBox
+__OBJC_PROTOCOL_$_SVGFitToViewBox
+__OBJC_LABEL_PROTOCOL_$_SVGFitToViewBox
+__OBJC_CLASS_PROTOCOLS_$_SVGImageElement
+__OBJC_METACLASS_RO_$_SVGImageElement
+__OBJC_$_INSTANCE_METHODS_SVGImageElement
+__OBJC_$_INSTANCE_VARIABLES_SVGImageElement
+__OBJC_$_PROP_LIST_SVGImageElement
+__OBJC_CLASS_RO_$_SVGImageElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGImageElement.m
+Source/DOM classes/Unported or Partial DOM/SVGImageElement.m
+SVGImageCGImage
+-[SVGLineElement postProcessAttributesAddingErrorsTo:]
+-[SVGLineElement newLayer]
+-[SVGLineElement x1]
+-[SVGLineElement y1]
+-[SVGLineElement x2]
+-[SVGLineElement y2]
+_OBJC_IVAR_$_SVGLineElement._x1
+_OBJC_IVAR_$_SVGLineElement._y1
+_OBJC_IVAR_$_SVGLineElement._x2
+_OBJC_IVAR_$_SVGLineElement._y2
+__OBJC_METACLASS_RO_$_SVGLineElement
+__OBJC_$_INSTANCE_METHODS_SVGLineElement
+__OBJC_$_INSTANCE_VARIABLES_SVGLineElement
+__OBJC_$_PROP_LIST_SVGLineElement
+__OBJC_CLASS_RO_$_SVGLineElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGLineElement.m
+Source/DOM classes/Unported or Partial DOM/SVGLineElement.m
+-[SVGPathElement postProcessAttributesAddingErrorsTo:]
+-[SVGPathElement parseData:]
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_CLASSLIST_REFERENCES_$_.91
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+__OBJC_METACLASS_RO_$_SVGPathElement
+__OBJC_$_INSTANCE_METHODS_SVGPathElement
+__OBJC_CLASS_RO_$_SVGPathElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGPathElement.m
+Source/DOM classes/Unported or Partial DOM/SVGPathElement.m
+-[SVGPolygonElement postProcessAttributesAddingErrorsTo:]
+-[SVGPolygonElement parseData:]
+_OBJC_CLASSLIST_REFERENCES_$_.18
+__OBJC_METACLASS_RO_$_SVGPolygonElement
+__OBJC_$_INSTANCE_METHODS_SVGPolygonElement
+__OBJC_CLASS_RO_$_SVGPolygonElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.m
+Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.m
+-[SVGPolylineElement postProcessAttributesAddingErrorsTo:]
+__OBJC_METACLASS_RO_$_SVGPolylineElement
+__OBJC_$_INSTANCE_METHODS_SVGPolylineElement
+__OBJC_CLASS_RO_$_SVGPolylineElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.m
+Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.m
+-[SVGRectElement postProcessAttributesAddingErrorsTo:]
+-[SVGRectElement transform]
+-[SVGRectElement setTransform:]
+-[SVGRectElement x]
+-[SVGRectElement y]
+-[SVGRectElement width]
+-[SVGRectElement height]
+-[SVGRectElement rx]
+-[SVGRectElement ry]
+-[SVGRectElement .cxx_destruct]
+_OBJC_IVAR_$_SVGRectElement._x
+_OBJC_IVAR_$_SVGRectElement._y
+_OBJC_IVAR_$_SVGRectElement._width
+_OBJC_IVAR_$_SVGRectElement._height
+_OBJC_IVAR_$_SVGRectElement._rx
+_OBJC_IVAR_$_SVGRectElement._ry
+_OBJC_IVAR_$_SVGRectElement.transform
+__OBJC_CLASS_PROTOCOLS_$_SVGRectElement
+__OBJC_METACLASS_RO_$_SVGRectElement
+__OBJC_$_INSTANCE_METHODS_SVGRectElement
+__OBJC_$_INSTANCE_VARIABLES_SVGRectElement
+__OBJC_$_PROP_LIST_SVGRectElement
+__OBJC_CLASS_RO_$_SVGRectElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGRectElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRectElement.m
+-[BaseClassForAllSVGBasicShapes init]
+-[BaseClassForAllSVGBasicShapes dealloc]
+-[BaseClassForAllSVGBasicShapes setPathForShapeInRelativeCoords:]
+-[BaseClassForAllSVGBasicShapes newLayer]
+-[BaseClassForAllSVGBasicShapes layoutLayer:]
+-[BaseClassForAllSVGBasicShapes pathForShapeInRelativeCoords]
+-[BaseClassForAllSVGBasicShapes transform]
+-[BaseClassForAllSVGBasicShapes setTransform:]
+-[BaseClassForAllSVGBasicShapes .cxx_destruct]
+_OBJC_IVAR_$_BaseClassForAllSVGBasicShapes._pathForShapeInRelativeCoords
+_OBJC_IVAR_$_BaseClassForAllSVGBasicShapes.transform
+__OBJC_CLASS_PROTOCOLS_$_BaseClassForAllSVGBasicShapes
+__OBJC_METACLASS_RO_$_BaseClassForAllSVGBasicShapes
+__OBJC_$_INSTANCE_METHODS_BaseClassForAllSVGBasicShapes
+__OBJC_$_INSTANCE_VARIABLES_BaseClassForAllSVGBasicShapes
+__OBJC_$_PROP_LIST_BaseClassForAllSVGBasicShapes
+__OBJC_CLASS_RO_$_BaseClassForAllSVGBasicShapes
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.m
+Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.m
+-[SVGSVGElement dealloc]
+-[SVGSVGElement loadDefaults]
+-[SVGSVGElement getOverrideStyle:pseudoElt:]
+-[SVGSVGElement suspendRedraw:]
+-[SVGSVGElement unsuspendRedraw:]
+-[SVGSVGElement unsuspendRedrawAll]
+-[SVGSVGElement forceRedraw]
+-[SVGSVGElement pauseAnimations]
+-[SVGSVGElement unpauseAnimations]
+-[SVGSVGElement animationsPaused]
+-[SVGSVGElement getCurrentTime]
+-[SVGSVGElement setCurrentTime:]
+-[SVGSVGElement getIntersectionList:referenceElement:]
+-[SVGSVGElement getEnclosureList:referenceElement:]
+-[SVGSVGElement checkIntersection:rect:]
+-[SVGSVGElement checkEnclosure:rect:]
+-[SVGSVGElement deselectAll]
+-[SVGSVGElement createSVGNumber]
+-[SVGSVGElement createSVGLength]
+-[SVGSVGElement createSVGAngle]
+-[SVGSVGElement createSVGPoint]
+-[SVGSVGElement createSVGMatrix]
+-[SVGSVGElement createSVGRect]
+-[SVGSVGElement createSVGTransform]
+-[SVGSVGElement createSVGTransformFromMatrix:]
+-[SVGSVGElement getElementById:]
+-[SVGSVGElement postProcessAttributesAddingErrorsTo:]
+-[SVGSVGElement findFirstElementOfClass:]
+-[SVGSVGElement newLayer]
+-[SVGSVGElement layoutLayer:]
+-[SVGSVGElement aspectRatioFromWidthPerHeight]
+-[SVGSVGElement aspectRatioFromViewBox]
+-[SVGSVGElement x]
+-[SVGSVGElement setX:]
+-[SVGSVGElement y]
+-[SVGSVGElement setY:]
+-[SVGSVGElement width]
+-[SVGSVGElement setWidth:]
+-[SVGSVGElement height]
+-[SVGSVGElement setHeight:]
+-[SVGSVGElement contentScriptType]
+-[SVGSVGElement setContentScriptType:]
+-[SVGSVGElement contentStyleType]
+-[SVGSVGElement setContentStyleType:]
+-[SVGSVGElement viewport]
+-[SVGSVGElement setViewport:]
+-[SVGSVGElement pixelUnitToMillimeterX]
+-[SVGSVGElement setPixelUnitToMillimeterX:]
+-[SVGSVGElement pixelUnitToMillimeterY]
+-[SVGSVGElement setPixelUnitToMillimeterY:]
+-[SVGSVGElement screenPixelToMillimeterX]
+-[SVGSVGElement setScreenPixelToMillimeterX:]
+-[SVGSVGElement screenPixelToMillimeterY]
+-[SVGSVGElement setScreenPixelToMillimeterY:]
+-[SVGSVGElement useCurrentView]
+-[SVGSVGElement setUseCurrentView:]
+-[SVGSVGElement currentView]
+-[SVGSVGElement setCurrentView:]
+-[SVGSVGElement currentScale]
+-[SVGSVGElement setCurrentScale:]
+-[SVGSVGElement currentTranslate]
+-[SVGSVGElement setCurrentTranslate:]
+-[SVGSVGElement source]
+-[SVGSVGElement setSource:]
+-[SVGSVGElement viewBox]
+-[SVGSVGElement setViewBox:]
+-[SVGSVGElement preserveAspectRatio]
+-[SVGSVGElement setPreserveAspectRatio:]
+-[SVGSVGElement styleSheets]
+-[SVGSVGElement setStyleSheets:]
+-[SVGSVGElement requestedViewport]
+-[SVGSVGElement setRequestedViewport:]
+-[SVGSVGElement .cxx_destruct]
+_OBJC_IVAR_$_SVGSVGElement._viewBox
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_CLASSLIST_REFERENCES_$_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_IVAR_$_SVGSVGElement.x
+_OBJC_IVAR_$_SVGSVGElement.y
+_OBJC_IVAR_$_SVGSVGElement.width
+_OBJC_IVAR_$_SVGSVGElement.height
+_OBJC_IVAR_$_SVGSVGElement.contentScriptType
+_OBJC_IVAR_$_SVGSVGElement.contentStyleType
+_OBJC_IVAR_$_SVGSVGElement.viewport
+_OBJC_IVAR_$_SVGSVGElement.pixelUnitToMillimeterX
+_OBJC_IVAR_$_SVGSVGElement.pixelUnitToMillimeterY
+_OBJC_IVAR_$_SVGSVGElement.screenPixelToMillimeterX
+_OBJC_IVAR_$_SVGSVGElement.screenPixelToMillimeterY
+_OBJC_IVAR_$_SVGSVGElement.useCurrentView
+_OBJC_IVAR_$_SVGSVGElement.currentView
+_OBJC_IVAR_$_SVGSVGElement.currentScale
+_OBJC_IVAR_$_SVGSVGElement.currentTranslate
+_OBJC_IVAR_$_SVGSVGElement.source
+_OBJC_IVAR_$_SVGSVGElement.preserveAspectRatio
+_OBJC_IVAR_$_SVGSVGElement.styleSheets
+_OBJC_IVAR_$_SVGSVGElement._requestedViewport
+__OBJC_$_PROTOCOL_REFS_DocumentStyle
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_DocumentStyle
+__OBJC_$_PROP_LIST_DocumentStyle
+__OBJC_$_PROTOCOL_METHOD_TYPES_DocumentStyle
+__OBJC_PROTOCOL_$_DocumentStyle
+__OBJC_LABEL_PROTOCOL_$_DocumentStyle
+__OBJC_$_PROTOCOL_REFS_DocumentCSS
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_DocumentCSS
+__OBJC_$_PROTOCOL_METHOD_TYPES_DocumentCSS
+__OBJC_PROTOCOL_$_DocumentCSS
+__OBJC_LABEL_PROTOCOL_$_DocumentCSS
+__OBJC_CLASS_PROTOCOLS_$_SVGSVGElement
+__OBJC_METACLASS_RO_$_SVGSVGElement
+__OBJC_$_INSTANCE_METHODS_SVGSVGElement
+__OBJC_$_INSTANCE_VARIABLES_SVGSVGElement
+__OBJC_$_PROP_LIST_SVGSVGElement
+__OBJC_CLASS_RO_$_SVGSVGElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m
+Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m
+Source/DOM classes/Unported or Partial DOM/SVGSVGElement.h
+-[SVGSwitchElement newLayer]
+-[SVGSwitchElement visibleChildNodes]
+-[SVGSwitchElement layoutLayer:]
+-[SVGSwitchElement .cxx_destruct]
+_OBJC_IVAR_$_SVGSwitchElement._visibleChildNodes
+__OBJC_PROTOCOL_REFERENCE_$_ConverterSVGToCALayer
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.74
+__OBJC_CLASS_PROTOCOLS_$_SVGSwitchElement
+__OBJC_METACLASS_RO_$_SVGSwitchElement
+__OBJC_$_INSTANCE_METHODS_SVGSwitchElement
+__OBJC_$_INSTANCE_VARIABLES_SVGSwitchElement
+__OBJC_$_PROP_LIST_SVGSwitchElement
+__OBJC_CLASS_RO_$_SVGSwitchElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.m
+Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.m
+-[SVGTextElement newLayer]
+-[SVGTextElement newCALayerForTextLayer:transformAbsolute:]
++[SVGTextElement matchedFontWithElement:]
++[SVGTextElement fontAttributesWithFontFamily:fontStyle:fontWeight:fontStretch:]
++[SVGTextElement fontFamiliesWithCSSValue:]
++[SVGTextElement systemDefaultFontFamily]
+___41+[SVGTextElement systemDefaultFontFamily]_block_invoke
+-[SVGTextElement layoutLayer:]
+-[SVGTextElement transform]
+-[SVGTextElement setTransform:]
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_CLASSLIST_REFERENCES_$_.128
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_CLASSLIST_REFERENCES_$_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_systemDefaultFontFamily.onceToken
+_systemDefaultFontFamily.fontFamily
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_IVAR_$_SVGTextElement.transform
+__OBJC_$_CLASS_METHODS_SVGTextElement
+__OBJC_CLASS_PROTOCOLS_$_SVGTextElement
+__OBJC_METACLASS_RO_$_SVGTextElement
+__OBJC_$_INSTANCE_METHODS_SVGTextElement
+__OBJC_$_INSTANCE_VARIABLES_SVGTextElement
+__OBJC_$_PROP_LIST_SVGTextElement
+__OBJC_CLASS_RO_$_SVGTextElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGTextElement.m
+Source/DOM classes/Unported or Partial DOM/SVGTextElement.m
+__41+[SVGTextElement systemDefaultFontFamily]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/usr/include/dispatch/once.h
++[SVGTitleElement shouldStoreContent]
+__OBJC_$_CLASS_METHODS_SVGTitleElement
+__OBJC_METACLASS_RO_$_SVGTitleElement
+__OBJC_CLASS_RO_$_SVGTitleElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m
+Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m
+-[TinySVGTextAreaElement postProcessAttributesAddingErrorsTo:]
+-[TinySVGTextAreaElement newLayer]
+-[TinySVGTextAreaElement width]
+-[TinySVGTextAreaElement setWidth:]
+-[TinySVGTextAreaElement height]
+-[TinySVGTextAreaElement setHeight:]
+-[TinySVGTextAreaElement .cxx_destruct]
+_OBJC_IVAR_$_TinySVGTextAreaElement.width
+_OBJC_IVAR_$_TinySVGTextAreaElement.height
+__OBJC_METACLASS_RO_$_TinySVGTextAreaElement
+__OBJC_$_INSTANCE_METHODS_TinySVGTextAreaElement
+__OBJC_$_INSTANCE_VARIABLES_TinySVGTextAreaElement
+__OBJC_$_PROP_LIST_TinySVGTextAreaElement
+__OBJC_CLASS_RO_$_TinySVGTextAreaElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.m
+Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.m
+-[SVGLinearGradientElement newGradientLayerForObjectRect:viewportRect:transform:]
+-[SVGLinearGradientElement synthesizeProperties]
+-[SVGLinearGradientElement x1]
+-[SVGLinearGradientElement setX1:]
+-[SVGLinearGradientElement y1]
+-[SVGLinearGradientElement setY1:]
+-[SVGLinearGradientElement x2]
+-[SVGLinearGradientElement setX2:]
+-[SVGLinearGradientElement y2]
+-[SVGLinearGradientElement setY2:]
+-[SVGLinearGradientElement hasSynthesizedProperties]
+-[SVGLinearGradientElement setHasSynthesizedProperties:]
+-[SVGLinearGradientElement .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_IVAR_$_SVGLinearGradientElement._x1
+_OBJC_IVAR_$_SVGLinearGradientElement._y1
+_OBJC_IVAR_$_SVGLinearGradientElement._x2
+_OBJC_IVAR_$_SVGLinearGradientElement._y2
+_OBJC_IVAR_$_SVGLinearGradientElement._hasSynthesizedProperties
+__OBJC_METACLASS_RO_$_SVGLinearGradientElement
+__OBJC_$_INSTANCE_METHODS_SVGLinearGradientElement
+__OBJC_$_INSTANCE_VARIABLES_SVGLinearGradientElement
+__OBJC_$_PROP_LIST_SVGLinearGradientElement
+__OBJC_CLASS_RO_$_SVGLinearGradientElement
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.h
+-[SVGKImage(CGContext) newCGContextAutosizedToFit]
+-[SVGKImage(CGContext) renderInContext:]
+-[SVGKImage(CGContext) renderToContext:antiAliased:curveFlatnessFactor:interpolationQuality:flipYaxis:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SVGKImage_$_CGContext
+__OBJC_$_CATEGORY_SVGKImage_$_CGContext
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Exporters/SVGKImage+CGContext.m
+Source/Exporters/SVGKImage+CGContext.m
++[SVGKExporterNSData exportAsNSData:]
++[SVGKExporterNSData exportAsNSData:flipYaxis:]
++[SVGKExporterNSData exportAsNSData:antiAliased:curveFlatnessFactor:interpolationQuality:flipYaxis:]
+__OBJC_$_CLASS_METHODS_SVGKExporterNSData
+__OBJC_METACLASS_RO_$_SVGKExporterNSData
+__OBJC_CLASS_RO_$_SVGKExporterNSData
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Exporters/SVGKExporterNSData.m
+Source/Exporters/SVGKExporterNSData.m
++[SVGKExporterUIImage exportAsUIImage:]
++[SVGKExporterUIImage exportAsUIImage:antiAliased:curveFlatnessFactor:interpolationQuality:]
+__OBJC_$_CLASS_METHODS_SVGKExporterUIImage
+__OBJC_METACLASS_RO_$_SVGKExporterUIImage
+__OBJC_CLASS_RO_$_SVGKExporterUIImage
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Exporters/SVGKExporterUIImage.m
+Source/Exporters/SVGKExporterUIImage.m
+-[SVGKSourceLocalFile keyForAppleDictionaries]
++[SVGKSourceLocalFile sizeInBytesOfFilePath:]
++[SVGKSourceLocalFile sourceFromFilename:]
++[SVGKSourceLocalFile internalSourceAnywhereInBundle:usingName:]
++[SVGKSourceLocalFile internalSourceAnywhereInBundleUsingName:]
+-[SVGKSourceLocalFile copyWithZone:]
+-[SVGKSourceLocalFile sourceFromRelativePath:]
+-[SVGKSourceLocalFile description]
+-[SVGKSourceLocalFile filePath]
+-[SVGKSourceLocalFile setFilePath:]
+-[SVGKSourceLocalFile wasRelative]
+-[SVGKSourceLocalFile setWasRelative:]
+-[SVGKSourceLocalFile .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_IVAR_$_SVGKSourceLocalFile._filePath
+_OBJC_IVAR_$_SVGKSourceLocalFile._wasRelative
+__OBJC_$_CLASS_METHODS_SVGKSourceLocalFile
+__OBJC_METACLASS_RO_$_SVGKSourceLocalFile
+__OBJC_$_INSTANCE_METHODS_SVGKSourceLocalFile
+__OBJC_$_INSTANCE_VARIABLES_SVGKSourceLocalFile
+__OBJC_$_PROP_LIST_SVGKSourceLocalFile
+__OBJC_CLASS_RO_$_SVGKSourceLocalFile
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceLocalFile.m
+Source/Sources/SVGKSourceLocalFile.m
+Source/Sources/SVGKSourceLocalFile.h
+-[SVGKSourceNSData keyForAppleDictionaries]
++[SVGKSourceNSData sourceFromData:URLForRelativeLinks:]
+-[SVGKSourceNSData copyWithZone:]
+-[SVGKSourceNSData sourceFromRelativePath:]
+-[SVGKSourceNSData rawData]
+-[SVGKSourceNSData setRawData:]
+-[SVGKSourceNSData effectiveURL]
+-[SVGKSourceNSData setEffectiveURL:]
+-[SVGKSourceNSData .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_IVAR_$_SVGKSourceNSData._rawData
+_OBJC_IVAR_$_SVGKSourceNSData._effectiveURL
+__OBJC_$_CLASS_METHODS_SVGKSourceNSData
+__OBJC_METACLASS_RO_$_SVGKSourceNSData
+__OBJC_$_INSTANCE_METHODS_SVGKSourceNSData
+__OBJC_$_INSTANCE_VARIABLES_SVGKSourceNSData
+__OBJC_$_PROP_LIST_SVGKSourceNSData
+__OBJC_CLASS_RO_$_SVGKSourceNSData
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceNSData.m
+Source/Sources/SVGKSourceNSData.m
+Source/Sources/SVGKSourceNSData.h
+-[SVGKSourceString keyForAppleDictionaries]
++[SVGKSourceString sourceFromContentsOfString:]
+-[SVGKSourceString copyWithZone:]
+-[SVGKSourceString rawString]
+-[SVGKSourceString setRawString:]
+-[SVGKSourceString .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_IVAR_$_SVGKSourceString._rawString
+__OBJC_$_CLASS_METHODS_SVGKSourceString
+__OBJC_METACLASS_RO_$_SVGKSourceString
+__OBJC_$_INSTANCE_METHODS_SVGKSourceString
+__OBJC_$_INSTANCE_VARIABLES_SVGKSourceString
+__OBJC_$_PROP_LIST_SVGKSourceString
+__OBJC_CLASS_RO_$_SVGKSourceString
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceString.m
+Source/Sources/SVGKSourceString.m
+Source/Sources/SVGKSourceString.h
+-[SVGKSourceURL keyForAppleDictionaries]
++[SVGKSourceURL sourceFromURL:]
++[SVGKSourceURL internalCreateInputStreamFromURL:]
+-[SVGKSourceURL copyWithZone:]
+-[SVGKSourceURL sourceFromRelativePath:]
+-[SVGKSourceURL description]
+-[SVGKSourceURL URL]
+-[SVGKSourceURL setURL:]
+-[SVGKSourceURL .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_IVAR_$_SVGKSourceURL._URL
+__OBJC_$_CLASS_METHODS_SVGKSourceURL
+__OBJC_METACLASS_RO_$_SVGKSourceURL
+__OBJC_$_INSTANCE_METHODS_SVGKSourceURL
+__OBJC_$_INSTANCE_VARIABLES_SVGKSourceURL
+__OBJC_$_PROP_LIST_SVGKSourceURL
+__OBJC_CLASS_RO_$_SVGKSourceURL
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceURL.m
+Source/Sources/SVGKSourceURL.m
+Source/Sources/SVGKSourceURL.h
+-[SVGKParserDefsAndUse supportedNamespaces]
+-[SVGKParserDefsAndUse supportedTags]
+-[SVGKParserDefsAndUse convertSVGElementToElementInstanceTree:outermostUseElement:]
+-[SVGKParserDefsAndUse handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserDefsAndUse handleEndElement:document:parseResult:]
+_OBJC_CLASSLIST_REFERENCES_$_.30
+__OBJC_$_PROTOCOL_REFS_SVGKParserExtension
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SVGKParserExtension
+__OBJC_$_PROTOCOL_METHOD_TYPES_SVGKParserExtension
+__OBJC_PROTOCOL_$_SVGKParserExtension
+__OBJC_LABEL_PROTOCOL_$_SVGKParserExtension
+__OBJC_CLASS_PROTOCOLS_$_SVGKParserDefsAndUse
+__OBJC_METACLASS_RO_$_SVGKParserDefsAndUse
+__OBJC_$_INSTANCE_METHODS_SVGKParserDefsAndUse
+__OBJC_$_PROP_LIST_SVGKParserDefsAndUse
+__OBJC_CLASS_RO_$_SVGKParserDefsAndUse
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.m
+Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.m
+-[SVGKParserDOM supportedNamespaces]
+-[SVGKParserDOM supportedTags]
+-[SVGKParserDOM handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserDOM handleEndElement:document:parseResult:]
+__OBJC_CLASS_PROTOCOLS_$_SVGKParserDOM
+__OBJC_METACLASS_RO_$_SVGKParserDOM
+__OBJC_$_INSTANCE_METHODS_SVGKParserDOM
+__OBJC_$_PROP_LIST_SVGKParserDOM
+__OBJC_CLASS_RO_$_SVGKParserDOM
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserDOM.m
+Source/Parsers/Parser Extensions/SVGKParserDOM.m
+-[SVGKParserGradient supportedNamespaces]
+-[SVGKParserGradient supportedTags]
+-[SVGKParserGradient handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserGradient handleEndElement:document:parseResult:]
+-[SVGKParserGradient setSupportedNamespaces:]
+-[SVGKParserGradient setSupportedTags:]
+-[SVGKParserGradient .cxx_destruct]
+_OBJC_IVAR_$_SVGKParserGradient._supportedNamespaces
+_OBJC_IVAR_$_SVGKParserGradient._supportedTags
+__OBJC_METACLASS_RO_$_SVGKParserGradient
+__OBJC_$_INSTANCE_METHODS_SVGKParserGradient
+__OBJC_$_INSTANCE_VARIABLES_SVGKParserGradient
+__OBJC_$_PROP_LIST_SVGKParserGradient
+__OBJC_CLASS_RO_$_SVGKParserGradient
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserGradient.m
+Source/Parsers/Parser Extensions/SVGKParserGradient.m
+___SVGKGetBrokenImageRepresentation_block_invoke
+_SVGKGetBrokenImageRepresentation.onceToken
+_SVGKGetBrokenImageRepresentation.image
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Utils/SVGKInlineResource.m
+SVGKGetDefaultContentString
+Source/Utils/SVGKInlineResource.m
+__SVGKGetBrokenImageRepresentation_block_invoke
+SVGKGetBrokenImageRepresentation
+SVGKGetBrokenImageString
+-[SVGKParserPatternsAndGradients supportedNamespaces]
+-[SVGKParserPatternsAndGradients supportedTags]
+-[SVGKParserPatternsAndGradients handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserPatternsAndGradients handleEndElement:document:parseResult:]
+__OBJC_CLASS_PROTOCOLS_$_SVGKParserPatternsAndGradients
+__OBJC_METACLASS_RO_$_SVGKParserPatternsAndGradients
+__OBJC_$_INSTANCE_METHODS_SVGKParserPatternsAndGradients
+__OBJC_$_PROP_LIST_SVGKParserPatternsAndGradients
+__OBJC_CLASS_RO_$_SVGKParserPatternsAndGradients
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m
+Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m
+-[SVGKParserStyles supportedNamespaces]
+-[SVGKParserStyles supportedTags]
+-[SVGKParserStyles handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserStyles handleEndElement:document:parseResult:]
+-[SVGKParserStyles setSupportedNamespaces:]
+-[SVGKParserStyles setSupportedTags:]
+-[SVGKParserStyles .cxx_destruct]
+__OBJC_CLASS_PROTOCOLS_$_SVGKParserStyles
+__OBJC_METACLASS_RO_$_SVGKParserStyles
+__OBJC_$_INSTANCE_METHODS_SVGKParserStyles
+_OBJC_IVAR_$_SVGKParserStyles._supportedNamespaces
+_OBJC_IVAR_$_SVGKParserStyles._supportedTags
+__OBJC_$_INSTANCE_VARIABLES_SVGKParserStyles
+__OBJC_$_PROP_LIST_SVGKParserStyles
+__OBJC_CLASS_RO_$_SVGKParserStyles
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserStyles.m
+Source/Parsers/Parser Extensions/SVGKParserStyles.m
+-[SVGKParserSVG elementMap]
+-[SVGKParserSVG supportedNamespaces]
+-[SVGKParserSVG supportedTags]
+-[SVGKParserSVG handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserSVG handleEndElement:document:parseResult:]
+-[SVGKParserSVG setSupportedNamespaces:]
+-[SVGKParserSVG setElementMap:]
+-[SVGKParserSVG .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.2
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_CLASSLIST_REFERENCES_$_.32
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_CLASSLIST_REFERENCES_$_.92
+__OBJC_CLASS_PROTOCOLS_$_SVGKParserSVG
+__OBJC_METACLASS_RO_$_SVGKParserSVG
+__OBJC_$_INSTANCE_METHODS_SVGKParserSVG
+_OBJC_IVAR_$_SVGKParserSVG._supportedNamespaces
+_OBJC_IVAR_$_SVGKParserSVG._elementMap
+__OBJC_$_INSTANCE_VARIABLES_SVGKParserSVG
+__OBJC_$_PROP_LIST_SVGKParserSVG
+__OBJC_CLASS_RO_$_SVGKParserSVG
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserSVG.m
+Source/Parsers/Parser Extensions/SVGKParserSVG.m
++[SVGKParser cancelParser:]
++[SVGKParser newParserWithDefaultSVGKParserExtensions:]
++[SVGKParser parseSourceUsingDefaultSVGKParser:]
+-[SVGKParser initWithSource:]
+-[SVGKParser addDefaultSVGParserExtensions]
+-[SVGKParser addParserExtension:]
+-[SVGKParser parseSynchronously]
+-[SVGKParser loadCSSFrom:]
+-[SVGKParser stringFromSource:]
+-[SVGKParser handleProcessingInstruction:withData:]
+-[SVGKParser addExternalStylesheetsToRootElement]
+-[SVGKParser handleStartElement:namePrefix:namespaceURI:attributeObjects:]
+-[SVGKParser handleEndElement:]
+-[SVGKParser handleFoundCharacters:length:]
++[SVGKParser NSDictionaryFromCSSAttributes:]
+-[SVGKParser source]
+-[SVGKParser setSource:]
+-[SVGKParser externalStylesheets]
+-[SVGKParser setExternalStylesheets:]
+-[SVGKParser currentParseRun]
+-[SVGKParser setCurrentParseRun:]
+-[SVGKParser defaultXMLNamespaceForThisParseRun]
+-[SVGKParser setDefaultXMLNamespaceForThisParseRun:]
+-[SVGKParser parserExtensions]
+-[SVGKParser setParserExtensions:]
+-[SVGKParser parserKnownNamespaces]
+-[SVGKParser setParserKnownNamespaces:]
+-[SVGKParser hasCancelBeenRequested]
+-[SVGKParser setHasCancelBeenRequested:]
+-[SVGKParser .cxx_destruct]
+_unparsedEntityDeclaration
+_charactersFoundSAX
+_processingInstructionSAX
+_errorEncounteredSAX
+_cDataFoundSAX
+_startElementSAX
+_endElementSAX
+_structuredError
+_NSStringFromLibxmlString
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_CLASSLIST_REFERENCES_$_.72
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_SELECTOR_REFERENCES_.92
+_SAXHandler
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_CLASSLIST_REFERENCES_$_.133
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_CLASSLIST_REFERENCES_$_.151
+_OBJC_CLASSLIST_REFERENCES_$_.154
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_CLASSLIST_REFERENCES_$_.183
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_CLASSLIST_REFERENCES_$_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_CLASSLIST_REFERENCES_$_.233
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+__OBJC_$_CLASS_METHODS_SVGKParser
+__OBJC_METACLASS_RO_$_SVGKParser
+__OBJC_$_INSTANCE_METHODS_SVGKParser
+_OBJC_IVAR_$_SVGKParser._storedChars
+_OBJC_IVAR_$_SVGKParser._stackOfParserExtensions
+_OBJC_IVAR_$_SVGKParser._parentOfCurrentNode
+_OBJC_IVAR_$_SVGKParser._hasCancelBeenRequested
+_OBJC_IVAR_$_SVGKParser.source
+_OBJC_IVAR_$_SVGKParser.externalStylesheets
+_OBJC_IVAR_$_SVGKParser.currentParseRun
+_OBJC_IVAR_$_SVGKParser.defaultXMLNamespaceForThisParseRun
+_OBJC_IVAR_$_SVGKParser.parserExtensions
+_OBJC_IVAR_$_SVGKParser.parserKnownNamespaces
+__OBJC_$_INSTANCE_VARIABLES_SVGKParser
+__OBJC_$_PROP_LIST_SVGKParser
+__OBJC_CLASS_RO_$_SVGKParser
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_CLASSLIST_REFERENCES_$_.316
+_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.324
+_OBJC_CLASSLIST_REFERENCES_$_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.345
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/SVGKParser.m
+NSStringFromLibxmlString
+Source/Parsers/SVGKParser.m
+structuredError
+endElementSAX
+startElementSAX
+NSDictionaryFromLibxmlAttributes
+NSDictionaryFromLibxmlNamespaces
+cDataFoundSAX
+errorEncounteredSAX
+processingInstructionSAX
+charactersFoundSAX
+unparsedEntityDeclaration
+getCurrentlyParsingParser
+-[SVGKParseResult init]
+-[SVGKParseResult description]
+-[SVGKParseResult addSourceError:]
+-[SVGKParseResult addParseWarning:]
+-[SVGKParseResult addParseErrorRecoverable:]
+-[SVGKParseResult addParseErrorFatal:]
+-[SVGKParseResult addSAXError:]
+-[SVGKParseResult libXMLFailed]
+-[SVGKParseResult setLibXMLFailed:]
+-[SVGKParseResult parsedDocument]
+-[SVGKParseResult setParsedDocument:]
+-[SVGKParseResult rootOfSVGTree]
+-[SVGKParseResult setRootOfSVGTree:]
+-[SVGKParseResult namespacesEncountered]
+-[SVGKParseResult setNamespacesEncountered:]
+-[SVGKParseResult warnings]
+-[SVGKParseResult setWarnings:]
+-[SVGKParseResult errorsRecoverable]
+-[SVGKParseResult setErrorsRecoverable:]
+-[SVGKParseResult errorsFatal]
+-[SVGKParseResult setErrorsFatal:]
+-[SVGKParseResult parseProgressFractionApproximate]
+-[SVGKParseResult setParseProgressFractionApproximate:]
+-[SVGKParseResult .cxx_destruct]
+__OBJC_METACLASS_RO_$_SVGKParseResult
+__OBJC_$_INSTANCE_METHODS_SVGKParseResult
+_OBJC_IVAR_$_SVGKParseResult.libXMLFailed
+_OBJC_IVAR_$_SVGKParseResult.parsedDocument
+_OBJC_IVAR_$_SVGKParseResult.rootOfSVGTree
+_OBJC_IVAR_$_SVGKParseResult.namespacesEncountered
+_OBJC_IVAR_$_SVGKParseResult.warnings
+_OBJC_IVAR_$_SVGKParseResult.errorsRecoverable
+_OBJC_IVAR_$_SVGKParseResult.errorsFatal
+_OBJC_IVAR_$_SVGKParseResult._parseProgressFractionApproximate
+__OBJC_$_INSTANCE_VARIABLES_SVGKParseResult
+__OBJC_$_PROP_LIST_SVGKParseResult
+__OBJC_CLASS_RO_$_SVGKParseResult
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/SVGKParseResult.m
+Source/Parsers/SVGKParseResult.m
+Source/Parsers/SVGKParseResult.h
++[SVGKPointsAndPathsParser startingCurve]
++[SVGKPointsAndPathsParser readWhitespace:]
++[SVGKPointsAndPathsParser readCommaAndWhitespace:]
++[SVGKPointsAndPathsParser readMovetoDrawtoCommandGroups:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readMovetoDrawto:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readMoveto:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readMovetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCoordinatePair:]
++[SVGKPointsAndPathsParser readCoordinate:intoFloat:]
++[SVGKPointsAndPathsParser readLinetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readLinetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readQuadraticCurvetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readQuadraticCurvetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readQuadraticCurvetoArgument:path:relativeTo:]
++[SVGKPointsAndPathsParser readSmoothQuadraticCurvetoCommand:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readSmoothQuadraticCurvetoArgumentSequence:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readSmoothQuadraticCurvetoArgument:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readCurvetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCurvetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCurvetoArgument:path:relativeTo:]
++[SVGKPointsAndPathsParser readSmoothCurvetoCommand:path:relativeTo:withPrevCurve:isRelative:]
++[SVGKPointsAndPathsParser readSmoothCurvetoArgumentSequence:path:relativeTo:withPrevCurve:isRelative:]
++[SVGKPointsAndPathsParser readSmoothCurvetoArgument:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readVerticalLinetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readVerticalLinetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readHorizontalLinetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readHorizontalLinetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCloseCommand:path:relativeTo:]
++[SVGKPointsAndPathsParser readEllipticalArcArguments:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readEllipticalArcArgumentsSequence:path:relativeTo:]
+__OBJC_$_CLASS_METHODS_SVGKPointsAndPathsParser
+__OBJC_METACLASS_RO_$_SVGKPointsAndPathsParser
+__OBJC_CLASS_RO_$_SVGKPointsAndPathsParser
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Parsers/SVGKPointsAndPathsParser.m
+Source/Parsers/SVGKPointsAndPathsParser.m
+SVGCurveMakePoint
+SVGCurveReflectedControlPoint
+-[CALayer(RecursiveClone) cloneRecursively]
+-[CALayer(RecursiveClone) cloneShallow]
+-[CALayer(RecursiveClone) cloneOptionallRecurse:]
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_CLASSLIST_REFERENCES_$_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_CLASSLIST_REFERENCES_$_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_SELECTOR_REFERENCES_.253
+__OBJC_$_CATEGORY_INSTANCE_METHODS_CALayer_$_RecursiveClone
+__OBJC_$_CATEGORY_CALayer_$_RecursiveClone
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CALayer+RecursiveClone.m
+Source/QuartzCore additions/CALayer+RecursiveClone.m
+-[SVGGradientLayer renderInContext:]
+-[SVGGradientLayer createCGGradient]
+-[SVGGradientLayer renderLinearGradientInContext:]
+-[SVGGradientLayer renderRadialGradientInContext:]
+-[SVGGradientLayer gradientElement]
+-[SVGGradientLayer setGradientElement:]
+-[SVGGradientLayer objectRect]
+-[SVGGradientLayer setObjectRect:]
+-[SVGGradientLayer viewportRect]
+-[SVGGradientLayer setViewportRect:]
+-[SVGGradientLayer absoluteTransform]
+-[SVGGradientLayer setAbsoluteTransform:]
+-[SVGGradientLayer .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_IVAR_$_SVGGradientLayer._gradientElement
+_OBJC_IVAR_$_SVGGradientLayer._objectRect
+_OBJC_IVAR_$_SVGGradientLayer._viewportRect
+_OBJC_IVAR_$_SVGGradientLayer._absoluteTransform
+__OBJC_METACLASS_RO_$_SVGGradientLayer
+__OBJC_$_INSTANCE_METHODS_SVGGradientLayer
+__OBJC_$_INSTANCE_VARIABLES_SVGGradientLayer
+__OBJC_$_PROP_LIST_SVGGradientLayer
+__OBJC_CLASS_RO_$_SVGGradientLayer
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/SVGGradientLayer.m
+Source/QuartzCore additions/SVGGradientLayer.m
+Source/QuartzCore additions/SVGGradientLayer.h
+-[CALayerWithClipRender renderInContext:]
++[CALayerWithClipRender maskLayer:inContext:]
+__OBJC_$_CLASS_METHODS_CALayerWithClipRender
+__OBJC_METACLASS_RO_$_CALayerWithClipRender
+__OBJC_$_INSTANCE_METHODS_CALayerWithClipRender
+__OBJC_CLASS_RO_$_CALayerWithClipRender
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CALayerWithClipRender.m
+Source/QuartzCore additions/CALayerWithClipRender.m
+-[CAShapeLayerWithClipRender renderInContext:]
+__OBJC_METACLASS_RO_$_CAShapeLayerWithClipRender
+__OBJC_$_INSTANCE_METHODS_CAShapeLayerWithClipRender
+__OBJC_CLASS_RO_$_CAShapeLayerWithClipRender
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CAShapeLayerWithClipRender.m
+Source/QuartzCore additions/CAShapeLayerWithClipRender.m
+-[CALayerWithChildHitTest containsPoint:]
+__OBJC_METACLASS_RO_$_CALayerWithChildHitTest
+__OBJC_$_INSTANCE_METHODS_CALayerWithChildHitTest
+__OBJC_CLASS_RO_$_CALayerWithChildHitTest
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CALayerWithChildHitTest.m
+Source/QuartzCore additions/CALayerWithChildHitTest.m
+-[CAShapeLayerWithHitTest containsPoint:]
+__OBJC_METACLASS_RO_$_CAShapeLayerWithHitTest
+__OBJC_$_INSTANCE_METHODS_CAShapeLayerWithHitTest
+__OBJC_CLASS_RO_$_CAShapeLayerWithHitTest
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CAShapeLayerWithHitTest.m
+Source/QuartzCore additions/CAShapeLayerWithHitTest.m
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CGPathAdditions.m
+CGPathCreateByTranslatingPath
+Source/QuartzCore additions/CGPathAdditions.m
+fixInfinity
+applyPathTranslation
+CGPathCreateByOffsettingPath
+applier
+fixPointsInfinity
++[SVGKLayer layer]
+-[SVGKLayer init]
+-[SVGKLayer setSVGImage:]
+-[SVGKLayer setShowBorder:]
+-[SVGKLayer dealloc]
+-[SVGKLayer SVGImage]
+-[SVGKLayer showBorder]
+-[SVGKLayer startRenderTime]
+-[SVGKLayer setStartRenderTime:]
+-[SVGKLayer endRenderTime]
+-[SVGKLayer setEndRenderTime:]
+-[SVGKLayer .cxx_destruct]
+_OBJC_IVAR_$_SVGKLayer._SVGImage
+_OBJC_IVAR_$_SVGKLayer._showBorder
+_OBJC_IVAR_$_SVGKLayer._startRenderTime
+_OBJC_IVAR_$_SVGKLayer._endRenderTime
+__OBJC_$_CLASS_METHODS_SVGKLayer
+__OBJC_METACLASS_RO_$_SVGKLayer
+__OBJC_$_INSTANCE_METHODS_SVGKLayer
+__OBJC_$_INSTANCE_VARIABLES_SVGKLayer
+__OBJC_$_PROP_LIST_SVGKLayer
+__OBJC_CLASS_RO_$_SVGKLayer
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/SVGKLayer.m
+Source/QuartzCore additions/SVGKLayer.m
+Source/QuartzCore additions/SVGKLayer.h
+-[SVGKImageCacheLine numberOfInstances]
+-[SVGKImageCacheLine setNumberOfInstances:]
+-[SVGKImageCacheLine mainInstance]
+-[SVGKImageCacheLine setMainInstance:]
+-[SVGKImageCacheLine .cxx_destruct]
++[SVGKImage initialize]
++[SVGKImage clearCache]
++[SVGKImage didReceiveMemoryWarningOrBackgroundNotification:]
++[SVGKImage imageNamed:]
++[SVGKImage imageNamed:withCacheKey:]
++[SVGKImage imageNamed:inBundle:]
++[SVGKImage imageNamed:inBundle:withCacheKey:]
++[SVGKImage imageAsynchronouslyNamed:onCompletion:]
++[SVGKImage imageWithSource:onCompletion:]
+___42+[SVGKImage imageWithSource:onCompletion:]_block_invoke
+___copy_helper_block_e8_32s40s56b
+___destroy_helper_block_e8_32s40s56s
++[SVGKImage imageWithContentsOfURL:]
++[SVGKImage imageWithContentsOfFile:]
++[SVGKImage imageParserWithContentsOfFileAsynchronously:onCompletion:]
++[SVGKImage imageWithContentsOfFileAsynchronously:onCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___64+[SVGKImage imageWithContentsOfFileAsynchronously:onCompletion:]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
++[SVGKImage imageWithSource:]
++[SVGKImage imageWithData:]
++[SVGKImage imageParserWithDataAsynchronously:onCompletion:]
++[SVGKImage imageWithDataAsynchronously:onCompletion:]
+___54+[SVGKImage imageWithDataAsynchronously:onCompletion:]_block_invoke
+-[SVGKImage observeValueForKeyPath:ofObject:change:context:]
+-[SVGKImage initWithParsedSVG:fromSource:]
+-[SVGKImage initWithSource:]
+-[SVGKImage initWithContentsOfFile:]
+-[SVGKImage initWithContentsOfURL:]
+-[SVGKImage initWithData:]
+-[SVGKImage dealloc]
+-[SVGKImage hasSize]
+-[SVGKImage size]
+-[SVGKImage setSize:]
+-[SVGKImage setScale:]
+-[SVGKImage UIImage]
+-[SVGKImage drawAtPoint:]
+-[SVGKImage drawAtPoint:blendMode:alpha:]
+-[SVGKImage drawInRect:]
+-[SVGKImage drawInRect:blendMode:alpha:]
+-[SVGKImage drawAsPatternInRect:]
++[SVGKImage animatedImageNamed:duration:]
++[SVGKImage animatedResizableImageNamed:capInsets:duration:]
++[SVGKImage animatedImageWithImages:duration:]
+-[SVGKImage layerWithIdentifier:]
+-[SVGKImage layerWithIdentifier:layer:]
+-[SVGKImage newCopyPositionedAbsoluteLayerWithIdentifier:]
+-[SVGKImage newCopyPositionedAbsoluteOfLayer:]
+-[SVGKImage newCopyPositionedAbsoluteOfLayer:withSubLayers:]
+-[SVGKImage newLayerWithElement:]
+-[SVGKImage newCALayerTree]
+-[SVGKImage CALayerTree]
+-[SVGKImage addSVGLayerTree:withIdentifier:toDictionary:]
+-[SVGKImage dictionaryOfLayers]
+-[SVGKImage scaleToFitInside:]
+-[SVGKImage isElementVisible:]
+-[SVGKImage DOMDocument]
+-[SVGKImage setDOMDocument:]
+-[SVGKImage DOMTree]
+-[SVGKImage setDOMTree:]
+-[SVGKImage setCALayerTree:]
+-[SVGKImage scale]
+-[SVGKImage source]
+-[SVGKImage setSource:]
+-[SVGKImage parseErrorsAndWarnings]
+-[SVGKImage setParseErrorsAndWarnings:]
+-[SVGKImage nameUsedToInstantiate]
+-[SVGKImage setNameUsedToInstantiate:]
+-[SVGKImage internalSizeThatWasSetExplicitlyByUser]
+-[SVGKImage setInternalSizeThatWasSetExplicitlyByUser:]
+-[SVGKImage .cxx_destruct]
+__OBJC_METACLASS_RO_$_SVGKImageCacheLine
+__OBJC_$_INSTANCE_METHODS_SVGKImageCacheLine
+_OBJC_IVAR_$_SVGKImageCacheLine.numberOfInstances
+_OBJC_IVAR_$_SVGKImageCacheLine.mainInstance
+__OBJC_$_INSTANCE_VARIABLES_SVGKImageCacheLine
+__OBJC_$_PROP_LIST_SVGKImageCacheLine
+__OBJC_CLASS_RO_$_SVGKImageCacheLine
+_globalSVGKImageCache
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_CLASSLIST_REFERENCES_$_.73
+___block_descriptor_64_e8_32s40s56bs_e5_v8?0l
+___block_descriptor_48_e8_32s40r_e39_v24?0"SVGKImage"8"SVGKParseResult"16l
+_OBJC_CLASSLIST_REFERENCES_$_.97
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_CLASSLIST_REFERENCES_$_.124
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_CLASSLIST_REFERENCES_$_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_CLASSLIST_REFERENCES_$_.205
+_OBJC_CLASSLIST_REFERENCES_$_.210
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_CLASSLIST_REFERENCES_$_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.306
+_OBJC_SELECTOR_REFERENCES_.308
+__OBJC_$_CLASS_METHODS_SVGKImage
+__OBJC_METACLASS_RO_$_SVGKImage
+__OBJC_$_INSTANCE_METHODS_SVGKImage
+_OBJC_IVAR_$_SVGKImage.DOMDocument
+_OBJC_IVAR_$_SVGKImage.DOMTree
+_OBJC_IVAR_$_SVGKImage.CALayerTree
+_OBJC_IVAR_$_SVGKImage._scale
+_OBJC_IVAR_$_SVGKImage.source
+_OBJC_IVAR_$_SVGKImage.parseErrorsAndWarnings
+_OBJC_IVAR_$_SVGKImage._nameUsedToInstantiate
+_OBJC_IVAR_$_SVGKImage._internalSizeThatWasSetExplicitlyByUser
+__OBJC_$_INSTANCE_VARIABLES_SVGKImage
+__OBJC_$_PROP_LIST_SVGKImage
+__OBJC_CLASS_RO_$_SVGKImage
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/SVGKImage.m
+Source/SVGKImage.m
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__54+[SVGKImage imageWithDataAsynchronously:onCompletion:]_block_invoke
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__64+[SVGKImage imageWithContentsOfFileAsynchronously:onCompletion:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__destroy_helper_block_e8_32s40s56s
+__copy_helper_block_e8_32s40s56b
+__42+[SVGKImage imageWithSource:onCompletion:]_block_invoke
++[SVGKit enableLogging]
+__OBJC_$_CLASS_METHODS_SVGKit
+__OBJC_METACLASS_RO_$_SVGKit
+__OBJC_CLASS_RO_$_SVGKit
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/SVGKit.m
+Source/SVGKit.m
+-[SVGKSource initWithInputSteam:]
+-[SVGKSource initForCopying]
+-[SVGKSource sourceFromRelativePath:]
+-[SVGKSource copyWithZone:]
+-[SVGKSource keyForAppleDictionaries]
+-[SVGKSource svgLanguageVersion]
+-[SVGKSource setSvgLanguageVersion:]
+-[SVGKSource stream]
+-[SVGKSource setStream:]
+-[SVGKSource approximateLengthInBytesOr0]
+-[SVGKSource setApproximateLengthInBytesOr0:]
+-[SVGKSource setKeyForAppleDictionaries:]
+-[SVGKSource .cxx_destruct]
+__OBJC_CLASS_PROTOCOLS_$_SVGKSource
+__OBJC_METACLASS_RO_$_SVGKSource
+__OBJC_$_INSTANCE_METHODS_SVGKSource
+_OBJC_IVAR_$_SVGKSource.svgLanguageVersion
+_OBJC_IVAR_$_SVGKSource.stream
+_OBJC_IVAR_$_SVGKSource._approximateLengthInBytesOr0
+_OBJC_IVAR_$_SVGKSource._keyForAppleDictionaries
+__OBJC_$_INSTANCE_VARIABLES_SVGKSource
+__OBJC_$_PROP_LIST_SVGKSource
+__OBJC_CLASS_RO_$_SVGKSource
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/SVGKSource.m
+Source/SVGKSource.m
+Source/SVGKSource.h
++[NSCharacterSet(SVGKExtensions) SVGWhitespaceCharacterSet]
+___59+[NSCharacterSet(SVGKExtensions) SVGWhitespaceCharacterSet]_block_invoke
+_SVGWhitespaceCharacterSet.sWhitespaceCharacterSet
+_SVGWhitespaceCharacterSet.onceToken
+__OBJC_$_CATEGORY_CLASS_METHODS_NSCharacterSet_$_SVGKExtensions
+__OBJC_$_CATEGORY_NSCharacterSet_$_SVGKExtensions
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Foundation additions/NSCharacterSet+SVGKExtensions.m
+__59+[NSCharacterSet(SVGKExtensions) SVGWhitespaceCharacterSet]_block_invoke
+Source/Foundation additions/NSCharacterSet+SVGKExtensions.m
+-[SVGKFastImageView init]
+-[SVGKFastImageView initWithCoder:]
+-[SVGKFastImageView initWithFrame:]
+-[SVGKFastImageView initWithSVGKImage:]
+-[SVGKFastImageView populateFromImage:]
+-[SVGKFastImageView setImage:]
+-[SVGKFastImageView addInternalRedrawOnResizeObservers]
+-[SVGKFastImageView removeInternalRedrawOnResizeObservers]
+-[SVGKFastImageView setDisableAutoRedrawAtHighestResolution:]
+-[SVGKFastImageView dealloc]
+-[SVGKFastImageView observeValueForKeyPath:ofObject:change:context:]
+-[SVGKFastImageView drawRect:]
+-[SVGKFastImageView image]
+-[SVGKFastImageView tileRatio]
+-[SVGKFastImageView setTileRatio:]
+-[SVGKFastImageView disableAutoRedrawAtHighestResolution]
+-[SVGKFastImageView timeIntervalForLastReRenderOfSVGFromMemory]
+-[SVGKFastImageView setTimeIntervalForLastReRenderOfSVGFromMemory:]
+-[SVGKFastImageView startRenderTime]
+-[SVGKFastImageView setStartRenderTime:]
+-[SVGKFastImageView endRenderTime]
+-[SVGKFastImageView setEndRenderTime:]
+-[SVGKFastImageView didRegisterObservers]
+-[SVGKFastImageView setDidRegisterObservers:]
+-[SVGKFastImageView didRegisterInternalRedrawObservers]
+-[SVGKFastImageView setDidRegisterInternalRedrawObservers:]
+-[SVGKFastImageView .cxx_destruct]
+_OBJC_IVAR_$_SVGKFastImageView.internalContextPointerBecauseApplesDemandsIt
+_OBJC_IVAR_$_SVGKFastImageView._image
+_OBJC_IVAR_$_SVGKFastImageView._disableAutoRedrawAtHighestResolution
+_OBJC_IVAR_$_SVGKFastImageView._tileRatio
+_OBJC_IVAR_$_SVGKFastImageView._timeIntervalForLastReRenderOfSVGFromMemory
+_OBJC_IVAR_$_SVGKFastImageView._startRenderTime
+_OBJC_IVAR_$_SVGKFastImageView._endRenderTime
+_OBJC_IVAR_$_SVGKFastImageView._didRegisterObservers
+_OBJC_IVAR_$_SVGKFastImageView._didRegisterInternalRedrawObservers
+__OBJC_METACLASS_RO_$_SVGKFastImageView
+__OBJC_$_INSTANCE_METHODS_SVGKFastImageView
+__OBJC_$_INSTANCE_VARIABLES_SVGKFastImageView
+__OBJC_$_PROP_LIST_SVGKFastImageView
+__OBJC_CLASS_RO_$_SVGKFastImageView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/ImageViews/SVGKFastImageView.m
+Source/ImageViews/SVGKFastImageView.m
+-[SVGKImageView init]
+-[SVGKImageView initWithFrame:]
+-[SVGKImageView initWithCoder:]
+-[SVGKImageView initWithSVGKImage:]
+-[SVGKImageView intrinsicContentSize]
+-[SVGKImageView image]
+-[SVGKImageView setImage:]
+-[SVGKImageView showBorder]
+-[SVGKImageView setShowBorder:]
+-[SVGKImageView timeIntervalForLastReRenderOfSVGFromMemory]
+-[SVGKImageView .cxx_destruct]
+_OBJC_IVAR_$_SVGKImageView._image
+_OBJC_IVAR_$_SVGKImageView._showBorder
+_OBJC_IVAR_$_SVGKImageView._timeIntervalForLastReRenderOfSVGFromMemory
+__OBJC_METACLASS_RO_$_SVGKImageView
+__OBJC_$_INSTANCE_METHODS_SVGKImageView
+__OBJC_$_INSTANCE_VARIABLES_SVGKImageView
+__OBJC_$_PROP_LIST_SVGKImageView
+__OBJC_CLASS_RO_$_SVGKImageView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/ImageViews/SVGKImageView.m
+Source/ImageViews/SVGKImageView.m
+Source/ImageViews/SVGKImageView.h
++[SVGKLayeredImageView layerClass]
+-[SVGKLayeredImageView init]
+-[SVGKLayeredImageView initWithCoder:]
+-[SVGKLayeredImageView initWithFrame:]
+-[SVGKLayeredImageView initWithSVGKImage:]
+-[SVGKLayeredImageView populateFromImage:]
+-[SVGKLayeredImageView image]
+-[SVGKLayeredImageView setImage:]
+-[SVGKLayeredImageView showBorder]
+-[SVGKLayeredImageView setShowBorder:]
+-[SVGKLayeredImageView timeIntervalForLastReRenderOfSVGFromMemory]
+-[SVGKLayeredImageView internalBorderLayer]
+-[SVGKLayeredImageView setInternalBorderLayer:]
+-[SVGKLayeredImageView .cxx_destruct]
+_OBJC_IVAR_$_SVGKLayeredImageView._internalBorderLayer
+__OBJC_$_CLASS_METHODS_SVGKLayeredImageView
+__OBJC_METACLASS_RO_$_SVGKLayeredImageView
+__OBJC_$_INSTANCE_METHODS_SVGKLayeredImageView
+__OBJC_$_INSTANCE_VARIABLES_SVGKLayeredImageView
+__OBJC_$_PROP_LIST_SVGKLayeredImageView
+__OBJC_CLASS_RO_$_SVGKLayeredImageView
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/ImageViews/SVGKLayeredImageView.m
+Source/ImageViews/SVGKLayeredImageView.m
++[NSData(NSInputStream) dataWithContentsOfStream:initialCapacity:error:]
+__OBJC_$_CATEGORY_CLASS_METHODS_NSData_$_NSInputStream
+__OBJC_$_CATEGORY_NSData_$_NSInputStream
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Foundation additions/NSData+NSInputStream.m
+Source/Foundation additions/NSData+NSInputStream.m
++[SVGKPattern patternWithColor:]
++[SVGKPattern patternWithImage:]
+-[SVGKPattern CGColor]
+-[SVGKPattern color]
+-[SVGKPattern setColor:]
+-[SVGKPattern .cxx_destruct]
+__OBJC_$_CLASS_METHODS_SVGKPattern
+__OBJC_METACLASS_RO_$_SVGKPattern
+__OBJC_$_INSTANCE_METHODS_SVGKPattern
+_OBJC_IVAR_$_SVGKPattern.color
+__OBJC_$_INSTANCE_VARIABLES_SVGKPattern
+__OBJC_$_PROP_LIST_SVGKPattern
+__OBJC_CLASS_RO_$_SVGKPattern
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Utils/SVGKPattern.m
+Source/Utils/SVGKPattern.m
+_gColorNames
+_gColorValues
+_createPathFromPointsInString.x
+_createPathFromPointsInString.y
+/Users/oliveroeh/Documents/GitRepository/NC-Branding-iOS-MindFabrikTest-3.0.11/Carthage/Checkouts/SVGKit/Source/Utils/SVGUtils.m
+CGColorWithSVGColor
+Source/Utils/SVGUtils.m
+createPathFromPointsInString
+SVGPercentageFromString
+SVGColorFromString
+SVGColorMake
+ColorValueWithName
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -mlinker-version=609
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk
+iPhoneOS14.0.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

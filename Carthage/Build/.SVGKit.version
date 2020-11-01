@@ -1,0 +1,10 @@
+{
+  "commitish" : "df9e52a2f501a22dd2636088b24d40eeec8a10a1",
+  "iOS" : [
+    {
+      "name" : "SVGKit",
+      "hash" : "72c5922bd847dfdf5b8acca805573f39669009896ba191a12487f6ddfc0578e9",
+      "linking" : "dynamic"
+    }
+  ]
+}

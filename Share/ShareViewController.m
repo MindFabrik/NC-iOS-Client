@@ -3,9 +3,9 @@
 //  Nextcloud iOS
 //
 //  Created by Marino Faggiana on 26/01/16.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2016 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@
 
 @import MobileCoreServices;
 
-@interface ShareViewController ()
+@interface ShareViewController () <NCSelectDestinationDelegate>
 {
     NSURL *dirGroup;
     NSUInteger totalSize;
@@ -35,6 +35,10 @@
     
     UIColor *barTintColor;
     UIColor *tintColor;
+    
+    NSString *fileNameOriginal;
+    
+    UIBarButtonItem *rightButtonUpload, *leftButtonCancel;
 }
 @end
 
@@ -46,9 +50,9 @@
 
 -(void)viewDidLoad
 {
-    tableAccount *recordAccount = [[NCManageDatabase sharedInstance] getAccountActive];
+    tableAccount *tableAccount = [[NCManageDatabase sharedInstance] getAccountActive];
     
-    if (recordAccount == nil) {
+    if (tableAccount == nil) {
         
         // close now
         [self performSelector:@selector(closeShareViewController) withObject:nil afterDelay:0.1];
@@ -57,14 +61,16 @@
         
     } else {
         
-        _activeAccount = recordAccount.account;
-        _activePassword = recordAccount.password;
-        _activeUrl = recordAccount.url;
-        _activeUser = recordAccount.user;
-        _activeUserID = recordAccount.userID;
-        _directoryUser = [CCUtility getDirectoryActiveUser:self.activeUser activeUrl:self.activeUrl];
+        NSInteger serverVersionMajor = [[NCManageDatabase sharedInstance] getCapabilitiesServerIntWithAccount:tableAccount.account elements:NCElementsJSON.shared.capabilitiesVersionMajor];
+        NSString *webDav = [[NCUtility shared] getWebDAVWithAccount:tableAccount.account];
         
-        if ([_activeAccount isEqualToString:[CCUtility getActiveAccountExt]]) {
+        // Networking
+        [[NCCommunicationCommon shared] setupWithAccount:tableAccount.account user:tableAccount.user userId:tableAccount.userID password:[CCUtility getPassword:tableAccount.account] urlBase:tableAccount.urlBase userAgent:[CCUtility getUserAgent] webDav:webDav dav:nil nextcloudVersion:serverVersionMajor delegate:[NCNetworking shared]];
+       
+        _account = tableAccount.account;
+        _urlBase = tableAccount.urlBase;
+        
+        if ([_account isEqualToString:[CCUtility getAccountExt]]) {
             
             // load
             
@@ -76,27 +82,20 @@
             
             // Default settings
             
-            [CCUtility setActiveAccountExt:self.activeAccount];
+            [CCUtility setAccountExt:self.account];
 
-            _serverUrl  = [CCUtility getHomeServerUrlActiveUrl:self.activeUrl];
+            _serverUrl  = [[NCUtility shared] getHomeServerWithUrlBase:tableAccount.urlBase account:tableAccount.account];
             [CCUtility setServerUrlExt:_serverUrl];
 
             _destinyFolderButton.title = [NSString stringWithFormat:NSLocalizedString(@"_destiny_folder_", nil), NSLocalizedString(@"_home_", nil)];
             [CCUtility setTitleServerUrlExt:NSLocalizedString(@"_home_", nil)];
         }
     }
-
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(triggerProgressTask:) name:@"NotificationProgressTask" object:nil];
     
-    _filesName = [[NSMutableArray alloc] init];
-    _hud = [[CCHud alloc] initWithView:self.navigationController.view];
+    self.filesName = [[NSMutableArray alloc] init];
     
-    _networkingOperationQueue = [NSOperationQueue new];
-    _networkingOperationQueue.name = k_queue;
-    _networkingOperationQueue.maxConcurrentOperationCount = 1;
+    self.hud = [[CCHud alloc] initWithView:self.navigationController.view];
     
-    [CCNetworking sharedNetworking].delegate = self;
-        
     [self.shareTable registerNib:[UINib nibWithNibName:@"CCCellShareExt" bundle:nil] forCellReuseIdentifier:@"ShareExtCell"];
     
     [self navigationBarToolBar];
@@ -104,35 +103,70 @@
     [self loadDataSwift];
 }
 
-// Apparirà
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    // BUGFIX 2.17 - Change user Nextcloud App
-    [[CCNetworking sharedNetworking] settingAccount];
-    
-    if ([[CCUtility getBlockCode] length] > 0 && [CCUtility getOnlyLockDir] == NO)
-        [self openBKPasscode];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+        
+    self.view.backgroundColor = NCBrandColor.sharedInstance.backgroundView;
+    self.shareTable.backgroundColor = NCBrandColor.sharedInstance.backgroundView;
 }
 
 - (void)closeShareViewController
 {
-    [self.extensionContext completeRequestReturningItems:@[] completionHandler:nil];
+    [self.extensionContext completeRequestReturningItems:self.extensionContext.inputItems completionHandler:nil];
 }
 
-//
-// L'applicazione terminerà
-//
 - (void)applicationWillTerminate:(UIApplication *)application
-{    
+{
     NSLog(@"[LOG] bye bye, Nextcloud Share Extension!");
+}
+
+#pragma --------------------------------------------------------------------------------------------
+#pragma mark == TextField Delegate ==
+#pragma --------------------------------------------------------------------------------------------
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    rightButtonUpload.enabled = false;
+    fileNameOriginal = textField.text;
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    rightButtonUpload.enabled = true;
+    NSInteger index = [self.filesName indexOfObject:fileNameOriginal];
+    if (index != NSNotFound) {
+        self.filesName[index] = textField.text;
+    }
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSError *error;
+    
+    if ([string isEqualToString:@"\n"]) {
+        
+        //NSString *fileName = [textField.text stringByDeletingPathExtension];
+        NSString *ext = [textField.text pathExtension];
+
+        if (![ext isEqualToString:@""]) {
+            NSString *fileNameAtPath = [NSTemporaryDirectory() stringByAppendingString:fileNameOriginal];
+            NSString *fileNameToPath = [NSTemporaryDirectory() stringByAppendingString:textField.text];
+            
+            [[NSFileManager defaultManager] moveItemAtPath:fileNameAtPath toPath:fileNameToPath error:&error];
+            
+            if (error != nil) {
+                textField.text = fileNameOriginal;
+            }
+        } else {
+            textField.text = fileNameOriginal;
+        }
+        
+        [textField endEditing:true];
+        return false;
+    }
+    
+    return true;
 }
 
 #pragma --------------------------------------------------------------------------------------------
@@ -140,19 +174,19 @@
 #pragma --------------------------------------------------------------------------------------------
 
 - (void)navigationBarToolBar
-{    
-    UIBarButtonItem *rightButtonUpload, *leftButtonCancel;
-
+{
     // Theming
     if ([NCBrandOptions sharedInstance].use_themingColor) {
-        tableCapabilities *capabilities = [[NCManageDatabase sharedInstance] getCapabilites];
-        [CCGraphics settingThemingColor:capabilities.themingColor themingColorElement:capabilities.themingColorElement themingColorText:capabilities.themingColorText];
+        NSString *themingColor = [[NCManageDatabase sharedInstance] getCapabilitiesServerStringWithAccount:self.account elements:NCElementsJSON.shared.capabilitiesThemingColor];
+        NSString *themingColorElement = [[NCManageDatabase sharedInstance] getCapabilitiesServerStringWithAccount:self.account elements:NCElementsJSON.shared.capabilitiesThemingColorElement];
+        NSString *themingColorText = [[NCManageDatabase sharedInstance] getCapabilitiesServerStringWithAccount:self.account elements:NCElementsJSON.shared.capabilitiesThemingColorText];
+        [CCGraphics settingThemingColor:themingColor themingColorElement:themingColorElement themingColorText:themingColorText];
     }
-    self.navigationController.navigationBar.barTintColor = [NCBrandColor sharedInstance].brand;
-    self.navigationController.navigationBar.tintColor = [NCBrandColor sharedInstance].brandText;
+    self.navigationController.navigationBar.barTintColor = NCBrandColor.sharedInstance.brand;
+    self.navigationController.navigationBar.tintColor = NCBrandColor.sharedInstance.brandText;
     
-    self.toolBar.barTintColor = [NCBrandColor sharedInstance].tabBar;
-    self.toolBar.tintColor = [NCBrandColor sharedInstance].brandElement;
+    self.toolBar.barTintColor = NCBrandColor.sharedInstance.tabBar;
+    self.toolBar.tintColor = [UIColor grayColor];
     
     // Upload
     rightButtonUpload = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"_save_", nil) style:UIBarButtonItemStylePlain target:self action:@selector(selectPost)];
@@ -169,10 +203,10 @@
     self.navigationItem.hidesBackButton = YES;
 }
 
-- (void)moveServerUrlTo:(NSString *)serverUrlTo title:(NSString *)title
+- (void)moveServerUrlTo:(NSString *)serverUrlTo title:(NSString *)title type:(NSString *)type
 {
     // DENIED e2e
-    if ([CCUtility isFolderEncrypted:serverUrlTo account:self.activeAccount]) {
+    if ([CCUtility isFolderEncrypted:serverUrlTo e2eEncrypted:false account:self.account urlBase:self.urlBase]) {
         return;
     }
     
@@ -187,22 +221,21 @@
         [CCUtility setTitleServerUrlExt:NSLocalizedString(@"_home_", nil)];
     }
     
-    [CCUtility setActiveAccountExt:self.activeAccount];
+    [CCUtility setAccountExt:self.account];
     [CCUtility setServerUrlExt:_serverUrl];
 }
 
 - (IBAction)destinyFolderButtonTapped:(UIBarButtonItem *)sender
 {
-    UINavigationController* navigationController = [[UIStoryboard storyboardWithName:@"CCMove" bundle:nil] instantiateViewControllerWithIdentifier:@"CCMove"];
+    UINavigationController* navigationController = [[UIStoryboard storyboardWithName:@"NCSelectDestination" bundle:nil] instantiateInitialViewController];
     
-    CCMove *viewController = (CCMove *)navigationController.topViewController;
+    NCSelectDestination *viewController = (NCSelectDestination *)navigationController.topViewController;
     
     viewController.delegate = self;
     viewController.move.title = NSLocalizedString(@"_select_", nil);
     viewController.tintColor = tintColor;
     viewController.barTintColor = barTintColor;
     viewController.tintColorTitle = tintColor;
-    viewController.networkingOperationQueue = _networkingOperationQueue;
     // E2EE
     viewController.includeDirectoryE2EEncryption = NO;
 
@@ -214,14 +247,71 @@
 {
     if ([self.filesName count] > 0) {
     
+        [self.hud visibleHudTitle:NSLocalizedString(@"_uploading_", nil) mode:MBProgressHUDModeDeterminate color:NCBrandColor.sharedInstance.brandElement];
+        
         NSString *fileName = [self.filesName objectAtIndex:0];
+        NSString *fileNameLocal = [NSTemporaryDirectory() stringByAppendingString:fileName];
+
+        // CONVERSION -->
         
-        [[CCNetworking sharedNetworking] uploadFile:fileName serverUrl:_serverUrl session:k_upload_session_foreground taskStatus:k_taskStatusResume selector:@"" selectorPost:@"" errorCode:0 delegate:self];
+        if ([fileName.pathExtension.uppercaseString isEqualToString:@"HEIC"] && [CCUtility getFormatCompatibility]) {
+            UIImage *image = [UIImage imageWithContentsOfFile:fileNameLocal];
+            if (image != nil) {
+                fileName = fileName.stringByDeletingPathExtension;
+                fileName = [NSString stringWithFormat:@"%@.jpg", fileName];
+                [self.filesName replaceObjectAtIndex:0 withObject:fileName];
+                fileNameLocal = [NSTemporaryDirectory() stringByAppendingString:fileName];
+                [UIImageJPEGRepresentation(image, 1.0) writeToFile:fileNameLocal atomically:YES];
+                
+                [self.shareTable reloadData];
+            }
+        }
         
-        [self.hud visibleHudTitle:NSLocalizedString(@"_uploading_", nil) mode:MBProgressHUDModeDeterminate color:[NCBrandColor sharedInstance].brandElement];
-    }
-    else
+        // <--
+        
+        NSString *fileNameForUpload = [[NCUtility shared] createFileName:fileName serverUrl:self.serverUrl account:self.account];
+        NSString *fileNameServer = [NSString stringWithFormat:@"%@/%@", self.serverUrl, fileNameForUpload];
+        
+        [[NCCommunication shared] uploadWithServerUrlFileName:fileNameServer fileNameLocalPath:fileNameLocal dateCreationFile:nil dateModificationFile:nil customUserAgent:nil addCustomHeaders:nil progressHandler:^(NSProgress * progress) {
+            [self.hud progress:progress.fractionCompleted];
+        } completionHandler:^(NSString *account, NSString *ocId, NSString *etag, NSDate *date, int64_t size, NSInteger errorCode, NSString *errorDescription) {
+            [self.hud hideHud];
+            [self.filesName removeObject:fileName];
+           
+            if (errorCode == 0) {
+               
+                [CCUtility copyFileAtPath:fileNameLocal toPath:[CCUtility getDirectoryProviderStorageOcId:ocId fileNameView:fileNameForUpload]];
+               
+                tableMetadata *metadata = [[NCManageDatabase sharedInstance] createMetadataWithAccount:self.account fileName:fileNameForUpload ocId:ocId serverUrl:self.serverUrl urlBase:self.urlBase url:@"" contentType:@"" livePhoto:false];
+                               
+                metadata.date = date;
+                metadata.etag = etag;
+                metadata.serverUrl = self.serverUrl;
+                metadata.size = size;
+                
+                [[NCManageDatabase sharedInstance] addMetadata:metadata];
+                [[NCManageDatabase sharedInstance] addLocalFileWithMetadata:metadata];
+               
+                [self.shareTable performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:NO];
+                [self performSelector:@selector(selectPost) withObject:nil];
+               
+            } else {
+               
+                UIAlertController * alert= [UIAlertController alertControllerWithTitle:NSLocalizedString(@"_error_", nil) message: errorDescription preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction* ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {
+                   [alert dismissViewControllerAnimated:YES completion:nil];
+                   [self closeShareViewController];
+                }];
+                [alert addAction:ok];
+                [self presentViewController:alert animated:YES completion:nil];
+            }
+        }];
+        
+    } else {
+        
         [self closeShareViewController];
+    }
 }
 
 - (void)cancelPost
@@ -229,136 +319,10 @@
     // rimuoviamo i file+ico
     for (NSString *fileName in self.filesName) {
         
-        [[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@/%@", self.directoryUser, fileName] error:nil];
-        [[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@/%@.ico", self.directoryUser, fileName] error:nil];
+        [[NSFileManager defaultManager] removeItemAtPath:[NSTemporaryDirectory() stringByAppendingString:fileName] error:nil];
     }
     
     [self closeShareViewController];
-}
-
-#pragma --------------------------------------------------------------------------------------------
-#pragma mark ======================= NetWorking ==================================
-#pragma --------------------------------------------------------------------------------------------
-
-- (void)triggerProgressTask:(NSNotification *)notification
-{
-    NSDictionary *dict = notification.userInfo;
-    float progress = [[dict valueForKey:@"progress"] floatValue];
-
-    [self.hud progress:progress];
-}
-
-- (void)uploadFileSuccessFailure:(NSString *)fileName fileID:(NSString *)fileID assetLocalIdentifier:(NSString *)assetLocalIdentifier serverUrl:(NSString *)serverUrl selector:(NSString *)selector selectorPost:(NSString *)selectorPost errorMessage:(NSString *)errorMessage errorCode:(NSInteger)errorCode
-{
-    [self.hud hideHud];
-
-    if (errorCode == 0) {
-        
-        tableMetadata *metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"fileID = %@", fileID]];
-        
-        [self.filesName removeObject:metadata.fileName];
-        [self.shareTable performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:NO];
-        
-        [self performSelector:@selector(selectPost) withObject:nil afterDelay:0.1];
-        
-    } else {
-        
-        // remove file
-        [[NCManageDatabase sharedInstance] deleteMetadataWithPredicate:[NSPredicate predicateWithFormat:@"fileID = %@", fileID] clearDateReadDirectoryID:nil];
-        
-        [[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@/%@", _directoryUser, fileID] error:nil];
-        [[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@/%@.ico", _directoryUser, fileID] error:nil];
-        
-        // message error
-        if (errorCode != kCFURLErrorCancelled) {
-            
-            UIAlertController * alert= [UIAlertController alertControllerWithTitle:NSLocalizedString(@"_error_", nil) message:errorMessage preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction* ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                       handler:^(UIAlertAction * action) {
-                                                           [alert dismissViewControllerAnimated:YES completion:nil];
-                                                           [self closeShareViewController];
-                                                       }];
-            [alert addAction:ok];
-            [self presentViewController:alert animated:YES completion:nil];
-        }
-        else
-            [self closeShareViewController];
-    }
-}
-
-- (void)addNetworkingQueue:(CCMetadataNet *)metadataNet
-{
-    id operation;
-   
-    operation = [[OCnetworking alloc] initWithDelegate:self metadataNet:metadataNet withUser:_activeUser withUserID:_activeUserID withPassword:_activePassword withUrl:_activeUrl];
-    
-    [operation setQueuePriority:metadataNet.priority];
-    
-    [_networkingOperationQueue addOperation:operation];
-}
-
-#pragma --------------------------------------------------------------------------------------------
-#pragma mark ===== Lock Password =====
-#pragma --------------------------------------------------------------------------------------------
-
-- (void)openBKPasscode
-{
-    CCBKPasscode *viewController = [[CCBKPasscode alloc] initWithNibName:nil bundle:nil];
-    viewController.delegate = self;
-    viewController.type = BKPasscodeViewControllerCheckPasscodeType;
-    viewController.inputViewTitlePassword = YES;
-    
-    if ([CCUtility getSimplyBlockCode]) {
-        
-        viewController.passcodeStyle = BKPasscodeInputViewNumericPasscodeStyle;
-        viewController.passcodeInputView.maximumLength = 6;
-        
-    } else {
-        
-        viewController.passcodeStyle = BKPasscodeInputViewNormalPasscodeStyle;
-        viewController.passcodeInputView.maximumLength = 64;
-    }
-    
-    BKTouchIDManager *touchIDManager = [[BKTouchIDManager alloc] initWithKeychainServiceName:k_serviceShareKeyChain];
-    touchIDManager.promptText = NSLocalizedString(@"_scan_fingerprint_", nil);
-    viewController.touchIDManager = touchIDManager;
-    viewController.title = [NCBrandOptions sharedInstance].brand;
-    viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(passcodeViewCloseButtonPressed:)];
-    viewController.navigationItem.leftBarButtonItem.tintColor = [UIColor blackColor];
-    
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    [self presentViewController:navController animated:YES completion:nil];
-}
-
-- (NSUInteger)passcodeViewControllerNumberOfFailedAttempts:(CCBKPasscode *)aViewController
-{
-    return self.failedAttempts;
-}
-
-- (NSDate *)passcodeViewControllerLockUntilDate:(CCBKPasscode *)aViewController
-{
-    return self.lockUntilDate;
-}
-
-- (void)passcodeViewCloseButtonPressed:(id)sender
-{
-    [self dismissViewControllerAnimated:YES completion:^{
-        [self performSelector:@selector(closeShareViewController) withObject:nil];
-    }];
-}
-
-- (void)passcodeViewController:(CCBKPasscode *)aViewController authenticatePasscode:(NSString *)aPasscode resultHandler:(void (^)(BOOL))aResultHandler
-{
-    if ([aPasscode isEqualToString:[CCUtility getBlockCode]]) {
-        self.lockUntilDate = nil;
-        self.failedAttempts = 0;
-        aResultHandler(YES);
-    } else aResultHandler(NO);
-}
-
-- (void)passcodeViewController:(CCBKPasscode *)aViewController didFinishWithPasscode:(NSString *)aPasscode
-{
-    [aViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma --------------------------------------------------------------------------------------------
@@ -371,8 +335,7 @@
     
     NSString *fileName = [self.filesName objectAtIndex:indexPath.row];
     
-    [[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@/%@", self.directoryUser, fileName] error:nil];
-    [[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@/%@.ico", self.directoryUser, fileName] error:nil];
+    [[NSFileManager defaultManager] removeItemAtPath:[NSTemporaryDirectory() stringByAppendingString:fileName] error:nil];
 
     [self.filesName removeObjectAtIndex:indexPath.row];
     
@@ -388,7 +351,7 @@
 {
     CCloadItemData *loadItem = [[CCloadItemData alloc] init];
     
-    [loadItem loadFiles:self.directoryUser extensionContext:self.extensionContext vc:self];
+    [loadItem loadFiles:NSTemporaryDirectory() extensionContext:self.extensionContext vc:self];
 }
 
 - (void)reloadData:(NSArray *)files
@@ -397,22 +360,8 @@
 
     for (NSString *file in files) {
         
-        NSUInteger fileSize = (NSInteger)[[[NSFileManager defaultManager] attributesOfItemAtPath:[NSString stringWithFormat:@"%@/%@", self.directoryUser, file] error:nil] fileSize];
-        
+        NSUInteger fileSize = (NSInteger)[[[NSFileManager defaultManager] attributesOfItemAtPath:[NSTemporaryDirectory() stringByAppendingString:file] error:nil] fileSize];
         totalSize += fileSize;
-        
-        // creiamo l'ICO
-        CFStringRef fileExtension = (__bridge CFStringRef)[file pathExtension];
-        CFStringRef fileUTI = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, fileExtension, NULL);
-        
-        if (fileSize > 0 && ((UTTypeConformsTo(fileUTI, kUTTypeImage)) || (UTTypeConformsTo(fileUTI, kUTTypeMovie)))) {
-            
-            NSString *typeFile;
-            if (UTTypeConformsTo(fileUTI, kUTTypeImage)) typeFile = k_metadataTypeFile_image;
-            if (UTTypeConformsTo(fileUTI, kUTTypeMovie)) typeFile = k_metadataTypeFile_video;
-            
-            [CCGraphics createNewImageFrom:file directoryUser:self.directoryUser fileNameTo:file extension:nil size:@"m" imageForUpload:NO typeFile:typeFile writePreview:YES optimizedFileName:NO];
-        }
     }
     
     if (totalSize > 0) {
@@ -446,15 +395,21 @@
     NSString *fileName = [self.filesName objectAtIndex:indexPath.row];
     UIImage *image = nil;
     
+    CCCellShareExt *cell = (CCCellShareExt *)[tableView dequeueReusableCellWithIdentifier:@"ShareExtCell" forIndexPath:indexPath];
+
     CFStringRef fileExtension = (__bridge CFStringRef)[fileName pathExtension];
     CFStringRef fileUTI = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, fileExtension, NULL);
 
     if (UTTypeConformsTo(fileUTI, kUTTypeZipArchive) && [(__bridge NSString *)fileUTI containsString:@"org.openxmlformats"] == NO) image = [UIImage imageNamed:@"file_compress"];
     else if (UTTypeConformsTo(fileUTI, kUTTypeAudio)) image = [UIImage imageNamed:@"file_audio"];
-    else if ((UTTypeConformsTo(fileUTI, kUTTypeImage)) || (UTTypeConformsTo(fileUTI, kUTTypeMovie))) {
-        
-        image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@.ico", self.directoryUser, fileName]];
-        
+    else if (UTTypeConformsTo(fileUTI, kUTTypeMovie)) image = [UIImage imageNamed:@"file_movie"];
+    else if (UTTypeConformsTo(fileUTI, kUTTypeImage)) {
+        image = [UIImage imageWithContentsOfFile:[NSTemporaryDirectory() stringByAppendingString:fileName]];
+        if (image) {
+            image = [NCUtility.shared resizeImageWithImage:image toHeight:cell.frame.size.width];
+        } else {
+            image = [UIImage imageNamed:@"file_photo"];
+        }
     }
     else if (UTTypeConformsTo(fileUTI, kUTTypeContent)) {
         
@@ -468,14 +423,16 @@
     }
     else image = [UIImage imageNamed:@"file"];
     
-    CCCellShareExt *cell = (CCCellShareExt *)[tableView dequeueReusableCellWithIdentifier:@"ShareExtCell" forIndexPath:indexPath];
+    NSUInteger fileSize = (NSInteger)[[[NSFileManager defaultManager] attributesOfItemAtPath:[NSTemporaryDirectory() stringByAppendingString:fileName] error:nil] fileSize];
     
-    NSUInteger fileSize = (NSInteger)[[[NSFileManager defaultManager] attributesOfItemAtPath:[NSString stringWithFormat:@"%@/%@", self.directoryUser, fileName] error:nil] fileSize];
-    
-    cell.labelInformazioni.text = [NSString stringWithFormat:@"%@\r\r%@", fileName, [CCUtility transformedSize:fileSize]];
-    cell.labelInformazioni.textColor = [UIColor blackColor];
-
     cell.fileImageView.image = image;
+
+    cell.fileName.text = fileName;
+    cell.fileName.textColor = NCBrandColor.sharedInstance.textView;
+    cell.fileName.delegate = self;
+    
+    cell.info.text = [CCUtility transformedSize:fileSize];
+    cell.info.textColor = NCBrandColor.sharedInstance.textView;
     
     return cell;
 }

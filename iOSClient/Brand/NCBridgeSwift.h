@@ -1,11 +1,11 @@
 //
 //  NCBridgeSwift.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 11/05/17.
-//  Copyright © 2017 TWS. All rights reserved.
+//  Copyright © 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -29,28 +29,20 @@
 // to     : brand-Swift.h
 //
 #if !defined(EXTENSION)
-
-    #import "Nextcloud-Swift.h"
-
+#import "Nextcloud-Swift.h"
 #endif
 
-// Nextcloud Extension Share
+// Nextcloud Share
 #if defined(EXTENSION_SHARE)
-
-    #import "Share-Swift.h"
-
+#import "Share-Swift.h"
 #endif
 
-// Nextcloud Extension Document Provider Picker
-#if defined(EXTENSION_PICKER)
-
-    #import "Picker-Swift.h"
-
+// Nextcloud File Provider Extension
+#if defined(EXTENSION_FILE_PROVIDER_EXTENSION)
+#import "File_Provider_Extension-Swift.h"
 #endif
 
-// Nextcloud Extension Document Provider Picker File Provider
-#if defined(EXTENSION_PICKER_FILE_PROVIDER)
-
-    #import "PickerFileProvider-Swift.h"
-
+// Nextcloud Notification Service Extension
+#if defined(EXTENSION_NOTIFICATION_SERVICE)
+#import "Notification_Service_Extension-Swift.h"
 #endif

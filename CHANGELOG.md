@@ -5,7 +5,174 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-### [2.20.6] - 2018-xx-xx
+
+## [3.0.11] - 2020-10-22
+- See https://github.com/nextcloud/ios/releases/tag/3.0.11
+
+## [3.0.10] - 2020-10-17
+- See https://github.com/nextcloud/ios/releases/tag/3.0.10
+
+## [3.0.8] - 2020-09-28
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.8
+
+## [3.0.7] - 2020-09-25
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.7
+
+## [3.0.6] - 2020-08-26
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.6
+
+## [3.0.5] - 2020-08-20
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.5
+
+## [3.0.4] - 2020-08-13
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.4
+
+## [3.0.3] - 2020-08-06
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.3
+
+## [3.0.2] - 2020-07-29
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.2
+
+## [3.0.1] - 2020-07-09
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.1
+
+## [3.0.0] - 2020-06-19
+- See https://github.com/nextcloud/ios/releases/tag/v3.0.0
+
+## [2.25.9] - 2020-02-19
+- See https://github.com/nextcloud/ios/milestone/67
+
+## [2.25.8] - 2020-02-14
+- See https://github.com/nextcloud/ios/milestone/66
+
+## [2.25.7] - 2020-02-12
+- See https://github.com/nextcloud/ios/milestone/65
+
+## [2.25.6] - 2020-02-07
+- See https://github.com/nextcloud/ios/milestone/64
+
+## [2.25.5] - 2020-01-26
+- See https://github.com/nextcloud/ios/milestone/63
+
+## [2.25.4] - 2020-01-24
+- See https://github.com/nextcloud/ios/milestone/62
+
+## [2.25.3] - 2019-12-24
+- See https://github.com/nextcloud/ios/milestone/61
+
+## [2.25.2] - 2019-12-15
+- See https://github.com/nextcloud/ios/milestone/60
+
+## [2.25.1] - 2019-12-08
+- See https://github.com/nextcloud/ios/milestone/59
+
+## [2.25.0] - 2019-11-20
+- See https://github.com/nextcloud/ios/milestone/58
+
+## [2.24.4] - 2019-11-03
+- See https://github.com/nextcloud/ios/milestone/57
+
+## [2.24.3] - 2019-10-15
+- See https://github.com/nextcloud/ios/milestone/56
+
+## [2.24.2] - 2019-10-09
+- See https://github.com/nextcloud/ios/milestone/55
+
+## [2.24.1] - 2019-09-20
+- See https://github.com/nextcloud/ios/milestone/54
+
+## [2.24.0] - 2019-09-19
+- See https://github.com/nextcloud/ios/milestone/52
+
+## [2.23.8] - 2019-08-17
+- See https://github.com/nextcloud/ios/milestone/53
+
+## [2.23.7] - 2019-06-11
+- See https://github.com/nextcloud/ios/milestone/51
+
+## [2.23.6] - 2019-05-22
+- See https://github.com/nextcloud/ios/milestone/50
+
+## [2.23.5] - 2019-04-30
+- See https://github.com/nextcloud/ios/milestone/49
+
+## [2.23.4] - 2019-04-28
+- See https://github.com/nextcloud/ios/milestone/48
+
+## [2.23.3] - 2019-04-3
+- See https://github.com/nextcloud/ios/milestone/47
+
+## [2.23.2] - 2019-03-19
+- See https://github.com/nextcloud/ios/milestone/46
+
+## [2.23.1] - 2019-03-1
+- See https://github.com/nextcloud/ios/milestone/46
+
+## [2.23.0] - 2019-02-18
+- See https://github.com/nextcloud/ios/milestone/45
+
+## [2.22.9] - 2019-02-14
+- See https://github.com/nextcloud/ios/milestone/44
+
+## [2.22.8] - 2019-01-17
+- See https://github.com/nextcloud/ios/milestone/43
+
+## [2.22.7] - 2018-12-17
+- See https://github.com/nextcloud/ios/milestone/42
+
+## [2.22.6] - 2018-12-5
+- See https://github.com/nextcloud/ios/milestone/41
+- View and actions of trash bin
+
+## [2.22.5] - 2018-10-24
+- See https://github.com/nextcloud/ios/milestone/40
+
+### Fixed
+- Fix of feature "Most Compatible" for HEIC/JPEG
+- Fix design issues
+
+### Added
+- Improvements for scanning of documents incl. rotating of images
+- Set permissions of a share while creating the share
+- Added API & View for Trash (Deleted files)
+
+## [2.22.4] - 2018-09-26
+- See https://github.com/nextcloud/ios/milestone/39
+- Fix for issue with Apple App Store. 
+- Scanning documents: Added placeholders for filename of export file
+
+## [2.22.3] - 2018-09-24
+- See https://github.com/nextcloud/ios/milestone/38
+- Added scanning documents with camera (required iOS 11 or more)
+
+## [2.22.2] - 2018-08-28
+- See https://github.com/nextcloud/ios/milestone/37
+
+## [2.22.1] - 2018-08-21
+- See https://github.com/nextcloud/ios/milestone/36
+
+## [2.22.0] - 2018-08-20
+- See https://github.com/nextcloud/ios/milestone/32
+
+## [2.21.3] - 2018-06-30
+- See https://github.com/nextcloud/ios/milestone/35
+
+## [2.21.2] - 2018-06-21
+- See https://github.com/nextcloud/ios/milestone/34
+
+## [2.21.1] - 2018-06-11
+- See https://github.com/nextcloud/ios/milestone/33
+
+## [2.21.0] - 2018-06-01
+- See https://github.com/nextcloud/ios/milestone/31
+
+## [2.20.8] - 2018-04-06
+- See https://github.com/nextcloud/ios/milestone/30
+
+## [2.20.7] - 2018-03-26
+- See https://github.com/nextcloud/ios/milestone/29
+
+## [2.20.6] - 2018-03-21
 - See https://github.com/nextcloud/ios/milestone/28
 
 ## [2.20.5] - 2018-03-08

@@ -3,9 +3,9 @@
 //  Nextcloud
 //
 //  Created by Marino Faggiana on 13/11/17.
-//  Copyright © 2017 TWS. All rights reserved.
+//  Copyright © 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,6 +22,7 @@
 //
 
 import Foundation
+import NCCommunication
 
 class NCEndToEndMetadata : NSObject  {
 
@@ -49,7 +50,7 @@ class NCEndToEndMetadata : NSObject  {
         struct filesCodable: Codable {
             
             let initializationVector: String
-            let authenticationTag: String
+            let authenticationTag: String?
             let metadataKey: Int                // Number of metadataKey
             let encrypted: String               // encryptedFileAttributes
         }
@@ -71,9 +72,9 @@ class NCEndToEndMetadata : NSObject  {
     @objc func encoderMetadata(_ recordsE2eEncryption: [tableE2eEncryption], privateKey: String, serverUrl: String) -> String? {
         
         let jsonEncoder = JSONEncoder.init()
-        var files = [String: e2eMetadata.filesCodable]()
+        var files: [String: e2eMetadata.filesCodable] = [:]
         var version = 1
-        var metadataKeysDictionary = [String:String]()
+        var metadataKeysDictionary: [String: String] = [:]
         
         for recordE2eEncryption in recordsE2eEncryption {
             
@@ -138,10 +139,12 @@ class NCEndToEndMetadata : NSObject  {
         }
     }
     
-    @objc func decoderMetadata(_ e2eMetaDataJSON: String, privateKey: String, serverUrl: String, account: String, url: String) -> Bool {
+    @discardableResult
+    @objc func decoderMetadata(_ e2eMetaDataJSON: String, privateKey: String, serverUrl: String, account: String, urlBase: String) -> Bool {
         
         let jsonDecoder = JSONDecoder.init()
         let data = e2eMetaDataJSON.data(using: .utf8)
+        //let dataQuickLook = (data as! NSData)
                 
         do {
             
@@ -152,7 +155,7 @@ class NCEndToEndMetadata : NSObject  {
             let files = decode.files
             let metadata = decode.metadata
             //let sharing = decode.sharing ---> V 2.0
-            var metadataKeysDictionary = [String:String]()
+            var metadataKeysDictionary: [String: String] = [:]
             
             for metadataKeyDictionaryEncrypted in metadata.metadataKeys {
                 
@@ -160,7 +163,7 @@ class NCEndToEndMetadata : NSObject  {
                     return false
                 }
                 
-                guard let metadataKeyBase64 = NCEndToEndEncryption.sharedManager().decryptAsymmetricData(metadataKeyEncryptedData as Data!, privateKey: privateKey) else {
+                guard let metadataKeyBase64 = NCEndToEndEncryption.sharedManager().decryptAsymmetricData(metadataKeyEncryptedData as Data?, privateKey: privateKey) else {
                     return false
                 }
                 
@@ -186,19 +189,17 @@ class NCEndToEndMetadata : NSObject  {
                 }
                 
                 do {
-                    
                     let encryptedFileAttributes = try jsonDecoder.decode(e2eMetadata.encryptedFileAttributes.self, from: encryptedFileAttributesJson.data(using: .utf8)!)
-                    
-                    let metadata = NCManageDatabase.sharedInstance.getMetadata(predicate: NSPredicate(format: "account = %@ AND fileName = %@", account, fileNameIdentifier))
-                    if  metadata != nil {
+                    if let metadata = NCManageDatabase.sharedInstance.getMetadata(predicate: NSPredicate(format: "account == %@ AND fileName == %@", account, fileNameIdentifier)) {
+                        let metadata = tableMetadata.init(value: metadata)
                     
                         let object = tableE2eEncryption()
                     
                         object.account = account
-                        object.authenticationTag = filesCodable.authenticationTag
+                        object.authenticationTag = filesCodable.authenticationTag ?? ""
                         object.fileName = encryptedFileAttributes.filename
                         object.fileNameIdentifier = fileNameIdentifier
-                        object.fileNamePath = CCUtility.returnFileNamePath(fromFileName: encryptedFileAttributes.filename, serverUrl: serverUrl, activeUrl: url)
+                        object.fileNamePath = CCUtility.returnFileNamePath(fromFileName: encryptedFileAttributes.filename, serverUrl: serverUrl, urlBase: urlBase, account: account)
                         object.key = encryptedFileAttributes.key
                         object.initializationVector = filesCodable.initializationVector
                         object.metadataKey = metadataKey!
@@ -208,20 +209,22 @@ class NCEndToEndMetadata : NSObject  {
                         object.version = encryptedFileAttributes.version
                     
                         // If exists remove records
-                        NCManageDatabase.sharedInstance.deleteE2eEncryption(predicate: NSPredicate(format: "account = %@ AND fileNamePath = %@", object.account, object.fileNamePath))
-                        NCManageDatabase.sharedInstance.deleteE2eEncryption(predicate: NSPredicate(format: "account = %@ AND fileNameIdentifier = %@", object.account, object.fileNameIdentifier))
+                        NCManageDatabase.sharedInstance.deleteE2eEncryption(predicate: NSPredicate(format: "account == %@ AND fileNamePath == %@", object.account, object.fileNamePath))
+                        NCManageDatabase.sharedInstance.deleteE2eEncryption(predicate: NSPredicate(format: "account == %@ AND fileNameIdentifier == %@", object.account, object.fileNameIdentifier))
                         
                         // Write file parameter for decrypted on DB
-                        if NCManageDatabase.sharedInstance.addE2eEncryption(object) == false {
-                            return false
-                        }
+                        NCManageDatabase.sharedInstance.addE2eEncryption(object)
                         
                         // Update metadata on tableMetadata
-                        metadata?.fileNameView = encryptedFileAttributes.filename
-                        CCUtility.insertTypeFileIconName(encryptedFileAttributes.filename, metadata: metadata)
-                        DispatchQueue.main.async {
-                            _ = NCManageDatabase.sharedInstance.addMetadata(metadata!)
-                        }
+                        metadata.fileNameView = encryptedFileAttributes.filename
+                        
+                        let results = NCCommunicationCommon.shared.getInternalContenType(fileName: encryptedFileAttributes.filename, contentType: metadata.contentType, directory: metadata.directory)
+                        
+                        metadata.contentType = results.contentType
+                        metadata.iconName = results.iconName
+                        metadata.typeFile = results.typeFile
+                                                
+                        NCManageDatabase.sharedInstance.addMetadata(metadata)
                     }
                     
                 } catch let error {

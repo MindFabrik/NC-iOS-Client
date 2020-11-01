@@ -1,11 +1,11 @@
 //
 //  NCShares.m
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 05/06/17.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -39,24 +39,12 @@
 #pragma mark ===== Init =====
 #pragma --------------------------------------------------------------------------------------------
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-    if (self = [super initWithCoder:aDecoder])  {
-        
-        appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(triggerProgressTask:) name:@"NotificationProgressTask" object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeTheming) name:@"changeTheming" object:nil];
-        
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDatasource) name:@"SharesReloadDatasource" object:nil];
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+
     // Custom Cell
     [self.tableView registerNib:[UINib nibWithNibName:@"NCSharesCell" bundle:nil] forCellReuseIdentifier:@"Cell"];
 
@@ -64,13 +52,22 @@
     _dataSource = [NSMutableArray new];
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.tableView.frame.size.width, 1)];
-    self.tableView.separatorColor = [NCBrandColor sharedInstance].seperator;
     self.tableView.emptyDataSetDelegate = self;
     self.tableView.emptyDataSetSource = self;
     self.tableView.delegate = self;
     
     // Title
     self.title = NSLocalizedString(@"_list_shares_", nil);
+    
+    // Register for 3D Touch Previewing if available
+    if ([self.traitCollection respondsToSelector:@selector(forceTouchCapability)] && (self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable)) {
+        [self registerForPreviewingWithDelegate:self sourceView:self.view];
+    }
+    
+    // Notification
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeTheming) name:k_notificationCenter_changeTheming object:nil];
+    
+    [self changeTheming];
 }
 
 // Apparirà
@@ -78,29 +75,12 @@
 {
     [super viewWillAppear:animated];
     
-    // Color
-    [appDelegate aspectNavigationControllerBar:self.navigationController.navigationBar online:[appDelegate.reachability isReachable] hidden:NO];
-    [appDelegate aspectTabBar:self.tabBarController.tabBar hidden:NO];
-    
-    // Plus Button
-    [appDelegate plusButtonVisibile:true];
-    
     [self reloadDatasource];
 }
 
 - (void)changeTheming
 {
-    if (self.isViewLoaded && self.view.window)
-        [appDelegate changeTheming:self];
-    
-    // Reload Table View
-    [self.tableView reloadData];
-}
-
-- (void)triggerProgressTask:(NSNotification *)notification
-{
-    //NSDictionary *dict = notification.userInfo;
-    //float progress = [[dict valueForKey:@"progress"] floatValue];
+    [appDelegate changeTheming:self tableView:self.tableView collectionView:nil form:false];
 }
 
 #pragma --------------------------------------------------------------------------------------------
@@ -109,19 +89,19 @@
 
 - (UIColor *)backgroundColorForEmptyDataSet:(UIScrollView *)scrollView
 {
-    return [UIColor whiteColor];
+    return NCBrandColor.sharedInstance.backgroundView;
 }
 
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView
 {
-    return [CCGraphics changeThemingColorImage:[UIImage imageNamed:@"sharesNoFiles"] color:[NCBrandColor sharedInstance].brandElement];
+    return [CCGraphics changeThemingColorImage:[UIImage imageNamed:@"share"] width:300 height:300 color:[UIColor grayColor]];
 }
 
 - (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView
 {
     NSString *text = [NSString stringWithFormat:@"%@", NSLocalizedString(@"_list_shares_no_files_", nil)];
     
-    NSDictionary *attributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:20.0f], NSForegroundColorAttributeName:[UIColor lightGrayColor]};
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:20.0f], NSForegroundColorAttributeName:[UIColor grayColor]};
     
     return [[NSAttributedString alloc] initWithString:text attributes:attributes];
 }
@@ -139,69 +119,63 @@
     return [[NSAttributedString alloc] initWithString:text attributes:attributes];
 }
 
+
+#pragma mark -
 #pragma --------------------------------------------------------------------------------------------
-#pragma mark ==== Download Thumbnail <Delegate> ====
+#pragma mark ===== Peek & Pop  =====
 #pragma --------------------------------------------------------------------------------------------
 
-- (void)downloadThumbnailSuccess:(CCMetadataNet *)metadataNet
+- (UIViewController *)previewingContext:(id<UIViewControllerPreviewing>)previewingContext viewControllerForLocation:(CGPoint)location
 {
-    [self reloadDatasource];
-}
-
-#pragma --------------------------------------------------------------------------------------------
-#pragma mark ==== Read File <Delegate> ====
-#pragma --------------------------------------------------------------------------------------------
-
-- (void)readFileFailure:(CCMetadataNet *)metadataNet message:(NSString *)message errorCode:(NSInteger)errorCode
-{
-    NSLog(@"[LOG] Read file failure error %d, %@", (int)errorCode, message);
-}
-
-- (void)readFileSuccess:(CCMetadataNet *)metadataNet metadata:(tableMetadata *)metadata
-{
-    (void)[[NCManageDatabase sharedInstance] addMetadata:metadata];
+    CGPoint convertedLocation = [self.view convertPoint:location toView:self.tableView];
+    NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:convertedLocation];
+    tableShare *table = [_dataSource objectAtIndex:indexPath.row];
+    tableMetadata *metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account == %@ AND serverUrl == %@ AND fileName == %@", appDelegate.account, table.serverUrl, table.fileName]];
     
-    [self reloadDatasource];
+    NCSharesCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    
+    if (cell) {
+        previewingContext.sourceRect = cell.frame;
+        CCPeekPop *viewController = [[UIStoryboard storyboardWithName:@"CCPeekPop" bundle:nil] instantiateViewControllerWithIdentifier:@"PeekPopImagePreview"];
+        
+        viewController.metadata = metadata;
+        viewController.imageFile = cell.fileImageView.image;
+        viewController.showOpenIn = false;
+        viewController.showOpenQuickLook = false;
+        viewController.showShare = false;
+        
+        return viewController;
+    }
+    
+    return nil;
+}
+
+- (void)previewingContext:(id<UIViewControllerPreviewing>)previewingContext commitViewController:(UIViewController *)viewControllerToCommit
+{
+    NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:previewingContext.sourceRect.origin];
+    
+    [self tableView:self.tableView didSelectRowAtIndexPath:indexPath];
 }
 
 #pragma --------------------------------------------------------------------------------------------
 #pragma mark ==== unShare <Delegate> ====
 #pragma --------------------------------------------------------------------------------------------
 
-- (void)unShareSuccess:(CCMetadataNet *)metadataNet
-{
-    NSArray *result = [[NCManageDatabase sharedInstance] unShare:metadataNet.share fileName:metadataNet.fileName serverUrl:metadataNet.serverUrl sharesLink:appDelegate.sharesLink sharesUserAndGroup:appDelegate.sharesUserAndGroup];
-    
-    appDelegate.sharesLink = result[0];
-    appDelegate.sharesUserAndGroup = result[1];
-    
-    [self reloadDatasource];
-}
-
 - (void)removeShares:(tableMetadata *)metadata tableShare:(tableShare *)tableShare
 {
-    CCMetadataNet *metadataNet = [[CCMetadataNet alloc] initWithAccount:appDelegate.activeAccount];
- 
-    metadataNet.action = actionUnShare;
-    metadataNet.fileID = metadata.fileID;
-    metadataNet.fileName = metadata.fileName;
-    metadataNet.selector = selectorUnshare;
-    metadataNet.serverUrl = tableShare.serverUrl;
-    
-    // Unshare Link
-    if (tableShare.shareLink.length > 0) {
-   
-        metadataNet.share = tableShare.shareLink;
-        [appDelegate addNetworkingOperationQueue:appDelegate.netQueue delegate:self metadataNet:metadataNet];
-    }
-    
-    // Unshare User&Group
-    NSArray *shareUserAndGroup = [tableShare.shareUserAndGroup componentsSeparatedByString:@","];
-    for (NSString *share in shareUserAndGroup) {
+    [[NCCommunication shared] deleteShareWithIdShare:tableShare.idShare customUserAgent:nil addCustomHeaders:nil completionHandler:^(NSString *account, NSInteger errorCode, NSString *errorDescription) {
         
-        metadataNet.share = [share stringByReplacingOccurrencesOfString:@" " withString:@""];
-        [appDelegate addNetworkingOperationQueue:appDelegate.netQueue delegate:self metadataNet:metadataNet];
-    }
+        if (errorCode == 0 && [account isEqualToString:appDelegate.account]) {
+            
+            [[NCManageDatabase sharedInstance] deleteTableShareWithAccount:account idShare:tableShare.idShare];
+            [self reloadDatasource];
+            
+        } else if (errorCode != 0) {
+            [[NCContentPresenter shared] messageNotification:@"_share_" description:errorDescription delay:k_dismissAfterSecond type:messageTypeError errorCode:errorCode forced:true];
+        } else {
+            NSLog(@"[LOG] It has been changed user during networking process, error.");
+        }
+    }];
 }
 
 #pragma mark -
@@ -226,10 +200,7 @@
     if (indexPath.row+1 <= _dataSource.count) {
     
         tableShare *table = [_dataSource objectAtIndex:indexPath.row];
-    
-        NSString *directoryID = [[NCManageDatabase sharedInstance] getDirectoryID:table.serverUrl];
-        if (directoryID)
-            metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account = %@ AND directoryID = %@ AND fileName = %@", appDelegate.activeAccount, directoryID, table.fileName]];
+        metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account == %@ AND serverUrl == %@ AND fileName = %@", appDelegate.account, table.serverUrl, table.fileName]];
     }
         
     if (metadata) return YES;
@@ -242,12 +213,9 @@
         
         tableShare *table = [_dataSource objectAtIndex:indexPath.row];
         
-        NSString *directoryID = [[NCManageDatabase sharedInstance] getDirectoryID:table.serverUrl];
-        if (directoryID) {
-            tableMetadata *metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account = %@ AND directoryID = %@ AND fileName = %@", appDelegate.activeAccount, directoryID, table.fileName]];
+        tableMetadata *metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account == %@ AND serverUrl == %@ AND fileName == %@", appDelegate.account, table.serverUrl, table.fileName]];
         
-            [self removeShares:metadata tableShare:table];
-        }
+        [self removeShares:metadata tableShare:table];
     }
 }
 
@@ -262,7 +230,7 @@
 
 - (void)reloadDatasource
 {
-    _dataSource = [[NCManageDatabase sharedInstance] getTableShares];
+    _dataSource = [[NCManageDatabase sharedInstance] getTableSharesWithAccount:appDelegate.account];
     
     [self.tableView reloadData];
 }
@@ -296,56 +264,54 @@
         
     // change color selection
     UIView *selectionColor = [[UIView alloc] init];
-    selectionColor.backgroundColor = [[NCBrandColor sharedInstance] getColorSelectBackgrond];
+    selectionColor.backgroundColor = NCBrandColor.sharedInstance.select;
     cell.selectedBackgroundView = selectionColor;
+    cell.backgroundColor = NCBrandColor.sharedInstance.backgroundView;
+    cell.labelTitle.textColor = NCBrandColor.sharedInstance.textView;
     
     tableShare *table = [_dataSource objectAtIndex:indexPath.row];
     
-    NSString *directoryID = [[NCManageDatabase sharedInstance] getDirectoryID:table.serverUrl];
-    if (!directoryID)
-        return cell;
-    
-    if (directoryID.length > 0)
-         metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account = %@ AND directoryID = %@ AND fileName = %@", appDelegate.activeAccount, directoryID, table.fileName]];
+    metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account == %@ AND serverUrl == %@ AND fileName == %@", appDelegate.account, table.serverUrl, table.fileName]];
     
     if (metadata) {
         
         if (metadata.directory) {
             
-            cell.fileImageView.image = [CCGraphics changeThemingColorImage:[UIImage imageNamed:@"folder"] color:[NCBrandColor sharedInstance].brandElement];
+            cell.fileImageView.image = [CCGraphics changeThemingColorImage:[UIImage imageNamed:@"folder"] multiplier:2 color:NCBrandColor.sharedInstance.brandElement];
         
         } else {
             
-            cell.fileImageView.image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@.ico", appDelegate.directoryUser, metadata.fileID]];
+            cell.fileImageView.image = [UIImage imageWithContentsOfFile:[CCUtility getDirectoryProviderStorageIconOcId:metadata.ocId etag:metadata.etag]];
 
             if (cell.fileImageView.image == nil) {
                 
-                if (metadata.thumbnailExists)
-                    [[CCActions sharedInstance] downloadTumbnail:metadata delegate:self];
-                else
-                    cell.fileImageView.image = [UIImage imageNamed:metadata.iconName];
+                cell.fileImageView.image = [UIImage imageNamed:metadata.iconName];
+                
+                [[NCOperationQueue shared] downloadThumbnailWithMetadata:metadata urlBase:appDelegate.urlBase view:tableView indexPath:indexPath];
             }
         }
         
     } else {
         
-        cell.fileImageView.image = [CCGraphics changeThemingColorImage:[UIImage imageNamed:@"file"] color:[NCBrandColor sharedInstance].brandElement];
+        cell.fileImageView.image = [CCGraphics changeThemingColorImage:[UIImage imageNamed:@"file"] multiplier:2 color:NCBrandColor.sharedInstance.brandElement];
         
-        CCMetadataNet *metadataNet = [[CCMetadataNet alloc] initWithAccount:appDelegate.activeAccount];
+        NSString *serverUrlFileName = [NSString stringWithFormat:@"%@/%@", table.serverUrl, table.fileName];
+               
+        [[NCNetworking shared] readFileWithServerUrlFileName:serverUrlFileName account:appDelegate.account completion:^(NSString *account, tableMetadata *metadata, NSInteger errorCode, NSString *errorDescription) {
             
-        metadataNet.action = actionReadFile;
-        metadataNet.fileName = table.fileName;
-        metadataNet.serverUrl = table.serverUrl;
-        
-        [appDelegate addNetworkingOperationQueue:appDelegate.netQueue delegate:self metadataNet:metadataNet];
+            if (errorCode == 0 && [account isEqualToString:appDelegate.account]) {
+                [[NCManageDatabase sharedInstance] addMetadata:metadata];
+                [self reloadDatasource];
+            }
+        }];
     }
     
     cell.labelTitle.text = table.fileName;
     
-    if ([table.serverUrl isEqualToString:[CCUtility getHomeServerUrlActiveUrl:appDelegate.activeUrl]])
+    if ([table.serverUrl isEqualToString:[[NCUtility shared] getHomeServerWithUrlBase:appDelegate.urlBase account:appDelegate.account]])
         cell.labelInfoFile.text = @"/";
     else
-        cell.labelInfoFile.text = [table.serverUrl stringByReplacingOccurrencesOfString:[CCUtility getHomeServerUrlActiveUrl:appDelegate.activeUrl] withString:@""];
+        cell.labelInfoFile.text = [table.serverUrl stringByReplacingOccurrencesOfString:[[NCUtility shared] getHomeServerWithUrlBase:appDelegate.urlBase account:appDelegate.account] withString:@""];
     
     return cell;
 }
@@ -360,13 +326,9 @@
 
     if (table.serverUrl) {
         
-        NSString *directoryID = [[NCManageDatabase sharedInstance] getDirectoryID:table.serverUrl];
-        if (directoryID)
-            metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account = %@ AND directoryID = %@ AND fileName = %@", appDelegate.activeAccount, directoryID, table.fileName]];
-
+        metadata = [[NCManageDatabase sharedInstance] getMetadataWithPredicate:[NSPredicate predicateWithFormat:@"account == %@ AND serverUrl == %@ AND fileName == %@", appDelegate.account, table.serverUrl, table.fileName]];
         if (metadata) {
-        
-            [appDelegate.activeMain openWindowShare:metadata];
+            [[NCNetworkingNotificationCenter shared] openShareWithViewController:self metadata:metadata indexPage:2];
         }
     }
 }

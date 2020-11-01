@@ -1,11 +1,11 @@
 //
 //  NCBrandColor.swift
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 24/04/17.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -23,15 +23,90 @@
 
 import UIKit
 
-class NCBrandColor: NSObject {
+//MARK: - Configuration
 
+@objc class NCBrandConfiguration: NSObject {
+    @objc static let sharedInstance: NCBrandConfiguration = {
+        let instance = NCBrandConfiguration()
+        return instance
+    }()
+    
+    @objc public let configuration_bundleId:            String = "de.mindfabrik.Nextcloud.mfdev"
+    @objc public let configuration_serverUrl:           String = "serverUrl"
+    @objc public let configuration_username:            String = "username"
+    @objc public let configuration_password:            String = "password"
+}
+
+//MARK: - Options
+
+@objc class NCBrandOptions: NSObject {
+    @objc static let sharedInstance: NCBrandOptions = {
+        let instance = NCBrandOptions()
+        return instance
+    }()
+    
+    @objc public var brand:                             String = "MFDev Cloud"
+    @objc public var mailMe:                            String = "support@mindfabrik.de"
+    @objc public var textCopyrightNextcloudiOS:         String = "MFDev Cloud for iOS %@ © 2018-2020 MindFabrik"
+    @objc public var textCopyrightNextcloudServer:      String = "Cloud Server %@"
+    @objc public var loginBaseUrl:                      String = "https://oc.mindfabrik.de:60606"
+    @objc public var pushNotificationServerProxy:       String = "https://push-notifications.nextcloud.com"
+    @objc public var linkLoginHost:                     String = "https://oc.mindfabrik.de:60606/install"
+    @objc public var linkloginPreferredProviders:       String = "https://oc.mindfabrik.de:60606/signup";
+    @objc public var webLoginAutenticationProtocol:     String = "nc://"                                            // example "abc://"
+    // Personalized
+    @objc public var webCloseViewProtocolPersonalized:  String = ""                                                 // example "abc://change/plan"      Don't touch me !!
+    @objc public var folderBrandAutoUpload:             String = ""                                                 // example "_auto_upload_folder_"   Don't touch me !!
+    
+    // Auto Upload default folder
+    @objc public var folderDefaultAutoUpload:           String = "Photos"
+    
+    // Capabilities Group
+    @objc public var capabilitiesGroups:                String = "group.de.mindfabrik.mfdev.crypto-cloud"
+    
+    // User Agent
+    @objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
+    
+    // Options
+    @objc public var use_login_web_personalized:        Bool = false                                                // Don't touch me !!
+    @objc public var use_default_auto_upload:           Bool = false
+    @objc public var use_themingColor:                  Bool = true
+    //@objc public var use_themingBackground:             Bool = true                                               // Deprecated
+    @objc public var use_themingLogo:                   Bool = true
+    @objc public var use_storeLocalAutoUploadAll:       Bool = false
+    @objc public var use_configuration:                 Bool = false                                                // Don't touch me !!
+    @objc public var use_loginflowv2:                   Bool = false                                                // Don't touch me !!
+
+    @objc public var disable_intro:                     Bool = true
+    @objc public var disable_request_login_url:         Bool = true
+    @objc public var disable_multiaccount:              Bool = true
+    @objc public var disable_manage_account:            Bool = true
+    @objc public var disable_more_external_site:        Bool = true
+    @objc public var disable_openin_file:               Bool = false                                                // Don't touch me !!
+    @objc public var disable_crash_service:             Bool = true
+    
+    // MindFabrik Lock Feature
+    @objc public var mindfabrik_force_lockfeature:      Bool = true
+    
+    override init() {
+        
+        if folderBrandAutoUpload != "" {
+            folderDefaultAutoUpload = folderBrandAutoUpload
+        }
+    }
+}
+
+//MARK: - Color
+
+class NCBrandColor: NSObject {
     @objc static let sharedInstance: NCBrandColor = {
         let instance = NCBrandColor()
+        instance.setDarkMode()
         return instance
     }()
 
     // Color
-    @objc public let customer:              UIColor = UIColor(red:0.580, green:0.278, blue:0.090, alpha:1.0)    // BLU NC : #d30018
+    @objc public let customer:              UIColor = UIColor(red:0.580, green:0.278, blue:0.090, alpha:1.0)       // BLU NC : #0082c9
     @objc public var customerText:          UIColor = .white
     
     @objc public var brand:                 UIColor                                                                                 // don't touch me
@@ -41,76 +116,44 @@ class NCBrandColor: NSObject {
     @objc public var connectionNo:          UIColor = UIColor(red: 204.0/255.0, green: 204.0/255.0, blue: 204.0/255.0, alpha: 1.0)
     @objc public var encrypted:             UIColor = .red
     @objc public var backgroundView:        UIColor = .white
+    @objc public var backgroundCell:        UIColor = .white
+    @objc public var backgroundForm:        UIColor = UIColor(red: 244.0/255.0, green: 244.0/255.0, blue: 244.0/255.0, alpha: 1.0)
     @objc public var textView:              UIColor = .black
-    @objc public var seperator:             UIColor = UIColor(red: 235.0/255.0, green: 235.0/255.0, blue: 235.0/255.0, alpha: 1.0)
+    @objc public var separator:             UIColor = UIColor(red: 235.0/255.0, green: 235.0/255.0, blue: 235.0/255.0, alpha: 1.0)
     @objc public var tabBar:                UIColor = .white
-    @objc public var transferBackground:    UIColor = UIColor(red: 178.0/255.0, green: 244.0/255.0, blue: 258.0/255.0, alpha: 0.1)
     @objc public let nextcloud:             UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)
+    @objc public let nextcloudSoft:         UIColor = UIColor(red: 90.0/255.0, green: 160.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+    @objc public let icon:                  UIColor = UIColor(red: 104.0/255.0, green: 104.0/255.0, blue: 104.0/255.0, alpha: 1.0)
+    @objc public let optionItem:            UIColor = UIColor(red: 178.0/255.0, green: 178.0/255.0, blue: 178.0/255.0, alpha: 1.0)
+    @objc public let graySoft:              UIColor = UIColor(red: 162.0/255.0, green: 162.0/255.0, blue: 162.0/255.0, alpha: 0.5)
+    @objc public let yellowFavorite:        UIColor = UIColor(red: 248.0/255.0, green: 205.0/255.0, blue: 70.0/255.0, alpha: 1.0)
+    @objc public let textInfo:              UIColor = UIColor(red: 153.0/255.0, green: 153.0/255.0, blue: 153.0/255.0, alpha: 1.0)
+    @objc public var select:                UIColor = .white
 
     override init() {
         self.brand = self.customer
         self.brandElement = self.customer
-        self.brandText = self.customerText
+        self.brandText = self.customerText        
     }
     
-    // Color modify
-    @objc public func getColorSelectBackgrond() -> UIColor {
-        return self.brand.withAlphaComponent(0.1)
-    }
-}
-
-@objc class NCBrandOptions: NSObject {
-    
-    @objc static let sharedInstance: NCBrandOptions = {
-        let instance = NCBrandOptions()
-        return instance
-    }()
-    
-    @objc public let brand:                           String = "MFDev Cloud"
-    @objc public let mailMe:                          String = "support@mindfabrik.de"
-    @objc public let textCopyrightNextcloudiOS:       String = "MFDev Cloud for iOS %@ © 2018 MindFabrik."
-    @objc public let textCopyrightNextcloudServer:    String = "Cloud Server %@"
-    @objc public let loginBaseUrl:                    String = "https://server.com"
-    @objc public let pushNotificationServer:          String = "https://push-notifications.nextcloud.com"
-    @objc public let linkLoginProvider:               String = "https://nextcloud.com/providers"
-    @objc public let textLoginProvider:               String = "_login_bottom_label_"
-    @objc public let middlewarePingUrl:               String = ""
-    @objc public let webLoginAutenticationProtocol:   String = "nc://"                                          // example "abc://"
-    // Personalized
-    @objc public let webCloseViewProtocolPersonalized:String = ""                                               // example "abc://change/plan"      Don't touch me !!
-    @objc public let folderBrandAutoUpload:           String = ""                                               // example "_auto_upload_folder_"   Don't touch me !!
-
-    // Auto Upload default folder
-    @objc public var folderDefaultAutoUpload:         String = "Photos"
-    
-    // Capabilities Group
-    @objc public let capabilitiesGroups:              String = "group.de.mindfabrik.mfdev.crypto-cloud"
-    
-    // Options
-    @objc public let use_login_web_personalized:      Bool = false                                              // Don't touch me !!
-    @objc public let use_firebase:                    Bool = false
-    @objc public let use_default_auto_upload:         Bool = false
-    @objc public let use_themingColor:                Bool = true
-    @objc public let use_themingBackground:           Bool = true
-    @objc public let use_middlewarePing:              Bool = false
-    @objc public let use_storeLocalAutoUploadAll:     Bool = false
-    
-    @objc public let disable_intro:                   Bool = true
-    @objc public let disable_linkLoginProvider:       Bool = true
-    @objc public let disable_request_login_url:       Bool = true
-    @objc public let disable_multiaccount:            Bool = true
-    @objc public let disable_manage_account:          Bool = true
-    @objc public let disable_more_external_site:      Bool = true
-    
-    // MindFabrik Options:
-    @objc public let mindfabrik_force_lockfeature:    Bool = true
-    
-    override init() {
-        
-        if folderBrandAutoUpload != "" {
-            
-            self.folderDefaultAutoUpload = self.folderBrandAutoUpload
+    @objc public func setDarkMode() {
+        let darkMode = CCUtility.getDarkMode()
+        if darkMode {
+            tabBar = UIColor(red: 25.0/255.0, green: 25.0/255.0, blue: 25.0/255.0, alpha: 1.0)
+            backgroundView = .black
+            backgroundCell = UIColor(red: 25.0/255.0, green: 25.0/255.0, blue: 25.0/255.0, alpha: 1.0)
+            backgroundForm = .black
+            textView = .white
+            separator = UIColor(red: 60.0/255.0, green: 60.0/255.0, blue: 60.0/255.0, alpha: 1.0)
+            select = UIColor.white.withAlphaComponent(0.2)
+        } else {
+            tabBar = .white
+            backgroundView = .white
+            backgroundCell = .white
+            backgroundForm = UIColor(red: 247.0/255.0, green: 247.0/255.0, blue: 247.0/255.0, alpha: 1.0)
+            textView = .black
+            separator = UIColor(red: 235.0/255.0, green: 235.0/255.0, blue: 235.0/255.0, alpha: 1.0)
+            select = self.brandElement.withAlphaComponent(0.1)
         }
     }
 }
-

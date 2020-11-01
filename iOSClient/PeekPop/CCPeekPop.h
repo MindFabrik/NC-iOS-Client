@@ -1,11 +1,11 @@
 //
 //  CCPeekPop.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 26/08/16.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2016 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,22 +22,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OCNetworking.h"
 
 @class tableMetadata;
 
-@protocol CCPeekPopDelegate;
-
-@interface CCPeekPop : UIViewController <OCNetworkingDelegate>
-
-@property (nonatomic, weak) id <CCPeekPopDelegate> delegate;
+@interface CCPeekPop : UIViewController
 
 @property (nonatomic, strong) tableMetadata *metadata;
+@property (nonatomic, strong) UIImage *imageFile;
+@property BOOL showShare;
+@property BOOL showOpenIn;
+@property BOOL showOpenQuickLook;
 
+@property (nonatomic, weak) IBOutlet UILabel *fileName;
 @property (nonatomic, weak) IBOutlet UIImageView *imagePreview;
-
-@end
-
-@protocol CCPeekPopDelegate <NSObject>
 
 @end

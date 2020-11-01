@@ -1,11 +1,11 @@
 //
 //  CCUtility.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 02/02/16.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2016 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -28,10 +28,10 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <MessageUI/MessageUI.h>
 #import <UICKeyChainStore/UICKeyChainStore.h>
+#import <Photos/Photos.h>
 
-#import "OCFileDto.h"
 #import "CCGlobal.h"
-#import "CCNetworking.h"
+#import "CCGraphics.h"
 
 @class tableMetadata;
 
@@ -39,59 +39,30 @@
 
 // ===== KeyChainStore =====
 
-// ADMIN
-
-+ (void)adminRemoveIntro;
-+ (void)adminRemovePasscode;
-+ (void)adminRemoveVersion;
-
 // GET/SET
 
 + (void)deleteAllChainStore;
 + (void)storeAllChainInService;
 
-+ (NSString *)getUUID;
++ (NSString *)getPasscode;
++ (void)setPasscode:(NSString *)passcode;
 
-+ (NSString *)getKeyChainPasscodeForUUID:(NSString *)uuid;
-+ (void)setKeyChainPasscodeForUUID:(NSString *)uuid conPasscode:(NSString *)passcode;
++ (BOOL)getNotPasscodeAtStart;
++ (void)setNotPasscodeAtStart:(BOOL)set;
 
-+ (NSString *)getVersion;
-+ (NSString *)setVersion;
-
-+ (NSString *)getBuild;
-+ (NSString *)setBuild;
-
-+ (NSString *)getBlockCode;
-+ (void)setBlockCode:(NSString *)blockcode;
-
-+ (BOOL)getSimplyBlockCode;
-+ (void)setSimplyBlockCode:(BOOL)simply;
-
-+ (BOOL)getOnlyLockDir;
-+ (void)setOnlyLockDir:(BOOL)lockDir;
-
-+ (BOOL)getOptimizedPhoto;
-+ (void)setOptimizedPhoto:(BOOL)resize;
-
-+ (BOOL)getUploadAndRemovePhoto;
-+ (void)setUploadAndRemovePhoto:(BOOL)remove;
-
-+ (NSString *)getOrderSettings;
-+ (void)setOrderSettings:(NSString *)order;
-
-+ (BOOL)getAscendingSettings;
-+ (void)setAscendingSettings:(BOOL)ascendente;
++ (BOOL)getEnableTouchFaceID;
++ (void)setEnableTouchFaceID:(BOOL)set;
 
 + (NSString *)getGroupBySettings;
 + (void)setGroupBySettings:(NSString *)groupby;
 
-+ (BOOL)getIntroMessage:(NSString *)type;
-+ (void)setIntroMessage:(NSString *)type set:(BOOL)set;
++ (BOOL)getIntro;
++ (void)setIntro:(BOOL)set;
 
 + (NSString *)getIncrementalNumber;
 
-+ (NSString *)getActiveAccountExt;
-+ (void)setActiveAccountExt:(NSString *)activeAccount;
++ (NSString *)getAccountExt;
++ (void)setAccountExt:(NSString *)account;
 
 + (NSString *)getServerUrlExt;
 + (void)setServerUrlExt:(NSString *)serverUrl;
@@ -108,8 +79,8 @@
 + (NSString *)getHint;
 + (void)setHint:(NSString *)hint;
 
-+ (BOOL)getDirectoryOnTop;
-+ (void)setDirectoryOnTop:(BOOL)directoryOnTop;
++ (BOOL)getOriginalFileName:(NSString *)key;
++ (void)setOriginalFileName:(BOOL)value key:(NSString *)key;
 
 + (NSString *)getFileNameMask:(NSString *)key;
 + (void)setFileNameMask:(NSString *)mask key:(NSString *)key;
@@ -145,7 +116,66 @@
 
 + (void)clearAllKeysEndToEnd:(NSString *)account;
 
++ (BOOL)getDisableFilesApp;
++ (void)setDisableFilesApp:(BOOL)disable;
+
++ (void)setPushNotificationPublicKey:(NSString *)account data:(NSData *)data;
++ (NSData *)getPushNotificationPublicKey:(NSString *)account;
++ (void)setPushNotificationSubscribingPublicKey:(NSString *)account publicKey:(NSString *)publicKey;
++ (NSString *)getPushNotificationSubscribingPublicKey:(NSString *)account;
++ (void)setPushNotificationPrivateKey:(NSString *)account data:(NSData *)data;
++ (NSData *)getPushNotificationPrivateKey:(NSString *)account;
++ (void)setPushNotificationToken:(NSString *)account token:(NSString *)token;
++ (NSString *)getPushNotificationToken:(NSString *)account;
++ (void)setPushNotificationDeviceIdentifier:(NSString *)account deviceIdentifier:(NSString *)deviceIdentifier;
++ (NSString *)getPushNotificationDeviceIdentifier:(NSString *)account;
++ (void)setPushNotificationDeviceIdentifierSignature:(NSString *)account deviceIdentifierSignature:(NSString *)deviceIdentifierSignature;
++ (NSString *)getPushNotificationDeviceIdentifierSignature:(NSString *)account;
++ (void)clearAllKeysPushNotification:(NSString *)account;
+
++ (NSInteger)getMediaWidthImage;
++ (void)setMediaWidthImage:(NSInteger)width;
+
++ (BOOL)getDisableCrashservice;
++ (void)setDisableCrashservice:(BOOL)disable;
+
++ (void)setPassword:(NSString *)account password:(NSString *)password;
++ (NSString *)getPassword:(NSString *)account;
+
++ (void)setHCBusinessType:(NSString *)professions;
++ (NSString *)getHCBusinessType;
+
++ (NSData *)getDatabaseEncryptionKey;
+
++ (BOOL)getCertificateError:(NSString *)account;
++ (void)setCertificateError:(NSString *)account error:(BOOL)error;
+
++ (BOOL)getDisableLocalCacheAfterUpload;
++ (void)setDisableLocalCacheAfterUpload:(BOOL)disable;
+
++ (BOOL)getDarkMode;
++ (void)setDarkMode:(BOOL)disable;
+
++ (BOOL)getDarkModeDetect;
++ (void)setDarkModeDetect:(BOOL)disable;
+
++ (BOOL)getLivePhoto;
++ (void)setLivePhoto:(BOOL)set;
+
++ (NSString *)getMediaSortDate;
++ (void)setMediaSortDate:(NSString *)value;
+
++ (NSInteger)getTextRecognitionStatus;
++ (void)setTextRecognitionStatus:(NSInteger)value;
++ (NSString *)getDirectoryScanDocuments;
++ (void)setDirectoryScanDocuments:(NSString *)value;
+
++ (NSInteger)getLogLevel;
++ (void)setLogLevel:(NSInteger)value;
+
 // ===== Varius =====
+
++ (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL;
 
 + (NSString *)getUserAgent;
 
@@ -159,39 +189,75 @@
 + (NSString *)stringAppendServerUrl:(NSString *)serverUrl addFileName:(NSString *)addFileName;
 
 + (NSString *)createRandomString:(int)numChars;
-+ (NSString *)createFileName:fileName fileDate:(NSDate *)fileDate fileType:(PHAssetMediaType)fileType keyFileName:(NSString *)keyFileName keyFileNameType:(NSString *)keyFileNameType;
++ (NSString *)createFileNameDate:(NSString *)fileName extension:(NSString *)extension;
++ (NSString *)createFileName:(NSString *)fileName fileDate:(NSDate *)fileDate fileType:(PHAssetMediaType)fileType keyFileName:(NSString *)keyFileName keyFileNameType:(NSString *)keyFileNameType keyFileNameOriginal:(NSString *)keyFileNameOriginal;
 
-+ (NSString *)getHomeServerUrlActiveUrl:(NSString *)activeUrl;
-+ (NSString *)getDirectoryActiveUser:(NSString *)activeUser activeUrl:(NSString *)activeUrl;
-+ (NSString *)getOLDDirectoryActiveUser:(NSString *)activeUser activeUrl:(NSString *)activeUrl;
-+ (NSString *)getDirectoryLocal;
++ (void)createDirectoryStandard;
+
++ (NSURL *)getDirectoryGroup;
++ (NSString *)getStringUser:(NSString *)user urlBase:(NSString *)urlBase;
++ (NSString *)getDirectoryDocuments;
++ (NSString *)getDirectoryReaderMetadata;
 + (NSString *)getDirectoryAudio;
 + (NSString *)getDirectoryCerificates;
++ (NSString *)getDirectoryUserData;
++ (NSString *)getDirectoryProviderStorage;
++ (NSString *)getDirectoryProviderStorageOcId:(NSString *)ocId;
++ (NSString *)getDirectoryProviderStorageOcId:(NSString *)ocId fileNameView:(NSString *)fileNameView;
++ (NSString *)getDirectoryProviderStorageIconOcId:(NSString *)ocId etag:(NSString *)etag;
++ (NSString *)getDirectoryProviderStoragePreviewOcId:(NSString *)ocId etag:(NSString *)etag;
++ (BOOL)fileProviderStorageExists:(NSString *)ocId fileNameView:(NSString *)fileNameView;
++ (double)fileProviderStorageSize:(NSString *)ocId fileNameView:(NSString *)fileNameView;
++ (BOOL)fileProviderStoragePreviewIconExists:(NSString *)ocId etag:(NSString *)etag;
+
++ (void)removeGroupApplicationSupport;
++ (void)removeGroupLibraryDirectory;
++ (void)removeGroupDirectoryProviderStorage;
++ (void)removeDocumentsDirectory;
++ (void)removeTemporaryDirectory;
++ (void)emptyTemporaryDirectory;
+
 + (NSString *)getTitleSectionDate:(NSDate *)date;
 
 + (void)moveFileAtPath:(NSString *)atPath toPath:(NSString *)toPath;
 + (void)copyFileAtPath:(NSString *)atPath toPath:(NSString *)toPath;
-+ (void)removeAllFileID_UPLOAD_ActiveUser:(NSString *)activeUser activeUrl:(NSString *)activeUrl;
++ (void)removeFileAtPath:(NSString *)atPath;
++ (void)createDirectoryAtPath:(NSString *)atPath;
 
 + (NSString *)deletingLastPathComponentFromServerUrl:(NSString *)serverUrl;
-+ (NSString *)returnFileNamePathFromFileName:(NSString *)metadataFileName serverUrl:(NSString *)serverUrl activeUrl:(NSString *)activeUrl;
++ (NSString *)getLastPathFromServerUrl:(NSString *)serverUrl urlBase:(NSString *)urlBase;
++ (NSString *)returnPathfromServerUrl:(NSString *)serverUrl urlBase:(NSString *)urlBase account:(NSString *)account;
++ (NSString *)returnFileNamePathFromFileName:(NSString *)metadataFileName serverUrl:(NSString *)serverUrl urlBase:(NSString *)urlBase account:(NSString *)account;
++ (NSArray *)createNameSubFolder:(NSArray *)assets;
 
-+ (NSArray *)createNameSubFolder:(PHFetchResult *)assets;
++ (NSString *)getDirectoryScan;
+
++ (NSString *)getMimeType:(NSString *)fileNameView;
+
++ (void)writeData:(NSData *)data fileNamePath:(NSString *)fileNamePath;
+
++ (void)selectFileNameFrom:(UITextField *)textField;
+
++ (NSString *)getTimeIntervalSince197;
+
++ (void)extractImageVideoFromAssetLocalIdentifierForUpload:(tableMetadata *)metadataForUpload notification:(BOOL)notification completion:(void(^)(tableMetadata *newMetadata, NSString* fileNamePath))completion;
++ (void)extractLivePhotoAsset:(PHAsset*)asset filePath:(NSString *)filePath withCompletion:(void (^)(NSURL* url))completion;
 
 // ===== E2E Encrypted =====
 
 + (NSString *)generateRandomIdentifier;
-+ (BOOL)isFolderEncrypted:(NSString *)serverUrl account:(NSString *)account;
++ (BOOL)isFolderEncrypted:(NSString *)serverUrl e2eEncrypted:(BOOL)e2eEncrypted account:(NSString *)account urlBase:(NSString *)urlBase;
 
-// ===== CCMetadata =====
+// ===== Share Permissions =====
 
-+ (tableMetadata *)createMetadataWithAccount:(NSString *)account date:(NSDate *)date directory:(BOOL)directory fileID:(NSString *)fileID directoryID:(NSString *)directoryID fileName:(NSString *)fileName etag:(NSString *)etag size:(double)size status:(double)status;
-
-+ (tableMetadata *)trasformedOCFileToCCMetadata:(OCFileDto *)itemDto fileName:(NSString *)fileName serverUrl:(NSString *)serverUrl directoryID:(NSString *)directoryID autoUploadFileName:(NSString *)autoUploadFileName autoUploadDirectory:(NSString *)autoUploadDirectory activeAccount:(NSString *)activeAccount directoryUser:(NSString *)directoryUser isFolderEncrypted:(BOOL)isFolderEncrypted;
-
-+ (tableMetadata *)insertFileSystemInMetadata:(NSString *)fileName fileNameView:(NSString *)fileNameView directory:(NSString *)directory activeAccount:(NSString *)activeAccount;
-
-+ (void)insertTypeFileIconName:(NSString *)fileNameView metadata:(tableMetadata *)metadata;
++ (NSInteger)getPermissionsValueByCanEdit:(BOOL)canEdit andCanCreate:(BOOL)canCreate andCanChange:(BOOL)canChange andCanDelete:(BOOL)canDelete andCanShare:(BOOL)canShare andIsFolder:(BOOL) isFolder;
++ (BOOL)isPermissionToCanCreate:(NSInteger) permissionValue;
++ (BOOL)isPermissionToCanChange:(NSInteger) permissionValue;
++ (BOOL)isPermissionToCanDelete:(NSInteger) permissionValue;
++ (BOOL)isPermissionToCanShare:(NSInteger) permissionValue;
++ (BOOL)isAnyPermissionToEdit:(NSInteger) permissionValue;
++ (BOOL)isPermissionToRead:(NSInteger) permissionValue;
++ (BOOL)isPermissionToReadCreateUpdate:(NSInteger) permissionValue;
 
 // ===== Third parts =====
 
@@ -202,6 +268,7 @@
 + (NSDate *)datetimeWithOutTime:(NSDate *)datDate;
 + (NSDate *)datetimeWithOutDate:(NSDate *)datDate;
 + (BOOL)isValidEmail:(NSString *)checkString;
-+ (NSString *)URLEncodeStringFromString:(NSString *)string;
++ (NSString *)hexRepresentation:(NSData *)data spaces:(BOOL)spaces;
++ (NSString *)valueForKey:(NSString *)key fromQueryItems:(NSArray *)queryItems;
 
 @end

@@ -3,9 +3,9 @@
 //  Nextcloud
 //
 //  Created by Marino Faggiana on 19/09/17.
-//  Copyright © 2017 TWS. All rights reserved.
+//  Copyright © 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -27,24 +27,12 @@
 
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonKeyDerivation.h>
-
-#import <openssl/x509.h>
-#import <openssl/bio.h>
-#import <openssl/err.h>
-#import <openssl/pem.h>
-#import <openssl/rsa.h>
-#import <openssl/pkcs12.h>
-#import <openssl/ssl.h>
-#import <openssl/err.h>
-#import <openssl/bn.h>
-#import <openssl/md5.h>
-#import <openssl/rand.h>
-#import <openssl/engine.h>
-
+#import <OpenSSL/OpenSSL.h>
 
 #define addName(field, value) X509_NAME_add_entry_by_txt(name, field, MBSTRING_ASC, (unsigned char *)value, -1, -1, 0); NSLog(@"%s: %s", field, value);
 
-#define IV_DELIMITER_ENCODED        @"fA==" // "|" base64 encoded
+#define IV_DELIMITER_ENCODED_OLD    @"fA=="
+#define IV_DELIMITER_ENCODED        @"|"
 #define PBKDF2_INTERACTION_COUNT    1024
 #define PBKDF2_KEY_LENGTH           256
 //#define PBKDF2_SALT                 @"$4$YmBjm3hk$Qb74D5IUYwghUmzsMqeNFx5z0/8$"
@@ -86,34 +74,37 @@
 #pragma mark - Generate Certificate X509 - CSR - Private Key
 #
 
-- (BOOL)generateCertificateX509WithUserID:(NSString *)userID directoryUser:(NSString *)directoryUser
+- (BOOL)generateCertificateX509WithUserID:(NSString *)userID directory:(NSString *)directory
 {
-    OPENSSL_init_ssl(0, NULL);
-    OPENSSL_init_crypto(0, NULL);
+    OPENSSL_init();
     
-    X509 *x509;
+    EVP_PKEY * pkey;
+    pkey = EVP_PKEY_new();
+    
+    RSA * rsa;
+    rsa = RSA_generate_key(
+                           2048, /* number of bits for the key - 2048 is a sensible value */
+                           RSA_F4, /* exponent - RSA_F4 is defined as 0x10001L */
+                           NULL, /* callback - can be NULL if we aren't displaying progress */
+                           NULL /* callback argument - not needed in this case */
+                           );
+    
+    EVP_PKEY_assign_RSA(pkey, rsa);
+    
+    X509 * x509;
     x509 = X509_new();
     
-    EVP_PKEY *pkey;
-    NSError *keyError;
-    pkey = [self generateRSAKey:&keyError];
-    if (keyError) {
-        return NO;
-    }
-
-    X509_set_pubkey(x509, pkey);
-    EVP_PKEY_free(pkey);
+    ASN1_INTEGER_set(X509_get_serialNumber(x509), 1);
     
-    // Set Serial Number
-    ASN1_INTEGER_set(X509_get_serialNumber(x509), 123);
-    
-    // Set Valididity Date Range
     long notBefore = [[NSDate date] timeIntervalSinceDate:[NSDate date]];
     long notAfter = [[[NSDate date] dateByAddingTimeInterval:60*60*24*365*10] timeIntervalSinceDate:[NSDate date]]; // 10 year
-    X509_gmtime_adj((ASN1_TIME *)X509_get0_notBefore(x509), notBefore);
-    X509_gmtime_adj((ASN1_TIME *)X509_get0_notAfter(x509), notAfter);
+    X509_gmtime_adj(X509_get_notBefore(x509), notBefore);
+    X509_gmtime_adj(X509_get_notAfter(x509), notAfter);
     
-    X509_NAME *name = X509_get_subject_name(x509);
+    X509_set_pubkey(x509, pkey);
+    
+    X509_NAME * name;
+    name = X509_get_subject_name(x509);
     
     // Now to add the subject name fields to the certificate
     // I use a macro here to make it cleaner.
@@ -207,50 +198,20 @@
     if(keyBytes)
         free(keyBytes);
     
-#ifdef DEBUG
+    #ifdef DEBUG
     // Save to disk [DEBUG MODE]
-    [self saveToDiskPEMWithCert:x509 key:pkey directoryUser:directoryUser];
-#endif
+    [self saveToDiskPEMWithCert:x509 key:pkey directory:directory];
+    #endif
     
     return YES;
 }
 
-- (EVP_PKEY *)generateRSAKey:(NSError **)error
-{
-    EVP_PKEY *pkey = EVP_PKEY_new();
-    if (!pkey) {
-        return NULL;
-    }
-    
-    BIGNUM *bigNumber = BN_new();
-    int exponent = RSA_F4;
-    RSA *rsa = RSA_new();
-    
-    if (BN_set_word(bigNumber, exponent) < 0) {
-        goto cleanup;
-    }
-    
-    if (RSA_generate_key_ex(rsa, 2048, bigNumber, NULL) < 0) {
-        goto cleanup;
-    }
-    
-    if (!EVP_PKEY_set1_RSA(pkey, rsa)) {
-        goto cleanup;
-    }
-    
-cleanup:
-    RSA_free(rsa);
-    BN_free(bigNumber);
-    
-    return pkey;
-}
-
-- (BOOL)saveToDiskPEMWithCert:(X509 *)x509 key:(EVP_PKEY *)pkey directoryUser:(NSString *)directoryUser
+- (BOOL)saveToDiskPEMWithCert:(X509 *)x509 key:(EVP_PKEY *)pkey directory:(NSString *)directory
 {
     FILE *f;
     
     // Certificate
-    NSString *certificatePath = [NSString stringWithFormat:@"%@/%@", directoryUser, fileNameCertificate];
+    NSString *certificatePath = [NSString stringWithFormat:@"%@/%@", directory, fileNameCertificate];
     f = fopen([certificatePath fileSystemRepresentation], "wb");
     if (PEM_write_X509(f, x509) < 0) {
         // Error writing to disk.
@@ -261,7 +222,7 @@ cleanup:
     fclose(f);
     
     // PublicKey
-    NSString *publicKeyPath = [NSString stringWithFormat:@"%@/%@", directoryUser, fileNamePubliceKey];
+    NSString *publicKeyPath = [NSString stringWithFormat:@"%@/%@", directory, fileNamePubliceKey];
     f = fopen([publicKeyPath fileSystemRepresentation], "wb");
     if (PEM_write_PUBKEY(f, pkey) < 0) {
         // Error
@@ -276,7 +237,7 @@ cleanup:
     //if (PEM_write_PrivateKey(f, pkey, EVP_des_ede3_cbc(), (unsigned char *)[password UTF8String], (int)password.length, NULL, NULL) < 0) {
     
     // PrivateKey
-    NSString *privatekeyPath = [NSString stringWithFormat:@"%@/%@", directoryUser, fileNamePrivateKey];
+    NSString *privatekeyPath = [NSString stringWithFormat:@"%@/%@", directory, fileNamePrivateKey];
     f = fopen([privatekeyPath fileSystemRepresentation], "wb");
     if (PEM_write_PrivateKey(f, pkey, NULL, NULL, 0, NULL, NULL) < 0) {
         // Error
@@ -287,7 +248,7 @@ cleanup:
     fclose(f);
     
     // CSR Request sha256
-    NSString *csrPath = [NSString stringWithFormat:@"%@/%@", directoryUser, fileNameCSR];
+    NSString *csrPath = [NSString stringWithFormat:@"%@/%@", directory, fileNameCSR];
     f = fopen([csrPath fileSystemRepresentation], "wb");
     X509_REQ *certreq = X509_to_X509_REQ(x509, pkey, EVP_sha256());
     if (PEM_write_X509_REQ(f, certreq) < 0) {
@@ -301,12 +262,12 @@ cleanup:
     return YES;
 }
 
-- (BOOL)saveP12WithCert:(X509 *)x509 key:(EVP_PKEY *)pkey directoryUser:(NSString *)directoryUser finished:(void (^)(NSError *))finished
+- (BOOL)saveP12WithCert:(X509 *)x509 key:(EVP_PKEY *)pkey directory:(NSString *)directory finished:(void (^)(NSError *))finished
 {
     //PKCS12 * p12 = PKCS12_create([password UTF8String], NULL, pkey, x509, NULL, 0, 0, PKCS12_DEFAULT_ITER, 1, NID_key_usage);
     PKCS12 *p12 = PKCS12_create(NULL, NULL, pkey, x509, NULL, 0, 0, PKCS12_DEFAULT_ITER, 1, NID_key_usage);
     
-    NSString *path = [NSString stringWithFormat:@"%@/certificate.p12", directoryUser];
+    NSString *path = [NSString stringWithFormat:@"%@/certificate.p12", directory];
     
     FILE *f = fopen([path fileSystemRepresentation], "wb");
     
@@ -324,11 +285,11 @@ cleanup:
 #pragma mark - Create CSR & Encrypt/Decrypt Private Key
 #
 
-- (NSString *)createCSR:(NSString *)userID directoryUser:(NSString *)directoryUser
+- (NSString *)createCSR:(NSString *)userID directory:(NSString *)directory
 {
     // Create Certificate, if do not exists
     if (!_csrData) {
-        if (![self generateCertificateX509WithUserID:userID directoryUser:directoryUser])
+        if (![self generateCertificateX509WithUserID:userID directory:directory])
             return nil;
     }
     
@@ -337,12 +298,12 @@ cleanup:
     return csr;
 }
 
-- (NSString *)encryptPrivateKey:(NSString *)userID directoryUser: (NSString *)directoryUser passphrase:(NSString *)passphrase privateKey:(NSString **)privateKey
+- (NSString *)encryptPrivateKey:(NSString *)userID directory:(NSString *)directory passphrase:(NSString *)passphrase privateKey:(NSString **)privateKey
 {
     NSMutableData *privateKeyCipherData = [NSMutableData new];
 
     if (!_privateKeyData) {
-        if (![self generateCertificateX509WithUserID:userID directoryUser:directoryUser])
+        if (![self generateCertificateX509WithUserID:userID directory:directory])
             return nil;
     }
     
@@ -390,7 +351,13 @@ cleanup:
     
     // Split
     NSArray *privateKeyCipherArray = [privateKeyCipher componentsSeparatedByString:IV_DELIMITER_ENCODED];
-
+    if (privateKeyCipherArray.count != 3) {
+        privateKeyCipherArray = [privateKeyCipher componentsSeparatedByString:IV_DELIMITER_ENCODED_OLD];
+        if (privateKeyCipherArray.count != 3) {
+            return nil;
+        }
+    }
+    
     NSData *privateKeyCipherData = [[NSData alloc] initWithBase64EncodedString:privateKeyCipherArray[0] options:0];
     NSString *tagBase64 = [privateKeyCipher substringWithRange:NSMakeRange([(NSString *)privateKeyCipherArray[0] length] - AES_GCM_TAG_LENGTH, AES_GCM_TAG_LENGTH)];
     NSData *tagData = [[NSData alloc] initWithBase64EncodedString:tagBase64 options:0];
@@ -470,6 +437,12 @@ cleanup:
 {
     NSMutableData *plainData;
     NSRange range = [encrypted rangeOfString:IV_DELIMITER_ENCODED];
+    if (range.location == NSNotFound) {
+        range = [encrypted rangeOfString:IV_DELIMITER_ENCODED_OLD];
+        if (range.location == NSNotFound) {
+            return nil;
+        }
+    }
     
     // Cipher
     NSString *cipher = [encrypted substringToIndex:(range.location)];
@@ -504,12 +477,22 @@ cleanup:
 #pragma mark - Encrypt / Decrypt file
 #
 
-- (BOOL)encryptFileName:(NSString *)fileName fileNameIdentifier:(NSString *)fileNameIdentifier directoryUser:(NSString *)directoryUser key:(NSString **)key initializationVector:(NSString **)initializationVector authenticationTag:(NSString **)authenticationTag
+- (void)encryptkey:(NSString **)key initializationVector:(NSString **)initializationVector
+{
+    NSData *keyData = [self generateKey:AES_KEY_128_LENGTH];
+    NSData *ivData = [self generateIV:AES_IVEC_LENGTH];
+    
+    *key = [keyData base64EncodedStringWithOptions:0];
+    *initializationVector = [ivData base64EncodedStringWithOptions:0];
+}
+
+
+- (BOOL)encryptFileName:(NSString *)fileName fileNameIdentifier:(NSString *)fileNameIdentifier directory:(NSString *)directory key:(NSString **)key initializationVector:(NSString **)initializationVector authenticationTag:(NSString **)authenticationTag
 {
     NSMutableData *cipherData;
     NSData *tagData;
    
-    NSData *plainData = [[NSFileManager defaultManager] contentsAtPath:[NSString stringWithFormat:@"%@/%@", directoryUser, fileName]];
+    NSData *plainData = [[NSFileManager defaultManager] contentsAtPath:[NSString stringWithFormat:@"%@/%@", directory, fileName]];
     if (plainData == nil)
         return false;
     
@@ -520,23 +503,27 @@ cleanup:
     
     if (cipherData != nil && result) {
         
-        [cipherData writeToFile:[NSString stringWithFormat:@"%@/%@", directoryUser, fileNameIdentifier] atomically:YES];
+        [cipherData writeToFile:[NSString stringWithFormat:@"%@/%@", directory, fileNameIdentifier] atomically:YES];
         
         *key = [keyData base64EncodedStringWithOptions:0];
         *initializationVector = [ivData base64EncodedStringWithOptions:0];
         *authenticationTag = [tagData base64EncodedStringWithOptions:0];
 
-        return true;
+        if (key == nil || initializationVector == nil || authenticationTag == nil) {
+            return false;
+        } else {
+            return true;
+        }
     }
     
     return false;
 }
 
-- (BOOL)decryptFileID:(NSString *)fileID directoryUser:(NSString *)directoryUser key:(NSString *)key initializationVector:(NSString *)initializationVector authenticationTag:(NSString *)authenticationTag
+- (BOOL)decryptFileName:(NSString *)fileName fileNameView:(NSString *)fileNameView ocId:(NSString *)ocId key:(NSString *)key initializationVector:(NSString *)initializationVector authenticationTag:(NSString *)authenticationTag
 {
     NSMutableData *plainData;
 
-    NSData *cipherData = [[NSFileManager defaultManager] contentsAtPath:[NSString stringWithFormat:@"%@/%@", directoryUser, fileID]];
+    NSData *cipherData = [[NSFileManager defaultManager] contentsAtPath:[CCUtility getDirectoryProviderStorageOcId:ocId fileNameView:fileName]];
     if (cipherData == nil)
         return false;
     
@@ -546,7 +533,7 @@ cleanup:
 
     BOOL result = [self decryptData:cipherData plainData:&plainData keyData:keyData keyLen:AES_KEY_128_LENGTH ivData:ivData tagData:tagData];
     if (plainData != nil && result) {
-        [plainData writeToFile:[NSString stringWithFormat:@"%@/%@", directoryUser, fileID] atomically:YES];
+        [plainData writeToFile:[CCUtility getDirectoryProviderStorageOcId:ocId fileNameView:fileNameView] atomically:YES];
         return true;
     }
     

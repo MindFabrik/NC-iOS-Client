@@ -1,4 +1,4 @@
-# MindFabrik Branch of [Nextcloud](https://nextcloud.com) iOS app based on V 2.20.5
+# MindFabrik Branch of [Nextcloud](https://nextcloud.com) iOS app based on V 3.0.11
 
 This branch of Nextcloud offers some improvments in the customization:
 1. Force PIN or Finger Print to secure access

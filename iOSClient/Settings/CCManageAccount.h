@@ -1,11 +1,11 @@
 //
 //  CCManageAccount.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 12/03/15.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2015 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -21,10 +21,8 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#import "XLFormViewController.h"
-#import "XLForm.h"
+#import <XLForm/XLForm.h>
 #import "CCLogin.h"
-
 
 @interface CCManageAccount : XLFormViewController
 

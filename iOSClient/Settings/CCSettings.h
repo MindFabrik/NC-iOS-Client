@@ -1,11 +1,11 @@
 //
 //  CCSettings.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 24/11/14.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2014 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -23,16 +23,11 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
-#import "XLFormViewController.h"
-#import "XLForm.h"
-#import "BKPasscodeViewController.h"
+#import <XLForm/XLForm.h>
 #import "CCUtility.h"
 #import "CCHud.h"
 
-@interface CCSettings : XLFormViewController <BKPasscodeViewControllerDelegate, MFMailComposeViewControllerDelegate>
-
-@property (nonatomic) NSUInteger failedAttempts;
-@property (strong, nonatomic) NSDate *lockUntilDate;
+@interface CCSettings : XLFormViewController
 
 - (void)reloadForm;
 

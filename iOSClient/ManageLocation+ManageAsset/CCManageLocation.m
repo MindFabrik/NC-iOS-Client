@@ -1,11 +1,11 @@
 //
 //  CCManageLocation.m
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 23/07/15.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2015 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,11 +22,10 @@
 //
 
 #import "CCManageLocation.h"
-
 #import "AppDelegate.h"
+#import "NCBridgeSwift.h"
 
 @implementation CCManageLocation
-
 
 + (CCManageLocation *)sharedInstance
 {
@@ -66,7 +65,7 @@
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     CLLocation* location = [locations lastObject];
     
-    NSLog(@"[LOG] update locationManager : latitude %+.6f, longitude %+.6f",location.coordinate.latitude, location.coordinate.longitude);
+    [[NCCommunicationCommon shared] writeLog:[NSString stringWithFormat:@"update location manager: latitude %+.6f, longitude %+.6f", location.coordinate.latitude, location.coordinate.longitude]];
     
     appDelegate.currentLatitude = location.coordinate.latitude;
     appDelegate.currentLongitude = location.coordinate.longitude;
@@ -81,7 +80,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
 {
-    NSLog(@"[LOG] locationManager didFailWithError: Unable to start location manager. Error:%@", [error description]);
+    [[NCCommunicationCommon shared] writeLog:[NSString stringWithFormat:@"Location manager didFailWithError: Unable to start location manager, %@", [error description]]];
     
     [self.delegate statusAuthorizationLocationChanged];
 }

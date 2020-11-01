@@ -1,11 +1,11 @@
 //
 //  CCLogin.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 09/04/15.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2015 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -24,27 +24,11 @@
 #import <UIKit/UIKit.h>
 
 #import "UIImage+animatedGIF.h"
-#import "CCCertificate.h"
-#import "OCNetworking.h"
 
-@class CCLoginWeb;
+@class NCLoginWeb;
+@class NCLoginQRCode;
 
-@protocol CCLoginDelegate <NSObject>
-
-- (void) loginSuccess:(NSInteger)loginType;
-- (void) loginClose;
-
-@end
-
-@interface CCLogin : UIViewController <UITextFieldDelegate, NSURLSessionTaskDelegate, NSURLSessionDelegate, CCCertificateDelegate, OCNetworkingDelegate>
-
-typedef enum {
-    loginAdd = 0,
-    loginAddForced = 1,
-    loginModifyPasswordUser = 2
-} enumLoginType;
-
-@property (nonatomic, weak) id <CCLoginDelegate> delegate;
+@interface CCLogin : UIViewController <UITextFieldDelegate>
 
 @property (nonatomic, weak) IBOutlet UIImageView *imageBrand;
 
@@ -56,16 +40,12 @@ typedef enum {
 @property (nonatomic, weak) IBOutlet UIImageView *imageUser;
 @property (nonatomic, weak) IBOutlet UIImageView *imagePassword;
 
-@property (nonatomic, weak) IBOutlet UIImageView *loadingBaseUrl;
-
-@property (nonatomic, weak) IBOutlet UILabel *bottomLabel;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView *activity;
 
 @property (nonatomic, weak) IBOutlet UIButton *login;
-@property (nonatomic, weak) IBOutlet UIButton *annulla;
 @property (nonatomic, weak) IBOutlet UIButton *toggleVisiblePassword;
 @property (nonatomic, weak) IBOutlet UIButton *loginTypeView;
 
-
-@property enumLoginType loginType;
+@property (nonatomic, weak) IBOutlet UIButton *qrCode;
 
 @end

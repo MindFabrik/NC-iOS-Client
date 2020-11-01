@@ -20,5 +20,9 @@
 	<array>
 		<string>group.de.mindfabrik.mfdev.crypto-cloud</string>
 	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)de.mindfabrik.Nextcloud.mfdev.crypto-cloud</string>
+	</array>
 </dict>
 </plist>

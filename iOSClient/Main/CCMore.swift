@@ -3,9 +3,9 @@
 //  Nextcloud
 //
 //  Created by Marino Faggiana on 03/04/17.
-//  Copyright © 2017 TWS. All rights reserved.
+//  Copyright © 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -23,450 +23,426 @@
 
 
 import UIKit
+import NCCommunication
 
-class CCMore: UIViewController, UITableViewDelegate, UITableViewDataSource, CCLoginDelegate, CCLoginDelegateWeb {
+class CCMore: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    @IBOutlet weak var themingBackground: UIImageView!
-    @IBOutlet weak var themingAvatar: UIImageView!
-    @IBOutlet weak var labelUsername: UILabel!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var labelQuota: UILabel!
     @IBOutlet weak var labelQuotaExternalSite: UILabel!
     @IBOutlet weak var progressQuota: UIProgressView!
+    @IBOutlet weak var viewQuota: UIView!
 
-    var functionMenu = [OCExternalSites]()
-    var settingsMenu = [OCExternalSites]()
-    var quotaMenu = [OCExternalSites]()
+    var functionMenu: [NCCommunicationExternalSite] = []
+    var externalSiteMenu: [NCCommunicationExternalSite] = []
+    var settingsMenu: [NCCommunicationExternalSite] = []
+    var quotaMenu: [NCCommunicationExternalSite] = []
 
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-    
-    var menuExternalSite: [tableExternalSites]?
-    var tabAccount : tableAccount?
-    
-    //var loginWeb : CCLoginWeb!
+
+    var tabAccount: tableAccount?
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+
+        appDelegate.activeMore = self
+    }
 
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-        
+
         tableView.delegate = self
         tableView.dataSource = self
-        
-        tableView.separatorColor = NCBrandColor.sharedInstance.seperator
-        
-        if #available(iOS 11, *) {
-            //tableView.contentInsetAdjustmentBehavior = .never
-        }
-        
-        themingBackground.image = #imageLiteral(resourceName: "themingBackground")
-        
+
+        self.navigationItem.title = NSLocalizedString("_more_", comment: "")
+
         // create tap gesture recognizer
         let tapQuota = UITapGestureRecognizer(target: self, action: #selector(tapLabelQuotaExternalSite))
         labelQuotaExternalSite.isUserInteractionEnabled = true
         labelQuotaExternalSite.addGestureRecognizer(tapQuota)
-        
-        let tapImageLogo = UITapGestureRecognizer(target: self, action: #selector(tapImageLogoManageAccount))
-        themingBackground.isUserInteractionEnabled = true
-        themingBackground.addGestureRecognizer(tapImageLogo)
-        
+
         // Notification
-        NotificationCenter.default.addObserver(self, selector: #selector(self.changeTheming), name: NSNotification.Name(rawValue: "changeTheming"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(self.changeUserProfile), name: NSNotification.Name(rawValue: "changeUserProfile"), object: nil)
-    }
-    
-    // Apparirà
-    override func viewWillAppear(_ animated: Bool) {
+        NotificationCenter.default.addObserver(self, selector: #selector(changeUserProfile), name: NSNotification.Name(rawValue: k_notificationCenter_changeUserProfile), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeTheming), name: NSNotification.Name(rawValue: k_notificationCenter_changeTheming), object: nil)
         
+        changeTheming()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        var item = NCCommunicationExternalSite()
+
         // Clear
         functionMenu.removeAll()
+        externalSiteMenu.removeAll()
         settingsMenu.removeAll()
         quotaMenu.removeAll()
         labelQuotaExternalSite.text = ""
         
         // ITEM : Transfer
-        var item = OCExternalSites.init()
+        item = NCCommunicationExternalSite()
         item.name = "_transfers_"
-        item.icon = "moreTransfers"
+        item.icon = "load"
         item.url = "segueTransfers"
         functionMenu.append(item)
+
+        // ITEM : Recent
+        item = NCCommunicationExternalSite()
+        item.name = "_recent_"
+        item.icon = "recent"
+        item.url = "segueRecent"
+        functionMenu.append(item)
+        
+        // ITEM : Notification
+        item = NCCommunicationExternalSite()
+        item.name = "_notification_"
+        item.icon = "notification"
+        item.url = "segueNotification"
+        //Change-MindFabrik-Start
+        //functionMenu.append(item)
+        //Change-MindFabrik-End
+        
         
         // ITEM : Activity
-        item = OCExternalSites.init()
+        item = NCCommunicationExternalSite()
         item.name = "_activity_"
-        item.icon = "moreActivity"
+        item.icon = "activity"
         item.url = "segueActivity"
         functionMenu.append(item)
-        
-        // Change-MindFabrik-START
-        // Hide Shares
-        
-        /*
+
         // ITEM : Shares
-        item = OCExternalSites.init()
+        item = NCCommunicationExternalSite()
         item.name = "_list_shares_"
-        item.icon = "moreShares"
+        item.icon = "shareFill"
         item.url = "segueShares"
+        //Change-MindFabrik-Start
+        //functionMenu.append(item)
+        //Change-MindFabrik-End
+
+        // ITEM : Offline
+        item = NCCommunicationExternalSite()
+        item.name = "_manage_file_offline_"
+        item.icon = "offline"
+        item.url = "segueOffline"
         functionMenu.append(item)
-        */
-        // Change-MindFabrik-END
-    
- 
-        
-        // ITEM : External
-        
-        if NCBrandOptions.sharedInstance.disable_more_external_site == false {
-        
-            menuExternalSite = NCManageDatabase.sharedInstance.getAllExternalSites()
-            
-            if menuExternalSite != nil {
-                
-                for table in menuExternalSite! {
-            
-                    item = OCExternalSites.init()
-            
-                    item.name = table.name
-                    item.url = table.url
-                    item.icon = table.icon
-            
-                    if (table.type == "link") {
-                        item.icon = "moreExternalSite"
-                        functionMenu.append(item)
-                    }
-                    if (table.type == "settings") {
-                        item.icon = "moreSettingsExternalSite"
-                        settingsMenu.append(item)
-                    }
-                    if (table.type == "quota") {
-                        quotaMenu.append(item)
-                    }
-                }
-            }
+
+        // ITEM : Scan
+        item = NCCommunicationExternalSite()
+        item.name = "_scanned_images_"
+        item.icon = "scan"
+        item.url = "openStoryboardScan"
+        functionMenu.append(item)
+
+        // ITEM : Trash
+        let serverVersionMajor = NCManageDatabase.sharedInstance.getCapabilitiesServerInt(account: appDelegate.account, elements: NCElementsJSON.shared.capabilitiesVersionMajor)
+        if serverVersionMajor >= Int(k_trash_version_available) {
+
+            item = NCCommunicationExternalSite()
+            item.name = "_trash_view_"
+            item.icon = "trash"
+            item.url = "segueTrash"
+            functionMenu.append(item)
         }
-        
+
         // ITEM : Settings
-        item = OCExternalSites.init()
+        item = NCCommunicationExternalSite()
         item.name = "_settings_"
-        item.icon = "moreSettings"
+        item.icon = "settings"
         item.url = "segueSettings"
         settingsMenu.append(item)
-        
+
         if (quotaMenu.count > 0) {
-            
             let item = quotaMenu[0]
             labelQuotaExternalSite.text = item.name
         }
         
-        // User data & Theming
-        changeUserProfile()
-        changeTheming()
-        
-        // Title
-        self.navigationItem.title = NSLocalizedString("_more_", comment: "")
-        
-        // Aspect
-        appDelegate.aspectNavigationControllerBar(self.navigationController?.navigationBar, online: appDelegate.reachability.isReachable(), hidden: false)
-        appDelegate.aspectTabBar(self.tabBarController?.tabBar, hidden: false)
-
-        // +
-        appDelegate.plusButtonVisibile(true)
-        
-        self.navigationController?.setNavigationBarHidden(true, animated: animated)
-        
-        tableView.reloadData()
-        
         //Change-MindFabrik-Start
-        if (NCBrandOptions.sharedInstance.mindfabrik_force_lockfeature) {
-            if (CCUtility.getBlockCode() == nil)
-            {
-            self.navigationController?.performSegue(withIdentifier: "segueSettings", sender: self)
+         // If Force Lockdown is true and no passcode define, open Settings view
+         if (NCBrandOptions.sharedInstance.mindfabrik_force_lockfeature) {
+             if (CCUtility.getPasscode()?.count == 0) || (CCUtility.getPasscode() == nil)
+             {
+                 self.navigationController?.performSegue(withIdentifier: "segueSettings", sender: self)
+             }
+         }
+         //Change-MindFabrik-End
+
+        
+        changeUserProfile()
+
+        // ITEM : External
+        if NCBrandOptions.sharedInstance.disable_more_external_site == false {
+            if let externalSites = NCManageDatabase.sharedInstance.getAllExternalSites(account: appDelegate.account) {
+                for externalSite in externalSites {
+                    if (externalSite.type == "link" && externalSite.name != "" && externalSite.url != "") {
+                        item = NCCommunicationExternalSite()
+                        item.name = externalSite.name
+                        item.url = externalSite.url
+                        item.icon = "world"
+                        externalSiteMenu.append(item)
+                    }
+                    if (externalSite.type == "settings") {
+                        item.icon = "settings"
+                        settingsMenu.append(item)
+                    }
+                    if (externalSite.type == "quota") {
+                        quotaMenu.append(item)
+                    }
+                }
+                tableView.reloadData()
+            } else {
+                tableView.reloadData()
             }
+        } else {
+            tableView.reloadData()
         }
-        //Change-MindFabrik-End
-        
     }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        self.navigationController?.setNavigationBarHidden(false, animated: animated)
-    }
-    
+
     @objc func changeTheming() {
-        
-        self.view.backgroundColor = NCBrandColor.sharedInstance.brand
-        
-        if let theminBackgroundFile = UIImage.init(contentsOfFile: "\(appDelegate.directoryUser!)/themingBackground.png") {
-            themingBackground.image = theminBackgroundFile
-        } else {
-            themingBackground.image = #imageLiteral(resourceName: "themingBackground")
-        }
-        
-        if (self.isViewLoaded && (self.view.window != nil)) {
-            appDelegate.changeTheming(self)
-        }
+        appDelegate.changeTheming(self, tableView: tableView, collectionView: nil, form: true)
+
+        viewQuota.backgroundColor = NCBrandColor.sharedInstance.backgroundForm
+        progressQuota.progressTintColor = NCBrandColor.sharedInstance.brandElement
     }
-    
+
     @objc func changeUserProfile() {
-     
-        if let themingAvatarFile = UIImage.init(contentsOfFile: "\(appDelegate.directoryUser!)/avatar.png") {
-            themingAvatar.image = themingAvatarFile
-        } else {
-            themingAvatar.image = UIImage.init(named: "moreAvatar")
-        }
-        
         // Display Name user & Quota
+        var quota: String = ""
+
         guard let tabAccount = NCManageDatabase.sharedInstance.getAccountActive() else {
             return
         }
-        
-        if tabAccount.displayName.isEmpty {
-            labelUsername.text = tabAccount.user
-        }
-        else{
-            labelUsername.text = tabAccount.displayName
-        }
-        
-        // Shadow labelUsername TEST BLUR
-        /*
-        labelUsername.layer.shadowColor = UIColor.black.cgColor
-        labelUsername.layer.shadowRadius = 4
-        labelUsername.layer.shadowOpacity = 0.8
-        labelUsername.layer.shadowOffset = CGSize(width: 0, height: 0)
-        labelUsername.layer.masksToBounds = false
-        */
-        
+        self.tabAccount = tabAccount
+
         if (tabAccount.quotaRelative > 0) {
             progressQuota.progress = Float(tabAccount.quotaRelative) / 100
         } else {
             progressQuota.progress = 0
         }
 
-        progressQuota.progressTintColor = NCBrandColor.sharedInstance.brandElement
-                
-        let quota : String = CCUtility.transformedSize(Double(tabAccount.quotaTotal))
-        let quotaUsed : String = CCUtility.transformedSize(Double(tabAccount.quotaUsed))
-                
+        switch Double(tabAccount.quotaTotal) {
+        case Double(-1):
+            quota = "0"
+        case Double(-2):
+            quota = NSLocalizedString("_quota_space_unknown_", comment: "")
+        case Double(-3):
+            quota = NSLocalizedString("_quota_space_unlimited_", comment: "")
+        default:
+            quota = CCUtility.transformedSize(Double(tabAccount.quotaTotal))
+        }
+
+        let quotaUsed: String = CCUtility.transformedSize(Double(tabAccount.quotaUsed))
+
         labelQuota.text = String.localizedStringWithFormat(NSLocalizedString("_quota_using_", comment: ""), quotaUsed, quota)
     }
-    
+
     func numberOfSections(in tableView: UITableView) -> Int {
-        
-        return 2
-    }
-    
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        
-        if (section == 0) {
-            return 10
+
+        if (externalSiteMenu.count == 0) {
+            return 3
         } else {
-            return 30
+            return 4
         }
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+
         var cont = 0
         
-        // Menu Normal
         if (section == 0) {
+            cont = tabAccount == nil ? 0 : 1
+        } else if (section == 1) {
+            // Menu Normal
             cont = functionMenu.count
+        } else {
+            switch (numberOfSections(in: tableView)) {
+            case 3:
+                // Menu Settings
+                if (section == 2) {
+                    cont = settingsMenu.count
+                }
+            case 4:
+                // Menu External Site
+                if (section == 2) {
+                    cont = externalSiteMenu.count
+                }
+                // Menu Settings
+                if (section == 3) {
+                    cont = settingsMenu.count
+                }
+            default:
+                cont = 0
+            }
         }
-        // Menu Settings
-        if (section == 1) {
-            cont = settingsMenu.count
-        }
-        
+
         return cont
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CCCellMore
+        var item = NCCommunicationExternalSite()
 
         // change color selection and disclosure indicator
-        let selectionColor : UIView = UIView.init()
-        selectionColor.backgroundColor = NCBrandColor.sharedInstance.getColorSelectBackgrond()
+        let selectionColor: UIView = UIView()
+        selectionColor.backgroundColor = NCBrandColor.sharedInstance.select
         cell.selectedBackgroundView = selectionColor
-        
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
-        
-        // Menu Normal
-        if (indexPath.section == 0) {
-            
-            let item = functionMenu[indexPath.row]
-            
-            cell.imageIcon?.image = UIImage.init(named: item.icon)
-            cell.labelText?.text = NSLocalizedString(item.name, comment: "")
-            cell.labelText.textColor = NCBrandColor.sharedInstance.textView
+        cell.backgroundColor = NCBrandColor.sharedInstance.backgroundCell
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
 
-        }
-        
-        // Menu Settings
-        if (indexPath.section == 1) {
-            
-            let item = settingsMenu[indexPath.row]
-            
-            cell.imageIcon?.image = UIImage.init(named: item.icon)
+        if (indexPath.section == 0) {
+            let fileNamePath = CCUtility.getDirectoryUserData() + "/" + CCUtility.getStringUser(appDelegate.user, urlBase: appDelegate.urlBase) + "-" + appDelegate.user + ".png"
+
+            if let themingAvatarFile = UIImage.init(contentsOfFile: fileNamePath) {
+                cell.imageIcon?.image = themingAvatarFile
+            } else {
+                cell.imageIcon?.image = UIImage.init(named: "moreAvatar")
+            }
+            cell.imageIcon?.layer.masksToBounds = true
+            cell.imageIcon?.layer.cornerRadius = cell.imageIcon.frame.size.width / 2
+            if let account = tabAccount {
+                cell.labelText?.text = account.displayName
+                cell.labelText.textColor = NCBrandColor.sharedInstance.textView
+            }
+
+            return cell
+        } else {
+            // Menu Normal
+            if (indexPath.section == 1) {
+
+                item = functionMenu[indexPath.row]
+            }
+            // Menu External Site
+            if (numberOfSections(in: tableView) == 4 && indexPath.section == 2) {
+                item = externalSiteMenu[indexPath.row]
+            }
+            // Menu Settings
+            if ((numberOfSections(in: tableView) == 3 && indexPath.section == 2) || (numberOfSections(in: tableView) == 4 && indexPath.section == 3)) {
+                item = settingsMenu[indexPath.row]
+            }
+
+            cell.imageIcon?.image = CCGraphics.changeThemingColorImage(UIImage.init(named: item.icon), width: 50, height: 50, color: NCBrandColor.sharedInstance.icon)
             cell.labelText?.text = NSLocalizedString(item.name, comment: "")
             cell.labelText.textColor = NCBrandColor.sharedInstance.textView
         }
-        
         return cell
     }
 
     // method to run when table view cell is tapped
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        var item: OCExternalSites = OCExternalSites.init()
-        
-        // Menu Function
+
+        var item = NCCommunicationExternalSite()
+
         if indexPath.section == 0 {
-            
+            //Change-MindFabrik-Start
+            //tapImageLogoManageAccount()
+            //Change-MindFabrik-End
+            return
+        }
+
+        // Menu Function
+        if indexPath.section == 1 {
             item = functionMenu[indexPath.row]
         }
-        
+
+        // Menu External Site
+        if (numberOfSections(in: tableView) == 4 && indexPath.section == 2) {
+            item = externalSiteMenu[indexPath.row]
+        }
+
         // Menu Settings
-        if indexPath.section == 1 {
-            
+        if ((numberOfSections(in: tableView) == 3 && indexPath.section == 2) || (numberOfSections(in: tableView) == 4 && indexPath.section == 3)) {
             item = settingsMenu[indexPath.row]
         }
-        
+
         // Action
         if item.url.contains("segue") && !item.url.contains("//") {
-            
+
             self.navigationController?.performSegue(withIdentifier: item.url, sender: self)
-        
-        } else if item.url.contains("open") && !item.url.contains("//") {
-            
-            let nameStoryboard = String(item.url[..<item.url.index(item.url.startIndex, offsetBy: 4)])
-            
-            //let nameStoryboard = item.url.substring(from: item.url.index(item.url.startIndex, offsetBy: 4))
-            
+
+        } else if item.url.contains("openStoryboard") && !item.url.contains("//") {
+
+            let nameStoryboard = item.url.replacingOccurrences(of: "openStoryboard", with: "")
             let storyboard = UIStoryboard(name: nameStoryboard, bundle: nil)
-            let controller = storyboard.instantiateViewController(withIdentifier: nameStoryboard)
+            let controller = storyboard.instantiateInitialViewController()! //instantiateViewController(withIdentifier: nameStoryboard)
             self.present(controller, animated: true, completion: nil)
-            
+
         } else if item.url.contains("//") {
-            
+
             if (self.splitViewController?.isCollapsed)! {
-                
-                let webVC = SwiftWebVC(urlString: item.url, hideToolbar: true)
-                webVC.delegate = self
-                self.navigationController?.pushViewController(webVC, animated: true)
+
+                let browserWebVC = UIStoryboard(name: "NCBrowserWeb", bundle: nil).instantiateInitialViewController() as! NCBrowserWeb
+                browserWebVC.urlBase = item.url
+                browserWebVC.isHiddenButtonExit = true
+
+                self.navigationController?.pushViewController(browserWebVC, animated: true)
                 self.navigationController?.navigationBar.isHidden = false
-                
+
             } else {
-                
-                let webVC = SwiftModalWebVC(urlString: item.url)
-                webVC.delegateWeb = self
-                self.present(webVC, animated: true, completion: nil)
+
+                let browserWebVC = UIStoryboard(name: "NCBrowserWeb", bundle: nil).instantiateInitialViewController() as! NCBrowserWeb
+                browserWebVC.urlBase = item.url
+
+                self.present(browserWebVC, animated: true, completion: nil)
             }
-            
+
         } else if item.url == "logout" {
-            
+
             let alertController = UIAlertController(title: "", message: NSLocalizedString("_want_delete_", comment: ""), preferredStyle: .alert)
-            
-            let actionYes = UIAlertAction(title: NSLocalizedString("_yes_delete_", comment: ""), style: .default) { (action:UIAlertAction) in
-                
+
+            let actionYes = UIAlertAction(title: NSLocalizedString("_yes_delete_", comment: ""), style: .default) { (action: UIAlertAction) in
+
                 let manageAccount = CCManageAccount()
-                manageAccount.delete(self.appDelegate.activeAccount)
-                
-                self.appDelegate.openLoginView(self, loginType: loginAddForced)
+                manageAccount.delete(self.appDelegate.account)
+
+                self.appDelegate.openLoginView(self, selector: Int(k_intro_login), openLoginWeb: false)
             }
-            
-            let actionNo = UIAlertAction(title: NSLocalizedString("_no_delete_", comment: ""), style: .default) { (action:UIAlertAction) in
-                print("You've pressed No button");
+
+            let actionNo = UIAlertAction(title: NSLocalizedString("_no_delete_", comment: ""), style: .default) { (action: UIAlertAction) in
+                print("You've pressed No button")
             }
-            
+
             alertController.addAction(actionYes)
             alertController.addAction(actionNo)
-            self.present(alertController, animated: true, completion:nil)
+            self.present(alertController, animated: true, completion: nil)
         }
     }
-    
-    @objc func tapLabelQuotaExternalSite() {
-        
-        if (quotaMenu.count > 0) {
-            
-            let item = quotaMenu[0]
-            
-            if (self.splitViewController?.isCollapsed)! {
-                
-                let webVC = SwiftWebVC(urlString: item.url, hideToolbar: true)
-                webVC.delegate = self
-                self.navigationController?.pushViewController(webVC, animated: true)
-                self.navigationController?.navigationBar.isHidden = false
-                
-            } else {
-                
-                let webVC = SwiftModalWebVC(urlString: item.url)
-                webVC.delegateWeb = self
-                self.present(webVC, animated: true, completion: nil)
-            }
-        }
-    }
-    
-    @objc func tapImageLogoManageAccount() {
-        
-        let controller = CCManageAccount.init()
-        
-        self.navigationController?.pushViewController(controller, animated: true)
-    }
-    
-    func loginSuccess(_ loginType: NSInteger) {
-        
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "initializeMain"), object: nil)
-        
-        appDelegate.selectedTabBarController(Int(k_tabBarApplicationIndexFile))
-    }
-    
-    func loginClose() {
-        appDelegate.activeLogin = nil
-    }
-    
-    func loginWebClose() {
-        appDelegate.activeLoginWeb = nil
-    }
-}
 
-extension CCMore: SwiftModalWebVCDelegate, SwiftWebVCDelegate{
-    
-    public func didStartLoading() {
-        print("Started loading.")
-    }
-    
-    public func didReceiveServerRedirectForProvisionalNavigation(url: URL) {
-        
-        let urlString: String = url.absoluteString.lowercased()
-        
-        // Protocol close webVC
-        if (urlString.contains(NCBrandOptions.sharedInstance.webCloseViewProtocolPersonalized) == true) {
-            
-            if (self.presentingViewController != nil) {
-                self.dismiss(animated: true, completion: nil)
+    @objc func tapLabelQuotaExternalSite() {
+
+        if (quotaMenu.count > 0) {
+
+            let item = quotaMenu[0]
+
+            if (self.splitViewController?.isCollapsed)! {
+
+                let browserWebVC = UIStoryboard(name: "NCBrowserWeb", bundle: nil).instantiateInitialViewController() as! NCBrowserWeb
+                browserWebVC.urlBase = item.url
+                browserWebVC.isHiddenButtonExit = true
+
+                self.navigationController?.pushViewController(browserWebVC, animated: true)
+                self.navigationController?.navigationBar.isHidden = false
+
             } else {
-                self.navigationController?.popToRootViewController(animated: true)
+
+                let browserWebVC = UIStoryboard(name: "NCBrowserWeb", bundle: nil).instantiateInitialViewController() as! NCBrowserWeb
+                browserWebVC.urlBase = item.url
+
+                self.present(browserWebVC, animated: true, completion: nil)
             }
         }
     }
-    
-    public func didFinishLoading(success: Bool) {
-        print("Finished loading. Success: \(success).")
-    }
-    
-    public func didFinishLoading(success: Bool, url: URL) {
-        print("Finished loading. Success: \(success).")
-    }
-    
-    public func decidePolicyForNavigationAction(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        decisionHandler(.allow)
+
+    @objc func tapImageLogoManageAccount() {
+
+        let controller = CCManageAccount.init()
+
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 }
 
 class CCCellMore: UITableViewCell {
-    
+
     @IBOutlet weak var labelText: UILabel!
     @IBOutlet weak var imageIcon: UIImageView!
 }

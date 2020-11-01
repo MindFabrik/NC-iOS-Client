@@ -3,9 +3,9 @@
 //  Nextcloud iOS
 //
 //  Created by Marino Faggiana on 26/01/16.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2016 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -21,32 +21,19 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#import "OCCommunication.h"
-#import "AFURLSessionManager.h"
-#import "MBProgressHUD.h"
-#import "CCNetworking.h"
-#import "OCNetworking.h"
-#import "CCBKPasscode.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+
 #import "CCGlobal.h"
 #import "CCGraphics.h"
 #import "CCCellShareExt.h"
-#import "CCMove.h"
-#import "CCError.h"
+#import "NCSelectDestination.h"
 #import "CCHud.h"
 
-@interface ShareViewController : UIViewController <UITableViewDelegate, OCNetworkingDelegate, MBProgressHUDDelegate, BKPasscodeViewControllerDelegate, CCNetworkingDelegate, CCMoveDelegate>
+@interface ShareViewController : UIViewController <UITableViewDelegate, MBProgressHUDDelegate, NCSelectDestinationDelegate, UITextFieldDelegate>
 
-@property (nonatomic, strong) NSOperationQueue *networkingOperationQueue;
-
-@property (nonatomic, strong) NSString *activeAccount;
-@property (nonatomic, strong) NSString *activeUrl;
-@property (nonatomic, strong) NSString *activeUser;
-@property (nonatomic, strong) NSString *activeUserID;
-@property (nonatomic, strong) NSString *activePassword;
-@property (nonatomic, strong) NSString *activeAccessToken;
-@property (nonatomic, strong) NSString *directoryUser;
+@property (nonatomic, strong) NSString *account;
+@property (nonatomic, strong) NSString *urlBase;
 @property (nonatomic, strong) NSString *serverUrl;
-
 @property (nonatomic, retain) NSMutableArray *filesName;
 
 @property (nonatomic, weak) IBOutlet UITableView *shareTable;
@@ -54,12 +41,6 @@
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *constraintTopTableView;
 @property (nonatomic, weak) IBOutlet UIToolbar *toolBar;
 
-// 
-@property (nonatomic, strong) CCBKPasscode *viewControllerBKInit;
-@property (nonatomic) NSUInteger failedAttempts;
-@property (nonatomic, strong) NSDate *lockUntilDate;
-
-//
 @property (nonatomic, strong) CCHud *hud;
 
 - (void)closeShareViewController;

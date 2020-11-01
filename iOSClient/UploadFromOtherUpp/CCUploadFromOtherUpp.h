@@ -1,11 +1,11 @@
 //
 //  CCUploadFromOtherUpp.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 01/12/14.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2014 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -23,10 +23,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CCMove.h"
-
-@interface CCUploadFromOtherUpp : UITableViewController <UITableViewDelegate, UITableViewDataSource, CCMoveDelegate>
-
-- (IBAction)Annula:(UIBarButtonItem *)sender;
+@interface CCUploadFromOtherUpp : UITableViewController <UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UILabel *fileSizeLabel;
+@property (weak, nonatomic) IBOutlet UITextField *fileNameTextfield;
+@property (weak, nonatomic) IBOutlet UILabel *destinationLabel;
 
 @end

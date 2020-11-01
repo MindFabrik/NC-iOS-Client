@@ -1,11 +1,11 @@
 //
 //  AppDelegate.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 04/09/14.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2014 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -23,59 +23,53 @@
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
+#import <PushKit/PushKit.h>
+#import <AVKit/AVKit.h>
+#import <LocalAuthentication/LocalAuthentication.h>
+#import <TOPasscodeViewController/TOPasscodeViewController.h>
 
-#import "BKPasscodeLockScreenManager.h"
-#import "REMenu.h"
-#import "Reachability.h"
-#import "TWMessageBarManager.h"
-#import "CCBKPasscode.h"
 #import "CCUtility.h"
-#import "CCActivity.h"
-#import "CCDetail.h"
-#import "CCQuickActions.h"
-#import "CCMain.h"
-#import "CCPhotos.h"
-#import "CCTransfers.h"
 #import "CCSettings.h"
-#import "CCFavorites.h"
+#import "CCLogin.h"
 
-@class CCLoginWeb;
+@class NCFiles;
+@class NCFileViewInFolder;
+@class NCRecent;
+@class CCMore;
+@class NCMedia;
+@class NCOffline;
+@class NCTransfers;
+@class NCFavorite;
+@class NCTrash;
+@class NCAppConfigView;
+@class IMImagemeterViewer;
+@class NCDetailViewController;
+@class NCNetworkingAutoUpload;
+@class NCDocumentPickerViewController;
+@class FileProviderDomain;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, BKPasscodeLockScreenManagerDelegate, BKPasscodeViewControllerDelegate, TWMessageBarStyleSheet, CCNetworkingDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UNUserNotificationCenterDelegate>
 
 // Timer Process
-@property (nonatomic, strong) NSTimer *timerProcessAutoDownloadUpload;
 @property (nonatomic, strong) NSTimer *timerUpdateApplicationIconBadgeNumber;
+@property (nonatomic, strong) NSTimer *timerErrorNetworking;
 
-// For LMMediaPlayerView
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong) NCDocumentPickerViewController *documentPickerViewController;
 
-// User
-@property (nonatomic, strong) NSString *activeAccount;
-@property (nonatomic, strong) NSString *activeUrl;
-@property (nonatomic, strong) NSString *activeUser;
-@property (nonatomic, strong) NSString *activeUserID;
-@property (nonatomic, strong) NSString *activePassword;
-@property (nonatomic, strong) NSString *directoryUser;
-@property (nonatomic, strong) NSString *activeEmail;
+// Parameter account
+@property (nonatomic, strong) NSString *account;
+@property (nonatomic, strong) NSString *urlBase;
+@property (nonatomic, strong) NSString *user;
+@property (nonatomic, strong) NSString *userID;
+@property (nonatomic, strong) NSString *password;
 
 // next version ... ? ...
 @property double currentLatitude;
 @property double currentLongitude;
 
-// Notification
-@property (nonatomic, strong) NSMutableArray<OCCommunication *> *listOfNotifications;
-
-// Network Operation
-@property (nonatomic, strong) NSOperationQueue *netQueue;
-
 // Networking 
 @property (nonatomic, copy) void (^backgroundSessionCompletionHandler)(void);
-
-// Network Share
-@property (nonatomic, strong) NSMutableDictionary *sharesID;
-@property (nonatomic, strong) NSMutableDictionary *sharesLink;
-@property (nonatomic, strong) NSMutableDictionary *sharesUserAndGroup;
 
 // UploadFromOtherUpp
 @property (nonatomic, strong) NSString *fileNameUpload;
@@ -83,80 +77,80 @@
 // Passcode lockDirectory
 @property (nonatomic, strong) NSDate *sessionePasscodeLock;
 
-// Remenu
-@property (nonatomic, strong) REMenu *reMainMenu;
-@property (nonatomic, strong) REMenuItem *selezionaItem;
-@property (nonatomic, strong) REMenuItem *directoryOnTopItem;
-@property (nonatomic, strong) REMenuItem *ordinaItem;
-@property (nonatomic, strong) REMenuItem *ascendenteItem;
-@property (nonatomic, strong) REMenuItem *alphabeticItem;
-@property (nonatomic, strong) REMenuItem *typefileItem;
-@property (nonatomic, strong) REMenuItem *dateItem;
+// Audio Video
+@property (nonatomic, strong) AVPlayer *player;
+@property (nonatomic, strong) AVPlayerViewController *playerController;
+@property BOOL isMediaObserver;
 
-@property (nonatomic, strong) REMenu *reSelectMenu;
-@property (nonatomic, strong) REMenuItem *deleteItem;
-@property (nonatomic, strong) REMenuItem *moveItem;
-@property (nonatomic, strong) REMenuItem *encryptItem;
-@property (nonatomic, strong) REMenuItem *decryptItem;
-@property (nonatomic, strong) REMenuItem *downloadItem;
-@property (nonatomic, strong) REMenuItem *saveItem;
+// Push Norification Token
+@property (nonatomic, strong) NSString *pushKitToken;
 
-// List Change Task
-@property (nonatomic, retain) NSMutableDictionary *listChangeTask;
+// ProgressView Detail
+@property (nonatomic, strong) UIProgressView *progressViewDetail;
 
-// Reachability
-@property (nonatomic, strong) Reachability *reachability;
-@property BOOL lastReachability;
+@property (nonatomic, retain) TOPasscodeViewController *passcodeViewController;
 
-@property (nonatomic, strong) CCMain *activeMain;
-@property (nonatomic, strong) CCMain *homeMain;
-@property (nonatomic, strong) CCFavorites *activeFavorites;
-@property (nonatomic, strong) CCPhotos *activePhotos;
-@property (nonatomic, retain) CCDetail *activeDetail;
-@property (nonatomic, retain) CCSettings *activeSettings;
-@property (nonatomic, retain) CCActivity *activeActivity;
-@property (nonatomic, retain) CCTransfers *activeTransfers;
+@property (nonatomic, retain) NSString *activeServerUrl;
+@property (nonatomic, retain) UIViewController *activeViewController;
+
+@property (nonatomic, retain) NCFiles *activeFiles;
+@property (nonatomic, retain) NCFileViewInFolder *activeFileViewInFolder;
+@property (nonatomic, retain) NCFavorite *activeFavorite;
+@property (nonatomic, retain) NCRecent *activeRecent;
+@property (nonatomic, retain) NCMedia *activeMedia;
+@property (nonatomic, retain) NCDetailViewController *activeDetail;
+@property (nonatomic, retain) NCTransfers *activeTransfers;
 @property (nonatomic, retain) CCLogin *activeLogin;
-@property (nonatomic, retain) CCLoginWeb *activeLoginWeb;
+@property (nonatomic, retain) NCLoginWeb *activeLoginWeb;
+@property (nonatomic, retain) CCMore *activeMore;
+@property (nonatomic, retain) NCOffline *activeOffline;
+@property (nonatomic, retain) NCTrash *activeTrash;
+@property (nonatomic, retain) NCAppConfigView *appConfigView;
+@property (nonatomic, retain) IMImagemeterViewer *activeImagemeterView;
 
 @property (nonatomic, strong) NSMutableDictionary *listMainVC;
+@property (nonatomic, strong) NSMutableDictionary *listFilesVC;
+@property (nonatomic, strong) NSMutableDictionary *listFavoriteVC;
+@property (nonatomic, strong) NSMutableDictionary *listOfflineVC;
+
 @property (nonatomic, strong) NSMutableDictionary *listProgressMetadata;
+
+@property (nonatomic) UIUserInterfaceStyle preferredUserInterfaceStyle API_AVAILABLE(ios(12.0));
+
+// Shares
+@property (nonatomic, strong) NSArray *shares;
 
 // Maintenance Mode
 @property BOOL maintenanceMode;
 
-// Login View
-- (void)openLoginView:(id)delegate loginType:(enumLoginType)loginType;
+// UserDefaults
+@property (nonatomic, strong) NSUserDefaults *ncUserDefaults;
 
-// Setting Active Account
-- (void)settingActiveAccount:(NSString *)activeAccount activeUrl:(NSString *)activeUrl activeUser:(NSString *)activeUser activeUserID:(NSString *)activeUserID activePassword:(NSString *)activePassword;
+// Network Auto Upload
+@property (nonatomic, strong) NCNetworkingAutoUpload *networkingAutoUpload;
 
-// initializations 
-- (void)applicationInitialized;
+// Login
+- (void)startTimerErrorNetworking;
+- (void)openLoginView:(UIViewController *)viewController selector:(NSInteger)selector openLoginWeb:(BOOL)openLoginWeb;
+
+// Setting Account & Communication
+- (void)settingAccount:(NSString *)account urlBase:(NSString *)urlBase user:(NSString *)user userID:(NSString *)userID password:(NSString *)password;
+- (void)deleteAccount:(NSString *)account wipe:(BOOL)wipe;
+- (void)settingSetupCommunication:(NSString *)account;
 
 // Quick Actions - ShotcutItem
 - (void)configDynamicShortcutItems;
 - (BOOL)handleShortCutItem:(UIApplicationShortcutItem *)shortcutItem;
 
-// StatusBar & ApplicationIconBadgeNumber
-- (void)messageNotification:(NSString *)title description:(NSString *)description visible:(BOOL)visible delay:(NSTimeInterval)delay type:(TWMessageBarMessageType)type errorCode:(NSInteger)errorcode;
-- (void)updateApplicationIconBadgeNumber;
-
 // TabBarController
 - (void)createTabBarController:(UITabBarController *)tabBarController;
-- (void)aspectNavigationControllerBar:(UINavigationBar *)nav online:(BOOL)online hidden:(BOOL)hidden;
-- (void)aspectTabBar:(UITabBar *)tab hidden:(BOOL)hidden;
-- (void)plusButtonVisibile:(BOOL)visible;
-- (void)selectedTabBarController:(NSInteger)index;
-- (NSString *)getTabBarControllerActiveServerUrl;
+
+// Push Notification
+- (void)pushNotification;
 
 // Theming Color
 - (void)settingThemingColorBrand;
-- (void)changeTheming:(UIViewController *)vc;
-
-// Task Networking
-- (void)addNetworkingOperationQueue:(NSOperationQueue *)netQueue delegate:(id)delegate metadataNet:(CCMetadataNet *)metadataNet;
-- (void)loadAutoDownloadUpload:(NSNumber *)maxConcurrent;
+- (void)changeTheming:(UIViewController *)viewController tableView:(UITableView *)tableView collectionView:(UICollectionView *)collectionView form:(BOOL)form;
 
 // Maintenance Mode
 - (void)maintenanceMode:(BOOL)mode;

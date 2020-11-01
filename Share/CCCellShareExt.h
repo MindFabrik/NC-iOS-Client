@@ -3,9 +3,9 @@
 //  Nextcloud iOS
 //
 //  Created by Marino Faggiana on 27/01/16.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2016 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -26,7 +26,8 @@
 @interface CCCellShareExt : UITableViewCell
 
 @property(nonatomic, weak) IBOutlet UIImageView *fileImageView;
-@property(nonatomic, weak) IBOutlet UILabel *labelInformazioni;
+@property(nonatomic, weak) IBOutlet UITextField *fileName;
+@property(nonatomic, weak) IBOutlet UILabel *info;
 
 //Last position of the scroll of the swipe
 @property (nonatomic, assign) CGFloat lastContentOffset;

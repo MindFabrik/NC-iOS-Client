@@ -1,11 +1,11 @@
 //
 //  CCPeekPop.m
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 26/08/16.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2016 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -30,116 +30,88 @@
 @interface CCPeekPop ()
 {
     AppDelegate *appDelegate;
+    NSInteger highLabelFileName;
 }
 @end
 
 @implementation CCPeekPop
-
-- (void)setMetadata:(tableMetadata *)newMetadata
-{
-    if (_metadata != newMetadata)
-        _metadata = newMetadata;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    
-    self.preferredContentSize = CGSizeMake(640, 640);
-    //detailVC?.preferredContentSize = CGSize(width: 0, height: 380)
-    
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"loading" withExtension:@"gif"];
-    
-    _imagePreview.image = [UIImage animatedImageWithAnimatedGIFURL:url];
-    
-    _imagePreview.contentMode = UIViewContentModeCenter;
+    UIImage *image = self.imageFile;
 
-    [self downloadThumbnail:_metadata];
-}
-
-// E' apparso
-
--(void) viewDidAppear:(BOOL)animated{
+    self.fileName.text = self.metadata.fileNameView;
+    self.fileName.textColor = NCBrandColor.sharedInstance.textView;
+    highLabelFileName = self.fileName.bounds.size.height + 5;
     
-    [super viewDidAppear:animated];    
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
+    if (self.metadata.hasPreview) {
+        
+        if ([CCUtility fileProviderStoragePreviewIconExists:self.metadata.ocId etag:self.metadata.etag]) {
+            
+            UIImage *fullImage = [UIImage imageWithContentsOfFile:[CCUtility getDirectoryProviderStorageOcId:self.metadata.ocId fileNameView:self.metadata.fileNameView]];
+            if (fullImage != nil) {
+                image = fullImage;
+            }
+            
+        } else {
+            
+            [self downloadThumbnail];
+        }
+    }
+    
+    self.view.backgroundColor = NCBrandColor.sharedInstance.backgroundForm;
+    self.imagePreview.image = [CCGraphics scaleImage:image toSize:CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height) isAspectRation:true];
+    self.preferredContentSize = CGSizeMake(self.imagePreview.image.size.width,  self.imagePreview.image.size.height + highLabelFileName);
 }
 
 - (NSArray<id<UIPreviewActionItem>> *)previewActionItems
 {
-    //__weak typeof(self) weakSelf = self;
+    NSMutableArray *items = [NSMutableArray new];
+ 
+    if (self.showOpenIn && !self.metadata.directory) {
+        UIPreviewAction *item = [UIPreviewAction actionWithTitle:NSLocalizedString(@"_open_in_", nil) style:UIPreviewActionStyleDefault handler:^(UIPreviewAction *action,  UIViewController *previewViewController) {
+            [[NCNetworkingNotificationCenter shared] downloadOpenWithMetadata:self.metadata selector:selectorOpenIn];
+        }];
+        [items addObject:item];
+    }
     
-    UIPreviewAction *previewAction1 = [UIPreviewAction actionWithTitle:NSLocalizedString(@"_open_in_", nil) style:UIPreviewActionStyleDefault handler:^(UIPreviewAction *action,  UIViewController *previewViewController){
-        
-        NSString *serverUrl = [[NCManageDatabase sharedInstance] getServerUrl:_metadata.directoryID];
-        
-        if (serverUrl)
-            [[CCNetworking sharedNetworking] downloadFile:_metadata.fileName fileID:_metadata.fileID serverUrl:serverUrl selector:selectorOpenIn selectorPost:nil session:k_download_session taskStatus:k_taskStatusResume delegate:self.delegate];
-    }];
+    if (self.showOpenQuickLook) {
+        UIPreviewAction *item = [UIPreviewAction actionWithTitle:NSLocalizedString(@"_open_quicklook_", nil) style:UIPreviewActionStyleDefault handler:^(UIPreviewAction *action,  UIViewController *previewViewController) {
+            [[NCNetworkingNotificationCenter shared] downloadOpenWithMetadata:self.metadata selector:selectorLoadFileQuickLook];
+        }];
+        [items addObject:item];
+    }
     
-    return @[previewAction1];
+    if (self.showShare) {
+        UIPreviewAction *item = [UIPreviewAction actionWithTitle:NSLocalizedString(@"_share_", nil) style:UIPreviewActionStyleDefault handler:^(UIPreviewAction *action,  UIViewController *previewViewController) {
+            [[NCNetworkingNotificationCenter shared] openShareWithViewController:appDelegate.activeFiles metadata:self.metadata indexPage:2];
+        }];
+        [items addObject:item];
+    }
+    
+    return items;
 }
 
 #pragma --------------------------------------------------------------------------------------------
 #pragma mark ==== Download Thumbnail ====
 #pragma --------------------------------------------------------------------------------------------
 
-- (void)downloadThumbnailSuccess:(CCMetadataNet *)metadataNet
+- (void)downloadThumbnail
 {
-    // Check Active Account
-    if (![metadataNet.account isEqualToString:appDelegate.activeAccount])
-        return;
+    NSString *fileNamePath = [CCUtility returnFileNamePathFromFileName:self.metadata.fileName serverUrl:self.metadata.serverUrl urlBase:appDelegate.urlBase account:appDelegate.account];
+    NSString *fileNamePreviewLocalPath = [CCUtility getDirectoryProviderStoragePreviewOcId:self.metadata.ocId etag:self.metadata.etag];
+    NSString *fileNameIconLocalPath = [CCUtility getDirectoryProviderStorageIconOcId:self.metadata.ocId etag:self.metadata.etag];
     
-    UIImage *image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@.pvw",appDelegate.directoryUser, _metadata.fileID]];
-    
-    _imagePreview.image = image;
-    
-    _imagePreview.contentMode = UIViewContentModeScaleToFill;
-    
-    self.preferredContentSize = CGSizeMake(image.size.width, image.size.height);
-}
-
-- (void)downloadThumbnailFailure:(CCMetadataNet *)metadataNet message:(NSString *)message errorCode:(NSInteger)errorCode
-{
-    // Check Active Account
-    if (![metadataNet.account isEqualToString:appDelegate.activeAccount])
-        return;
-    
-    [appDelegate messageNotification:@"_error_" description:message visible:YES delay:k_dismissAfterSecond type:TWMessageBarMessageTypeError errorCode:errorCode];
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)downloadThumbnail:(tableMetadata *)metadata
-{
-    CCMetadataNet *metadataNet = [[CCMetadataNet alloc] initWithAccount:appDelegate.activeAccount];
-    
-    NSString *serverUrl = appDelegate.activeMain.serverUrl;
-    
-    metadataNet.action = actionDownloadThumbnail;
-    metadataNet.fileID = metadata.fileID;
-    metadataNet.fileName = [self returnFileNamePathFromFileName:metadata.fileName serverUrl:serverUrl];
-    metadataNet.options = @"l";
-    metadataNet.priority = NSOperationQueuePriorityLow;
-    metadataNet.selector = selectorDownloadThumbnail;
-    metadataNet.serverUrl = serverUrl;
-    
-    [appDelegate addNetworkingOperationQueue:appDelegate.netQueue delegate:self metadataNet:metadataNet];
-}
-
-- (NSString *)returnFileNamePathFromFileName:(NSString *)metadataFileName serverUrl:(NSString *)serverUrl
-{
-    NSString *fileName = [NSString stringWithFormat:@"%@/%@", [serverUrl stringByReplacingOccurrencesOfString:[CCUtility getHomeServerUrlActiveUrl:appDelegate.activeUrl] withString:@""], metadataFileName];
-    
-    if ([fileName hasPrefix:@"/"]) fileName = [fileName substringFromIndex:1];
-    
-    return fileName;
+    [[NCCommunication shared] downloadPreviewWithFileNamePathOrFileId:fileNamePath fileNamePreviewLocalPath:fileNamePreviewLocalPath widthPreview:k_sizePreview heightPreview:k_sizePreview fileNameIconLocalPath:fileNameIconLocalPath sizeIcon:k_sizeIcon customUserAgent:nil addCustomHeaders:nil endpointTrashbin:false useInternalEndpoint:true completionHandler:^(NSString *account, UIImage *imagePreview, UIImage *imageIcon, NSInteger errorCode,  NSString *errorDescription) {
+        
+        if (errorCode == 0 && imagePreview != nil) {
+            self.imagePreview.image = [CCGraphics scaleImage:imagePreview toSize:CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height) isAspectRation:true];
+            self.preferredContentSize = CGSizeMake(self.imagePreview.image.size.width, self.imagePreview.image.size.height + highLabelFileName);
+        }
+    }];
 }
 
 @end

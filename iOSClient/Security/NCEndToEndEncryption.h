@@ -3,9 +3,9 @@
 //  Nextcloud
 //
 //  Created by Marino Faggiana on 19/09/17.
-//  Copyright © 2017 TWS. All rights reserved.
+//  Copyright © 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,6 +22,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <OpenSSL/OpenSSL.h>
 
 @class tableMetadata;
 
@@ -29,8 +30,8 @@
 
 + (instancetype)sharedManager;
 
-- (NSString *)createCSR:(NSString *)userID directoryUser:(NSString *)directoryUser;
-- (NSString *)encryptPrivateKey:(NSString *)userID directoryUser: (NSString *)directoryUser passphrase:(NSString *)passphrase privateKey:(NSString **)privateKey;
+- (NSString *)createCSR:(NSString *)userID directory:(NSString *)directory;
+- (NSString *)encryptPrivateKey:(NSString *)userID directory: (NSString *)directory passphrase:(NSString *)passphrase privateKey:(NSString **)privateKey;
 - (NSString *)decryptPrivateKey:(NSString *)privateKeyCipher passphrase:(NSString *)passphrase publicKey:(NSString *)publicKey;
 
 - (NSData *)encryptAsymmetricString:(NSString *)plain publicKey:(NSString *)publicKey privateKey:(NSString *)privateKey;
@@ -39,8 +40,9 @@
 - (NSString *)encryptEncryptedJson:(NSString *)encrypted key:(NSString *)key;
 - (NSString *)decryptEncryptedJson:(NSString *)encrypted key:(NSString *)key;
 
-- (BOOL)encryptFileName:(NSString *)fileName fileNameIdentifier:(NSString *)fileNameIdentifier directoryUser:(NSString *)directoryUser key:(NSString **)key initializationVector:(NSString **)initializationVector authenticationTag:(NSString **)authenticationTag;
-- (BOOL)decryptFileID:(NSString *)fileID directoryUser:(NSString *)directoryUser key:(NSString *)key initializationVector:(NSString *)initializationVector authenticationTag:(NSString *)authenticationTag;
+- (void)encryptkey:(NSString **)key initializationVector:(NSString **)initializationVector;
+- (BOOL)encryptFileName:(NSString *)fileName fileNameIdentifier:(NSString *)fileNameIdentifier directory:(NSString *)directory key:(NSString **)key initializationVector:(NSString **)initializationVector authenticationTag:(NSString **)authenticationTag;
+- (BOOL)decryptFileName:(NSString *)fileName fileNameView:(NSString *)fileNameView ocId:(NSString *)ocId key:(NSString *)key initializationVector:(NSString *)initializationVector authenticationTag:(NSString *)authenticationTag;
 
 - (NSData *)generateKey:(int)length;
 - (NSString *)createSHA512:(NSString *)string;

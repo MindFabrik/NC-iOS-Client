@@ -3,9 +3,9 @@
 //  Nextcloud
 //
 //  Created by Marino Faggiana on 13/10/17.
-//  Copyright © 2017 TWS. All rights reserved.
+//  Copyright © 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -21,14 +21,11 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#import "XLFormViewController.h"
-#import "XLForm.h"
-#import "BKPasscodeViewController.h"
-#import "OCNetworking.h"
+#import <XLForm/XLForm.h>
 
 @class NCEndToEndInitialize;
 
-@interface NCManageEndToEndEncryption : XLFormViewController <BKPasscodeViewControllerDelegate, OCNetworkingDelegate>
+@interface NCManageEndToEndEncryption : XLFormViewController
 
 @property (nonatomic, strong) NCEndToEndInitialize *endToEndInitialize;
 

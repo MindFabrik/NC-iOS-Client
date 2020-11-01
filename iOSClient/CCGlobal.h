@@ -1,11 +1,11 @@
 //
 //  CCGlobal.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 13/10/14.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2014 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -23,20 +23,10 @@
 
 #import <UIKit/UIKit.h>
 
-extern NSString *const appApplicationSupport;
-extern NSString *const appDatabaseNextcloud;
-extern NSString *const appCertificates;
-
-extern NSString *const serverStatus;
-
-extern NSString *const webDAV;
-extern NSString *const dav;
-
-extern NSString *const flowEndpoint;
-
 //Change-MindFabrik-Start
 extern NSInteger mfSetPINStatus;
 //Change-MindFabrik-End
+
 
 #ifndef EXTENSION
 
@@ -47,44 +37,65 @@ extern NSInteger mfSetPINStatus;
 //dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^(void) {
 
 //DispatchQueue.main.async
+//DispatchQueue.main.asyncAfter(deadline: .now() + 0.1)
 //DispatchQueue.global().async
 
-#define CALL_ORIGIN NSLog(@"Origin: [%@]", [[[[NSThread callStackSymbols] objectAtIndex:1] componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"[]"]] objectAtIndex:1])
+//NSString *language = [[NSLocale preferredLanguages] objectAtIndex:0];
+//NSDictionary *languageDic = [NSLocale componentsFromLocaleIdentifier:language];
+//NSString *languageCode = [languageDic objectForKey:@"kCFLocaleLanguageCodeKey"];
 
+//#if targetEnvironment(simulator)
+//#endif
+
+//#if TARGET_OS_SIMULATOR
+//#endif
+
+#define CALL_ORIGIN NSLog(@"Origin: [%@]", [[[[NSThread callStackSymbols] objectAtIndex:1] componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"[]"]] objectAtIndex:1])
 #endif
 
-// UUID
-#define k_UUID_SIM                                      @"4BACFE4A-61A6-44B1-9A85-13FD167565AB"
+// Directory on Group
+#define k_appApplicationSupport                         @"Library/Application Support"
+#define k_appDatabaseNextcloud                          @"Library/Application Support/Nextcloud"
+#define k_appUserData                                   @"Library/Application Support/UserData"
+#define k_appCertificates                               @"Library/Application Support/Certificates"
+#define k_appScan                                       @"Library/Application Support/Scan"
+#define k_DirectoryProviderStorage                      @"File Provider Storage"
+
+// Server Status
+#define k_serverStatus                                  @"/status.php"
+
+// Login Flow
+#define k_flowEndpoint                                  @"/index.php/login/flow"
+
+// Avatar
+#define k_avatar_size                                   128
 
 // Passphrase test EndToEnd Encryption
 #define k_passphrase_test                               @"more over television factory tendency independence international intellectual impress interest sentence pony"
 
 #define k_dismissAfterSecond                            4
+#define k_dismissAfterSecondLong                        10
 
 #define k_daysOfActivity                                7
 
-#define k_maxErrorAutoUploadAll                         100
+#define k_sizePreview                                   1024
+#define k_sizeIcon                                      512
 
-#define k_returnCreateFolderPlain                       0
-#define k_returnCreateFotoVideoPlain                    1
-#define k_returnCreateFilePlain                         2
-#define k_returnCreateFolderEncrypted                   3
-#define k_returnCreateFotoVideoEncrypted                4
-#define k_returnCreateFileEncrypted                     5
-#define k_returnCreateFileText                          6
-
-// Name Default DB
+// Database Realm
 #define k_databaseDefault                               @"nextcloud.realm"
+#define k_databaseSchemaVersion                         145
 
-// Intro
-#define k_Intro                                         @"Intro"
-#define k_Intro_no_cryptocloud                          @"IntroNoCryptoCloud"
+// Database JSON
+#define k_databaseDefaultJSON                           @"nextcloud.json"
 
-// Picker select image
-#define k_pickerControllerMax                           1000.0
+// Intro selector
+#define k_intro_login                                   0
+#define k_intro_signup                                  1
 
-// define Nextcloud IOS
-#define k_share_link_middle_part_url_after_version_8    @"index.php/s/"
+// Login
+#define k_login_Add                                     0
+#define k_login_Add_Forced                              1
+#define k_login_Add_SignUp                              2
 
 // Constants to identify the different permissions of a file
 #define k_permission_shared                             @"S"
@@ -97,129 +108,73 @@ extern NSInteger mfSetPINStatus;
 #define k_permission_can_rename                         @"N"
 #define k_permission_can_move                           @"V"
 
-#define k_networkingSessionNotification                 @"networkingSessionNotification"
-
-// Session
-#define k_domain_session_queue                          @"it.twsweb.Crypto-Cloud"
-
-#define k_download_session                              @"it.twsweb.Crypto-Cloud.download.session"
-#define k_download_session_foreground                   @"it.twsweb.Crypto-Cloud.download.sessionforeground"
-#define k_download_session_wwan                         @"it.twsweb.Crypto-Cloud.download.sessionwwan"
-#define k_upload_session                                @"it.twsweb.Crypto-Cloud.upload.session"
-#define k_upload_session_wwan                           @"it.twsweb.Crypto-Cloud.upload.sessionwwan"
-#define k_upload_session_foreground                     @"it.twsweb.Crypto-Cloud.upload.sessionforeground"
-
-// OperationQueue
-#define k_queue                                         @"it.twsweb.Crypto-Cloud.queue"
-#define k_download_queue                                @"it.twsweb.Crypto-Cloud.download.queue"
-#define k_download_queuewwan                            @"it.twsweb.Crypto-Cloud.download.queuewwan"
-#define k_upload_queue                                  @"it.twsweb.Crypto-Cloud.upload.queue"
-#define k_upload_queuewwan                              @"it.twsweb.Crypto-Cloud.upload.queuewwan"
-
 // Service Key Share
 #define k_serviceShareKeyChain                          @"Crypto Cloud"
 #define k_metadataKeyedUnarchiver                       @"it.twsweb.nextcloud.metadata"
 
-// TaskIdentifier
-#define k_taskIdentifierDone                            -1
-#define k_taskIdentifierStop                            -2
-#define k_taskIdentifierWaitStart                       -3
-#define k_taskIdentifierError                           -99999
-#define k_taskIdentifierNULL                            99999
+// Metadata : Status
+//
+// 1) wait download/upload
+// 2) in download/upload
+// 3) downloading/uploading
+// 4) done or error
+//
+#define k_metadataStatusNormal                          0
 
-// TaskStatus
-#define k_taskStatusCancel                              -1
-#define k_taskStatusResume                              -2
-#define k_taskStatusSuspend                             -3
+#define k_metadataStatustypeDownload                    1
 
-#define k_timerVerifySession                            10
-#define k_timerProcessAutoDownloadUpload                5
-#define k_timerUpdateApplicationIconBadgeNumber         3
+#define k_metadataStatusWaitDownload                    2
+#define k_metadataStatusInDownload                      3
+#define k_metadataStatusDownloading                     4
+#define k_metadataStatusDownloadError                   5
 
-#define k_maxConcurrentOperation                         10
-#define k_maxConcurrentOperationDownloadUpload           10
-#define k_maxConcurrentOperationDownloadUploadBackground 1
+#define k_metadataStatusTypeUpload                      6
+
+#define k_metadataStatusWaitUpload                      7
+#define k_metadataStatusInUpload                        8
+#define k_metadataStatusUploading                       9
+#define k_metadataStatusUploadError                     10
+#define k_metadataStatusUploadForcedStart               11
+
+// Timer
+#define k_timerAutoUpload                               5
+#define k_timerUpdateApplicationIconBadgeNumber         5
+#define k_timerErrorNetworking                          3
+
+// Max Size Operation
+#define k_maxSizeOperationUpload                        524288000   // 500 MB
+
+// Max Cache Proxy Video
+#define k_maxHTTPCache                                  10737418240 // 10GB
 
 // Error
-#define k_CCErrorTaskNil                                -9999
-#define k_CCErrorTaskDownloadNotFound                   -9998
-#define k_CCErrorInternalError                          -9996
-#define k_CCErrorNetworkNowAvailable                    -9995
-#define k_CCErrorFileAlreadyInDownload                  -9994
+#define k_CCErrorBadRequest                             400
+#define k_CCErrorResourceNotFound                       404
+#define k_CCErrorConflict                               409
+#define k_CCErrorBadServerResponse                      -1011
+#define k_CCErrorInternalError                          -99999
+#define k_CCErrorFileNotSaved                           -99998
+#define k_CCErrorDecodeMetadata                         -99997
+#define k_CCErrorE2EENotEnabled                         -99996
+#define k_CCErrorE2EENotMove                            -99995
+#define k_CCErrorOffline                                -99994
+#define k_CCErrorCharactersForbidden                    -99993
+#define k_CCErrorCreationFile                           -99992
 
-// Search
-#define k_minCharsSearch                                2
-
-// Metadata ed ID
-#define k_uploadSessionID                               @"ID_UPLOAD_"
-
-// Metadata.Net SELECTOR
-#define selectorAddFavorite                             @"addFavorite"
-#define selectorCreateFolder                            @"createFolder"
-#define selectorDelete                                  @"delete"
-#define selectorDownloadThumbnail                       @"downloadThumbnail"
-#define selectorDownloadSynchronize                     @"downloadSynchronize"
-#define selectorGetUserAndGroup                         @"getUserAndGroup"
-#define selectorLoadFileView                            @"loadFileView"
-#define selectorLoadModelView                           @"loadModelView"
-#define selectorLoadViewImage                           @"loadViewImage"
-#define selectorLoadCopy                                @"loadCopy"
-#define selectorMove                                    @"move"
-#define selectorOpenIn                                  @"openIn"
-#define selectorOpenWindowShare                         @"openWindowShare"
+// Selector
+#define selectorDownloadFile                            @"downloadFile"
+#define selectorDownloadAllFile                         @"downloadAllFile"
 #define selectorReadFile                                @"readFile"
-#define selectorReadFileWithDownload                    @"readFileWithDownload"
-#define selectorReadFileReloadFolder                    @"readFileReloadFolder"
-#define selectorReadFileFolder                          @"readFileFolder"
-#define selectorReadFileFolderWithDownload              @"readFileFolderWithDownload"
-#define selectorReadFolder                              @"readFolder"
-#define selectorReadFolderForced                        @"readFolderForced"
-#define selectorReadFolderWithDownload                  @"readFolderWithDownload"
-#define selectorReadShare                               @"readShare"
-#define selectorRename                                  @"rename"
-#define selectorSave                                    @"save"
-#define selectorShare                                   @"share"
-#define selectorSearch                                  @"search"
-#define selectorUnshare                                 @"unshare"
-#define selectorUpdateShare                             @"updateShare"
+#define selectorListingFavorite                         @"listingFavorite"
+#define selectorLoadFileView                            @"loadFileView"
+#define selectorLoadFileQuickLook                       @"loadFileQuickLook"
+#define selectorLoadCopy                                @"loadCopy"
+#define selectorLoadOffline                             @"loadOffline"
+#define selectorOpenIn                                  @"openIn"
+#define selectorOpenInDetail                            @"openInDetail"
 #define selectorUploadAutoUpload                        @"uploadAutoUpload"
 #define selectorUploadAutoUploadAll                     @"uploadAutoUploadAll"
 #define selectorUploadFile                              @"uploadFile"
-#define selectorUploadRemovePhoto                       @"uploadRemovePhoto"
-
-// Metadata.Net ACTION
-#define actionCreateFolder                              @"createFolder"
-#define actionDeleteFileDirectory                       @"deleteFileOrFolder"
-#define actionDownloadThumbnail                         @"downloadThumbnail"
-#define actionGetActivityServer                         @"getActivityServer"
-#define actionGetCapabilities                           @"getCapabilitiesOfServer"
-#define actionGetUserAndGroup                           @"getUserAndGroup"
-#define actionGetUserProfile                            @"getUserProfile"
-#define actionGetNotificationServer                     @"getNotificationServer"
-#define actionGetSharePermissionsFile                   @"getSharePermissionsFile"
-#define actionGetExternalSitesServer                    @"getExternalSitesServer"
-#define actionMiddlewarePing                            @"middlewarePing"
-#define actionListingFavorites                          @"listingFavorites"
-#define actionMoveFileOrFolder                          @"moveFileOrFolder"
-#define actionReadFile                                  @"readFile"
-#define actionReadFolder                                @"readFolder"
-#define actionReadShareServer                           @"readShareServer"
-#define actionSearch                                    @"search"
-#define actionSetNotificationServer                     @"setNotificationServer"
-#define actionSettingFavorite                           @"settingFavorite"
-#define actionShare                                     @"share"
-#define actionShareWith                                 @"shareWith"
-#define actionSubscribingNextcloudServer                @"subscribingNextcloudServer"
-#define actionUnShare                                   @"unShare"
-#define actionUpdateShare                               @"updateShare"
-
-#define actionGetEndToEndPublicKeys                     @"getEndToEndPublicKeys"
-#define actionGetEndToEndPrivateKeyCipher               @"getEndToEndPrivateKeyCipher"
-#define actionSignEndToEndPublicKey                     @"signEndToEndPublicKey"
-#define actionStoreEndToEndPrivateKeyCipher             @"storeEndToEndPrivateKeyCipher"
-#define actionDeleteEndToEndPublicKey                   @"deleteEndToEndPublicKey"
-#define actionDeleteEndToEndPrivateKey                  @"deleteEndToEndPrivateKey"
-#define actionGetEndToEndServerPublicKey                @"getEndToEndServerPublicKey"
 
 // Metadata : FileType
 #define k_metadataTypeFile_audio                        @"audio"
@@ -229,16 +184,13 @@ extern NSInteger mfSetPINStatus;
 #define k_metadataTypeFile_image                        @"image"
 #define k_metadataTypeFile_unknown                      @"unknow"
 #define k_metadataTypeFile_video                        @"video"
-
-// Metadata : Status
-#define k_metadataStatusNormal                          0
-#define k_metadataStatusHide                            1
+#define k_metadataTypeFile_imagemeter                   @"imagemeter"
 
 // TabBar button
 #define k_tabBarApplicationIndexFile                    0
 #define k_tabBarApplicationIndexFavorite                1
 #define k_tabBarApplicationIndexPlusHide                2
-#define k_tabBarApplicationIndexPhotos                  3
+#define k_tabBarApplicationIndexMedia                   3
 #define k_tabBarApplicationIndexMore                    4
 
 // Filename Mask and Type
@@ -246,6 +198,8 @@ extern NSInteger mfSetPINStatus;
 #define k_keyFileNameType                               @"fileNameType"
 #define k_keyFileNameAutoUploadMask                     @"fileNameAutoUploadMask"
 #define k_keyFileNameAutoUploadType                     @"fileNameAutoUploadType"
+#define k_keyFileNameOriginal                           @"fileNameOriginal"
+#define k_keyFileNameOriginalAutoUpload                 @"fileNameOriginalAutoUpload"
 
 // Activity
 #define k_activityVerboseDefault                        0
@@ -256,24 +210,139 @@ extern NSInteger mfSetPINStatus;
 
 #define k_activityDebugActionDownload                   @"Download"
 #define k_activityDebugActionDownloadPicker             @"Download Picker"
-#define k_activityDebugActionDownloadThumbnail          @"Download Thumbnail"
 #define k_activityDebugActionUpload                     @"Upload"
 #define k_activityDebugActionUploadPicker               @"Upload Picker"
 #define k_activityDebugActionUploadShare                @"Upload Share"
 #define k_activityDebugActionAutoUpload                 @"Auto Upload"
 #define k_activityDebugActionReadFolder                 @"Read Folder"
+#define k_activityDebugActionListingFavorites           @"Listing Favorites"
+#define k_activityDebugActionCreateFolder               @"Create Folder"
+#define k_activityDebugActionDeleteFileFolder           @"Delete File-Folder"
 #define k_activityDebugActionGetNotification            @"Get Notification Server"
-#define k_activityDebugActionPushProxy                  @"Subscribing Push Proxy"
-#define k_activityDebugActionServerPush                 @"Subscribing Server Push"
+#define k_activityDebugActionSubscribingServerPush      @"Subscribing Server Push"
+#define k_activityDebugActionUnsubscribingServerPush    @"Unsubscribing Server Push"
+#define k_activityDebugActionSubscribingPushProxy       @"Subscribing Push Proxy"
+#define k_activityDebugActionUnsubscribingPushProxy     @"Unsubscribing Push Proxy"
 #define k_activityDebugActionCapabilities               @"Capabilities Of Server"
 #define k_activityDebugActionEndToEndEncryption         @"End To End Encryption "
 
 // E2EE
-#define k_max_filesize_E2E                              524288000   // 500 MB
+#define k_max_filesize_E2EE                             524288000   // 500 MB
+#define k_E2EE_API                                      @"1.1"
 
 // Flow Version
 #define k_flow_version_available                        12
 
-// -----------------------------------------------------------------------------------------------------------
-// -----------------------------------------------------------------------------------------------------------
+// New capabilities version
+#define k_trash_version_available                       14
+#define k_trash_version_available_more_fix              15
+#define k_files_comments                                20
 
+// Toolbar Detail
+#define k_detail_Toolbar_Height                         49
+
+
+//Share permission
+//permissions - (int) 1 = read; 2 = update; 4 = create; 8 = delete; 16 = share; 31 = all (default: 31, for public shares: 1)
+#define k_read_share_permission                         1
+#define k_update_share_permission                       2
+#define k_create_share_permission                       4
+#define k_delete_share_permission                       8
+#define k_share_share_permission                        16
+
+#define k_min_file_share_permission                     1
+#define k_max_file_share_permission                     19
+#define k_min_folder_share_permission                   1
+#define k_max_folder_share_permission                   31
+#define k_default_file_remote_share_permission_no_support_share_option      3
+#define k_default_folder_remote_share_permission_no_support_share_option    15
+
+// Layout
+#define k_layout_list                                   @"typeLayoutList"
+#define k_layout_grid                                   @"typeLayoutGrid"
+
+#define k_layout_view_move                              @"LayoutMove"
+#define k_layout_view_richdocument                      @"LayoutRichdocument"
+#define k_layout_view_trash                             @"LayoutTrash"
+#define k_layout_view_offline                           @"LayoutOffline"
+#define k_layout_view_favorite                          @"LayoutFavorite"
+#define k_layout_view_files                             @"LayoutFiles"
+#define k_layout_view_viewInFolder                      @"ViewInFolder"
+#define k_layout_view_transfers                         @"LayoutTransfers"
+#define k_layout_view_media                             @"LayoutMedia"
+#define k_layout_view_recent                            @"LayoutRecent"
+
+// Button Type in Cell list/grid
+#define k_buttonMoreMore                                @"more"
+#define k_buttonMoreStop                                @"stop"
+
+// Rich Workspace
+#define k_fileNameRichWorkspace                         @"Readme.md"
+
+// Text -  OnlyOffice - Collabora
+#define k_editor_text                                   @"text"
+#define k_editor_onlyoffice                             @"onlyoffice"
+#define k_editor_collabora                              @"collabora"
+
+#define k_onlyoffice_docx                               @"onlyoffice_docx"
+#define k_onlyoffice_xlsx                               @"onlyoffice_xlsx"
+#define k_onlyoffice_pptx                               @"onlyoffice_pptx"
+
+// Template
+#define k_template_document                             @"document"
+#define k_template_spreadsheet                          @"spreadsheet"
+#define k_template_presentation                         @"presentation"
+
+// Nextcloud unsupported
+#define k_nextcloud_unsupported                         13
+
+// Nextcloud version
+#define k_nextcloud_version_12_0                        12
+#define k_nextcloud_version_13_0                        13
+#define k_nextcloud_version_14_0                        14
+#define k_nextcloud_version_15_0                        15
+#define k_nextcloud_version_16_0                        16
+#define k_nextcloud_version_17_0                        17
+#define k_nextcloud_version_18_0                        18
+#define k_nextcloud_version_19_0                        19
+#define k_nextcloud_version_20_0                        20
+
+// Notification Center
+
+#define k_notificationCenter_applicationDidEnterBackground  @"applicationDidEnterBackground"
+#define k_notificationCenter_applicationWillEnterForeground @"applicationWillEnterForeground"
+
+#define k_notificationCenter_initializeMain             @"initializeMain"
+#define k_notificationCenter_setTitleMain               @"setTitleMain"
+#define k_notificationCenter_changeTheming              @"changeTheming"
+#define k_notificationCenter_splitViewChangeDisplayMode @"splitViewChangeDisplayMode"
+#define k_notificationCenter_changeUserProfile          @"changeUserProfile"
+#define k_notificationCenter_richdocumentGrabFocus      @"richdocumentGrabFocus"
+#define k_notificationCenter_reloadDataNCShare          @"reloadDataNCShare"
+#define k_notificationCenter_closeRichWorkspaceWebView  @"closeRichWorkspaceWebView"
+
+#define k_notificationCenter_reloadDataSource           @"reloadDataSource"                 // userInfo: ocId?, serverUrl?
+#define k_notificationCenter_mediaFileNotFound          @"mediaFileNotFound"                // userInfo: metadata
+#define k_notificationCenter_changeStatusFolderE2EE     @"changeStatusFolderE2EE"           // userInfo: serverUrl
+
+#define k_notificationCenter_downloadStartFile          @"downloadStartFile"                // userInfo: metadata
+#define k_notificationCenter_downloadedFile             @"downloadedFile"                   // userInfo: metadata, selector, errorCode, errorDescription
+#define k_notificationCenter_downloadCancelFile         @"downloadCancelFile"               // userInfo: metadata
+
+#define k_notificationCenter_uploadStartFile            @"uploadStartFile"                  // userInfo: metadata
+#define k_notificationCenter_uploadedFile               @"uploadedFile"                     // userInfo: metadata, ocIdTemp, errorCode, errorDescription
+#define k_notificationCenter_uploadCancelFile           @"uploadCancelFile"                 // userInfo: metadata
+
+#define k_notificationCenter_progressTask               @"progressTask"                     // userInfo: account, ocId, serverUrl, status, progress, totalBytes, totalBytesExpected
+
+#define k_notificationCenter_createFolder               @"createFolder"                     // userInfo: metadata
+#define k_notificationCenter_deleteFile                 @"deleteFile"                       // userInfo: metadata, onlyLocal
+#define k_notificationCenter_renameFile                 @"renameFile"                       // userInfo: metadata, errorCode, errorDescription
+#define k_notificationCenter_moveFile                   @"moveFile"                         // userInfo: metadata, metadataNew
+#define k_notificationCenter_copyFile                   @"copyFile"                         // userInfo: metadata, serverUrlTo
+#define k_notificationCenter_favoriteFile               @"favoriteFile"                     // userInfo: metadata
+
+#define k_notificationCenter_menuSearchTextPDF          @"menuSearchTextPDF"
+#define k_notificationCenter_menuDownloadImage          @"menuDownloadImage"                // userInfo: metadata
+#define k_notificationCenter_menuSaveLivePhoto          @"menuSaveLivePhoto"                // userInfo: metadata, metadataMov
+#define k_notificationCenter_menuDetailClose            @"menuDetailClose"

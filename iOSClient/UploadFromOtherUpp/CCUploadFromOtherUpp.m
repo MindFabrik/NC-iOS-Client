@@ -1,11 +1,11 @@
 //
 //  CCUploadFromOtherUpp.m
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 01/12/14.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2014 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@
 #import "AppDelegate.h"
 #import "NCBridgeSwift.h"
 
-@interface CCUploadFromOtherUpp()
+@interface CCUploadFromOtherUpp() <NCSelectDelegate>
 {
     AppDelegate *appDelegate;
 
@@ -42,28 +42,21 @@
     
     appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 
-    self.navigationItem.rightBarButtonItem.title = NSLocalizedString(@"_cancel_", nil);
     self.title = NSLocalizedString(@"_upload_", nil);
     
-    serverUrlLocal= [CCUtility getHomeServerUrlActiveUrl:appDelegate.activeUrl];
-    destinationTitle = NSLocalizedString(@"_home_", nil);
+    serverUrlLocal= [[NCUtility shared] getHomeServerWithUrlBase:appDelegate.urlBase account:appDelegate.account];
+    destinationTitle = @"/";
     
-    // Color
-    [appDelegate aspectNavigationControllerBar:self.navigationController.navigationBar online:[appDelegate.reachability isReachable] hidden:NO];
-    [appDelegate aspectTabBar:self.tabBarController.tabBar hidden:NO];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
-// E' apparsa
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
+    // changeTheming
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeTheming) name:k_notificationCenter_changeTheming object:nil];
+    [self changeTheming];
     
     [self.tableView reloadData];
+}
+
+- (void)changeTheming
+{
+    [appDelegate changeTheming:self tableView:self.tableView collectionView:nil form:true];
 }
 
 #pragma --------------------------------------------------------------------------------------------
@@ -74,7 +67,6 @@
 {
     if (section == 0) return NSLocalizedString(@"_file_to_upload_", nil);
     else if (section == 2) return NSLocalizedString(@"_destination_", nil);
-    else if (section == 4) return NSLocalizedString(@"_upload_file_", nil);
     
     return @"";
 }
@@ -94,15 +86,16 @@
         case 0:
             if (row == 0) {
                                 
-                NSDictionary *fileAttributes = [[NSFileManager defaultManager] attributesOfItemAtPath:[NSString stringWithFormat:@"%@/%@", appDelegate.directoryUser, appDelegate.fileNameUpload] error:nil];
+                NSDictionary *fileAttributes = [[NSFileManager defaultManager] attributesOfItemAtPath:[NSTemporaryDirectory() stringByAppendingString:appDelegate.fileNameUpload] error:nil];
                 NSString *fileSize = [CCUtility transformedSize:[[fileAttributes objectForKey:NSFileSize] longValue]];
-                nameLabel = (UILabel *)[cell viewWithTag:100]; nameLabel.text = [NSString stringWithFormat:@"%@ - %@", appDelegate.fileNameUpload, fileSize];
+                self.fileNameTextfield.text = appDelegate.fileNameUpload;
+                self.fileSizeLabel.text = fileSize;
             }
             break;
         case 2:
             if (row == 0) {
     
-                nameLabel = (UILabel *)[cell viewWithTag:101]; nameLabel.text = destinationTitle;
+                self.destinationLabel.text = destinationTitle;
                 cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
                 UIImageView *img = (UIImageView *)[cell viewWithTag:201];
                 img.image = [UIImage imageNamed:@"folder"];
@@ -111,7 +104,8 @@
         case 4:
             
             if (row == 0) {
-                nameLabel = (UILabel *)[cell viewWithTag:102]; nameLabel.text = NSLocalizedString(@"_upload_file_", nil);
+                nameLabel = (UILabel *)[cell viewWithTag:102];
+                nameLabel.text = NSLocalizedString(@"_upload_file_", nil);
             }
             
             break;
@@ -145,41 +139,59 @@
 #pragma mark == IBAction ==
 #pragma --------------------------------------------------------------------------------------------
 
-- (void)moveServerUrlTo:(NSString *)serverUrlTo title:(NSString *)title
+- (void)dismissSelectWithServerUrl:(NSString *)serverUrl metadata:(tableMetadata *)metadata type:(NSString *)type items:(NSArray *)items buttonType:(NSString *)buttonType overwrite:(BOOL)overwrite
 {
-    if (serverUrlTo) {
-        serverUrlLocal = serverUrlTo;
-        if (title) destinationTitle = title;
-        else destinationTitle = NSLocalizedString(@"_home_", nil);
+    if (serverUrl) {
+        serverUrlLocal = serverUrl;
+        if ([serverUrl isEqualToString:appDelegate.urlBase]) {
+            destinationTitle =  @"/";
+        } else {
+            destinationTitle = [CCUtility returnPathfromServerUrl:serverUrl urlBase:appDelegate.urlBase account:appDelegate.account];
+        }
+        self.destinationLabel.text = destinationTitle;
     }
 }
 
 - (void)changeFolder
 {
-    UINavigationController *navigationController = [[UIStoryboard storyboardWithName:@"CCMove" bundle:nil] instantiateViewControllerWithIdentifier:@"CCMove"];
+    UINavigationController *navigationController = [[UIStoryboard storyboardWithName:@"NCSelect" bundle:nil] instantiateInitialViewController];
+    NCSelect *viewController = (NCSelect *)navigationController.topViewController;
     
-    CCMove *viewController = (CCMove *)navigationController.topViewController;
     viewController.delegate = self;
-    viewController.move.title = NSLocalizedString(@"_select_", nil);
-    viewController.tintColor = [NCBrandColor sharedInstance].brandText;
-    viewController.barTintColor = [NCBrandColor sharedInstance].brand;
-    viewController.tintColorTitle = [NCBrandColor sharedInstance].brandText;
-    viewController.networkingOperationQueue = appDelegate.netQueue;
-    // E2EE
-    viewController.includeDirectoryE2EEncryption = NO;
+    viewController.hideButtonCreateFolder = false;
+    viewController.selectFile = false;
+    viewController.includeDirectoryE2EEncryption = false;
+    viewController.includeImages = false;
+    viewController.type = @"";
+    viewController.titleButtonDone = NSLocalizedString(@"_select_", nil);
     
+    [navigationController setModalPresentationStyle:UIModalPresentationFullScreen];
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 
 -(void)upload
 {
-    [[CCNetworking sharedNetworking] uploadFile:appDelegate.fileNameUpload serverUrl:serverUrlLocal session:k_upload_session taskStatus: k_taskStatusResume selector:@"" selectorPost:@"" errorCode:0 delegate:nil];
+    NSString *fileName = [[NCUtility shared] createFileName:self.fileNameTextfield.text serverUrl:serverUrlLocal account:appDelegate.account];
+    
+    tableMetadata *metadataForUpload = [[NCManageDatabase sharedInstance] createMetadataWithAccount:appDelegate.account fileName:fileName ocId:[[NSUUID UUID] UUIDString] serverUrl:serverUrlLocal urlBase:appDelegate.urlBase url:@"" contentType:@"" livePhoto:false];
+    
+    metadataForUpload.session = NCNetworking.shared.sessionIdentifierBackground;
+    metadataForUpload.sessionSelector = selectorUploadFile;
+    metadataForUpload.status = k_metadataStatusWaitUpload;
+    
+    // Prepare file and directory
+    [CCUtility copyFileAtPath:[NSTemporaryDirectory() stringByAppendingString:appDelegate.fileNameUpload] toPath:[CCUtility getDirectoryProviderStorageOcId:metadataForUpload.ocId fileNameView:fileName]];
+    
+    // Add Medtadata for upload
+    [[NCManageDatabase sharedInstance] addMetadata:metadataForUpload];
+
+    [[appDelegate networkingAutoUpload] startProcess];
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)Annula:(UIBarButtonItem *)sender
-{    
+- (IBAction)cancelUpload:(UIBarButtonItem *)sender
+{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

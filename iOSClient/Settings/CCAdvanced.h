@@ -1,11 +1,11 @@
 //
 //  CCAdvanced.h
-//  Nextcloud iOS
+//  Nextcloud
 //
 //  Created by Marino Faggiana on 12/04/17.
-//  Copyright (c) 2017 TWS. All rights reserved.
+//  Copyright (c) 2017 Marino Faggiana. All rights reserved.
 //
-//  Author Marino Faggiana <m.faggiana@twsweb.it>
+//  Author Marino Faggiana <marino.faggiana@nextcloud.com>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,8 +22,7 @@
 //
 
 #import <MessageUI/MFMailComposeViewController.h>
-#import "XLFormViewController.h"
-#import "XLForm.h"
+#import <XLForm/XLForm.h>
 #import "CCHud.h"
 
 @interface CCAdvanced : XLFormViewController <MFMailComposeViewControllerDelegate>
